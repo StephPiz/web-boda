@@ -480,7 +480,7 @@ h1{ margin:0 0 14px; font-size:34px; letter-spacing:.4px; }
 
 @font-face{
   font-family: "SonicWaves";
-  src: url("assets/font/Sonic-Waves.ttf") format("truetype");
+  src: url("assets/fonts/Sonic-Waves.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
