@@ -1,0 +1,933 @@
+/* =========================
+   FUENTES (ponlas arriba)
+========================= */
+@font-face{
+  font-family: "Montserrat";
+  src: url("assets/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Montserrat";
+  src: url("assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* =========================
+   BASE (común)
+========================= */
+:root{
+  --paper:#fbf6ee;
+  --ink:#1c1c1c;
+  --muted:#6b6b6b;
+  --accent:#b9a58b;
+  --card:#ffffffcc;
+  --shadow: 0 20px 60px rgba(0,0,0,.12);
+}
+
+*{ box-sizing:border-box; }
+html,body{ margin:0; padding:0; }
+
+body{
+  font-family: "Montserrat", ui-serif, Georgia, "Times New Roman", serif;
+  background: var(--paper);
+  color: var(--ink);
+  overflow-x:hidden;
+}
+
+.hidden{ display:none !important; }
+
+/* =========================
+   INDEX: Pantallas (idioma / código)
+========================= */
+.screen{
+  min-height:100vh;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:24px;
+  background:
+    radial-gradient(1100px 650px at 18% 12%, rgba(185,165,139,.18), transparent 60%),
+    radial-gradient(900px 650px at 88% 88%, rgba(185,165,139,.12), transparent 60%),
+    var(--paper);
+}
+.screen.active{ display:flex; }
+
+.card{
+  width:min(560px, 92vw);
+  background: var(--card);
+  border:1px solid rgba(0,0,0,.08);
+  border-radius:22px;
+  padding:26px 22px;
+  box-shadow: var(--shadow);
+  text-align:center;
+}
+
+h1{ margin:0 0 14px; font-size:34px; letter-spacing:.4px; }
+.row{ display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
+
+.btn{
+  appearance:none;
+  border:0;
+  padding:12px 18px;
+  border-radius:999px;
+  background: var(--accent);
+  color:#fff;
+  font-weight:700;
+  letter-spacing:.2px;
+  cursor:pointer;
+  box-shadow: 0 10px 30px rgba(0,0,0,.12);
+}
+.btn:hover{ filter:brightness(.98); }
+.btn:active{ transform: translateY(1px); }
+
+.inputRow{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.input{
+  width:min(360px, 80vw);
+  padding:12px 14px;
+  border-radius:14px;
+  border:1px solid rgba(0,0,0,.18);
+  background:#fff;
+  font-size:16px;
+  outline:none;
+}
+
+.hint{ margin:12px 0 0; color:var(--muted); font-size:14px; }
+.error{ margin:10px 0 0; color:#b00020; font-size:14px; min-height:18px; }
+
+/* =========================
+   INDEX: Landing (fondo + icono + texto + botón)
+========================= */
+.hero{
+  position:relative;
+  min-height:100vh;
+  width:100%;
+  overflow:hidden;
+
+  background-image: url("assets/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+/* Overlay rotado dentro de la hoja */
+.hero-overlay{
+  position:absolute;
+  z-index:5;
+  left: 51%;
+  top: 32%;
+  transform: translate(-50%, -50%) rotate(8deg);
+  transform-origin: center;
+  text-align:center;
+  width: min(520px, 70vw);
+  padding: 0 12px;
+}
+
+.hero-icon{
+  width: clamp(44px, 6vw, 78px);
+  height:auto;
+  display:block;
+  margin: 0 auto 12px;
+  opacity:.95;
+}
+
+.hero-title{
+  margin:0 auto;
+  font-weight:800;
+  color: var(--ink);
+  font-size: clamp(18px, 2.2vw, 30px);
+  line-height: 1.25;
+  max-width: 30ch;
+  padding: 0 8px;
+  text-wrap: balance;
+}
+
+.hero-btn{
+  margin-top: 18px;
+  padding: 12px 18px;
+}
+
+@media (max-width: 520px){
+  .hero-overlay{
+    left: 40%;
+    top: 45%;
+    width: min(340px, 82vw);
+    transform: translate(-50%, -50%) rotate(7deg);
+  }
+  .hero-title{
+    max-width: 24ch;
+    font-size: clamp(16px, 4.8vw, 22px);
+  }
+  .hero-btn{ margin-top: 16px; }
+}
+
+/* =========================
+   INVITATION.HTML (one page)
+========================= */
+.invite-body{
+  background: var(--paper);
+  color: var(--ink);
+}
+
+/* Banner */
+.invite-hero{ width:100%; }
+
+.invite-banner{
+  width:100%;
+  display:block;
+  object-fit: cover;      /* si lo quieres completo: contain */
+  object-position: center;
+  background: var(--paper);
+}
+
+/* Menú sticky */
+.invite-nav{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(251,246,238,.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+
+.invite-nav-inner{
+  width: min(1100px, 94vw);
+  margin: 0 auto;
+  padding: 12px 8px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+.invite-nav a{
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: .2px;
+  opacity: .92;
+}
+.invite-nav a:hover{
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Pastilla RSVP */
+.invite-nav .rsvp-pill{
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #2b2b2b;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  opacity: 1;
+}
+.invite-nav .rsvp-pill:hover{
+  filter: brightness(.95);
+  text-decoration: none;
+}
+
+/* Contenido */
+.invite-main{
+  width: min(1100px, 92vw);
+  margin: 0 auto;
+  padding: 46px 0 0px;
+}
+
+/* Secciones */
+.invite-section{
+  padding: 44px 0;
+  border-bottom: none;
+}
+
+.invite-section h2{
+  margin: 0 0 30px;
+  font-size: 32px;
+  letter-spacing: .2px;
+}
+
+/* OJO: esto aplica a TODOS los <p> dentro de invite-section */
+.invite-section p{
+  margin: 0;
+  color: rgba(0,0,0,.75);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Intro: nombres + sello */
+.invite-intro{
+  padding-top: 28px;
+  border-bottom: 0;
+  text-align: center; /* centra SOLO esta sección */
+}
+
+.names-wrap{
+  position: relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin: 0 auto 22px;
+  width: 100%;
+  max-width: 980px;
+  min-height: 160px;
+}
+
+/* Imagen nombres centrada */
+.names-img{
+  width: min(760px, 86vw);
+  height: auto;
+  display:block;
+}
+
+/* Sello al costado, inclinado (más a la derecha) */
+.seal-img{
+  position: absolute;
+  right: -10px; /* <-- mueve a la derecha (prueba -20px, -30px si quieres más) */
+  top: 50%;
+  transform: translateY(-50%) rotate(16deg);
+  width: clamp(90px, 12vw, 170px);
+  height: auto;
+  opacity: .95;
+  pointer-events: none;
+}
+
+/* ✅ CLAVE: más específico que ".invite-section p" */
+.invite-intro .intro-text{
+  width: 100%;
+  max-width: 760px;
+  margin: 24px auto 26px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.7;
+  color: rgba(0,0,0,.78);
+}
+
+/* Botón "Ver más" (más separado) */
+.intro-more{
+  display:block;
+  margin: 34px auto 0; /* <-- más aire arriba */
+}
+
+/* Ajustes mobile */
+@media (max-width: 720px){
+  .invite-banner{
+    height: 42vh;
+    object-fit: cover;
+  }
+  .invite-nav-inner{ gap: 14px; }
+  .seal-img{
+    right: -6px;
+    width: clamp(72px, 18vw, 120px);
+  }
+  .invite-section h2{ font-size: 24px; }
+}
+/* =========================
+   FECHA – CALENDARIO
+========================= */
+
+.invite-date{
+  text-align: center;
+}
+
+/* JUNIO */
+.date-month{
+  font-family: "Montserrat";
+  font-weight: 800; /* Black */
+  font-size: 42px;
+  letter-spacing: 6px;
+  margin-bottom: 30px;
+}
+
+/* Grid calendario */
+.date-grid{
+  display: inline-block;
+}
+
+/* Días (L M X J V S D) */
+.date-days,
+.date-numbers{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 35px;
+  justify-items: center;
+  margin-bottom: 18px;
+}
+
+.date-days span{
+  font-weight: 600;
+  letter-spacing: 4px;
+  font-size: 35px;
+}
+
+/* Números */
+.date-numbers span{
+  font-size: 35px;
+}
+
+/* Día con corazón */
+.date-heart{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-heart img{
+  position: absolute;
+  width: 75px;
+  height: auto;
+  top: -16px
+}
+
+.date-heart strong{
+  position: relative;
+  font-size: 35px;
+  font-weight: 600;
+  
+}
+
+/* Save the date */
+.save-date{
+   position: relative;
+  margin-top: 50px; /* súbelo o bájalo */
+  left: 100px;        /* muévelo a la derecha */
+  text-align: center;
+
+}
+
+.save-date img{
+  width: 160px;
+  height: auto;
+  cursor: pointer;
+}
+
+.date-link{
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.date-link strong{
+  position: relative;
+  z-index: 2;
+}
+
+.date-link img{
+  position: absolute;
+  width: 75px; /* el tamaño que ya ajustaste */
+  pointer-events: none; /* 👈 clave */
+}
+
+.date-link strong{
+  transition: color .2s ease, transform .2s ease;
+}
+
+/* hover (desktop) */
+.date-link:hover strong{
+  color: #2f5fa7;        /* azul elegante */
+  transform: scale(1.1);
+}
+
+/* cuando se hace click */
+.date-link:active strong{
+  color: #1c3f7a;
+  transform: scale(0.95);
+}
+
+/* =========================
+   CATEDRAL – CONTROL TOTAL
+========================= */
+
+.cathedral-wrap{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  /* 🔧 CONTROLES PRINCIPALES */
+  margin-top: -80px;   /* ↑↓ sube o baja TODO el bloque */
+  margin-bottom: -100px;  /* separación con el texto de abajo */
+}
+
+/* Imagen de la catedral */
+.cathedral-wrap img{
+  /* 🔧 TAMAÑO */
+  width: 980px;         /* tamaño principal */
+  max-width: 92vw;      /* responsive */
+  height: auto;
+
+  /* 🔧 POSICIÓN FINA */
+  transform:
+    translateX(-10px)   /* ← → izquierda / derecha */
+    translateY(0px);    /* ↑ ↓ arriba / abajo */
+
+  /* visual */
+  pointer-events: none; /* no bloquea clicks */
+}
+
+
+@font-face{
+  font-family: "SonicWaves";
+  src: url("assets/font/Sonic-Waves.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Sección ceremonia/celebration */
+.details-wrap{
+  position: relative;
+  width: min(1100px, 92vw);
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.details-title{
+  font-family: "SonicWaves", cursive;
+  font-size: 60px;          /* ← tamaño fijo */
+  text-align: center;
+  margin: 0 0 30px;
+}
+
+
+.details-block{
+  max-width: 560px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+.details-block b{
+  font-weight: 800;
+}
+
+.details-sub{
+  margin-top: 10px;
+  color: rgba(0,0,0,.65);
+  font-size: 18px;
+}
+
+/* Botón maps */
+.details-maps{
+  display: inline-block;
+  margin: 22px auto 0;     /* separación clara del texto */
+  padding: 10px 20px;      /* más pequeño */
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;         /* igual que el botón de arriba */
+  letter-spacing: .3px;
+}
+
+
+/* Imagen mesa */
+/* ===== MESA: control total ===== */
+.mesa-stage{
+  /* Ajusta esto para dar “aire” arriba/abajo */
+  height: 520px;              /* espacio reservado para la mesa */
+  position: relative;
+  margin: 10px 0 10px;        /* separa de los textos */
+  overflow: visible;          /* para que pueda “salirse” si quieres */
+}
+
+/* Ajustes finos en 1 solo lugar */
+.mesa-stage{
+  --mesa-size: 760px;         /* tamaño (ancho) */
+  --mesa-x: 0px;              /* mover derecha/izquierda */
+  --mesa-y: -20px;            /* mover arriba/abajo */
+}
+
+.mesa-img{
+  position: absolute;
+  left: 69%;
+  top: 20%;
+  width: var(--mesa-size);
+  max-width: 95vw;
+  height: auto;
+  transform: translate(-50%, -50%) translate(var(--mesa-x), var(--mesa-y));
+}
+
+
+
+.details-title{
+  font-family: "SonicWaves", cursive;
+  font-size: 60px;          /* tamaño grande */
+  margin: 0 0 30px;
+  text-align: center;
+}
+
+
+/* =========================
+   Celebration – Baile
+========================= */
+
+.celebration-dance{
+  position: relative;
+  width: 100%;
+  text-align: center;
+
+  /* 🔧 separación con el texto de Celebration */
+  margin-top: 40px;     /* sube / baja la imagen */
+  margin-bottom: 80px;
+}
+
+.celebration-dance img{
+  width: 900px;         /* tamaño del dibujo */
+  max-width: 90vw;
+  height: auto;
+
+  /* 🔧 control fino */
+  transform: translateY(0px);  /* arriba / abajo */
+}
+
+/* =========================
+   Dress Code
+========================= */
+
+.dress-code{
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;     /* separación desde baile */
+  margin-bottom: 20px;
+  padding: 0;   
+}
+
+/* Título */
+.dress-title{
+  font-size: 30px;
+margin-bottom: 40px;
+}
+
+/* Imagen */
+.dress-image{
+  position: relative;
+  width: 100%;
+}
+
+.dress-image img{
+  width: 900px;         /* tamaño inicial */
+  max-width: 90vw;
+  height: auto;
+
+  /* 🎛️ control fino */
+  transform: translateY(0px);
+}
+
+.music-title{
+  font-size: 32px;           /* igual que JUNIO */
+  font-weight: 600;
+  letter-spacing: .2px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.music-title .music-script{
+  display: block;
+  font-family: "SonicWaves", cursive;
+  font-size: 60px;
+  font-weight: normal;
+  margin-top: -20px;
+}
+
+/* =========================
+   MUSICA: texto centrado + mismo estilo que intro-text
+========================= */
+#musica .music-text{
+  width: 100%;
+  max-width: 760px;
+  margin: 24px auto 26px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.7;
+  color: rgba(0, 0, 0, .78);
+}
+
+#musica p.music-text{
+  font-size: 20px !important;
+  text-align: center !important;
+  max-width: 760px;
+  margin: 24px auto 26px;
+  line-height: 1.7;
+  color: rgba(0,0,0,.78);
+}
+
+/* =========================
+   SPOTIFY
+========================= */
+
+.spotify-wrap{
+  width: 100%;
+  max-width: 760px;
+  margin: 30px auto 0;
+  text-align: center;
+}
+
+/* iframe Spotify */
+.spotify-wrap iframe{
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 22px;
+}
+
+/* botón abrir app (usa mismo estilo que Ver más) */
+.spotify-btn{
+  margin-top: 10px;
+}
+
+/* Banner final de Música */
+.music-banner{
+  width: 100%;
+  margin-top: 60px;       /* separación desde Spotify/texto */
+  margin-bottom: 0;       /* pegado a lo que sigue (FAQ) */
+  display: flex;
+  justify-content: center;
+}
+
+.music-banner img{
+  width: 100%;
+  max-width: 1100px;      /* controla tamaño en desktop */
+  height: auto;
+  display: block;
+}
+
+/* FAQ */
+.faq{
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 40px 18px 20px;
+}
+
+.faq-title{
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: .5px;
+  margin: 0 0 22px;
+}
+
+/* lista */
+.faq-list{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* caja */
+.faq-item{
+  border: 2px solid #1c1c1c;
+  border-radius: 22px;
+  background: transparent;
+  overflow: hidden;
+}
+
+/* pregunta (barra superior) */
+.faq-question{
+  list-style: none;
+  cursor: pointer;
+  padding: 18px 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* quita el triangulito default */
+.faq-question::-webkit-details-marker{ display:none; }
+.faq-question::marker{ content:""; }
+
+/* contenido */
+.faq-answer{
+  padding: 0 20px 18px;
+}
+
+.faq-text{
+  margin: 0;
+  color: rgba(0,0,0,.72);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* el botón dentro */
+.faq-btn{
+  display: inline-block;
+  margin: 16px auto 0;
+}
+
+/* centra el botón */
+.faq-answer{
+  text-align: center;
+}
+
+/* === BANNER FINAL FULL BLEED (rompe el layout centrado) === */
+.invite-hero-end{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  /* 🔑 ESTO es lo que arregla el espacio izquierdo */
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-bottom: 0;   /* 🔑 elimina espacio inferior */
+  padding-bottom: 0;
+  margin-top: 60px; /* separación desde FAQ */
+  
+  overflow: hidden;
+}
+
+.invite-banner-end{ margin-bottom: 0;   /* 🔑 elimina espacio inferior */
+  padding-bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* =========================
+   RSVP MODAL
+========================= */
+.rsvp-modal{
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  display: none;
+}
+.rsvp-modal.is-open{ display: block; }
+
+.rsvp-backdrop{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.35);
+  backdrop-filter: blur(6px);
+}
+
+/* El “escenario” centra TODO (card + mascotas) */
+.rsvp-stage{
+  position: relative;
+  width: min(560px, 92vw);
+  margin: 10vh auto 0;
+  z-index: 2;
+}
+
+/* Card */
+.rsvp-card{
+  position: relative;
+  width: 100%;
+  background: rgba(255,255,255,.92);
+  border: 2px solid #1c1c1c;   /* mismo trazo negro que FAQ */
+  border-radius: 22px;
+  padding: 22px 18px 18px;
+  box-shadow: none;
+}
+
+/* Cerrar */
+.rsvp-close{
+  position: absolute;
+  right: 14px;
+  top: 10px;
+  width: 38px;
+  height: 38px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(0,0,0,.06);
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.rsvp-title{
+  margin: 4px 0 6px;
+  text-align: center;
+  font-size: 26px;
+  letter-spacing: .3px;
+}
+
+.rsvp-subtitle{
+  margin: 0 0 16px;
+  text-align: center;
+  color: rgba(0,0,0,.72);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.rsvp-form{ display: grid; gap: 12px; }
+
+.rsvp-label{
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+  color: rgba(0,0,0,.78);
+  text-align: left;
+}
+
+.rsvp-input{
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,.18);
+  background: #fff;
+  font-size: 16px;
+  outline: none;
+}
+
+.rsvp-textarea{ resize: vertical; min-height: 90px; }
+.rsvp-submit{ margin-top: 8px; }
+
+.rsvp-note{
+  margin: 8px 0 0;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0,0,0,.55);
+}
+
+/* =========================
+   RSVP – GINEBRA & CHARLIE
+========================= */
+.rsvp-pet{
+  position: absolute;
+  bottom: -18px;                 /* “apoyadas” abajo */
+  width: clamp(140px, 14vw, 190px);  /* desktop: grande y responsive */
+  height: auto;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.pet-left{ left: -120px; }
+.pet-right{ right: -120px; }
+
+/* Charlie más grande */
+.pet-right{
+  right: -120px;
+  width: clamp(180px, 18vw, 240px); /* 👈 MÁS GRANDE SOLO CHARLIE */
+}
+
+
+/* Mobile: más grandes + menos pegadas entre sí */
+@media (max-width: 720px){
+  .rsvp-stage{
+    width: min(560px, 92vw);
+    margin: 8vh auto 0;
+  }
+
+  .rsvp-pet{
+    width: clamp(130px, 32vw, 180px); /* 👈 más grande en móvil */
+    bottom: -20px;
+  }
+
+  .pet-left{ left: -28px; }
+  .pet-right{ right: -28px; }
+}
+

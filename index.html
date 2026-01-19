@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invitación</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- 1) Idioma -->
+<section id="lang-screen" class="screen active">
+  <div class="card">
+    <h1 id="langTitle"> Hola / Ciao</h1>
+    <div class="row">
+      <button class="btn" type="button" onclick="setLang('es')">Español</button>
+      <button class="btn" type="button" onclick="setLang('it')">Italiano</button>
+    </div>
+    <p class="hint" id="langHint"></p>
+  </div>
+</section>
+
+<!-- 2) Código / nombre -->
+<section id="code-screen" class="screen">
+  <div class="card">
+    <h1 id="codeTitle">Coloca tu código</h1>
+
+    <div class="inputRow">
+      <input id="codeInput" class="input" type="text" placeholder="Ej: 0020 / 3020" autocomplete="name" />
+      <button class="btn" id="enterBtn" type="button" onclick="submitCode()">Entrar</button>
+    </div>
+
+    <p class="hint" id="codeHint">* Utiliza el código que te enviamos por WhatsApp.</p>
+    <p class="error" id="codeError" aria-live="polite"></p>
+  </div>
+</section>
+
+<!-- 3) Landing (solo icono + texto + botón SOBRE EL FONDO) -->
+<div id="page" class="hidden">
+  <header class="hero">
+    <div class="hero-overlay">
+      <img src="assets/segovia01.png" alt="Segovia" class="hero-icon" />
+
+      <h1 class="hero-title" id="heroText">
+        Mauro, estás cordialmente invitado a nuestra boda
+      </h1>
+
+      <button class="btn hero-btn" id="heroBtn" type="button" onclick="goToInvitationPage()">
+        Ver invitación
+      </button>
+    </div>
+  </header>
+</div>
+
+
+
+
+
+
+<script src="codes.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

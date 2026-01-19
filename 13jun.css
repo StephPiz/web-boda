@@ -1,0 +1,211 @@
+/* ===== BASE ===== */
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+.countdown-body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+
+/* ===== TOPBAR ===== */
+.topbar{
+  position: fixed;
+  top: 18px;
+  left: 18px;
+  right: 18px;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none; /* para que no bloquee el fondo */
+}
+
+.pill{
+  pointer-events: auto; /* reactivamos click */
+  border: 2px solid #111;
+  background: rgba(245, 240, 230, 0.9);
+  color: #111;
+  padding: 10px 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ===== HERO FULLSCREEN ===== */
+.hero{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: #d8d2c8;
+}
+
+.hero-bg{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Esto mueve la foto en desktop:
+     - 50% 50% = centrada
+     - 50% 35% sube un poco (más cara)
+     Ajusta el segundo número a tu gusto */
+  object-position: 50% 15%;
+}
+
+.hero-overlay{
+  position: absolute;
+  inset: 0;
+  background: rgba(245, 240, 230, 0.35);
+}
+
+/* ===== CONTENT ===== */
+.hero-content{
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 24px;
+}
+
+.countdown{
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  color: #000;
+  text-transform: uppercase;
+
+  /* Tamaño grande en desktop, pero responsive */
+  font-size: clamp(48px, 6vw, 92px);
+  line-height: 1;
+  margin-top: 200px; /* baja/sube el contador (negativo sube) */
+  text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+}
+
+.names-block{
+  margin-top: 18px;
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+}
+
+.names{
+  width: min(380px, 70vw);
+  height: auto;
+}
+
+.date-small{
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  font-size: 14px;
+}
+
+/* ===== MOBILE: una sola pantalla, sin “espacios raros” ===== */
+@media (max-width: 720px){
+  .topbar{ top: 14px; left: 14px; right: 14px; }
+
+  .hero-bg{
+    /* en móvil centramos más, para que se vea completa “bonita” */
+    object-position: 50% 25%;
+  }
+
+  .countdown{
+    font-size: clamp(40px, 10vw, 64px);
+    margin-top: 200px; /* más centrado */
+  }
+
+  .names{
+    width: min(300px, 80vw);
+  }
+}
+
+/* =========================
+   RSVP MODAL (mínimo para que funcione aquí)
+   (si ya tienes todo esto en tu style.css, puedes copiarlo tal cual o importarlo)
+========================= */
+.rsvp-modal{
+  position: fixed;
+  inset: 0;
+  display: none;
+  z-index: 100;
+}
+
+.rsvp-modal.is-open{ display: block; }
+
+.rsvp-backdrop{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+}
+
+.rsvp-stage{
+  position: relative;
+  width: min(620px, 92vw);
+  margin: 8vh auto 0;
+}
+
+.rsvp-card{
+  position: relative;
+  background: rgba(255,255,255,0.95);
+  border: 2px solid #111;
+  border-radius: 20px;
+  padding: 22px 22px 18px;
+}
+
+.rsvp-close{
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  border: 0;
+  background: rgba(0,0,0,0.06);
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.rsvp-title{
+  margin: 6px 0 6px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.rsvp-subtitle{
+  text-align: center;
+  margin: 0 0 14px;
+  color: #333;
+}
+
+.rsvp-form{ display: grid; gap: 12px; }
+.rsvp-label{ display: grid; gap: 6px; color: #222; font-size: 14px; }
+
+.rsvp-input{
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,0.2);
+  outline: none;
+  font-size: 16px;
+}
+
+.rsvp-textarea{ resize: vertical; min-height: 90px; }
+
+/* mascotas */
+.rsvp-pet{
+  position: absolute;
+  bottom: -18px;
+  width: clamp(140px, 14vw, 190px);
+  height: auto;
+  z-index: 3;
+  pointer-events: none;
+}
+.pet-left{ left: -120px; }
+.pet-right{ right: -120px; }
+
+@media (max-width: 720px){
+  .rsvp-stage{ width: min(560px, 92vw); }
+  .rsvp-pet{ width: clamp(130px, 32vw, 180px); bottom: -20px; }
+  .pet-left{ left: -28px; }
+  .pet-right{ right: -28px; }
+}
+

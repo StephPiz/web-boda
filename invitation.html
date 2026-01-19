@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Invitación</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="invite-body">
+
+  <!-- BANNER -->
+ <header id="inicio" class="invite-hero">
+  <img class="invite-banner" src="assets/bannersya01.png" alt="Banner" />
+</header>
+
+<nav class="invite-nav">
+  <div class="invite-nav-inner">
+    <a href="#inicio">Inicio</a>
+    <a href="#fecha">Fecha</a>
+    <a href="#detalles">Detalles</a>  
+ <a href="#musica">Música</a>
+    <a href="#faq">FAQ</a>
+     <a href="13jun.html">13 JUN</a>
+    <a class="rsvp-pill" href="#" id="openRsvp">RSVP</a>
+  </div>
+</nav>
+
+
+  <!-- SECCIÓN NOMBRES + SELLO + TEXTO -->
+  <main class="invite-main">
+    <section class="invite-section invite-intro">
+      <div class="names-wrap">
+        <img class="names-img" src="assets/sya01.png" alt="Stephany y Alessandro" />
+        <img class="seal-img" src="assets/sello01.png" alt="Sello" />
+      </div>
+
+      <p class="intro-text" id="introText">
+        Después de muchas mudanzas, un perro adoptado, dos culturas, varios cafés y un amanecer inolvidable en Venecia…
+        ¡decidimos decir Sí a esta vida juntos!
+      </p>
+
+      <button class="btn intro-more" type="button" onclick="document.getElementById('historia').scrollIntoView({behavior:'smooth'})">
+        Ver más
+      </button>
+    </section>
+
+    <!-- SECCIONES (placeholder por ahora) -->
+    <section id="fecha" class="invite-section">
+      <h2></h2>
+      <p></p>
+
+      <section id="fecha" class="invite-section invite-date">
+  <h2 class="date-month">JUNIO</h2>
+
+  <div class="date-grid">
+    <div class="date-days">
+      <span>L</span><span>M</span><span>X</span><span>J</span><span>V</span><span>S</span><span>D</span>
+    </div>
+
+    <div class="date-numbers">
+      <span>8</span><span>9</span><span>10</span><span>11</span><span>12</span>
+    <span class="date-heart">
+  <a
+    href="https://www.google.com/calendar/render?action=TEMPLATE&text=Matrimonio+Stephany+y+Alessandro&dates=20260613T113000/20260613T130000&details=Reserva+esta+fecha,+¡te+esperamos+con+mucho+amor!&location=Catedral+de+Segovia&sf=true&output=xml"
+    class="date-link"
+    target="_blank"
+    rel="noopener"
+  >
+    <img src="assets/corazon.png" alt="Corazón">
+    <strong>13</strong>
+  </a>
+</span>
+
+
+      <span>14</span>
+    </div>
+  </div>
+
+  <!-- Save the date (por ahora solo visual) -->
+  <div class="save-date">
+    <img src="assets/save.png" alt="Save the date">
+  </div>
+
+<div class="cathedral-wrap">
+  <img src="assets/catedral.png" alt="Catedral de Segovia">
+</div>
+
+
+</section>
+
+    </section>
+
+   <section id="detalles" class="invite-section">
+  <div class="details-wrap">
+
+    <h3 class="details-title">Ceremonia</h3>
+
+
+    <div class="details-block">
+      <div><b>HORA:</b> 12:00 (llegar 30 min antes)</div>
+      <div style="margin-top:10px;"><b>LUGAR:</b> Catedral de Segovia</div>
+      <div class="details-sub">C. Marqués del Arco, 1, 40001 Segovia, España</div>
+
+      <a class="details-maps" target="_blank" rel="noopener"
+         href="https://www.google.com/maps/search/?api=1&query=Catedral+de+Segovia,+C.+Marqu%C3%A9s+del+Arco+1,+40001+Segovia,+Espa%C3%B1a">
+        Ver mapa
+      </a>
+    </div>
+
+   <div class="mesa-stage">
+  <img src="assets/mesa.png" alt="Mesa" class="mesa-img" />
+</div>
+
+
+
+   <h3 class="details-title">Celebration</h3>
+
+    <div class="details-block">
+      <div><b>CÓCTEL:</b> 14:00</div>
+      <div style="margin-top:10px;"><b>BANQUETE:</b> 13:00</div>
+      <div style="margin-top:10px;"><b>LUGAR:</b> Zibá José María Eventos</div>
+      <div class="details-sub">Av. Juan de Borbón y Battemberg, 47, 40004 Segovia, España</div>
+
+      <!-- cuando me pases la dirección exacta de Zibá, te dejo el link perfecto -->
+      <a class="details-maps" target="_blank" rel="noopener"
+         href="https://www.google.com/maps/search/?api=1&query=Zib%C3%A1+Jos%C3%A9+Mar%C3%ADa+Eventos+Segovia">
+        Ver mapa
+      </a>
+    </div>
+
+    <!-- Imagen baile -->
+<div class="celebration-dance">
+  <img src="assets/baile.png" alt="Baile">
+</div>
+
+<div class="dress-code">
+  <h3 class="dress-title">DRESS CODE</h3>
+
+  <div class="dress-image">
+    <img src="assets/code.png" alt="Dress Code">
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+
+<section id="musica" class="invite-section">
+  <h3 class="details-title">MUSIC<br><span class="music-sub">que nos une</span></h3>
+
+  <p class="music-text">
+    En nuestra boda se unen dos culturas, la italiana y la peruana. La música será el punto de encuentro, por eso hemos preparado una playlist con canciones italianas, peruanas, latinas e internacionales. La idea es que te sientas cómodo y disfrutes este momento con nosotros desde el inicio.
+  </p>
+</section>
+
+<!-- SPOTIFY -->
+<div class="spotify-wrap">
+
+  <iframe
+    src="https://open.spotify.com/embed/playlist/6HjUkZ0VXhmLsaJi1BLi1M?theme=0"
+    width="100%"
+    height="360"
+    frameborder="0"
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy">
+  </iframe>
+
+  <a
+    class="btn intro-more spotify-btn"
+    href="https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M"
+    target="_blank"
+    rel="noopener">
+    Abrir app
+  </a>
+
+</div>
+<div class="music-banner">
+  <img src="assets/tresfotos.png" alt="Recuerdos de viaje">
+</div>
+
+
+
+</section>
+
+
+
+
+    <!-- <section id="fotos" class="invite-section">
+      <h2>Fotos</h2>
+      <p>Contenido pendiente…</p>
+    </section> -->
+
+   <!-- <section id="faq" class="invite-section">
+      <h2>FAQ</h2>
+      <p>Contenido pendiente…</p>
+    </section>
+
+    <section id="rsvp" class="invite-section">
+      <h2>RSVP</h2>
+      <p>Contenido pendiente…</p>
+    </section>-->
+
+    <!-- NUESTRA HISTORIA (a donde baja "Ver más") -->
+   <!-- <section id="historia" class="invite-section invite-story">
+      <h2>Nuestra historia</h2>
+      <p>Contenido pendiente…</p>
+    </section>
+  </main> -->
+
+  <!-- SECCIÓN FAQ -->
+
+<section id="faq" class="invite-section faq">
+  <h2 class="faq-title">FAQ</h2> 
+
+  <div class="faq-list">
+
+    <details class="faq-item">
+      <summary class="faq-question">Vengo desde el Aeropuerto de Madrid</summary>
+      <div class="faq-answer">
+        <p class="faq-text">
+          Si llegas al Aeropuerto de Madrid-Barajas (MAD), queremos ayudarte a que el trayecto hasta Segovia sea lo más simple posible. Sabemos que muchos vienen desde Italia, quizás es la primera vez en Madrid o llegan cansados después del vuelo, así que aquí explicamos todas las opciones con tiempos, precios y detalles prácticos.
+        </p>
+        <a class="btn intro-more faq-btn" href="faq.html#aeropuerto" target="_blank" rel="noopener">Ver más</a>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">Vengo desde Madrid</summary>
+      <div class="faq-answer">
+        <p class="faq-text">Si ya te encuentras en Madrid (porque llegaste antes, te quedas unos días o vienes desde otra ciudad), estas son las formas más fáciles de llegar a Segovia desde el centro.</p>
+        <a class="btn intro-more faq-btn" href="faq.html#madrid" target="_blank" rel="noopener">Ver más</a>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">¿Dónde puedo alquilar un auto?</summary>
+      <div class="faq-answer">
+        <p class="faq-text">
+          Si estás pensando en alquilar un auto, hacerlo desde el aeropuerto es la opción más fácil.
+          Allí se concentran las principales empresas y el proceso es más simple, especialmente si llegas
+          desde el extranjero.
+        </p>
+
+        <!-- luego pondremos el link real -->
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">Parkings en Segovia</summary>
+      <div class="faq-answer">
+        <p class="faq-text">Aquí tienes la sección de parkings en Segovia con distancias aproximadas caminando hasta la Catedral y el Acueducto, tiempo aproximado caminando y en taxi, y opciones gratis o de pago, para que tus lectores en tu blog tengan toda la info clara</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+      </div>
+    </details>
+
+     <details class="faq-item">
+      <summary class="faq-question">¿Dónde alojarse en Segovia?</summary>
+      <div class="faq-answer">
+        <p class="faq-text">Te dejamos una sección para tu blog con <b>hoteles céntricos en Segovia </b>(enlaces a Booking), qué tan cerca están de la Catedral, y el tiempo caminando / en coche (aprox.).
+</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+      </div>
+    </details>
+
+     <details class="faq-item">
+      <summary class="faq-question">¿Hasta cuándo puedo confirmar mi asistencia?</summary>
+      <div class="faq-answer">
+        <p class="faq-text">Para poder organizarnos bien y coordinar todos los detalles de la boda, necesitamos que nos confirmes tu asistencia hasta el <b>10 de Mayo 2026</b>.
+
+</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+      </div>
+    </details>
+
+      <details class="faq-item">
+      <summary class="faq-question">¿Hay lista de regalos?</summary>
+      <div class="faq-answer">
+        <p class="faq-text">No tenemos lista de regalos pero <b>puedes colaborar con nosotros</b>, hemos habilitado algunas opciones según el país, para que te resulte más fácil.
+
+</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+      </div>
+    </details>
+
+      <details class="faq-item">
+      <summary class="faq-question">¿Dónde será la recepción?</summary>
+      <div class="faq-answer">
+        <p class="faq-text">La recepción se llevará a cabo en <b>ZIBA</b>, luego de la ceremonia religiosa.</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+      </div>
+    </details> 
+
+      <details class="faq-item">
+      <summary class="faq-question">¿Cómo me muevo entre la Catedral y ZIBA?</summary>
+      <div class="faq-answer">
+        <p class="faq-text">Ambos lugares están relativamente cerca.
+Puedes ir caminando, en taxi o en auto. En el blog encontrarás opciones de parking y tiempos aproximados.</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+      </div>
+    </details> 
+
+      <details class="faq-item">
+      <summary class="faq-question">¿Cuál es el código de vestimenta?</summary>
+      <div class="faq-answer">
+        <p class="faq-text">El código de vestimenta es formal / elegante.
+<b>Queremos que se sientan cómodos</b>, pero arreglados para celebrar juntos este día tan especial.</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+      </div>
+    </details> 
+
+    <details class="faq-item">
+      <summary class="faq-question">¿Puedo llevar acompañante?</summary>
+      <div class="faq-answer">
+        <p class="faq-text">La invitación es personal.
+Si tienes dudas sobre acompañantes, por favor <b>escríbenos directamente</b> y lo vemos con cariño.</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+      </div>
+    </details> 
+
+     <details class="faq-item">
+      <summary class="faq-question">¿Cómo sobrevivir sin hablar el mismo idioma?</summary>
+      <div class="faq-answer">
+        <p class="faq-text">Sabemos que en la boda se juntan personas que hablan español, italiano y otros idiomas, y queremos que sepas algo desde ya: <b>no hay que preocuparse</b>.</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+      </div>
+    </details> 
+
+    <details class="faq-item">
+      <summary class="faq-question">¿Y la Música?</summary>
+      <div class="faq-answer">
+        <p class="faq-text"><b>Hemos preparado una playlist / setlist</b> pensada con mucho cariño, mezclando canciones italianas, peruanas, latinas e internacionales. La idea es que puedas familiarizarte con el ambiente musical de la boda y sentirte cómodo desde el primer momento.</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+      </div>
+    </details> 
+
+     <details class="faq-item">
+      <summary class="faq-question">¿¿A quién puedo escribir si tengo dudas o problemas durante el viaje??</summary>
+      <div class="faq-answer">
+        <p class="faq-text"><b>Si en cualquier momento tienes dudas</b>, problemas con el transporte, el idioma o necesitas ayuda, estaremos en contacto y disponibles para ayudarte.</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+      </div>
+    </details> 
+
+    <!-- Duplica más <details> para el resto -->
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('.faq-item').forEach((item) => {
+    item.addEventListener('toggle', () => {
+      if (item.open) {
+        document.querySelectorAll('.faq-item').forEach((other) => {
+          if (other !== item) other.removeAttribute('open');
+        });
+      }
+    });
+  });
+</script>
+
+<!-- BANNER FINAL (FULL WIDTH / FULL HEIGHT) -->
+<header class="invite-hero invite-hero-end">
+  <img class="invite-banner invite-banner-end" src="assets/bolocho.jpg" alt="Bolocho" />
+</header>
+
+<!-- RSVP MODAL -->
+<!-- RSVP MODAL -->
+<div class="rsvp-modal" id="rsvpModal" aria-hidden="true">
+  <div class="rsvp-backdrop" data-close="true"></div>
+
+  <div class="rsvp-stage" role="dialog" aria-modal="true" aria-labelledby="rsvpTitle">
+    <!-- Mascotas -->
+    <img class="rsvp-pet pet-left" src="assets/ginebra.png" alt="Ginebra">
+    <img class="rsvp-pet pet-right" src="assets/charlie.png" alt="Charlie">
+
+    <!-- Card -->
+    <div class="rsvp-card">
+      <button class="rsvp-close" type="button" aria-label="Cerrar" data-close="true">×</button>
+
+      <h2 id="rsvpTitle" class="rsvp-title">RSVP</h2>
+      <p class="rsvp-subtitle">Confírmanos tu asistencia antes del <b>10 de Mayo 2026</b>.</p>
+
+      <form class="rsvp-form" id="rsvpForm">
+        <label class="rsvp-label">
+          Nombre y apellido
+          <input class="rsvp-input" type="text" name="name" required placeholder="Ej: Laura Rossi" />
+        </label>
+
+        <label class="rsvp-label">
+          ¿Asistirás?
+          <select class="rsvp-input" name="attendance" required>
+            <option value="" selected disabled>Selecciona una opción</option>
+            <option value="Si">Sí, asistiré</option>
+            <option value="No">No podré asistir</option>
+          </select>
+        </label>
+
+        <label class="rsvp-label">
+          Alergias / restricciones (opcional)
+          <input class="rsvp-input" type="text" name="diet" placeholder="Ej: sin gluten, vegetariano..." />
+        </label>
+
+        <label class="rsvp-label">
+          Mensaje para los novios (opcional)
+          <textarea class="rsvp-input rsvp-textarea" name="message" rows="3" placeholder="Escribe algo bonito…"></textarea>
+        </label>
+
+        <button class="btn intro-more rsvp-submit" type="submit">Enviar</button>
+
+        <p class="rsvp-note">
+          Gracias por compartir este día tan especial con nosotros. Nos vemos pronto!
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="invitation.js"></script>
+
+
+</body>
+</html>
+
+
+
+

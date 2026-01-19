@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>13 JUN – Countdown</title>
+  <link rel="stylesheet" href="13jun.css" />
+</head>
+
+<body class="countdown-body">
+
+  <!-- TOP BUTTONS -->
+  <header class="topbar">
+    <a class="pill" href="invitation.html">← Inicio</a>
+    <button class="pill" id="openRsvp" type="button">RSVP</button>
+  </header>
+
+  <!-- HERO FULLSCREEN -->
+  <main class="hero">
+    <img class="hero-bg" src="assets/tu-foto.jpg" alt="Foto fondo" />
+
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <section class="hero-content">
+      <div id="countdown" class="countdown">--D --:--:--</div>
+
+      <div class="names-block">
+        <img class="names" src="assets/sya01.png" alt="Stephany & Alessandro" />
+        <div class="date-small">13 · 06 · 26</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- RSVP MODAL (mismo que ya tenías, copiado tal cual) -->
+  <div class="rsvp-modal" id="rsvpModal" aria-hidden="true">
+    <div class="rsvp-backdrop" data-close="true"></div>
+
+    <div class="rsvp-stage" role="dialog" aria-modal="true" aria-labelledby="rsvpTitle">
+      <img class="rsvp-pet pet-left" src="assets/ginebra.png" alt="Ginebra">
+      <img class="rsvp-pet pet-right" src="assets/charlie.png" alt="Charlie">
+
+      <div class="rsvp-card">
+        <button class="rsvp-close" type="button" aria-label="Cerrar" data-close="true">×</button>
+
+        <h2 id="rsvpTitle" class="rsvp-title">RSVP</h2>
+        <p class="rsvp-subtitle">Confírmanos tu asistencia antes del <b>10 de Mayo 2026</b>.</p>
+
+        <form class="rsvp-form" id="rsvpForm">
+          <label class="rsvp-label">
+            Nombre y apellido
+            <input class="rsvp-input" type="text" name="name" required placeholder="Ej: Laura Rossi" />
+          </label>
+
+          <label class="rsvp-label">
+            ¿Asistirás?
+            <select class="rsvp-input" name="attendance" required>
+              <option value="" selected disabled>Selecciona una opción</option>
+              <option value="Si">Sí, asistiré</option>
+              <option value="No">No podré asistir</option>
+            </select>
+          </label>
+
+          <label class="rsvp-label">
+            Alergias / restricciones (opcional)
+            <input class="rsvp-input" type="text" name="diet" placeholder="Ej: sin gluten, vegetariano..." />
+          </label>
+
+          <label class="rsvp-label">
+            Mensaje para los novios (opcional)
+            <textarea class="rsvp-input rsvp-textarea" name="message" rows="3" placeholder="Escribe algo bonito…"></textarea>
+          </label>
+
+          <button class="pill rsvp-submit" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="13jun.js"></script>
+</body>
+</html>
