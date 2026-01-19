@@ -87,6 +87,8 @@ function submitCode(){
     return;
   }
 
+  //xd
+
   guestName = found.name;
 
   // ✅ idioma automático según " e " o " y "
