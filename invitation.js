@@ -207,37 +207,28 @@ document.addEventListener("DOMContentLoaded", () => {
   // ---------- ENVÍO GOOGLE FORMS (POST formResponse) ----------
   if (!form) return;
 
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault();
+  form.addEventListener("submit", () => {
 
     const name = form.querySelector('[name="name"]').value.trim();
     const attendance = form.querySelector('[name="attendance"]').value.trim();
     const diet = form.querySelector('[name="diet"]').value.trim();
     const message = form.querySelector('[name="message"]').value.trim();
 
-    // URL correcta para enviar respuestas:
-    const googleFormURL =
-      "https://docs.google.com/forms/d/e/1FAIpQLSeqXOMdN2yYAvtjHspbOrj5HdDImgDWqViJSf9DFqoNIDdQWQ/formResponse";
+    const entryName = form.querySelector("#rsvpEntryName");
+    const entryAttendance = form.querySelector("#rsvpEntryAttendance");
+    const entryDiet = form.querySelector("#rsvpEntryDiet");
+    const entryMessage = form.querySelector("#rsvpEntryMessage");
 
-    const formData = new FormData();
-    formData.append("entry.975976503", name);
-    formData.append("entry.921828906", attendance);
-    formData.append("entry.680500779", diet);
-    formData.append("entry.1650746140", message);
+    if (entryName) entryName.value = name;
+    if (entryAttendance) entryAttendance.value = attendance;
+    if (entryDiet) entryDiet.value = diet;
+    if (entryMessage) entryMessage.value = message;
 
-    try {
-      await fetch(googleFormURL, {
-        method: "POST",
-        mode: "no-cors",
-        body: formData,
-      });
-
+    setTimeout(() => {
       alert("¡Gracias! 💛 Hemos recibido tu confirmación.");
       form.reset();
       closeModal();
-    } catch (err) {
-      alert("Ups, hubo un problema. Intenta nuevamente.");
-    }
+    }, 0);
   });
 });
 

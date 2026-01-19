@@ -381,7 +381,7 @@ Si tienes dudas sobre acompañantes, por favor <b>escríbenos directamente</b> y
       <h2 id="rsvpTitle" class="rsvp-title">RSVP</h2>
       <p class="rsvp-subtitle">Confírmanos tu asistencia antes del <b>10 de Mayo 2026</b>.</p>
 
-      <form class="rsvp-form" id="rsvpForm">
+      <form class="rsvp-form" id="rsvpForm" action="https://docs.google.com/forms/d/e/1FAIpQLSeqXOMdN2yYAvtjHspbOrj5HdDImgDWqViJSf9DFqoNIDdQWQ/formResponse" method="POST" target="rsvpHiddenFrame" accept-charset="utf-8">
         <label class="rsvp-label">
           Nombre y apellido
           <input class="rsvp-input" type="text" name="name" required placeholder="Ej: Laura Rossi" />
@@ -391,8 +391,8 @@ Si tienes dudas sobre acompañantes, por favor <b>escríbenos directamente</b> y
           ¿Asistirás?
           <select class="rsvp-input" name="attendance" required>
             <option value="" selected disabled>Selecciona una opción</option>
-            <option value="Si">Sí, asistiré</option>
-            <option value="No">No podré asistir</option>
+            <option value="Sí, asistiré">Sí, asistiré</option>
+            <option value="No podré asistir">No podré asistir</option>
           </select>
         </label>
 
@@ -411,7 +411,13 @@ Si tienes dudas sobre acompañantes, por favor <b>escríbenos directamente</b> y
         <p class="rsvp-note">
           Gracias por compartir este día tan especial con nosotros. Nos vemos pronto!
         </p>
+
+        <input type="hidden" name="entry.975976503" id="rsvpEntryName" />
+        <input type="hidden" name="entry.921828906" id="rsvpEntryAttendance" />
+        <input type="hidden" name="entry.680500779" id="rsvpEntryDiet" />
+        <input type="hidden" name="entry.1650746140" id="rsvpEntryMessage" />
       </form>
+      <iframe name="rsvpHiddenFrame" class="rsvp-hidden-frame" tabindex="-1" aria-hidden="true"></iframe>
     </div>
   </div>
 </div>
@@ -423,7 +429,5 @@ Si tienes dudas sobre acompañantes, por favor <b>escríbenos directamente</b> y
 
 </body>
 </html>
-
-
 
 
