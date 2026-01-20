@@ -11,10 +11,11 @@
 
 <body>
 
+  <header class="topbar">
+    <a class="pill" id="backToInvite" href="invitation.html#faq">VOLVER</a>
+  </header>
+
   <main class="faq-container">
-    <div class="back-row">
-      <a class="pill-btn" id="backToInvite" href="invitation.html">← Inicio</a>
-    </div>
     <h1 class="faq-title">FAQ</h1>
 
     <!-- FAQ 1 -->
@@ -1104,6 +1105,7 @@
   const backUrl = new URL("invitation.html", window.location.href);
   backUrl.searchParams.set("lang", lang);
   if (name) backUrl.searchParams.set("name", name);
+  backUrl.hash = "faq";
 
   const back = document.getElementById("backToInvite");
   if (back) back.href = backUrl.toString();

@@ -200,8 +200,7 @@ const I18N = {
     rsvp_message_label: "Mensaje para los novios (opcional)",
     rsvp_message_placeholder: "Escribe algo bonito…",
     rsvp_submit: "Enviar",
-    rsvp_note:
-      "Gracias por compartir este día tan especial con nosotros. Nos vemos pronto!",
+    rsvp_note: "Nos vemos pronto!",
     rsvp_alert_success: "¡Gracias! 💛 Hemos recibido tu confirmación.",
     calendar_title: "Matrimonio Stephany y Alessandro",
     calendar_details:
@@ -307,8 +306,7 @@ const I18N = {
     rsvp_message_label: "Messaggio per gli sposi (opzionale)",
     rsvp_message_placeholder: "Scrivi qualcosa di carino…",
     rsvp_submit: "Invia",
-    rsvp_note:
-      "Grazie per condividere questo giorno speciale con noi. A presto!",
+    rsvp_note: "A presto!",
     rsvp_alert_success: "Grazie! 💛 Abbiamo ricevuto la tua conferma.",
     calendar_title: "Matrimonio Stephany e Alessandro",
     calendar_details:

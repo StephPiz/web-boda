@@ -16,37 +16,49 @@ body{
   background: var(--bg);
 }
 
-/* Back button row */
-.back-row{
+/* Top bar (igual que historia) */
+.topbar{
+  position: fixed;
+  top: 18px;
+  left: 18px;
+  right: 18px;
+  z-index: 50;
+  pointer-events: none;
   display: flex;
-  justify-content: flex-start;
-  padding: 18px 0 6px;
+  justify-content: flex-end;
 }
 
-.pill-btn{
+.topbar .pill{
+  pointer-events: auto;
+}
+
+.pill-btn,
+.pill{
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  padding: 10px 14px;
+  padding: 10px 16px;
   border-radius: 999px;
   border: 2px solid var(--pill-border);
   background: var(--pill);
   text-decoration: none;
   color: var(--text);
-  font-weight: 600;
+  font-weight: 650;
+  font-size: 14px;
 }
 
 /* Layout */
 .faq-container{
   width: min(960px, 92vw);
   margin: 0 auto;
-  padding: 10px 0 80px;
+  padding: 92px 0 80px;
 }
 
 .faq-title{
   margin: 10px 0 24px;
   font-size: clamp(28px, 3vw, 38px);
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /* Card */
