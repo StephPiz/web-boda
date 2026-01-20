@@ -15,6 +15,7 @@
   <header class="topbar">
     <!-- Cambia invitation.html por el nombre real de tu página principal -->
     <a class="pill-btn" id="backToInvite" href="invitation.html">← Inicio</a>
+  
   </header>
 
   <main class="faq-container">
@@ -413,6 +414,81 @@
   </div>
     </section>
 
+<section class="faq-block" id="faq-parking">
+  <h2 class="faq-q">Parkings en Segovia</h2>
+
+  <div class="faq-body">
+
+    <h3>1) Parking gratis — disponible y muy buena opción si quieres ahorrar</h3>
+
+    <p>
+      Aparcamiento gratuito.<br>
+      Zona con estacionamiento gratuito <strong>TODO EL DÍA</strong>.
+    </p>
+
+    <!-- MAPA PARKING GRATIS -->
+    <div class="map-container">
+      <div class="badge">PARKING GRATIS</div>
+      <div class="pin-overlay" aria-hidden="true">📍</div>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2092.069346552956!2d-4.120008285529903!3d40.94047240583161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1768880836518!5m2!1ses-419!2spe"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <ul>
+      <li>
+        <strong>Aparcamiento subterráneo gratuito Cines Segovia</strong><br>
+        Caminando hasta la Catedral: ~20–25 minutos<br>
+        Hasta el Acueducto: ~25–30 minutos<br>
+        Taxi: ~5–7 min | ~5–7 € aprox.<br>
+        Ideal si no te importa caminar un poco y quieres ahorrar.
+      </li>
+
+      <li>
+        <strong>Aparcamiento DIA / Aparcamiento público</strong><br>
+        Otras zonas gratuitas algo más alejadas del centro turístico.<br>
+        Taxi al centro: ~8–10 € aprox.
+      </li>
+    </ul>
+
+    <h3>2) Parkings pagos cerca del centro y principales atracciones</h3>
+
+    <ul>
+      <li>
+        <strong>Parking PARKIA by INDIGO – Acueducto</strong><br>
+        Muy cerca del Acueducto.<br>
+        Caminando: ~5–8 min al Acueducto, ~10–12 min a la Catedral.<br>
+        Zona muy conveniente, prácticamente en el corazón de Segovia.
+      </li>
+
+      <li>
+        <strong>Parking APK2 Catedral – Oblatas</strong> (Calle Dr. Velasco, 26)<br>
+        Parking vigilado 24 h dentro del casco histórico.<br>
+        Caminando: ~5–10 min a la Plaza Mayor / Catedral.
+      </li>
+
+      <li>
+        <strong>Parking público (zona centro)</strong><br>
+        Buena opción cerca del centro.<br>
+        Recomendamos usar la app <strong>EasyPark</strong> para pagar y controlar el tiempo.
+      </li>
+
+      <li>
+        <strong>Otras opciones</strong><br>
+        Aparcamiento Coche Segovia, Parking Tenusa, Plaza Oriental, Plaza San Esteban.<br>
+        Caminando al centro: ~10–20 min según ubicación.
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+
+
   </main>
 
   <script>
@@ -427,6 +503,8 @@
   const back = document.getElementById("backToInvite");
   if (back) back.href = backUrl.toString();
   </script>
+
+ 
 
 </body>
 </html>
