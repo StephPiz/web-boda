@@ -549,7 +549,9 @@ h1{ margin:0 0 14px; font-size:34px; letter-spacing:.4px; }
   position: absolute;
   width: 75px;
   height: auto;
-  top: -16px
+  top: -16px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .date-heart strong{
@@ -591,6 +593,8 @@ h1{ margin:0 0 14px; font-size:34px; letter-spacing:.4px; }
 .date-link img{
   position: absolute;
   width: 75px; /* el tamaño que ya ajustaste */
+  left: 50%;
+  transform: translateX(-50%);
   pointer-events: none; /* 👈 clave */
 }
 
@@ -632,7 +636,10 @@ h1{ margin:0 0 14px; font-size:34px; letter-spacing:.4px; }
   }
   .date-heart img,
   .date-link img{
-    width: 60px;
+    width: 75px;
+  }
+  .date-heart img{
+    top: -15px;
   }
 }
 
