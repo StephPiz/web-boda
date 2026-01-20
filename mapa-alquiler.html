@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mapa – Alquiler de coches (Madrid Barajas)</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <style>
+    :root{
+      --bg: #efeae2;
+      --text: #111;
+      --pill: rgba(255,255,255,.75);
+      --pill-border: rgba(0,0,0,.85);
+    }
+    *{ box-sizing:border-box; }
+    body{ margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; background:var(--bg); color:var(--text); }
+    .topbar{
+      position: sticky; top:0; z-index:10;
+      padding: 18px;
+      background: rgba(239,234,226,.7);
+      backdrop-filter: blur(8px);
+    }
+    .pill-btn{
+      display:inline-flex;
+      align-items:center;
+      padding:10px 14px;
+      border-radius:999px;
+      border:2px solid var(--pill-border);
+      background: var(--pill);
+      text-decoration:none;
+      color: var(--text);
+      font-weight:600;
+    }
+    #map{ height: calc(100vh - 70px); width: 100%; }
+  </style>
+</head>
+
+<body>
+  <header class="topbar">
+    <a class="pill-btn" href="FAQ.html#alquiler-auto">← Volver</a>
+  </header>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([40.4893, -3.5676], 12);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    const locations = [
+      { name: "SIXT - Madrid Aeropuerto T4", coords: [40.4918, -3.5930], info: "Oficinas en T4 y T1. Flota variada." },
+      { name: "SIXT Rent a Car Madrid Airport", coords: [40.4687, -3.5626], info: "Servicio amplio por toda la zona del aeropuerto." },
+      { name: "Europcar Madrid Aeropuerto T1", coords: [40.4722, -3.5609], info: "Oficina en Terminal 1." },
+      { name: "Europcar Madrid Aeropuerto T4", coords: [40.4913, -3.5937], info: "Oficina directamente en T4." },
+      { name: "Enterprise – Aeropuerto Madrid-Barajas", coords: [40.4701, -3.5622], info: "Cadena internacional." },
+      { name: "Centauro Car Rental Madrid", coords: [40.4551, -3.5794], info: "Opción económica." }
+    ];
+
+    locations.forEach(loc => {
+      L.marker(loc.coords)
+        .addTo(map)
+        .bindPopup(`<strong>${loc.name}</strong><br>${loc.info}`);
+    });
+  </script>
+</body>
+</html>

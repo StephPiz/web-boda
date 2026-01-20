@@ -26,6 +26,19 @@ function updateParamLinks(selector) {
   });
 }
 
+function updateFaqLinks() {
+  const target = lang === "it" ? "faq-it.html" : "faq.html";
+  document.querySelectorAll("[data-faq-link]").forEach((a) => {
+    const href = a.getAttribute("href") || "";
+    const hashIndex = href.indexOf("#");
+    const hash = hashIndex >= 0 ? href.slice(hashIndex) : "";
+    const u = new URL(target + hash, window.location.href);
+    u.searchParams.set("lang", lang);
+    if (guestName) u.searchParams.set("name", guestName);
+    a.setAttribute("href", u.toString());
+  });
+}
+
 let lang = "es";
 let guestName = "";
 let ui = null;
@@ -340,7 +353,7 @@ window.addEventListener("load", () => {
   document.documentElement.lang = lang;
   if (ui.page_title) document.title = ui.page_title;
   applyI18n(ui);
-  updateParamLinks('a[href^="faq.html"]');
+  updateFaqLinks();
   updateParamLinks('a[href^="13jun.html"]');
 
   // --------- Botón volver (a index.html manteniendo params)

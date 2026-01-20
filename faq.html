@@ -14,7 +14,7 @@
   <!-- TOP BAR -->
   <header class="topbar">
     <!-- Cambia invitation.html por el nombre real de tu página principal -->
-    <a class="pill-btn" href="invitation.html">← Inicio</a>
+    <a class="pill-btn" id="backToInvite" href="invitation.html">← Inicio</a>
   </header>
 
   <main class="faq-container">
@@ -310,6 +310,125 @@
     </section>
 
   </main>
+
+  <!-- FAQ 3 -->
+<section class="faq-block" id="alquiler-auto">
+  <h2 class="faq-q">¿Dónde puedo alquilar un auto?</h2>
+
+  <p class="faq-intro">
+    Si estás pensando en alquilar un auto, hacerlo desde el aeropuerto es la opción más fácil.
+    Allí se concentran todas las principales empresas de alquiler y el proceso es más simple,
+    especialmente si llegas desde el extranjero.
+  </p>
+
+  <div class="faq-body">
+    <p>
+      En el Aeropuerto de Madrid-Barajas, las empresas de alquiler se encuentran dentro de las terminales
+      o en los parkings cercanos, y están claramente señalizadas como
+      <strong>“Car Rental / Alquiler de coches”</strong>.
+    </p>
+
+    <h3>Nuestra recomendación</h3>
+    <p>
+      Recomendamos alquilar el auto <strong>con anticipación online</strong> y solo recoger las llaves en el aeropuerto.
+      Esto suele ser más barato, evita esperas y te asegura disponibilidad, sobre todo en fechas con mucho movimiento (como junio).
+    </p>
+
+    <h3>Precio aproximado</h3>
+    <ul>
+      <li>
+        El auto más básico suele costar entre <strong>20 y 30 € por día</strong>, dependiendo de:
+        <ul>
+          <li>la temporada</li>
+          <li>cuántos días lo alquiles</li>
+          <li>si reservas con anticipación</li>
+        </ul>
+      </li>
+      <li>Si alquilas a último momento, el precio puede subir bastante.</li>
+    </ul>
+
+    <h3>Tema importante: el seguro</h3>
+    <p>
+      Nosotros recomendamos contratar el <strong>seguro completo</strong> del auto, aunque incremente un poco el precio diario.
+    </p>
+
+    <h4>¿Por qué?</h4>
+    <ul>
+      <li>Evita problemas por rayones pequeños o golpes</li>
+      <li>No tienes que preocuparte por franquicias altas</li>
+      <li>Viajas más tranquilo, especialmente si no conoces bien la ciudad</li>
+    </ul>
+
+    <p class="note">
+      Para nosotros, vale la pena pagar un poco más y olvidarse de posibles complicaciones.
+    </p>
+
+    <hr />
+
+    <h3>Empresas de alquiler de coches en el Aeropuerto de Madrid-Barajas</h3>
+
+    <h4>Principales y más fiables</h4>
+    <ul>
+      <li><strong>SIXT - Madrid Aeropuerto T4</strong> – Muy buena valoración, oficinas en T4 (y también T1), fácil recogida de coche y flota variada.</li>
+      <li><strong>SIXT Rent a Car Madrid Airport</strong> – Servicio amplio por toda la zona del aeropuerto, ideal si quieres recoger en la misma terminal.</li>
+      <li><strong>Europcar Madrid Aeropuerto T1</strong> – Muy buen servicio en la Terminal 1, recogida cómoda.</li>
+      <li><strong>Europcar Madrid Aeropuerto T4</strong> – Otra oficina de Europcar directamente en T4.</li>
+      <li><strong>Enterprise Alquiler de Coches - Aeropuerto De Madrid-Barajas</strong> – Cadena internacional con opciones de coches variadas.</li>
+      <li><strong>Centauro Car rental Madrid</strong> – Opción económica con flota amplia.</li>
+    </ul>
+
+    <h4>Otras opciones disponibles</h4>
+    <ul>
+      <li><strong>Alamo Rent A Car - Aeropuerto de Madrid-Barajas</strong> – Servicio clásico de alquiler.</li>
+      <li><strong>National Car Rental - Aeropuerto de Madrid-Barajas</strong> – Buena cobertura internacional.</li>
+      <li><strong>Avis, Budget</strong> – Disponibles también en terminales (opiniones variadas).</li>
+      <li><strong>Hertz</strong> – Otra opción disponible (con reseñas más bajas en algunos casos).</li>
+    </ul>
+
+    <hr />
+
+    <h3>Consejos y costes aproximados</h3>
+    <ul>
+      <li>El precio de un auto pequeño promedio puede empezar desde alrededor de <strong>16–25 €/día</strong> si reservas con anticipación (varía según fechas, coche y seguro).</li>
+      <li>Algunas ofertas muy económicas pueden aparecer desde <strong>~5–10 €/día</strong> en comparadores (revisa bien lo que incluye).</li>
+      <li><strong>Recomendación:</strong> reserva en línea antes de llegar para evitar precios altos en mostrador y garantizar disponibilidad en temporada alta.</li>
+    </ul>
+
+    <h3>Dónde están estas oficinas</h3>
+    <ul>
+      <li><strong>Terminal 4 (T4) – planta -1:</strong> la mayoría de empresas tienen mostradores aquí, cerca de las llegadas principales (solo sigue las señales de “Rent a Car / Alquiler de Coches”).</li>
+      <li><strong>Terminal 1 (T1) – zona de llegadas / parking:</strong> algunas empresas también tienen puntos de recogida aquí.</li>
+    </ul>
+
+    <h3>Consejos para el alquiler</h3>
+    <ul>
+      <li>Compra el seguro básico o completo (especialmente si manejarás trayectos largos).</li>
+      <li>Verifica si el coche viene con kilometraje ilimitado.</li>
+      <li>Ten una tarjeta de crédito internacional a tu nombre para el depósito.</li>
+      <li>Lee bien los términos del seguro para evitar cargos extra.</li>
+    </ul>
+
+    <!-- Botón opcional para abrir tu mapa en otra página -->
+    <p>
+      <a class="pill-btn" href="mapa-alquiler.html">Ver mapa de alquiler</a>
+    </p>
+  </div>
+</section>
+
+
+
+  <script>
+  const params = new URLSearchParams(window.location.search);
+  const lang = params.get("lang") || "es";
+  const name = params.get("name") || "";
+
+  const backUrl = new URL("invitation.html", window.location.href);
+  backUrl.searchParams.set("lang", lang);
+  if (name) backUrl.searchParams.set("name", name);
+
+  const back = document.getElementById("backToInvite");
+  if (back) back.href = backUrl.toString();
+  </script>
 
 </body>
 </html>
