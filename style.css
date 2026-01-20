@@ -27,7 +27,8 @@
 }
 
 *{ box-sizing:border-box; }
-html,body{ margin:0; padding:0; }
+html,body{ margin:0; padding:0; width: 100%; }
+html{ overflow-x:hidden; }
 
 body{
   font-family: "Montserrat", ui-serif, Georgia, "Times New Roman", serif;
@@ -195,6 +196,7 @@ h1{ margin:0 0 14px; font-size:34px; letter-spacing:.4px; }
 .invite-body{
   background: var(--paper);
   color: var(--ink);
+  overflow-x: hidden;
 }
 
 /* Banner */
@@ -730,6 +732,7 @@ h1{ margin:0 0 14px; font-size:34px; letter-spacing:.4px; }
     --mesa-size: 520px;
     --mesa-x: 0px;
     --mesa-y: -10px;
+    overflow: hidden;
   }
   .mesa-img{
     left: 50%;
@@ -987,6 +990,7 @@ margin-bottom: 40px;
   object-position: center;
   display: block;
 }
+
 
 /* =========================
    RSVP MODAL

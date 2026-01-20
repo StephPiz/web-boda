@@ -4,84 +4,312 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>FAQ</title>
+
+  <!-- Tu CSS -->
   <link rel="stylesheet" href="faq.css" />
 </head>
 
-<body class="faq-page">
+<body>
 
-  <!-- Top bar (solo botón Inicio) -->
+  <!-- TOP BAR -->
   <header class="topbar">
-    <a class="pill-btn" id="backToInvite" href="invitation.html" data-i18n="back_invite">← Inicio</a>
+    <!-- Cambia invitation.html por el nombre real de tu página principal -->
+    <a class="pill-btn" href="invitation.html">← Inicio</a>
   </header>
 
-  <!-- Contenido -->
   <main class="faq-container">
-    <h1 class="faq-title" data-i18n="faq_title">FAQ</h1>
+    <h1 class="faq-title">FAQ</h1>
 
-    <!-- 1) Aeropuerto -->
+    <!-- FAQ 1 -->
     <section class="faq-block" id="aeropuerto">
-      <h2 class="faq-q" data-i18n="airport_title">Vengo desde el Aeropuerto de Madrid</h2>
-      <p class="faq-intro" data-i18n="airport_intro">
-        Si llegas al Aeropuerto de Madrid-Barajas (MAD), queremos ayudarte a que el trayecto hasta Segovia sea lo más simple posible. Sabemos que muchos vienen desde Italia, quizás es la primera vez en Madrid o llegan cansados después del vuelo, así que aquí explicamos todas las opciones con tiempos, precios y detalles prácticos.
+      <h2 class="faq-q">Vengo desde el Aeropuerto de Madrid</h2>
+
+      <p class="faq-intro">
+        Si llegas al Aeropuerto de Madrid-Barajas (MAD), queremos ayudarte a que el trayecto hasta Segovia sea lo más sencillo posible.
+        Sabemos que muchos venís desde Italia, quizá es vuestro primer viaje a Madrid o llegáis cansados después del vuelo,
+        así que aquí os explicamos todas las opciones con tiempos, precios y enlaces útiles.
       </p>
 
       <div class="faq-body">
-        <h3 data-i18n="airport_opt1_title">1. Aeropuerto → Tren (RENFE) → Segovia</h3>
+
+        <h3>1. Aeropuerto → Tren (RENFE) → Segovia</h3>
+        <p><strong>La opción que nosotros recomendamos</strong></p>
+
+        <p>
+          La estación de tren <strong>RENFE (Cercanías Renfe)</strong> del aeropuerto se encuentra en la <strong>Terminal 4 (T4)</strong>.
+          Dentro del aeropuerto solo hay que seguir las señales que dicen
+          <strong>“RENFE / Cercanías / Trenes”</strong>, están muy bien indicadas.
+        </p>
+
+        <h4>Si llegas a la Terminal 4S</h4>
+        <p>
+          Si tu vuelo llega a <strong>Terminal 4 Satélite (T4S)</strong>, primero debes ir a la <strong>Terminal 4 (T4)</strong>.
+          Esto se hace usando el tren automático interno del aeropuerto, que se llama <strong>APM (Automatic People Mover)</strong>.
+        </p>
+
+        <p><strong>Cómo hacerlo:</strong></p>
         <ul>
-          <li data-i18n="airport_opt1_li1">Salida desde el intercambiador / terminal (según horarios).</li>
-          <li data-i18n="airport_opt1_li2">Duración aproximada: 1h 20m – 1h 45m.</li>
-          <li data-i18n="airport_opt1_li3">Pros: directo, cómodo.</li>
-          <li data-i18n="airport_opt1_li4">Consejo: compra online si puedes.</li>
+          <li>Después de pasar migraciones, sigue los carteles que dicen <strong>“Terminal 4 / T4 / Train / APM”</strong></li>
+          <li>El tren es <strong>automático, gratuito y subterráneo</strong></li>
+          <li>No hay que comprar ningún ticket</li>
+          <li>El trayecto dura aproximadamente <strong>3–5 minutos</strong></li>
+          <li>Te deja directamente dentro de la <strong>Terminal 4</strong></li>
         </ul>
 
-        <h3 data-i18n="airport_opt2_title">Opción B: Tren (Cercanías + AVE)</h3>
-        <ol>
-          <li data-i18n="airport_opt2_li1">Cercanías desde el aeropuerto a Chamartín.</li>
-          <li data-i18n="airport_opt2_li2">AVE/Media Distancia a Segovia-Guiomar.</li>
-          <li data-i18n="airport_opt2_li3">Taxi/bus al centro de Segovia.</li>
-        </ol>
+        <blockquote>
+          “¿Dónde tomo el tren para ir de la T4S a la T4?”
+        </blockquote>
 
-        <h3 data-i18n="airport_opt3_title">Opción C: Taxi / Uber / Cabify</h3>
-        <p data-i18n="airport_opt3_body">
-          Recomendado si llegan tarde, van con maletas pesadas o son varios.
+        <p>
+          Una vez en la T4, sigues las señales hacia <strong>RENFE / Cercanías</strong>.
         </p>
 
-        <h3 data-i18n="airport_opt4_title">Opción D: Alquiler de coche</h3>
-        <p data-i18n="airport_opt4_body">
-          Ideal si piensas moverte por Segovia y alrededores.
+        <h4>Aeropuerto T4 → Chamartín – Clara Campoamor</h4>
+        <ul>
+          <li><strong>Tren:</strong> Cercanías Renfe – Línea C-1</li>
+          <li><strong>Tiempo:</strong> 15–18 minutos</li>
+          <li><strong>Precio:</strong> 2,60 € por persona</li>
+          <li><strong>Frecuencia:</strong> cada 10–15 minutos</li>
+        </ul>
+
+        <h4>Chamartín – Clara Campoamor → Segovia-Guiomar</h4>
+        <ul>
+          <li><strong>Tipo de tren:</strong> AVANT o Media Distancia</li>
+          <li><strong>Tiempo:</strong> 25–30 minutos</li>
+          <li><strong>Precio aproximado:</strong> entre 9 € y 15 €, según horario y antelación</li>
+        </ul>
+
+        <h4>Precio total aproximado</h4>
+        <ul>
+          <li>Aeropuerto → Chamartín: 2,60 €</li>
+          <li>Chamartín → Segovia: 9–15 €</li>
+          <li><strong>Total:</strong> 11,60–17,60 € por persona</li>
+        </ul>
+
+        <h4>Dónde comprar los billetes</h4>
+        <ul>
+          <li><strong>Cercanías:</strong> en las máquinas de Renfe en el aeropuerto</li>
+          <li><strong>Tren a Segovia:</strong>
+            <ul>
+              <li><a href="https://www.renfe.com" target="_blank" rel="noopener">https://www.renfe.com</a></li>
+              <li><a href="https://www.thetrainline.com" target="_blank" rel="noopener">https://www.thetrainline.com</a></li>
+              <li><a href="https://www.omio.com" target="_blank" rel="noopener">https://www.omio.com</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <p class="note">
+          Si el destino final es Segovia, esta es la opción que nosotros recomendamos sin dudarlo:
+          <strong>es directa, clara y cómoda</strong>, incluso con maletas.
         </p>
+
+        <hr />
+
+        <h3>2. Aeropuerto → Metro → Bus → Segovia</h3>
+        <p>
+          Esta opción combina metro y bus. Funciona bien, pero es importante conocer los costos reales.
+        </p>
+
+        <h4>Tarjeta de metro (importante)</h4>
+        <p>Si no tienes tarjeta:</p>
+        <ul>
+          <li>Debes comprar la <strong>Tarjeta Multi</strong></li>
+          <li>Precio de la tarjeta: <strong>2,50 €</strong> (se paga una sola vez)</li>
+        </ul>
+
+        <h4>Aeropuerto → Moncloa en metro</h4>
+        <ul>
+          <li>Línea 8 desde el aeropuerto hasta Nuevos Ministerios</li>
+          <li>Cambios de línea hasta llegar a Moncloa</li>
+          <li><strong>Tiempo total:</strong> 45–55 minutos</li>
+        </ul>
+
+        <h4>Tarifas de metro</h4>
+        <ul>
+          <li>Billete sencillo con suplemento aeropuerto: <strong>5 €</strong> por persona</li>
+          <li>Tarjeta Multi: <strong>2,50 €</strong></li>
+          <li><strong>Total por persona el primer día:</strong> 7,50 €</li>
+        </ul>
+
+        <p>Si viajan dos personas:</p>
+        <ul>
+          <li>Metro: 10 €</li>
+          <li>Tarjetas: 5 €</li>
+          <li><strong>Total:</strong> 15 € solo en metro</li>
+        </ul>
+
+        <h4>Moncloa → Segovia en bus</h4>
+        <ul>
+          <li>Bus interurbano directo (empresa Avanza)</li>
+          <li>Tiempo: 1 h 15 – 1 h 30</li>
+          <li>Precio: 4,70 €</li>
+        </ul>
+
+        <hr />
+
+        <h3>3. Aeropuerto → Bus → Bus → Segovia</h3>
+        <p>Es la opción más económica y no usa metro.</p>
+
+        <h4>Aeropuerto → Avenida de América</h4>
+        <ul>
+          <li>Bus EMT línea 200</li>
+          <li>Tiempo: 30–40 minutos</li>
+          <li>Precio: 5 €</li>
+        </ul>
+
+        <h4>Avenida de América → Moncloa</h4>
+        <ul>
+          <li>Bus urbano EMT</li>
+          <li>Tiempo: 20–25 minutos</li>
+          <li>Precio: 1,50 €</li>
+        </ul>
+
+        <h4>Moncloa → Segovia</h4>
+        <ul>
+          <li>Bus interurbano directo</li>
+          <li>Tiempo: 1 h 15 – 1 h 30</li>
+          <li>Precio: 4,70 €</li>
+        </ul>
+
+        <h4>Precio total aproximado</h4>
+        <ul>
+          <li><strong>11,20 €</strong> por persona</li>
+        </ul>
+
+        <hr />
+
+        <h3>4. Para quien llega cansado o con muchas maletas</h3>
+        <p><strong>Uber corto + metro o bus</strong></p>
+
+        <p>
+          Esta opción no es ir en taxi hasta el centro de Madrid, sino hacer un trayecto corto dentro de la zona del aeropuerto.
+          Un Uber desde la terminal hasta la estación de Metro Barajas u otra estación cercana suele costar entre <strong>7 y 10 €</strong>.
+        </p>
+
+        <h4>¿Por qué puede convenir?</h4>
+        <p>Aunque el aeropuerto tiene metro:</p>
+        <ul>
+          <li>El metro desde el aeropuerto tiene <strong>suplemento obligatorio</strong></li>
+          <li>Cada persona paga 5 €</li>
+          <li>Dos personas pagan 10 € solo en metro</li>
+        </ul>
+
+        <p>
+          Si son dos personas y el Uber cuesta 7–10 €, puede salir igual o incluso más conveniente,
+          y es mucho más cómodo con maletas.
+        </p>
+
+        <h4>Importante</h4>
+        <p>En este caso:</p>
+        <ul>
+          <li>Solo compras la Tarjeta Multi (2,50 €)</li>
+          <li>Pagas billete normal de metro, sin suplemento aeropuerto</li>
+        </ul>
+
+        <p>Desde ahí puedes seguir en metro hasta Moncloa o tomar un bus.</p>
+
+        <h4>Nuestra recomendación final</h4>
+        <p>
+          Si vas directo a Segovia, recomendamos claramente <strong>RENFE</strong>.
+          Es la opción más simple, con menos cambios y menos estrés después del viaje.
+        </p>
+
+        <h4>Nota personal</h4>
+        <p>
+          Sabemos que viajar a otro país puede generar nervios, sobre todo por el idioma o por no conocer el transporte.
+          Queremos que sepas que Madrid no es tan caótica como Milán: todo está bien señalizado y suele ser fácil pedir ayuda.
+        </p>
+        <p>
+          Y, sobre todo, si surge cualquier problema —si algo no se entiende o hay algún imprevisto—
+          vamos a estar en comunicación contigo para ayudarte.
+          Lo más importante para nosotros es que llegues tranquilo y puedas disfrutar este momento tan especial con nosotros.
+        </p>
+
       </div>
     </section>
 
-    <!-- 2) Desde Madrid -->
+    <!-- FAQ 2 (te lo dejo ya armado para que sigas, si quieres lo pulimos luego) -->
     <section class="faq-block" id="madrid">
-      <h2 class="faq-q" data-i18n="madrid_title">Vengo desde Madrid</h2>
-      <p class="faq-intro" data-i18n="madrid_intro">
-        Si ya te encuentras en Madrid (porque llegaste antes, te quedas unos días o vienes desde otra ciudad)...
+      <h2 class="faq-q">Vengo desde Madrid</h2>
+      <p class="faq-intro">
+        Si ya te encuentras en Madrid (porque llegaste antes, te quedas unos días o vienes desde otra ciudad),
+        estas son las formas más fáciles de llegar a Segovia desde el centro.
       </p>
 
       <div class="faq-body">
-        <h3 data-i18n="madrid_opt1_title">Opción A: Tren (AVE) desde Chamartín</h3>
+        <h3>1. Madrid → Segovia en tren (RENFE)</h3>
+        <p><strong>La opción más rápida y cómoda</strong></p>
+
+        <p>Desde Madrid puedes tomar el tren hacia Segovia desde dos estaciones principales:</p>
+
+        <h4>Desde Atocha</h4>
         <ul>
-          <li data-i18n="madrid_opt1_li1">Duración: ~30 min a Segovia-Guiomar</li>
-          <li data-i18n="madrid_opt1_li2">Luego: taxi/bus al centro</li>
+          <li><strong>Estación:</strong> Madrid Puerta de Atocha</li>
+          <li>Ideal si te estás quedando en el centro o en la zona sur de Madrid</li>
         </ul>
 
-        <h3 data-i18n="madrid_opt2_title">Opción B: Bus desde Moncloa</h3>
+        <h4>Desde Chamartín – Clara Campoamor</h4>
         <ul>
-          <li data-i18n="madrid_opt2_li1">Duración: 1h 20m – 1h 45m</li>
-          <li data-i18n="madrid_opt2_li2">Muy práctico si estás cerca de Moncloa</li>
+          <li><strong>Estación:</strong> Madrid-Chamartín – Clara Campoamor</li>
+          <li>Más cómoda si te alojas en el norte de la ciudad</li>
         </ul>
 
-        <h3 data-i18n="madrid_opt3_title">Opción C: Coche</h3>
-        <p data-i18n="madrid_opt3_body">
-          Madrid → Segovia suele ser ~1h 15m (depende tráfico).
+        <p>Desde ambas estaciones salen trenes AVANT o Media Distancia con destino a Segovia-Guiomar.</p>
+
+        <h4>Datos principales</h4>
+        <ul>
+          <li><strong>Tiempo de viaje:</strong> 25–30 minutos</li>
+          <li><strong>Precio:</strong> entre 9 € y 15 €, según horario y antelación</li>
+          <li><strong>Frecuencia:</strong> varios trenes al día</li>
+        </ul>
+
+        <h4>Dónde comprar</h4>
+        <ul>
+          <li><a href="https://www.renfe.com" target="_blank" rel="noopener">https://www.renfe.com</a></li>
+          <li><a href="https://www.thetrainline.com" target="_blank" rel="noopener">https://www.thetrainline.com</a></li>
+          <li><a href="https://www.omio.com" target="_blank" rel="noopener">https://www.omio.com</a></li>
+        </ul>
+
+        <p class="note">
+          Esta es la opción que recomendamos si quieres llegar rápido y sin complicaciones.
         </p>
+
+        <hr />
+
+        <h3>2. Madrid → Segovia en bus (Avanza)</h3>
+        <p>Esta opción es un poco más larga que el tren, pero muy usada y económica.</p>
+
+        <h4>Cómo llegar a la estación de buses</h4>
+        <p>Primero debes ir al Intercambiador de Moncloa.</p>
+        <ul>
+          <li><strong>Metro:</strong> Línea 3 (amarilla)</li>
+          <li><strong>Estación:</strong> Moncloa</li>
+        </ul>
+
+        <h4>Bus Moncloa → Segovia</h4>
+        <ul>
+          <li><strong>Empresa:</strong> Avanza</li>
+          <li><strong>Tiempo:</strong> 1 h 15 – 1 h 30</li>
+          <li><strong>Precio:</strong> 4,70 €</li>
+          <li><strong>Llegada:</strong> estación de autobuses de Segovia (cerca del centro)</li>
+        </ul>
+
+        <p class="note">
+          Es una buena opción si quieres gastar menos y no tienes prisa.
+        </p>
+
+        <hr />
+
+        <h3>3. Madrid → Segovia en auto particular o alquilado</h3>
+        <ul>
+          <li><strong>Distancia aproximada:</strong> 90 km</li>
+          <li><strong>Tiempo:</strong> 1 h – 1 h 15 min (según tráfico)</li>
+          <li><strong>Ruta:</strong> autopista en buen estado y bien señalizada</li>
+        </ul>
       </div>
     </section>
 
   </main>
 
-  <script src="faq.js"></script>
 </body>
 </html>
