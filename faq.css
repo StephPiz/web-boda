@@ -16,16 +16,11 @@ body{
   background: var(--bg);
 }
 
-/* Top bar */
-.topbar{
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  padding: 18px 18px;
+/* Back button row */
+.back-row{
   display: flex;
   justify-content: flex-start;
-  backdrop-filter: blur(8px);
-  background: rgba(239,234,226,.7);
+  padding: 18px 0 6px;
 }
 
 .pill-btn{
