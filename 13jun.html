@@ -11,13 +11,13 @@
 
   <!-- TOP BUTTONS -->
   <header class="topbar">
-    <a class="pill" href="invitation.html">← Inicio</a>
-    <button class="pill" id="openRsvp" type="button">RSVP</button>
+    <a class="pill" id="backToInvite" href="invitation.html" data-i18n="back_invite">← Inicio</a>
+    <button class="pill" id="openRsvp" type="button" data-i18n="rsvp_button">RSVP</button>
   </header>
 
   <!-- HERO FULLSCREEN -->
   <main class="hero">
-    <img class="hero-bg" src="assets/tu-foto.jpg" alt="Foto fondo" />
+    <img class="hero-bg" src="assets/tu-foto.jpg" alt="Foto fondo" data-i18n-alt="hero_alt" />
 
     <div class="hero-overlay" aria-hidden="true"></div>
 
@@ -25,7 +25,7 @@
       <div id="countdown" class="countdown">--D --:--:--</div>
 
       <div class="names-block">
-        <img class="names" src="assets/sya01.png" alt="Stephany & Alessandro" />
+        <img class="names" src="assets/sya01.png" alt="Stephany & Alessandro" data-i18n-alt="names_alt" />
         <div class="date-small">13 · 06 · 26</div>
       </div>
     </section>
@@ -40,38 +40,44 @@
       <img class="rsvp-pet pet-right" src="assets/charlie.png" alt="Charlie">
 
       <div class="rsvp-card">
-        <button class="rsvp-close" type="button" aria-label="Cerrar" data-close="true">×</button>
+        <button class="rsvp-close" type="button" aria-label="Cerrar" data-close="true" data-i18n-aria="rsvp_close_aria">×</button>
 
         <h2 id="rsvpTitle" class="rsvp-title">RSVP</h2>
-        <p class="rsvp-subtitle">Confírmanos tu asistencia antes del <b>10 de Mayo 2026</b>.</p>
+        <p class="rsvp-subtitle" data-i18n-html="rsvp_subtitle">Confírmanos tu asistencia antes del <b>10 de Mayo 2026</b>.</p>
 
-        <form class="rsvp-form" id="rsvpForm">
+        <form class="rsvp-form" id="rsvpForm" action="https://docs.google.com/forms/d/e/1FAIpQLSeqXOMdN2yYAvtjHspbOrj5HdDImgDWqViJSf9DFqoNIDdQWQ/formResponse" method="POST" target="rsvpHiddenFrame" accept-charset="utf-8">
           <label class="rsvp-label">
-            Nombre y apellido
-            <input class="rsvp-input" type="text" name="name" required placeholder="Ej: Laura Rossi" />
+            <span data-i18n="rsvp_name_label">Nombre y apellido</span>
+            <input class="rsvp-input" type="text" name="name" required placeholder="Ej: Laura Rossi" data-i18n-placeholder="rsvp_name_placeholder" />
           </label>
 
           <label class="rsvp-label">
-            ¿Asistirás?
+            <span data-i18n="rsvp_attendance_label">¿Asistirás?</span>
             <select class="rsvp-input" name="attendance" required>
-              <option value="" selected disabled>Selecciona una opción</option>
-              <option value="Si">Sí, asistiré</option>
-              <option value="No">No podré asistir</option>
+              <option value="" selected disabled data-i18n="rsvp_attendance_prompt">Selecciona una opción</option>
+              <option value="Sí, asistiré" data-i18n="rsvp_attendance_yes">Sí, asistiré</option>
+              <option value="No podré asistir" data-i18n="rsvp_attendance_no">No podré asistir</option>
             </select>
           </label>
 
           <label class="rsvp-label">
-            Alergias / restricciones (opcional)
-            <input class="rsvp-input" type="text" name="diet" placeholder="Ej: sin gluten, vegetariano..." />
+            <span data-i18n="rsvp_diet_label">Alergias / restricciones (opcional)</span>
+            <input class="rsvp-input" type="text" name="diet" placeholder="Ej: sin gluten, vegetariano..." data-i18n-placeholder="rsvp_diet_placeholder" />
           </label>
 
           <label class="rsvp-label">
-            Mensaje para los novios (opcional)
-            <textarea class="rsvp-input rsvp-textarea" name="message" rows="3" placeholder="Escribe algo bonito…"></textarea>
+            <span data-i18n="rsvp_message_label">Mensaje para los novios (opcional)</span>
+            <textarea class="rsvp-input rsvp-textarea" name="message" rows="3" placeholder="Escribe algo bonito…" data-i18n-placeholder="rsvp_message_placeholder"></textarea>
           </label>
 
-          <button class="pill rsvp-submit" type="submit">Enviar</button>
+          <button class="pill rsvp-submit" type="submit" data-i18n="rsvp_submit">Enviar</button>
+
+          <input type="hidden" name="entry.975976503" id="rsvpEntryName" />
+          <input type="hidden" name="entry.921828906" id="rsvpEntryAttendance" />
+          <input type="hidden" name="entry.680500779" id="rsvpEntryDiet" />
+          <input type="hidden" name="entry.1650746140" id="rsvpEntryMessage" />
         </form>
+        <iframe name="rsvpHiddenFrame" class="rsvp-hidden-frame" tabindex="-1" aria-hidden="true"></iframe>
       </div>
     </div>
   </div>

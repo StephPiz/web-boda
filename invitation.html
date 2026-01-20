@@ -9,21 +9,52 @@
 <body class="invite-body">
 
   <!-- BANNER -->
- <header id="inicio" class="invite-hero">
-  <img class="invite-banner" src="assets/bannersya01.png" alt="Banner" />
+<header id="inicio" class="invite-hero">
+  <img class="invite-banner invite-banner-end" src="assets/bannersya01.png" alt="Banner" />
+  <div class="mobile-badge" aria-hidden="true">
+    <svg class="badge-ring" viewBox="0 0 100 100" aria-hidden="true">
+      <defs>
+        <path id="badgePath" d="M50,50 m-35,0 a35,35 0 1,1 70,0 a35,35 0 1,1 -70,0" />
+      </defs>
+      <text text-anchor="middle">
+        <textPath href="#badgePath" startOffset="50%">STEPH Y ALE • 13 JUN 26 •</textPath>
+      </text>
+    </svg>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
 </header>
 
 <nav class="invite-nav">
   <div class="invite-nav-inner">
-    <a href="#inicio">Inicio</a>
-    <a href="#fecha">Fecha</a>
-    <a href="#detalles">Detalles</a>  
- <a href="#musica">Música</a>
-    <a href="#faq">FAQ</a>
-     <a href="13jun.html">13 JUN</a>
-    <a class="rsvp-pill" href="#" id="openRsvp">RSVP</a>
+    <a href="#inicio" data-i18n="nav_inicio">Inicio</a>
+    <a href="#fecha" data-i18n="nav_fecha">Fecha</a>
+    <a href="#detalles" data-i18n="nav_detalles">Detalles</a>
+    <a href="#musica" data-i18n="nav_musica">Música</a>
+    <a href="#faq" data-i18n="nav_faq">FAQ</a>
+    <a href="13jun.html" data-i18n="nav_13jun">13 JUN</a>
+    <a class="rsvp-pill" href="#" id="openRsvp" data-open-rsvp data-i18n="nav_rsvp">RSVP</a>
   </div>
 </nav>
+
+<aside class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <div class="mobile-menu-backdrop" data-close="true"></div>
+  <div class="mobile-menu-panel" role="dialog" aria-modal="true">
+    <button class="mobile-menu-close" type="button" data-close="true" data-i18n-aria="menu_close_aria">×</button>
+    <nav class="mobile-menu-links">
+      <a href="#inicio" data-i18n="nav_inicio">Inicio</a>
+      <a href="#fecha" data-i18n="nav_fecha">Fecha</a>
+      <a href="#detalles" data-i18n="nav_detalles">Detalles</a>
+      <a href="#musica" data-i18n="nav_musica">Música</a>
+      <a href="#faq" data-i18n="nav_faq">FAQ</a>
+      <a href="13jun.html" data-i18n="nav_13jun">13 JUN</a>
+      <a href="#" class="mobile-menu-rsvp" data-open-rsvp data-i18n="nav_rsvp">RSVP</a>
+    </nav>
+  </div>
+</aside>
 
 
   <!-- SECCIÓN NOMBRES + SELLO + TEXTO -->
@@ -34,14 +65,15 @@
         <img class="seal-img" src="assets/sello01.png" alt="Sello" />
       </div>
 
-      <p class="intro-text" id="introText">
+      <p class="intro-text" id="introText" data-i18n="intro_text">
         Después de muchas mudanzas, un perro adoptado, dos culturas, varios cafés y un amanecer inolvidable en Venecia…
         ¡decidimos decir Sí a esta vida juntos!
       </p>
 
-      <button class="btn intro-more" type="button" onclick="document.getElementById('historia').scrollIntoView({behavior:'smooth'})">
-        Ver más
-      </button>
+      <button class="btn intro-more" type="button" onclick="window.location.href='historia.html'">
+  Ver más
+</button>
+
     </section>
 
     <!-- SECCIONES (placeholder por ahora) -->
@@ -50,11 +82,11 @@
       <p></p>
 
       <section id="fecha" class="invite-section invite-date">
-  <h2 class="date-month">JUNIO</h2>
+  <h2 class="date-month" data-i18n="date_month">JUNIO</h2>
 
   <div class="date-grid">
     <div class="date-days">
-      <span>L</span><span>M</span><span>X</span><span>J</span><span>V</span><span>S</span><span>D</span>
+      <span data-i18n="date_day_l">L</span><span data-i18n="date_day_m">M</span><span data-i18n="date_day_x">X</span><span data-i18n="date_day_j">J</span><span data-i18n="date_day_v">V</span><span data-i18n="date_day_s">S</span><span data-i18n="date_day_d">D</span>
     </div>
 
     <div class="date-numbers">
@@ -66,7 +98,7 @@
     target="_blank"
     rel="noopener"
   >
-    <img src="assets/corazon.png" alt="Corazón">
+    <img src="assets/corazon.png" alt="Corazón" data-i18n-alt="heart_alt">
     <strong>13</strong>
   </a>
 </span>
@@ -78,11 +110,11 @@
 
   <!-- Save the date (por ahora solo visual) -->
   <div class="save-date">
-    <img src="assets/save.png" alt="Save the date">
+    <img src="assets/save.png" alt="Save the date" data-i18n-alt="save_date_alt">
   </div>
 
 <div class="cathedral-wrap">
-  <img src="assets/catedral.png" alt="Catedral de Segovia">
+  <img src="assets/catedral.png" alt="Catedral de Segovia" data-i18n-alt="cathedral_alt">
 </div>
 
 
@@ -93,15 +125,15 @@
    <section id="detalles" class="invite-section">
   <div class="details-wrap">
 
-    <h3 class="details-title">Ceremonia</h3>
+    <h3 class="details-title" data-i18n="details_ceremony_title">Ceremonia</h3>
 
 
     <div class="details-block">
-      <div><b>HORA:</b> 12:00 (llegar 30 min antes)</div>
-      <div style="margin-top:10px;"><b>LUGAR:</b> Catedral de Segovia</div>
+      <div data-i18n-html="ceremony_time"><b>HORA:</b> 12:00 (llegar 30 min antes)</div>
+      <div style="margin-top:10px;" data-i18n-html="ceremony_place"><b>LUGAR:</b> Catedral de Segovia</div>
       <div class="details-sub">C. Marqués del Arco, 1, 40001 Segovia, España</div>
 
-      <a class="details-maps" target="_blank" rel="noopener"
+      <a class="details-maps" target="_blank" rel="noopener" data-i18n="details_map"
          href="https://www.google.com/maps/search/?api=1&query=Catedral+de+Segovia,+C.+Marqu%C3%A9s+del+Arco+1,+40001+Segovia,+Espa%C3%B1a">
         Ver mapa
       </a>
@@ -113,16 +145,16 @@
 
 
 
-   <h3 class="details-title">Celebration</h3>
+   <h3 class="details-title" data-i18n="details_celebration_title">Celebration</h3>
 
     <div class="details-block">
-      <div><b>CÓCTEL:</b> 14:00</div>
-      <div style="margin-top:10px;"><b>BANQUETE:</b> 13:00</div>
-      <div style="margin-top:10px;"><b>LUGAR:</b> Zibá José María Eventos</div>
+      <div data-i18n-html="celebration_cocktail"><b>CÓCTEL:</b> 14:00</div>
+      <div style="margin-top:10px;" data-i18n-html="celebration_banquet"><b>BANQUETE:</b> 15:00</div>
+      <div style="margin-top:10px;" data-i18n-html="celebration_place"><b>LUGAR:</b> Zibá José María Eventos</div>
       <div class="details-sub">Av. Juan de Borbón y Battemberg, 47, 40004 Segovia, España</div>
 
       <!-- cuando me pases la dirección exacta de Zibá, te dejo el link perfecto -->
-      <a class="details-maps" target="_blank" rel="noopener"
+      <a class="details-maps" target="_blank" rel="noopener" data-i18n="details_map"
          href="https://www.google.com/maps/search/?api=1&query=Zib%C3%A1+Jos%C3%A9+Mar%C3%ADa+Eventos+Segovia">
         Ver mapa
       </a>
@@ -130,14 +162,14 @@
 
     <!-- Imagen baile -->
 <div class="celebration-dance">
-  <img src="assets/baile.png" alt="Baile">
+  <img src="assets/baile.png" alt="Baile" data-i18n-alt="dance_alt">
 </div>
 
 <div class="dress-code">
-  <h3 class="dress-title">DRESS CODE</h3>
+  <h3 class="dress-title" data-i18n="dress_title">DRESS CODE</h3>
 
   <div class="dress-image">
-    <img src="assets/code.png" alt="Dress Code">
+    <img src="assets/code.png" alt="Dress Code" data-i18n-alt="dress_alt">
   </div>
 </div>
 
@@ -147,9 +179,9 @@
 
 
 <section id="musica" class="invite-section">
-  <h3 class="details-title">MUSIC<br><span class="music-sub">que nos une</span></h3>
+  <h3 class="details-title"><span data-i18n="music_title">MUSIC</span><br><span class="music-sub" data-i18n="music_sub">que nos une</span></h3>
 
-  <p class="music-text">
+  <p class="music-text" data-i18n="music_text">
     En nuestra boda se unen dos culturas, la italiana y la peruana. La música será el punto de encuentro, por eso hemos preparado una playlist con canciones italianas, peruanas, latinas e internacionales. La idea es que te sientas cómodo y disfrutes este momento con nosotros desde el inicio.
   </p>
 </section>
@@ -170,13 +202,14 @@
     class="btn intro-more spotify-btn"
     href="https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M"
     target="_blank"
-    rel="noopener">
+    rel="noopener"
+    data-i18n="spotify_open_app">
     Abrir app
   </a>
 
 </div>
 <div class="music-banner">
-  <img src="assets/tresfotos.png" alt="Recuerdos de viaje">
+  <img src="assets/tresfotos.png" alt="Recuerdos de viaje" data-i18n-alt="music_banner_alt">
 </div>
 
 
@@ -211,135 +244,135 @@
   <!-- SECCIÓN FAQ -->
 
 <section id="faq" class="invite-section faq">
-  <h2 class="faq-title">FAQ</h2> 
+  <h2 class="faq-title" data-i18n="faq_title">FAQ</h2> 
 
   <div class="faq-list">
 
     <details class="faq-item">
-      <summary class="faq-question">Vengo desde el Aeropuerto de Madrid</summary>
+      <summary class="faq-question" data-i18n="faq_airport_q">Vengo desde el Aeropuerto de Madrid</summary>
       <div class="faq-answer">
-        <p class="faq-text">
+        <p class="faq-text" data-i18n="faq_airport_a">
           Si llegas al Aeropuerto de Madrid-Barajas (MAD), queremos ayudarte a que el trayecto hasta Segovia sea lo más simple posible. Sabemos que muchos vienen desde Italia, quizás es la primera vez en Madrid o llegan cansados después del vuelo, así que aquí explicamos todas las opciones con tiempos, precios y detalles prácticos.
         </p>
-        <a class="btn intro-more faq-btn" href="faq.html#aeropuerto" target="_blank" rel="noopener">Ver más</a>
+        <a class="btn intro-more faq-btn" href="faq.html#aeropuerto" target="_blank" rel="noopener" data-i18n="faq_more">Ver más</a>
       </div>
     </details>
 
     <details class="faq-item">
-      <summary class="faq-question">Vengo desde Madrid</summary>
+      <summary class="faq-question" data-i18n="faq_madrid_q">Vengo desde Madrid</summary>
       <div class="faq-answer">
-        <p class="faq-text">Si ya te encuentras en Madrid (porque llegaste antes, te quedas unos días o vienes desde otra ciudad), estas son las formas más fáciles de llegar a Segovia desde el centro.</p>
-        <a class="btn intro-more faq-btn" href="faq.html#madrid" target="_blank" rel="noopener">Ver más</a>
+        <p class="faq-text" data-i18n="faq_madrid_a">Si ya te encuentras en Madrid (porque llegaste antes, te quedas unos días o vienes desde otra ciudad), estas son las formas más fáciles de llegar a Segovia desde el centro.</p>
+        <a class="btn intro-more faq-btn" href="faq.html#madrid" target="_blank" rel="noopener" data-i18n="faq_more">Ver más</a>
       </div>
     </details>
 
     <details class="faq-item">
-      <summary class="faq-question">¿Dónde puedo alquilar un auto?</summary>
+      <summary class="faq-question" data-i18n="faq_rent_q">¿Dónde puedo alquilar un auto?</summary>
       <div class="faq-answer">
-        <p class="faq-text">
+        <p class="faq-text" data-i18n="faq_rent_a">
           Si estás pensando en alquilar un auto, hacerlo desde el aeropuerto es la opción más fácil.
           Allí se concentran las principales empresas y el proceso es más simple, especialmente si llegas
           desde el extranjero.
         </p>
 
         <!-- luego pondremos el link real -->
-        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener" data-i18n="faq_more">Ver más</a>
       </div>
     </details>
 
     <details class="faq-item">
-      <summary class="faq-question">Parkings en Segovia</summary>
+      <summary class="faq-question" data-i18n="faq_parking_q">Parkings en Segovia</summary>
       <div class="faq-answer">
-        <p class="faq-text">Aquí tienes la sección de parkings en Segovia con distancias aproximadas caminando hasta la Catedral y el Acueducto, tiempo aproximado caminando y en taxi, y opciones gratis o de pago, para que tus lectores en tu blog tengan toda la info clara</p>
-        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+        <p class="faq-text" data-i18n="faq_parking_a">Aquí tienes la sección de parkings en Segovia con distancias aproximadas caminando hasta la Catedral y el Acueducto, tiempo aproximado caminando y en taxi, y opciones gratis o de pago, para que tus lectores en tu blog tengan toda la info clara</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener" data-i18n="faq_more">Ver más</a>
       </div>
     </details>
 
      <details class="faq-item">
-      <summary class="faq-question">¿Dónde alojarse en Segovia?</summary>
+      <summary class="faq-question" data-i18n="faq_stay_q">¿Dónde alojarse en Segovia?</summary>
       <div class="faq-answer">
-        <p class="faq-text">Te dejamos una sección para tu blog con <b>hoteles céntricos en Segovia </b>(enlaces a Booking), qué tan cerca están de la Catedral, y el tiempo caminando / en coche (aprox.).
+        <p class="faq-text" data-i18n-html="faq_stay_a">Te dejamos una sección para tu blog con <b>hoteles céntricos en Segovia </b>(enlaces a Booking), qué tan cerca están de la Catedral, y el tiempo caminando / en coche (aprox.).
 </p>
-        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener" data-i18n="faq_more">Ver más</a>
       </div>
     </details>
 
      <details class="faq-item">
-      <summary class="faq-question">¿Hasta cuándo puedo confirmar mi asistencia?</summary>
+      <summary class="faq-question" data-i18n="faq_rsvp_q">¿Hasta cuándo puedo confirmar mi asistencia?</summary>
       <div class="faq-answer">
-        <p class="faq-text">Para poder organizarnos bien y coordinar todos los detalles de la boda, necesitamos que nos confirmes tu asistencia hasta el <b>10 de Mayo 2026</b>.
+        <p class="faq-text" data-i18n-html="faq_rsvp_a">Para poder organizarnos bien y coordinar todos los detalles de la boda, necesitamos que nos confirmes tu asistencia hasta el <b>10 de Mayo 2026</b>.
 
 </p>
-        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener" data-i18n="faq_more">Ver más</a>
       </div>
     </details>
 
       <details class="faq-item">
-      <summary class="faq-question">¿Hay lista de regalos?</summary>
+      <summary class="faq-question" data-i18n="faq_gifts_q">¿Hay lista de regalos?</summary>
       <div class="faq-answer">
-        <p class="faq-text">No tenemos lista de regalos pero <b>puedes colaborar con nosotros</b>, hemos habilitado algunas opciones según el país, para que te resulte más fácil.
+        <p class="faq-text" data-i18n-html="faq_gifts_a">No tenemos lista de regalos pero <b>puedes colaborar con nosotros</b>, hemos habilitado algunas opciones según el país, para que te resulte más fácil.
 
 </p>
-        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener" data-i18n="faq_more">Ver más</a>
       </div>
     </details>
 
       <details class="faq-item">
-      <summary class="faq-question">¿Dónde será la recepción?</summary>
+      <summary class="faq-question" data-i18n="faq_reception_q">¿Dónde será la recepción?</summary>
       <div class="faq-answer">
-        <p class="faq-text">La recepción se llevará a cabo en <b>ZIBA</b>, luego de la ceremonia religiosa.</p>
-        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+        <p class="faq-text" data-i18n-html="faq_reception_a">La recepción se llevará a cabo en <b>ZIBA</b>, luego de la ceremonia religiosa.</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener" data-i18n="faq_more">Ver más</a>
       </div>
     </details> 
 
       <details class="faq-item">
-      <summary class="faq-question">¿Cómo me muevo entre la Catedral y ZIBA?</summary>
+      <summary class="faq-question" data-i18n="faq_transfer_q">¿Cómo me muevo entre la Catedral y ZIBA?</summary>
       <div class="faq-answer">
-        <p class="faq-text">Ambos lugares están relativamente cerca.
+        <p class="faq-text" data-i18n="faq_transfer_a">Ambos lugares están relativamente cerca.
 Puedes ir caminando, en taxi o en auto. En el blog encontrarás opciones de parking y tiempos aproximados.</p>
-        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener" data-i18n="faq_more">Ver más</a>
       </div>
     </details> 
 
       <details class="faq-item">
-      <summary class="faq-question">¿Cuál es el código de vestimenta?</summary>
+      <summary class="faq-question" data-i18n="faq_dress_q">¿Cuál es el código de vestimenta?</summary>
       <div class="faq-answer">
-        <p class="faq-text">El código de vestimenta es formal / elegante.
+        <p class="faq-text" data-i18n-html="faq_dress_a">El código de vestimenta es formal / elegante.
 <b>Queremos que se sientan cómodos</b>, pero arreglados para celebrar juntos este día tan especial.</p>
-        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener" data-i18n="faq_more">Ver más</a>
       </div>
     </details> 
 
     <details class="faq-item">
-      <summary class="faq-question">¿Puedo llevar acompañante?</summary>
+      <summary class="faq-question" data-i18n="faq_plusone_q">¿Puedo llevar acompañante?</summary>
       <div class="faq-answer">
-        <p class="faq-text">La invitación es personal.
+        <p class="faq-text" data-i18n-html="faq_plusone_a">La invitación es personal.
 Si tienes dudas sobre acompañantes, por favor <b>escríbenos directamente</b> y lo vemos con cariño.</p>
-        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener" data-i18n="faq_more">Ver más</a>
       </div>
     </details> 
 
      <details class="faq-item">
-      <summary class="faq-question">¿Cómo sobrevivir sin hablar el mismo idioma?</summary>
+      <summary class="faq-question" data-i18n="faq_language_q">¿Cómo sobrevivir sin hablar el mismo idioma?</summary>
       <div class="faq-answer">
-        <p class="faq-text">Sabemos que en la boda se juntan personas que hablan español, italiano y otros idiomas, y queremos que sepas algo desde ya: <b>no hay que preocuparse</b>.</p>
-        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+        <p class="faq-text" data-i18n-html="faq_language_a">Sabemos que en la boda se juntan personas que hablan español, italiano y otros idiomas, y queremos que sepas algo desde ya: <b>no hay que preocuparse</b>.</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener" data-i18n="faq_more">Ver más</a>
       </div>
     </details> 
 
     <details class="faq-item">
-      <summary class="faq-question">¿Y la Música?</summary>
+      <summary class="faq-question" data-i18n="faq_music_q">¿Y la Música?</summary>
       <div class="faq-answer">
-        <p class="faq-text"><b>Hemos preparado una playlist / setlist</b> pensada con mucho cariño, mezclando canciones italianas, peruanas, latinas e internacionales. La idea es que puedas familiarizarte con el ambiente musical de la boda y sentirte cómodo desde el primer momento.</p>
-        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+        <p class="faq-text" data-i18n-html="faq_music_a"><b>Hemos preparado una playlist / setlist</b> pensada con mucho cariño, mezclando canciones italianas, peruanas, latinas e internacionales. La idea es que puedas familiarizarte con el ambiente musical de la boda y sentirte cómodo desde el primer momento.</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener" data-i18n="faq_more">Ver más</a>
       </div>
     </details> 
 
      <details class="faq-item">
-      <summary class="faq-question">¿¿A quién puedo escribir si tengo dudas o problemas durante el viaje??</summary>
+      <summary class="faq-question" data-i18n="faq_help_q">¿¿A quién puedo escribir si tengo dudas o problemas durante el viaje??</summary>
       <div class="faq-answer">
-        <p class="faq-text"><b>Si en cualquier momento tienes dudas</b>, problemas con el transporte, el idioma o necesitas ayuda, estaremos en contacto y disponibles para ayudarte.</p>
-        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener">Ver más</a>
+        <p class="faq-text" data-i18n-html="faq_help_a"><b>Si en cualquier momento tienes dudas</b>, problemas con el transporte, el idioma o necesitas ayuda, estaremos en contacto y disponibles para ayudarte.</p>
+        <a class="btn intro-more faq-btn" href="#" target="_blank" rel="noopener" data-i18n="faq_more">Ver más</a>
       </div>
     </details> 
 
@@ -376,39 +409,39 @@ Si tienes dudas sobre acompañantes, por favor <b>escríbenos directamente</b> y
 
     <!-- Card -->
     <div class="rsvp-card">
-      <button class="rsvp-close" type="button" aria-label="Cerrar" data-close="true">×</button>
+      <button class="rsvp-close" type="button" aria-label="Cerrar" data-close="true" data-i18n-aria="rsvp_close_aria">×</button>
 
       <h2 id="rsvpTitle" class="rsvp-title">RSVP</h2>
-      <p class="rsvp-subtitle">Confírmanos tu asistencia antes del <b>10 de Mayo 2026</b>.</p>
+      <p class="rsvp-subtitle" data-i18n-html="rsvp_subtitle">Confírmanos tu asistencia antes del <b>10 de Mayo 2026</b>.</p>
 
       <form class="rsvp-form" id="rsvpForm" action="https://docs.google.com/forms/d/e/1FAIpQLSeqXOMdN2yYAvtjHspbOrj5HdDImgDWqViJSf9DFqoNIDdQWQ/formResponse" method="POST" target="rsvpHiddenFrame" accept-charset="utf-8">
         <label class="rsvp-label">
-          Nombre y apellido
-          <input class="rsvp-input" type="text" name="name" required placeholder="Ej: Laura Rossi" />
+          <span data-i18n="rsvp_name_label">Nombre y apellido</span>
+          <input class="rsvp-input" type="text" name="name" required placeholder="Ej: Laura Rossi" data-i18n-placeholder="rsvp_name_placeholder" />
         </label>
 
         <label class="rsvp-label">
-          ¿Asistirás?
+          <span data-i18n="rsvp_attendance_label">¿Asistirás?</span>
           <select class="rsvp-input" name="attendance" required>
-            <option value="" selected disabled>Selecciona una opción</option>
-            <option value="Sí, asistiré">Sí, asistiré</option>
-            <option value="No podré asistir">No podré asistir</option>
+            <option value="" selected disabled data-i18n="rsvp_attendance_prompt">Selecciona una opción</option>
+            <option value="Sí, asistiré" data-i18n="rsvp_attendance_yes">Sí, asistiré</option>
+            <option value="No podré asistir" data-i18n="rsvp_attendance_no">No podré asistir</option>
           </select>
         </label>
 
         <label class="rsvp-label">
-          Alergias / restricciones (opcional)
-          <input class="rsvp-input" type="text" name="diet" placeholder="Ej: sin gluten, vegetariano..." />
+          <span data-i18n="rsvp_diet_label">Alergias / restricciones (opcional)</span>
+          <input class="rsvp-input" type="text" name="diet" placeholder="Ej: sin gluten, vegetariano..." data-i18n-placeholder="rsvp_diet_placeholder" />
         </label>
 
         <label class="rsvp-label">
-          Mensaje para los novios (opcional)
-          <textarea class="rsvp-input rsvp-textarea" name="message" rows="3" placeholder="Escribe algo bonito…"></textarea>
+          <span data-i18n="rsvp_message_label">Mensaje para los novios (opcional)</span>
+          <textarea class="rsvp-input rsvp-textarea" name="message" rows="3" placeholder="Escribe algo bonito…" data-i18n-placeholder="rsvp_message_placeholder"></textarea>
         </label>
 
-        <button class="btn intro-more rsvp-submit" type="submit">Enviar</button>
+        <button class="btn intro-more rsvp-submit" type="submit" data-i18n="rsvp_submit">Enviar</button>
 
-        <p class="rsvp-note">
+        <p class="rsvp-note" data-i18n="rsvp_note">
           Gracias por compartir este día tan especial con nosotros. Nos vemos pronto!
         </p>
 
@@ -429,5 +462,3 @@ Si tienes dudas sobre acompañantes, por favor <b>escríbenos directamente</b> y
 
 </body>
 </html>
-
-

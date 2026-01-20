@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nuestra historia</title>
+  <link rel="stylesheet" href="historia.css" />
+</head>
+
+<body class="story">
+
+  <!-- botón volver (solo uno) -->
+  <header class="topbar">
+    <a class="pill" id="backToInvite" href="invitation.html">← Inicio</a>
+  </header>
+
+  <main class="page">
+
+    <!-- 1) Imagen nombre: sya01.png -->
+    <figure class="hero-figure hero-figure--name">
+      <img src="assets/sya01.png" alt="Stephany y Alessandro" />
+    </figure>
+
+    <!-- 2) Imagen bebés: bebes.png -->
+    <figure class="hero-figure hero-figure--babies">
+      <img src="assets/bebes.png" alt="Bebés" />
+    </figure>
+
+    <!-- Subtítulo script -->
+    <h2 class="hero-subtitle">Nuestra historia</h2>
+
+    <!-- Texto -->
+    <article class="story-text">
+      <p>Stephany llegó a Madrid en 2017 desde Perú con una fecha de regreso clara en la mente. Dos años. Nada más. Madrid era una etapa, no un destino.</p>
+      <p>Alessandro llegó desde Italia siguiendo su propio camino, sin saber que en octubre de 2019 abriría algo más que una tienda en la ciudad.</p>
+
+      <p>Cuando el máster estaba por terminar y la idea de volver a Perú se hacía cada vez más real, Stephany decidió regalarse un último gesto de libertad. Descargó Tinder sin expectativas.</p>
+      <p><b>El 24 de noviembre</b>, hizo match con Alessandro.</p>
+
+      <p>Quedaron en la Puerta del Sol. Stephany llegó temprano, entró sola a un bar y pidió una Paulaner, la más grande.</p>
+      <p>Cuando Alessandro llegó, la miró, vio la cerveza y dijo, casi como una afirmación:</p>
+
+      <blockquote>—Otra igual, por favor.</blockquote>
+
+      <p>No sabía qué cerveza era. Tampoco sabía qué estaba por comenzar.</p>
+
+      <p>Hablaron de todo. De la vida, del trabajo, del mundo. El tiempo pasó rápido. Stephany tenía que irse.</p>
+      <p>Caminaron juntos hasta el metro de Sol. Al despedirse, Alessandro se dio la vuelta y besó a Stephany en el ojo derecho. Extraño. Inesperado. Inolvidable.</p>
+
+      <p>Desde entonces, las palabras no dejaron de encontrarse. Llegaron los cafés, los paseos, y una laptop abierta sobre la mesa que transformó una cita en un proyecto compartido.</p>
+
+      <p>En diciembre de 2019 ya trabajaban juntos. Vivían en Madrid, compartiendo días, rutinas y proyectos.</p>
+      <p>Y poco a poco, aquellos planes de regresar a Perú comenzaron a cambiar. No solo porque había más trabajo para Stephany, sino porque también había algo más fuerte: un amor que pedía quedarse.</p>
+
+      <p>El 12 de marzo, paseando por Madrid, Alessandro la abrazó y susurró: <b>—¿Quieres ser mi novia?</b> Y la besó antes de escuchar la respuesta.</p>
+
+      <p>Poco después, el mundo se detuvo. Cerraron una tienda, cargaron una furgoneta a la una de la madrugada y escaparon juntos a Valencia. El 14 de marzo, comenzó el confinamiento. Y comenzó, también, un “nosotros” definitivo.</p>
+
+      <p>Encerrados, aprendieron a convivir, a trabajar, a compartir idiomas, música y silencios. Italia llegó después. Las familias. El crecimiento. Se mudaron muchas veces. Adoptaron a Charlie. Viajar se volvió su hogar.</p>
+
+      <p>Perú se hizo parte de la historia. Alessandro conoció a la familia de Stephany y se enamoró del país. Desde entonces, siempre encuentran la forma de volver.</p>
+
+      <p>Y el 13 de enero de 2025, al amanecer, en Punta della Dogana, Alessandro pidió la mano de Stephany. Simple. Verdadero. Para siempre.</p>
+
+      <p>Nuestra historia no es perfecta ni breve. Es intensa, real y vivida. Hemos trabajado, viajado y aprendido a estar juntos 24/7, compartiendo todo: los días fáciles y los difíciles.</p>
+
+      <p>No siempre es sencillo vivir y trabajar al lado de la misma persona cada día. Pero cuando tu compañero es también tu mejor amigo, entiendes que no hay otra forma.</p>
+
+      <p>El 20 de junio de 2025, celebramos nuestro amor en Perú. Sabíamos que no sería fácil reunir a todos en Italia o España, así que elegimos hacerlo allí, en casa, con la familia de Stephany.</p>
+
+      <p>Una celebración íntima… que en Perú nunca es pequeña: una fiesta llena de abrazos, risas y emoción. Uno de los momentos más importantes de nuestras vidas fue ver cómo la familia de Stephany adoptó a Alessandro como uno más. Ese día, se convirtió en un peruano más.</p>
+
+      <p>Y ahora, el 13 de junio de 2026, queremos celebrar la unión de dos culturas, de dos historias, de dos caminos que decidieron caminar juntos. Celebrar, literalmente, todo lo que somos.</p>
+
+      <p class="final">Hoy queremos compartir esta historia contigo y celebrar juntos el comienzo del capítulo más importante de nuestras vidas.</p>
+    </article>
+
+    <section class="story-carousel" aria-label="Galeria de recuerdos">
+      <div class="carousel-track">
+        <figure class="carousel-card tilt-a">
+          <img src="assets/bolocho.jpg" alt="Recuerdo 1" />
+        </figure>
+        <figure class="carousel-card tilt-b">
+          <img src="assets/tu-foto.jpg" alt="Recuerdo 2" />
+        </figure>
+        <figure class="carousel-card tilt-c">
+          <img src="assets/fondo.jpg" alt="Recuerdo 3" />
+        </figure>
+        <figure class="carousel-card tilt-d">
+          <img src="assets/banner.jpg" alt="Recuerdo 4" />
+        </figure>
+        <figure class="carousel-card tilt-e">
+          <img src="assets/segovia01.png" alt="Recuerdo 5" />
+        </figure>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    // Mantener params (?lang=&name=) al volver
+    const params = new URLSearchParams(window.location.search);
+    const lang = params.get('lang') || 'es';
+    const name = params.get('name') || '';
+
+    const backUrl = new URL('invitation.html', window.location.href);
+    backUrl.searchParams.set('lang', lang);
+    if (name) backUrl.searchParams.set('name', name);
+
+    const back = document.getElementById('backToInvite');
+    if (back) back.href = backUrl.toString();
+  </script>
+
+</body>
+</html>
