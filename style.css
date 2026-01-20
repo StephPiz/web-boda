@@ -895,6 +895,18 @@ margin-bottom: 40px;
   color: rgba(0,0,0,.78);
 }
 
+/* Regalo: reutiliza el estilo de music-text */
+.gift .music-text,
+.gift p.music-text{
+  width: 100%;
+  max-width: 760px;
+  margin: 24px auto 26px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.7;
+  color: rgba(0, 0, 0, .78);
+}
+
 /* =========================
    SPOTIFY
 ========================= */
@@ -1166,3 +1178,69 @@ margin-bottom: 40px;
     color: #2f5fa7;
   }
 
+/* =========================
+   REGALO / CUENTA BANCARIA
+========================= */
+.gift{
+  padding-top: 10px;
+}
+
+.gift-card{
+  width: min(760px, 92vw);
+  margin: 0 auto 10px;
+  padding: 22px 18px 18px;
+  background: rgba(255,255,255,.92);
+  border: 2px solid #1c1c1c;       /* mismo trazo negro tipo FAQ */
+  border-radius: 22px;
+}
+
+.gift-intro{
+  margin: 0 0 16px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(0,0,0,.78);
+}
+
+.gift-grid{
+  display: grid;
+  gap: 12px;
+}
+
+.gift-row{
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 14px;
+  padding: 12px 12px;
+  border-radius: 14px;
+  background: rgba(0,0,0,.03);
+}
+
+.gift-label{
+  font-weight: 700;
+  letter-spacing: .02em;
+  color: rgba(0,0,0,.8);
+}
+
+.gift-value{
+  color: rgba(0,0,0,.88);
+}
+
+.gift-mono{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  letter-spacing: .02em;
+}
+
+/* Mobile */
+@media (max-width: 520px){
+  .gift-row{
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .gift-label{
+    opacity: .85;
+  }
+  .gift-intro{
+    font-size: 15px;
+  }
+}

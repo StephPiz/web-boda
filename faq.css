@@ -179,3 +179,53 @@ blockquote{
   filter: drop-shadow(0 6px 10px rgba(0,0,0,.35));
   pointer-events: none;
 }
+
+
+/* ================================
+   SOLO FAQ IDIOMA (#faq-idioma)
+   ================================ */
+
+/* Un poquito más aire y separación */
+#faq-idioma .faq-body h3{
+  margin-top: 18px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(0,0,0,.10);
+}
+
+/* Cambiamos las listas del idioma a “tarjetas/chips” */
+#faq-idioma .faq-body ul{
+  margin: 10px 0 16px;
+  padding: 0;
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+/* 2 columnas en pantallas grandes */
+@media (min-width: 860px){
+  #faq-idioma .faq-body ul{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+#faq-idioma .faq-body li{
+  margin: 0; /* quita tu margen global solo aquí */
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(255,255,255,.55);      /* encaja con tu --card */
+  border: 1px solid rgba(0,0,0,.10);      /* encaja con tu estilo */
+  line-height: 1.55;
+}
+
+/* Resalta el “Italiano” (strong) dentro de cada chip */
+#faq-idioma .faq-body li strong{
+  display: inline-block;
+  margin-right: 6px;
+}
+
+/* Extra: hace el cierre más bonito (opcional) */
+#faq-idioma .faq-body p:last-child{
+  margin-top: 14px;
+}
