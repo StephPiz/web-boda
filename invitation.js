@@ -39,6 +39,14 @@ function updateFaqLinks() {
   });
 }
 
+function goToHistoria() {
+  const target = lang === "it" ? "historia-it.html" : "historia.html";
+  const url = new URL(target, window.location.href);
+  url.searchParams.set("lang", lang);
+  if (guestName) url.searchParams.set("name", guestName);
+  window.location.href = url.toString();
+}
+
 let lang = "es";
 let guestName = "";
 let ui = null;
@@ -353,6 +361,10 @@ window.addEventListener("load", () => {
   applyI18n(ui);
   updateFaqLinks();
   updateParamLinks('a[href^="13jun.html"]');
+  const historyBtn = document.getElementById("historyBtn");
+  if (historyBtn) {
+    historyBtn.addEventListener("click", goToHistoria);
+  }
 
   // --------- Botón volver (a index.html manteniendo params)
   const backUrl = new URL("index.html", window.location.href);

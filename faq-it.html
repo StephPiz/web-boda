@@ -408,7 +408,7 @@
 
     <!-- Boton opcional para abrir tu mapa en otra página -->
     <p>
-      <a class="pill-btn" href="mapa-alquiler.html">Vedi mappa del noleggio</a>
+      <a class="pill-btn" href="mapa-alquiler-it.html">Vedi mappa del noleggio</a>
     </p>
   </div>
 </section>
@@ -496,6 +496,7 @@
   const backUrl = new URL("invitation.html", window.location.href);
   backUrl.searchParams.set("lang", lang);
   if (name) backUrl.searchParams.set("name", name);
+  backUrl.hash = "faq";
 
   const back = document.getElementById("backToInvite");
   if (back) back.href = backUrl.toString();

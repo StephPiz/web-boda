@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="es">
+<html lang="it">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mapa – Alquiler de coches (Madrid Barajas)</title>
+  <title>Mappa – Noleggio auto (Madrid Barajas)</title>
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
@@ -39,7 +39,7 @@
 
 <body>
   <header class="topbar">
-    <a class="pill-btn" id="backToFaq" href="faq.html#alquiler-auto">← Volver</a>
+    <a class="pill-btn" id="backToFaq" href="faq-it.html#alquiler-auto">← Indietro</a>
   </header>
 
   <div id="map"></div>
@@ -53,12 +53,12 @@
     }).addTo(map);
 
     const locations = [
-      { name: "SIXT - Madrid Aeropuerto T4", coords: [40.4918, -3.5930], info: "Oficinas en T4 y T1. Flota variada." },
-      { name: "SIXT Rent a Car Madrid Airport", coords: [40.4687, -3.5626], info: "Servicio amplio por toda la zona del aeropuerto." },
-      { name: "Europcar Madrid Aeropuerto T1", coords: [40.4722, -3.5609], info: "Oficina en Terminal 1." },
-      { name: "Europcar Madrid Aeropuerto T4", coords: [40.4913, -3.5937], info: "Oficina directamente en T4." },
-      { name: "Enterprise – Aeropuerto Madrid-Barajas", coords: [40.4701, -3.5622], info: "Cadena internacional." },
-      { name: "Centauro Car Rental Madrid", coords: [40.4551, -3.5794], info: "Opción económica." }
+      { name: "SIXT - Madrid Aeropuerto T4", coords: [40.4918, -3.5930], info: "Uffici in T4 e T1. Flotta varia." },
+      { name: "SIXT Rent a Car Madrid Airport", coords: [40.4687, -3.5626], info: "Servizio esteso in tutta l'area dell'aeroporto." },
+      { name: "Europcar Madrid Aeropuerto T1", coords: [40.4722, -3.5609], info: "Ufficio nel Terminal 1." },
+      { name: "Europcar Madrid Aeropuerto T4", coords: [40.4913, -3.5937], info: "Ufficio direttamente in T4." },
+      { name: "Enterprise – Aeropuerto Madrid-Barajas", coords: [40.4701, -3.5622], info: "Catena internazionale." },
+      { name: "Centauro Car Rental Madrid", coords: [40.4551, -3.5794], info: "Opzione economica." }
     ];
 
     locations.forEach(loc => {
@@ -67,12 +67,13 @@
         .bindPopup(`<strong>${loc.name}</strong><br>${loc.info}`);
     });
   </script>
+
   <script>
     const params = new URLSearchParams(window.location.search);
-    const lang = params.get("lang") || "es";
+    const lang = params.get("lang") || "it";
     const name = params.get("name") || "";
 
-    const backUrl = new URL("faq.html", window.location.href);
+    const backUrl = new URL("faq-it.html", window.location.href);
     backUrl.searchParams.set("lang", lang);
     if (name) backUrl.searchParams.set("name", name);
     backUrl.hash = "alquiler-auto";
