@@ -544,77 +544,74 @@ document.addEventListener("DOMContentLoaded", () => {
 // (links con params se actualizan en window.load)
 
 (function(){
-  const banner = document.querySelector('.invite-hero');
-  const layer  = document.querySelector('.banner-stickers');
-  const stickers = document.querySelectorAll('.banner-stickers .sticker');
+  function initDraggableLayer(bannerSelector, layerSelector, itemSelector){
+    const banner = document.querySelector(bannerSelector);
+    const layer  = document.querySelector(layerSelector);
+    const items = document.querySelectorAll(itemSelector);
 
-  if (!banner || !layer || !stickers.length) return;
+    if (!banner || !layer || !items.length) return;
 
-  // Drag solo en desktop (mismo breakpoint que CSS)
-  const isDesktop = () => window.matchMedia('(min-width: 900px)').matches;
+    const isDesktop = () => window.matchMedia('(min-width: 900px)').matches;
 
-  let active = null;
-  let offsetX = 0;
-  let offsetY = 0;
+    let active = null;
+    let offsetX = 0;
+    let offsetY = 0;
 
-  function rect(el){ return el.getBoundingClientRect(); }
+    function rect(el){ return el.getBoundingClientRect(); }
 
-  function onDown(e){
-    if (!isDesktop()) return;
+    function onDown(e){
+      if (!isDesktop()) return;
 
-    active = e.currentTarget;
-    active.setPointerCapture?.(e.pointerId);
+      active = e.currentTarget;
+      active.setPointerCapture?.(e.pointerId);
 
-    const r = rect(active);
-    offsetX = e.clientX - r.left;
-    offsetY = e.clientY - r.top;
-  }
-
-  function onMove(e){
-    if (!active) return;
-
-    const b = rect(layer);
-
-    // posición deseada en px dentro del banner
-    const x = e.clientX - b.left - offsetX + (rect(active).width / 2);
-    const y = e.clientY - b.top  - offsetY + (rect(active).height / 2);
-
-    // convertir a % para que sea responsive
-    const xp = (x / b.width) * 100;
-    const yp = (y / b.height) * 100;
-
-    active.style.setProperty('--x', xp + '%');
-    active.style.setProperty('--y', yp + '%');
-  }
-
-  function onUp(){
-    if (!active) return;
-
-    const b = rect(layer);
-    const r = rect(active);
-
-    // centro del sticker
-    const cx = r.left + r.width / 2;
-    const cy = r.top  + r.height / 2;
-
-    // si el centro está fuera del banner → “se fue”
-    const outside =
-      (cx < b.left) || (cx > b.right) || (cy < b.top) || (cy > b.bottom);
-
-    if (outside){
-      active.style.opacity = '0';
-      active.style.pointerEvents = 'none';
-      // si prefieres eliminarlo:
-      // active.remove();
+      const r = rect(active);
+      offsetX = e.clientX - r.left;
+      offsetY = e.clientY - r.top;
     }
 
-    active = null;
+    function onMove(e){
+      if (!active) return;
+
+      const b = rect(layer);
+      const x = e.clientX - b.left - offsetX + (rect(active).width / 2);
+      const y = e.clientY - b.top  - offsetY + (rect(active).height / 2);
+
+      const xp = (x / b.width) * 100;
+      const yp = (y / b.height) * 100;
+
+      active.style.setProperty('--x', xp + '%');
+      active.style.setProperty('--y', yp + '%');
+    }
+
+    function onUp(){
+      if (!active) return;
+
+      const b = rect(layer);
+      const r = rect(active);
+
+      const cx = r.left + r.width / 2;
+      const cy = r.top  + r.height / 2;
+
+      const outside =
+        (cx < b.left) || (cx > b.right) || (cy < b.top) || (cy > b.bottom);
+
+      if (outside){
+        active.style.opacity = '0';
+        active.style.pointerEvents = 'none';
+      }
+
+      active = null;
+    }
+
+    items.forEach(item => {
+      item.addEventListener('pointerdown', onDown);
+    });
+
+    window.addEventListener('pointermove', onMove);
+    window.addEventListener('pointerup', onUp);
   }
 
-  stickers.forEach(st => {
-    st.addEventListener('pointerdown', onDown);
-  });
-
-  window.addEventListener('pointermove', onMove);
-  window.addEventListener('pointerup', onUp);
+  initDraggableLayer('.invite-hero', '.banner-stickers', '.banner-stickers .sticker');
+  initDraggableLayer('.bolo-hero', '.bolo-overlay', '.bolo-overlay .bolo-item');
 })();

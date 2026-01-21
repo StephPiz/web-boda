@@ -200,7 +200,10 @@ h1{ margin:0 0 14px; font-size:34px; letter-spacing:.4px; }
 }
 
 /* Banner */
-.invite-hero{ width:100%; }
+.invite-hero{
+  width: 100%;
+  box-sizing: border-box;
+}
 
 .invite-banner{
   width:100%;
@@ -1045,7 +1048,7 @@ margin-bottom: 40px;
 .invite-hero-end{
   position: relative;
   width: 100vw;
-  height: auto;
+  height: 100vh;
 
   /* 🔑 ESTO es lo que arregla el espacio izquierdo */
   left: 50%;
@@ -1062,8 +1065,8 @@ margin-bottom: 40px;
 .invite-banner-end{ margin-bottom: 0;   /* 🔑 elimina espacio inferior */
   padding-bottom: 0;
   width: 100%;
-  height: auto;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
   object-position: center;
   display: block;
 }
@@ -1325,3 +1328,66 @@ margin-bottom: 40px;
 }
 
 .invite-hero{ position: relative; }  /* importante */
+
+
+
+/* =========================================================
+   BOLOCHO DRAG LAYER
+   Desktop: draggable
+   Mobile: solo nota centrada, fija
+========================================================= */
+
+.bolo-hero{ position: relative; }
+
+.bolo-overlay{
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  overflow: hidden;
+  pointer-events: none; /* no bloquea scroll */
+}
+
+/* Base de cada item */
+.bolo-item{
+  position: absolute;
+  width: var(--w, 200px);
+  left: var(--x, 50%);
+  top: var(--y, 50%);
+  transform: translate(calc(-50% + var(--dx, 0px)), calc(-50% + var(--dy, 0px))) rotate(var(--r, 0deg));
+  transform-origin: center;
+  will-change: transform;
+
+  user-select: none;
+  -webkit-user-drag: none;
+
+  pointer-events: auto; /* 🔑 permite drag */
+  cursor: grab;
+}
+.bolo-item:active{ cursor: grabbing; }
+
+/* ===== POSICIONES/TAMAÑOS (DESKTOP) - EDITA SOLO ESTO ===== */
+.bolo-nota   { z-index: 1; --w: 410px; --x: 52%; --y: 38%; --r: -9deg; }
+.bolo-italy  { z-index: 2; --w: 200px; --x: 78%; --y: 22%; --r: 10deg; }
+.bolo-peru   { z-index: 3; --w: 185px; --x: 78%; --y: 46%; --r: -10deg; }
+.bolo-ticket { z-index: 4; --w: 360px; --x: 65%; --y: 72%; --r: 3deg; }
+.bolo-tracy  { z-index: 5; --w: 160px; --x: 18%; --y: 44%; --r: 0deg; }
+.bolo-madonna{ z-index: 6; --w: 410px; --x: 38%; --y: 78%; --r: 19deg; }
+.bolo-lm     { z-index: 7; --w: 280px; --x: 28%; --y: 78%; --r: -19deg; }
+.bolo-prince { z-index: 8; --w: 220px; --x: 32%; --y: 44%; --r: -18deg; }
+
+/* ===== MOBILE: solo nota01.png centrada, fija ===== */
+@media (max-width: 768px){
+  .bolo-item{ display:none; }
+
+  .bolo-nota{
+    display:block;
+    --w: 400px;
+    --x: 50%;
+    --y: 50%;
+    --r: -9deg;
+
+    pointer-events: none;
+    cursor: default;
+    transform: translate(-50%, -50%) rotate(var(--r));
+  }
+}

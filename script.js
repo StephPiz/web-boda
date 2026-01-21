@@ -128,3 +128,72 @@ window.addEventListener('load', () => {
 });
 
 
+/* =========================================================
+   BOLOCHO: Drag en DESKTOP (mobile no)
+   - arrastras dentro del banner
+========================================================= */
+(() => {
+  const isDesktop = window.matchMedia("(min-width: 769px)").matches;
+  if (!isDesktop) return;
+
+  const hero = document.querySelector(".bolo-hero");
+  const items = document.querySelectorAll(".bolo-hero .bolo-item");
+  if (!hero || !items.length) return;
+
+  const heroRect = () => hero.getBoundingClientRect();
+
+  items.forEach((el) => {
+    // init offsets
+    el.style.setProperty("--dx", "0px");
+    el.style.setProperty("--dy", "0px");
+
+    let startX = 0, startY = 0;
+    let startDx = 0, startDy = 0;
+    let elRect0;
+
+    const getPx = (v) => parseFloat(String(v).replace("px","")) || 0;
+
+    el.addEventListener("pointerdown", (e) => {
+      e.preventDefault();
+      el.setPointerCapture(e.pointerId);
+
+      startX = e.clientX;
+      startY = e.clientY;
+
+      startDx = getPx(getComputedStyle(el).getPropertyValue("--dx"));
+      startDy = getPx(getComputedStyle(el).getPropertyValue("--dy"));
+
+      // rect del elemento al inicio (para clamps)
+      elRect0 = el.getBoundingClientRect();
+
+      const onMove = (ev) => {
+        const hr = heroRect();
+
+        let dx = startDx + (ev.clientX - startX);
+        let dy = startDy + (ev.clientY - startY);
+
+        // Clamp para que NO salga del banner (se queda dentro)
+        // (si quieres que se pueda ir fuera y desaparecer, te lo cambio luego)
+        const minDx = startDx + (hr.left - elRect0.left);
+        const maxDx = startDx + (hr.right - elRect0.right);
+        const minDy = startDy + (hr.top - elRect0.top);
+        const maxDy = startDy + (hr.bottom - elRect0.bottom);
+
+        dx = Math.max(minDx, Math.min(maxDx, dx));
+        dy = Math.max(minDy, Math.min(maxDy, dy));
+
+        el.style.setProperty("--dx", `${dx}px`);
+        el.style.setProperty("--dy", `${dy}px`);
+      };
+
+      const onUp = (ev) => {
+        el.releasePointerCapture(ev.pointerId);
+        window.removeEventListener("pointermove", onMove);
+        window.removeEventListener("pointerup", onUp);
+      };
+
+      window.addEventListener("pointermove", onMove);
+      window.addEventListener("pointerup", onUp);
+    });
+  });
+})();
