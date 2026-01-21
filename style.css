@@ -70,17 +70,17 @@ h1{ margin:0 0 14px; font-size:34px; letter-spacing:.4px; }
 
 .btn{
   appearance:none;
-  border:0;
-  padding:12px 18px;
+  border:2px solid #111;
+  padding:10px 16px;
   border-radius:999px;
-  background: var(--accent);
-  color:#fff;
-  font-weight:700;
-  letter-spacing:.2px;
+  background: rgba(245, 240, 230, 0.9);
+  color:#111;
+  font-weight:600;
+  letter-spacing:0;
   cursor:pointer;
-  box-shadow: 0 10px 30px rgba(0,0,0,.12);
+  box-shadow: none;
 }
-.btn:hover{ filter:brightness(.98); }
+.btn:hover{ background: rgba(231, 224, 211, 0.95); }
 .btn:active{ transform: translateY(1px); }
 
 .inputRow{
@@ -1272,4 +1272,54 @@ margin-bottom: 40px;
   .gift-intro{
     font-size: 15px;
   }
+}
+
+.invite-hero{
+  position: relative;
+}
+
+/* capa de stickers */
+.banner-stickers{
+  position: absolute;
+  inset: 0;
+  z-index: 5;              /* encima del banner */
+  pointer-events: none;    /* se habilita en desktop abajo */
+  overflow: hidden;        /* CLAVE: si lo sacas del banner, “desaparece” */
+}
+
+/* cada flor */
+.sticker{
+  position: absolute;
+  left: var(--x, 50%);
+  top: var(--y, 50%);
+  transform: translate(-50%, -50%) rotate(var(--r, 0deg)) scale(var(--s, 1));
+  transform-origin: center;
+  width: clamp(70px, 10vw, 180px);
+  height: auto;
+  user-select: none;
+  -webkit-user-drag: none;
+  touch-action: none;
+  pointer-events: auto;    /* el drag lo hace el img */
+  cursor: grab;
+}
+
+.sticker:active{
+  cursor: grabbing;
+}
+
+/* SOLO DESKTOP: permitir arrastrar */
+@media (min-width: 900px){
+  .banner-stickers{ pointer-events: auto; }
+}
+
+/* si quieres que en móvil SE VEAN pero no se puedan mover */
+@media (max-width: 899px){
+  .sticker{ pointer-events: auto; }
+  .banner-stickers{ pointer-events: auto; }
+}
+
+
+/* (Opcional) ajustar posiciones en desktop para “ver caras” etc */
+@media (min-width: 900px){
+  .sticker:nth-child(1){ --y: 14%; }
 }
