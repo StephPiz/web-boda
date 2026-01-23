@@ -136,8 +136,8 @@ const I18N = {
     ceremony_time: "<b>HORA:</b> 12:00 (llegar 30 min antes)",
     ceremony_place: "<b>LUGAR:</b> Catedral de Segovia",
     details_map: "Ver mapa",
-    details_celebration_title: "Celebration",
-    celebration_cocktail: "<b>CÓCTEL:</b> 14:00",
+    details_celebration_title: "Celebración",
+    celebration_cocktail: "<b>HORA:</b> 14:00",
     celebration_banquet: "<b>BANQUETE:</b> 15:00",
     celebration_place: "<b>LUGAR:</b> Zibá José María Eventos",
     dance_alt: "Baile",
@@ -153,6 +153,8 @@ const I18N = {
     gift_intro:
       "No tenemos lista de regalos. Si deseas acompañarnos con un detalle, puedes hacerlo mediante transferencia bancaria.",
     gift_beneficiary: "Beneficiario",
+    gift_beneficiary_value:
+      "NOMBRE: Alessandro Albanese<br>APELLIDO: Stephany Pizan",
     gift_bank: "Banco",
     gift_corr: "BIC banco corresponsal",
     faq_title: "FAQ",
@@ -249,7 +251,7 @@ const I18N = {
     ceremony_place: "<b>LUOGO:</b> Cattedrale di Segovia",
     details_map: "Vedi mappa",
     details_celebration_title: "Celebrazione",
-    celebration_cocktail: "<b>COCKTAIL:</b> 14:00",
+    celebration_cocktail: "<b>ORA:</b> 14:00",
     celebration_banquet: "<b>BANCHETTO:</b> 15:00",
     celebration_place: "<b>LUOGO:</b> Zibá José María Eventos",
     dance_alt: "Ballo",
@@ -265,6 +267,8 @@ const I18N = {
     gift_intro:
       "Non abbiamo una lista regalo. Se vuoi accompagnarci con un pensiero, puoi farlo tramite bonifico bancario.",
     gift_beneficiary: "Beneficiario",
+    gift_beneficiary_value:
+      "NOME: Alessandro Albanese<br>COGNOME: Stephany Pizan",
     gift_bank: "Banca",
     gift_corr: "BIC banca corrispondente",
     faq_title: "FAQ",
