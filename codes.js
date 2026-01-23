@@ -28,7 +28,7 @@ const CODES = [
   { code: "2504", name: "Sebastian Reyes" },
   { code: "0707", name: "Rocio y Nia" },
   { code: "1807", name: "Magra y Chris" },
-  { code: "rubén y victoria", name: "Rubén y Victoria" },
+  { code: "1501", name: "Rubén y Victoria" },
   { code: "abraham y rosa", name: "Abraham y Rosa" },
   { code: "diego y mirella", name: "Diego y Mirella" },
   { code: "0619", name: "Fiorella y Sergio" },
