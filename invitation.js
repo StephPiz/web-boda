@@ -136,9 +136,8 @@ const I18N = {
     ceremony_time: "<b>HORA:</b> 12:00 (llegar 30 min antes)",
     ceremony_place: "<b>LUGAR:</b> Catedral de Segovia",
     details_map: "Ver mapa",
-    details_celebration_title: "Celebración",
+    details_celebration_title: "Celebracion",
     celebration_cocktail: "<b>HORA:</b> 14:00",
-    celebration_banquet: "<b>BANQUETE:</b> 15:00",
     celebration_place: "<b>LUGAR:</b> Zibá José María Eventos",
     dance_alt: "Baile",
     dress_title: "DRESS CODE",
@@ -252,7 +251,6 @@ const I18N = {
     details_map: "Vedi mappa",
     details_celebration_title: "Celebrazione",
     celebration_cocktail: "<b>ORA:</b> 14:00",
-    celebration_banquet: "<b>BANCHETTO:</b> 15:00",
     celebration_place: "<b>LUOGO:</b> Zibá José María Eventos",
     dance_alt: "Ballo",
     dress_title: "DRESS CODE",
@@ -373,6 +371,7 @@ window.addEventListener("load", () => {
   ui = I18N[lang] || I18N.es;
 
   document.documentElement.lang = lang;
+  document.body.classList.toggle("lang-es", lang === "es");
   if (ui.page_title) document.title = ui.page_title;
   applyI18n(ui);
   updateFaqLinks();
