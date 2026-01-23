@@ -2,7 +2,7 @@
 // - code: lo que escribe el invitado (no distingue mayúsculas/minúsculas)
 // - name: cómo quieres que aparezca en pantalla
 const CODES = [
-  { code: "0401", name: "Mauro y Francesca" },
+  { code: "0401", name: "Mauro e Francesca" },
   { code: "0909", name: "Oliviero e Manuela" },
   { code: "2306", name: "Andrea e Sara" },
   { code: "2005", name: "Vanessa e Simone" },
