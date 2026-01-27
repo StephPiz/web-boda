@@ -29,8 +29,8 @@ const CODES = [
   { code: "0707", name: "Rocio y Nia" },
   { code: "1807", name: "Magra y Chris" },
   { code: "1501", name: "Rubén y Victoria" },
-  { code: "abraham y rosa", name: "Abraham y Rosa" },
-  { code: "diego y mirella", name: "Diego y Mirella" },
+  { code: "1801", name: "Abraham y Rosa" },
+  { code: "0710", name: "Diego y Mirella" },
   { code: "0619", name: "Fiorella y Sergio" },
   { code: "0404", name: "Andrea e Elisa" },
   { code: "2108", name: "Giulia e Andrea" },
@@ -39,4 +39,5 @@ const CODES = [
   { code: "0905", name: "Ana y Remco" },
   { code: "4520", name: "Nicole y Gerarld" },
   { code: "0704", name: "Diego Simanga" },
+  
 ];
