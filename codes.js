@@ -38,6 +38,6 @@ const CODES = [
   { code: "2604", name: "Kony y Simone" },
   { code: "0905", name: "Ana y Remco" },
   { code: "4520", name: "Nicole y Gerarld" },
-  { code: "0704", name: "Diego Simanga" },
-  
+  { code: "0704", name: "Diego Simangas" },
+  { code: "2601", name: "Maryloni y Fabio" },
 ];
