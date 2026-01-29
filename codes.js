@@ -40,4 +40,10 @@ const CODES = [
   { code: "4520", name: "Nicole y Gerarld" },
   { code: "0704", name: "Diego Simangas" },
   { code: "2601", name: "Maryloni y Fabio" },
+  { code: "2709", name: "Andrea Murillo" },
+  { code: "0001", name: "Tina" },
+  { code: "0002", name: "Miguel" },
+  { code: "0003", name: "Laura" },
+  { code: "0004", name: "Fernando" },
+  { code: "0005", name: "Maria" },
 ];
