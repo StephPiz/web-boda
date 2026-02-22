@@ -1,0 +1,319 @@
+:root {
+  --ui-rotation: 0deg;
+  --ink: #f7f5ef;
+  --line: rgba(255, 255, 255, 0.75);
+  --dark: rgba(0, 0, 0, 0.62);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #000;
+  font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.huji-app {
+  position: relative;
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  background: #050505;
+}
+
+.camera-feed {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: #000;
+}
+
+.hidden-canvas {
+  display: none;
+}
+
+.flash-layer {
+  position: absolute;
+  inset: 0;
+  background: #fff;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 6;
+}
+
+.flash-layer.active {
+  animation: camera-flash 230ms ease;
+}
+
+@keyframes camera-flash {
+  0% { opacity: 0; }
+  12% { opacity: 0.85; }
+  100% { opacity: 0; }
+}
+
+.random-lights {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 4;
+  opacity: 0;
+  transition: opacity 220ms ease;
+}
+
+.random-lights.is-on {
+  opacity: 1;
+}
+
+.random-light {
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+  left: var(--x);
+  top: var(--y);
+  border-radius: 999px;
+  background: radial-gradient(circle, var(--color), rgba(255, 255, 255, 0));
+  mix-blend-mode: screen;
+  filter: blur(0.5px);
+  animation: twinkle 2.2s infinite ease-in-out;
+  animation-delay: var(--delay);
+}
+
+@keyframes twinkle {
+  0%, 100% { transform: scale(0.8); opacity: 0.35; }
+  50% { transform: scale(1.15); opacity: 0.95; }
+}
+
+.ui-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.ui-rotatable {
+  transform: rotate(var(--ui-rotation));
+  transform-origin: center;
+}
+
+.top-controls,
+.bottom-controls {
+  pointer-events: auto;
+  position: absolute;
+  left: 50%;
+  width: min(94vw, 720px);
+  transform: translateX(-50%) rotate(var(--ui-rotation));
+}
+
+.top-controls {
+  top: max(18px, env(safe-area-inset-top));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-controls {
+  bottom: max(22px, env(safe-area-inset-bottom));
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 14px;
+}
+
+.left-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.timer-group {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.timer-btn {
+  border: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.35);
+  background: transparent;
+  color: #fff;
+  width: 42px;
+  height: 38px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.timer-btn:last-child {
+  border-right: 0;
+}
+
+.timer-btn.is-active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.huji-btn {
+  border: 1px solid var(--line);
+  background: rgba(0, 0, 0, 0.38);
+  color: var(--ink);
+  min-height: 38px;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.huji-btn.small {
+  min-width: 74px;
+  text-align: center;
+}
+
+.shutter-btn {
+  width: 76px;
+  height: 76px;
+  border-radius: 999px;
+  border: 3px solid #fff;
+  background: rgba(255, 255, 255, 0.16);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.shutter-inner {
+  width: 52px;
+  height: 52px;
+  border-radius: 999px;
+  background: #fff;
+}
+
+.countdown-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(var(--ui-rotation));
+  font-size: clamp(46px, 14vw, 110px);
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 6px 22px rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+}
+
+.status-screen {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.72);
+  padding: 24px;
+}
+
+.status-screen.hidden {
+  display: none;
+}
+
+.status-card,
+.preview-card {
+  width: min(460px, 92vw);
+  background: rgba(14, 14, 14, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  border-radius: 18px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.status-card h2 {
+  margin: 6px 0 14px;
+  font-size: 28px;
+}
+
+.loader {
+  width: 52px;
+  height: 52px;
+  margin: 0 auto;
+  border-radius: 999px;
+  border: 4px solid rgba(255, 255, 255, 0.25);
+  border-top-color: #fff;
+  animation: spin 900ms linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.preview-card img {
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  display: block;
+}
+
+.preview-actions {
+  margin-top: 14px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.toast {
+  position: absolute;
+  left: 50%;
+  bottom: calc(max(20px, env(safe-area-inset-bottom)) + 98px);
+  transform: translateX(-50%);
+  background: rgba(10, 10, 10, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease;
+  z-index: 30;
+}
+
+.toast.show {
+  opacity: 1;
+}
+
+@media (max-width: 520px) {
+  .bottom-controls {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "left flip"
+      "shutter shutter";
+    gap: 12px;
+  }
+
+  .left-controls {
+    grid-area: left;
+  }
+
+  #flipBtn {
+    grid-area: flip;
+    justify-self: end;
+  }
+
+  .shutter-btn {
+    grid-area: shutter;
+    justify-self: center;
+  }
+
+  .huji-btn {
+    font-size: 13px;
+    padding: 7px 12px;
+  }
+
+  .timer-btn {
+    width: 38px;
+    height: 34px;
+  }
+}

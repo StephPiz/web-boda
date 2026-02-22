@@ -1,0 +1,258 @@
+.page-13jun26 {
+  background: var(--paper);
+}
+
+.page-13jun26 .invite-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.invite-nav-placeholder-13jun26 {
+  height: 0;
+}
+
+.page-13jun26 .invite-nav.is-fixed-13jun26 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 70;
+}
+
+.hero-13jun26 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.invite-banner-13jun26 {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.invite-main-13jun26 {
+  padding-top: 36px;
+  padding-bottom: 40px;
+}
+
+.intro-13jun26 {
+  padding-top: 24px;
+  padding-bottom: 34px;
+}
+
+.names-wrap-13jun26 {
+  min-height: auto;
+  margin-bottom: 120px;
+}
+
+.intro-text-13jun26 {
+  max-width: 1060px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: clamp(28px, 2.2vw, 48px);
+  line-height: 1.42;
+  color: rgba(0, 0, 0, 0.82);
+}
+
+.intro-text-13jun26 strong {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: inherit;
+  color: #111;
+}
+
+.inicio-family-grid-13jun26 {
+  width: min(860px, 92vw);
+  margin: 146px auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  gap: 88px 42px;
+}
+
+.inicio-family-card-13jun26 {
+  text-align: center;
+}
+
+.inicio-family-card-13jun26 p {
+  margin: 0 0 16px;
+  font-size: 18px;
+  line-height: 1.32;
+  color: #222;
+}
+
+.inicio-family-card-13jun26 h3 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.14;
+  font-weight: 700;
+}
+
+.section-13jun26 {
+  text-align: center;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.section-13jun26 h2 {
+  margin-bottom: 18px;
+  font-size: clamp(26px, 3vw, 46px);
+}
+
+.photos-13jun26 {
+  padding-top: 120px;
+}
+
+.page-13jun26 .details-title.capture-title-13jun26 {
+  font-family: "SonicWaves", cursive;
+  font-size: 60px;
+  margin: 0 0 30px;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.invite-section .capture-text-13jun26 {
+  width: 100%;
+  max-width: 760px;
+  margin: 24px auto 26px;
+  font-size: 20px;
+  line-height: 1.7;
+  color: rgba(0, 0, 0, 0.78);
+  text-align: center;
+}
+
+.capture-buttons-13jun26 {
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+  margin: 36px 0 48px;
+  flex-wrap: wrap;
+}
+
+.capture-btn-13jun26 {
+  min-width: 210px;
+  min-height: 76px;
+  padding: 0 28px;
+  font-size: 18px;
+  line-height: 1;
+  border: 3px solid #111;
+  background: #fff;
+}
+
+.capture-image-wrap-13jun26 {
+  display: flex;
+  justify-content: center;
+}
+
+.capture-image-13jun26 {
+  width: min(430px, 88vw);
+  height: auto;
+  display: block;
+}
+
+.card-13jun26 {
+  width: min(980px, 94vw);
+  margin: 0 auto;
+}
+
+.hero-photo-13jun26 {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.text-card-13jun26 {
+  font-size: clamp(18px, 2.1vw, 30px);
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 720px) {
+  .invite-banner-13jun26 {
+    height: 100%;
+    object-position: 50% 24%;
+  }
+
+  .invite-main-13jun26 {
+    padding-top: 42px;
+  }
+
+  .intro-13jun26 {
+    padding-top: 8px;
+    padding-bottom: 22px;
+  }
+
+  .intro-text-13jun26 {
+    font-size: clamp(19px, 5vw, 24px);
+    line-height: 1.5;
+    max-width: 96vw;
+  }
+
+  .intro-text-13jun26 strong {
+    margin-bottom: 10px;
+    font-size: inherit;
+  }
+
+  .section-13jun26 {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
+  .photos-13jun26 {
+    padding-top: 132px;
+  }
+
+  .page-13jun26 .details-title.capture-title-13jun26 {
+    font-size: 44px;
+    margin-bottom: 18px;
+  }
+
+  .invite-section .capture-text-13jun26 {
+    width: 100%;
+    max-width: 760px;
+    margin: 24px auto 26px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.7;
+    color: rgba(0, 0, 0, 0.78);
+  }
+
+  .capture-buttons-13jun26 {
+    gap: 16px;
+    margin: 26px 0 30px;
+  }
+
+  .capture-btn-13jun26 {
+    min-width: 150px;
+    min-height: 56px;
+    font-size: 18px;
+    border-width: 2px;
+  }
+
+  .names-wrap-13jun26 {
+    margin-bottom: 54px;
+  }
+
+  .inicio-family-grid-13jun26 {
+    grid-template-columns: 1fr;
+    margin-top: 86px;
+    gap: 46px;
+  }
+
+  .inicio-family-card-13jun26 p {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .inicio-family-card-13jun26 h3 {
+    font-size: 18px;
+  }
+}

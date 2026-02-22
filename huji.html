@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>HUJI Camera</title>
+  <link rel="stylesheet" href="huji.css" />
+</head>
+<body>
+  <main id="app" class="huji-app">
+    <video id="camera" class="camera-feed" autoplay playsinline muted></video>
+    <canvas id="captureCanvas" class="hidden-canvas"></canvas>
+
+    <div id="randomLights" class="random-lights" aria-hidden="true"></div>
+    <div id="flash" class="flash-layer" aria-hidden="true"></div>
+
+    <div class="ui-layer">
+      <div class="top-controls ui-rotatable">
+        <button id="moreBtn" class="huji-btn small" type="button" aria-label="Más opciones">(...)</button>
+        <button id="saveBtn" class="huji-btn small" type="button">SAVE</button>
+      </div>
+
+      <div id="countdown" class="countdown-overlay ui-rotatable" aria-live="polite"></div>
+
+      <div class="bottom-controls ui-rotatable">
+        <div class="left-controls">
+          <button id="lightsBtn" class="huji-btn" type="button">Luces Off</button>
+          <div class="timer-group" role="group" aria-label="Temporizador">
+            <button class="timer-btn is-active" data-timer="1" type="button">1</button>
+            <button class="timer-btn" data-timer="3" type="button">3</button>
+            <button class="timer-btn" data-timer="10" type="button">10</button>
+          </div>
+        </div>
+
+        <button id="shutterBtn" class="shutter-btn" type="button" aria-label="Tomar foto">
+          <span class="shutter-inner"></span>
+        </button>
+
+        <button id="flipBtn" class="huji-btn" type="button">Flip</button>
+      </div>
+    </div>
+
+    <section id="developingScreen" class="status-screen hidden" aria-live="polite">
+      <div class="status-card ui-rotatable">
+        <h2>Developing...</h2>
+        <div class="loader" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section id="previewScreen" class="status-screen hidden" aria-live="polite">
+      <div class="preview-card ui-rotatable">
+        <img id="previewImage" alt="Preview de la foto" />
+        <div class="preview-actions">
+          <button id="previewSaveBtn" class="huji-btn" type="button">Guardar</button>
+          <button id="retakeBtn" class="huji-btn" type="button">Repetir</button>
+        </div>
+      </div>
+    </section>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </main>
+
+  <script src="huji.js"></script>
+</body>
+</html>
