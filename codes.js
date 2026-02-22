@@ -48,6 +48,7 @@ const CODES = [
   { code: "0209", name: "Anthony e Roberta" },
   { code: "2226", name: "Stefano e Annalisa" },
   { code: "2326", name: "Amerigo e Giulia" },
+  { code: "2327", name: "Nicolò e Claudia" },
   { code: "2426", name: "Piera" },
   { code: "0001", name: "Tina" },
   { code: "0002", name: "Miguel" },
