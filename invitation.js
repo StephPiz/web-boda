@@ -203,7 +203,7 @@ const I18N = {
     menu_close_aria: "Cerrar menú",
     rsvp_close_aria: "Cerrar",
     rsvp_subtitle:
-      "Confírmanos tu asistencia antes del <b>10 de Mayo 2026</b>.",
+      "Confírmanos tu asistencia antes del <b>30 de Abril 2026</b>.",
     rsvp_name_label: "Nombre y apellido",
     rsvp_name_placeholder: "Ej: Laura Rossi",
     rsvp_attendance_label: "¿Asistirás?",
@@ -316,7 +316,7 @@ const I18N = {
     menu_close_aria: "Chiudi menu",
     rsvp_close_aria: "Chiudi",
     rsvp_subtitle:
-      "Conferma la tua partecipazione entro il <b>10 maggio 2026</b>.",
+      "Conferma la tua partecipazione entro il <b>30 aprile 2026</b>.",
     rsvp_name_label: "Nome e cognome",
     rsvp_name_placeholder: "Es: Laura Rossi",
     rsvp_attendance_label: "Parteciperai?",
