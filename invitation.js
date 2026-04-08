@@ -175,7 +175,7 @@ const I18N = {
       "Te dejamos una sección para tu blog con <b>hoteles céntricos en Segovia </b>(enlaces a Booking), qué tan cerca están de la Catedral, y el tiempo caminando / en coche (aprox.).",
     faq_rsvp_q: "¿Hasta cuándo puedo confirmar mi asistencia?",
     faq_rsvp_a:
-      "Para poder organizarnos bien y coordinar todos los detalles de la boda, necesitamos que nos confirmes tu asistencia hasta el <b>10 de Mayo 2026</b>.",
+      "Para poder organizarnos bien y coordinar todos los detalles de la boda, necesitamos que nos confirmes tu asistencia hasta el <b>30 de Abril 2026</b>.",
     faq_gifts_q: "¿Hay lista de regalos?",
     faq_gifts_a:
       "No tenemos lista de regalos pero <b>puedes colaborar con nosotros</b>, hemos habilitado algunas opciones según el país, para que te resulte más fácil.",
@@ -288,7 +288,7 @@ const I18N = {
       "Ti lasciamo una sezione per il tuo blog con <b>hotel centrali a Segovia</b> (link a Booking), quanto sono vicini alla Cattedrale e i tempi a piedi / in auto (circa).",
     faq_rsvp_q: "Entro quando posso confermare la mia presenza?",
     faq_rsvp_a:
-      "Per organizzarci al meglio e coordinare tutti i dettagli del matrimonio, abbiamo bisogno che tu confermi la tua presenza entro il <b>10 maggio 2026</b>.",
+      "Per organizzarci al meglio e coordinare tutti i dettagli del matrimonio, abbiamo bisogno che tu confermi la tua presenza entro il <b>30 aprile 2026</b>.",
     faq_gifts_q: "C'è una lista regali?",
     faq_gifts_a:
       "Non abbiamo una lista regali ma <b>puoi contribuire con noi</b>; abbiamo attivato alcune opzioni in base al Paese, per renderti tutto più semplice.",
