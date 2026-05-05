@@ -162,9 +162,31 @@
   left: 52%;
   transform: translateX(-50%);
   width: min(560px, calc(100% - 148px));
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
+  height: 30px;
+}
+
+.seat-names-top-13jun26 span {
+  position: absolute;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.seat-top-name-1 { left: 2.5%; }
+.seat-top-name-2 { left: 15.5%; }
+.seat-top-name-3 { left: 28%; }
+.seat-top-name-4 { left: 40.5%; }
+.seat-top-name-5 { left: 54%; }
+.seat-top-name-6 { left: 66%; }
+.seat-top-name-7 { left: 78.5%; }
+.seat-top-name-8 { left: 89%; }
+.seat-top-name-9 { left: 104%; }
+.seat-top-name-10 { left: 120%; }
+.seat-top-name-11 { left: 134%; }
+
+.seat-top-name-9,
+.seat-top-name-10,
+.seat-top-name-11 {
+  top: 0;
 }
 
 .seat-names-left-13jun26 {
@@ -321,7 +343,7 @@ html {
   .seat-names-top-13jun26 {
     top: 12px;
     width: calc(100% - 54px);
-    gap: 3px;
+    height: 18px;
   }
 
   .seat-names-left-13jun26 {
