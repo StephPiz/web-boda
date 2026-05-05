@@ -130,9 +130,9 @@
 
 .seat-chart-13jun26 {
   position: relative;
-  width: min(700px, 74vw);
+  width: min(760px, 80vw);
   margin: 18px auto 0;
-  padding: 102px 82px 108px 82px;
+  padding: 108px 88px 114px 88px;
 }
 
 .seat-image-wrap-13jun26 {
@@ -142,7 +142,7 @@
 
 .seat-image-13jun26 {
   width: 100%;
-  max-width: 500px;
+  max-width: 560px;
   height: auto;
   display: block;
 }
@@ -324,9 +324,9 @@ html {
   }
 
   .seat-chart-13jun26 {
-    width: min(100%, 420px);
+    width: min(100%, 450px);
     margin-top: 14px;
-    padding: 44px 24px 68px;
+    padding: 48px 26px 74px;
   }
 
   .seat-image-13jun26 {
