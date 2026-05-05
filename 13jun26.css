@@ -106,6 +106,10 @@
   padding-top: 120px;
 }
 
+.seat-13jun26 {
+  padding-top: 120px;
+}
+
 .page-13jun26 .details-title.capture-title-13jun26 {
   font-family: "SonicWaves", cursive;
   font-size: 60px;
@@ -122,6 +126,10 @@
   line-height: 1.7;
   color: rgba(0, 0, 0, 0.78);
   text-align: center;
+}
+
+.seat-text-13jun26 {
+  margin-bottom: 0;
 }
 
 .capture-buttons-13jun26 {
@@ -208,6 +216,10 @@ html {
 
   .photos-13jun26 {
     padding-top: 132px;
+  }
+
+  .seat-13jun26 {
+    padding-top: 72px;
   }
 
   .page-13jun26 .details-title.capture-title-13jun26 {
