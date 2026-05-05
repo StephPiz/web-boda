@@ -135,16 +135,17 @@
   margin: 0 auto;
 }
 
-.seating-map img {
+.seat-image-13jun26 {
   width: 200%;
   max-width: 900px;
+  height: auto;
   display: block;
 }
 
 .name {
   position: absolute;
   font-size: 9px;
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #111;
   white-space: nowrap;
