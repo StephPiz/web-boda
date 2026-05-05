@@ -131,12 +131,13 @@
 .seating-map {
   position: relative;
   width: 100%;
-  max-width: 760px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .seating-map img {
-  width: 100%;
+  width: 200%;
+  max-width: 900px;
   display: block;
 }
 
@@ -150,17 +151,17 @@
   line-height: 1;
 }
 
-.azzurra { top: 3.5%; left: 15.5%; }
-.aldo { top: 3.5%; left: 21.5%; }
-.simone { top: 3.5%; left: 27%; }
-.vane { top: 3.5%; left: 34%; }
-.bea { top: 3.5%; left: 40.5%; }
-.manu-top { top: 3.5%; left: 46%; }
-.clau { top: 3.5%; left: 54%; }
-.sam { top: 3.5%; left: 60%; }
-.fabrizio { top: 3.5%; left: 66%; }
-.nose { top: 3.5%; left: 73.5%; }
-.vale { top: 3.5%; left: 79.5%; }
+.azzurra { top: 18.5%; left: 15.5%; }
+.aldo { top: 18.5%; left: 21.5%; }
+.simone { top: 18.5%; left: 27%; }
+.vane { top: 18.5%; left: 34%; }
+.bea { top: 18.5%; left: 40.5%; }
+.manu-top { top: 18.5%; left: 46%; }
+.clau { top: 18.5%; left: 54%; }
+.sam { top: 18.5%; left: 60%; }
+.fabrizio { top: 18.5%; left: 66%; }
+.nose { top: 18.5%; left: 73.5%; }
+.vale { top: 18.5%; left: 79.5%; }
 
 .right-top {
   transform: rotate(90deg);
