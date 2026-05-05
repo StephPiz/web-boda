@@ -158,11 +158,11 @@
 }
 
 .seat-names-top-13jun26 {
-  top: 26px;
+  top: 62px;
   left: 52%;
   transform: translateX(-50%);
-  width: min(560px, calc(100% - 148px));
-  height: 30px;
+  width: min(520px, calc(100% - 164px));
+  height: 22px;
 }
 
 .seat-names-top-13jun26 span {
@@ -171,17 +171,17 @@
   white-space: nowrap;
 }
 
-.seat-top-name-1 { left: 2.5%; }
-.seat-top-name-2 { left: 15.5%; }
-.seat-top-name-3 { left: 28%; }
-.seat-top-name-4 { left: 40.5%; }
-.seat-top-name-5 { left: 54%; }
-.seat-top-name-6 { left: 66%; }
-.seat-top-name-7 { left: 78.5%; }
-.seat-top-name-8 { left: 89%; }
-.seat-top-name-9 { left: 104%; }
-.seat-top-name-10 { left: 120%; }
-.seat-top-name-11 { left: 134%; }
+.seat-top-name-1 { left: 3%; }
+.seat-top-name-2 { left: 16%; }
+.seat-top-name-3 { left: 28.5%; }
+.seat-top-name-4 { left: 41%; }
+.seat-top-name-5 { left: 54.5%; }
+.seat-top-name-6 { left: 66.5%; }
+.seat-top-name-7 { left: 79%; }
+.seat-top-name-8 { left: 91%; }
+.seat-top-name-9 { left: 105%; }
+.seat-top-name-10 { left: 119%; }
+.seat-top-name-11 { left: 132.5%; }
 
 .seat-top-name-9,
 .seat-top-name-10,
@@ -341,8 +341,8 @@ html {
   }
 
   .seat-names-top-13jun26 {
-    top: 12px;
-    width: calc(100% - 54px);
+    top: 28px;
+    width: calc(100% - 62px);
     height: 18px;
   }
 
