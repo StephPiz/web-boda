@@ -153,16 +153,16 @@
 .seat-names-right-lower-13jun26 {
   position: absolute;
   color: #111;
-  font-size: 14px;
+  font-size: 11px;
   line-height: 1;
 }
 
 .seat-names-top-13jun26 {
-  top: 62px;
+  top: 74px;
   left: 52%;
   transform: translateX(-50%);
-  width: min(520px, calc(100% - 164px));
-  height: 22px;
+  width: min(520px, calc(100% - 152px));
+  height: 14px;
 }
 
 .seat-names-top-13jun26 span {
@@ -171,17 +171,17 @@
   white-space: nowrap;
 }
 
-.seat-top-name-1 { left: 3%; }
-.seat-top-name-2 { left: 16%; }
-.seat-top-name-3 { left: 28.5%; }
-.seat-top-name-4 { left: 41%; }
-.seat-top-name-5 { left: 54.5%; }
-.seat-top-name-6 { left: 66.5%; }
-.seat-top-name-7 { left: 79%; }
-.seat-top-name-8 { left: 91%; }
-.seat-top-name-9 { left: 105%; }
-.seat-top-name-10 { left: 119%; }
-.seat-top-name-11 { left: 132.5%; }
+.seat-top-name-1 { left: 2.5%; }
+.seat-top-name-2 { left: 16.2%; }
+.seat-top-name-3 { left: 28.9%; }
+.seat-top-name-4 { left: 41.7%; }
+.seat-top-name-5 { left: 54.8%; }
+.seat-top-name-6 { left: 67.2%; }
+.seat-top-name-7 { left: 79.8%; }
+.seat-top-name-8 { left: 92.3%; }
+.seat-top-name-9 { left: 105.8%; }
+.seat-top-name-10 { left: 119.2%; }
+.seat-top-name-11 { left: 132.2%; }
 
 .seat-top-name-9,
 .seat-top-name-10,
@@ -337,13 +337,13 @@ html {
   .seat-names-left-13jun26,
   .seat-names-right-main-13jun26,
   .seat-names-right-lower-13jun26 {
-    font-size: 8px;
+    font-size: 6px;
   }
 
   .seat-names-top-13jun26 {
-    top: 28px;
-    width: calc(100% - 62px);
-    height: 18px;
+    top: 31px;
+    width: calc(100% - 56px);
+    height: 10px;
   }
 
   .seat-names-left-13jun26 {
