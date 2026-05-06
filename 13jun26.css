@@ -457,14 +457,15 @@ html {
   }
 
   .name {
-    font-size: 8.5px;
+    font-size: 8px;
+    font-weight: 700;
   }
 
   .seating-map.show-seat-katy .seat-highlight-katy {
-    top: 37.3%;
-    left: 9.2%;
+    top: 36.9%;
+    left: 9%;
     width: 5%;
-    height: 2.4%;
+    height: 2%;
   }
 
   .azzurra { top: 7.3%; left: 20%; }
