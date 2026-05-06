@@ -166,19 +166,16 @@
   position: absolute;
   display: none;
   background: rgba(255, 158, 19, 0.53);
-  border: 4px solid #ff9e13;
-  border-radius: 4px;
-  box-sizing: border-box;
   pointer-events: none;
   z-index: 2;
 }
 
 .seating-map.show-seat-katy .seat-highlight-katy {
   display: block;
-  top: 42.1%;
-  left: 18.1%;
-  width: 10.4%;
-  height: 8.6%;
+  top: 38.8%;
+  left: 9%;
+  width: 5%;
+  height: 2.3%;
 }
 
 .azzurra { top: 8%; left: 22%; }
