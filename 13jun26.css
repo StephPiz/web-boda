@@ -151,7 +151,7 @@
 
 .name {
   position: absolute;
-  font-size: 11px;
+  font-size: 13.3px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #111;
@@ -163,64 +163,70 @@
 .aldo { top: 8%; left: 29.5%; }
 .simone { top: 8%; left: 34%; }
 .vane { top: 8%; left: 40.5%; }
-.bea { top: 18.5%; left: 40.5%; }
-.manu-top { top: 18.5%; left: 46%; }
-.clau { top: 18.5%; left: 54%; }
-.sam { top: 18.5%; left: 60%; }
-.fabrizio { top: 18.5%; left: 66%; }
-.nose { top: 18.5%; left: 73.5%; }
-.vale { top: 18.5%; left: 79.5%; }
+.bea { top: 8%; left: 46%; }
+.manu-top { top: 8%; left: 51%; }
+.clau { top: 8%; left: 58%; }
+.sam { top: 8%; left: 63.6%; }
+.fabrizio { top: 8%; left: 68%; }
+.nose { top: 8%; left: 75%; }
+.vale { top: 8%; left: 81%; }
 
 .right-top {
   transform: rotate(90deg);
   transform-origin: left top;
 }
 
-.sofi { top: 10%; left: 88%; }
-.manu-right { top: 14.5%; left: 88%; }
-.charis { top: 19%; left: 88%; }
-.nito { top: 23.5%; left: 88%; }
-.sebas { top: 28%; left: 88%; }
-.miguel { top: 33%; left: 88%; }
-.martin { top: 38%; left: 88%; }
-.fio { top: 43%; left: 88%; }
-.sergio { top: 48%; left: 88%; }
-.ale { top: 53%; left: 88%; }
-.susi { top: 58%; left: 88%; }
-.diego { top: 63%; left: 88%; }
+.sofi { top: 14.5%; left: 94%; }
+.manu-right { top: 17.3%; left: 94%; }
+.charis { top: 20.9%; left: 94%; }
+.nito { top: 25%; left: 94%; }
+.sebas { top: 28.5%; left: 94%; }
+.miguel { top: 32%; left: 94%; }
+.martin { top: 36.2%; left: 94%; }
+.fio { top: 41.3%; left: 94%; }
+.sergio { top: 44.3%; left: 94%; }
+.ale { top: 49%; left: 94%; }
+.susi { top: 52.5%; left: 94%; }
+.diego { top: 55.5%; left: 94%; }
 
-.vicky { top: 69.5%; left: 88%; }
-.ruben { top: 74%; left: 88%; }
-.benito-1 { top: 78.5%; left: 88%; }
-.maria-luisa { top: 83%; left: 88%; }
-.benito-2 { top: 88%; left: 88%; }
-.juani { top: 92.5%; left: 88%; }
+.vicky { top: 62.7%; left: 94%; }
+.ruben { top: 66.5%; left: 94%; }
+.benito-2 { top: 70.5%; left: 94%; }
+.maria-luisa { top: 74%; left: 94%; }
+.juani { top: 78%; left: 94%; }
+.benito-1 { top: 81.3%; left: 94%; }
 
 .left-side {
   transform: rotate(-90deg);
   transform-origin: left top;
 }
 
-.enzo { top: 40%; left: 8%; }
-.katy { top: 47%; left: 8%; }
-.josefina { top: 54%; left: 8%; }
-.mauro { top: 61%; left: 8%; }
+.enzo { top: 37.5%; left: 6%; }
+.katy { top: 41.2%; left: 6%; }
+.josefina { top: 46.1%; left: 6%; }
+.mauro { top: 50%; left: 6%; }
 
-.manuela { top: 72%; left: 8%; }
-.olivero { top: 79%; left: 8%; }
-.andrea { top: 86%; left: 8%; }
-.sara { top: 93%; left: 8%; }
+.manuela { top: 66.3%; left: 6%; }
+.olivero { top: 70%; left: 6%; }
+.andrea { top: 74%; left: 6%; }
+.sara { top: 77%; left: 6%; }
 
 .seat-guests-pill-13jun26 {
   width: fit-content;
   margin: 18px auto 0;
-  padding: 16px 28px;
+  min-width: 210px;
+  min-height: 76px;
+  padding: 0 28px;
   border: 3px solid #111;
   border-radius: 999px;
-  background: #fff;
-  font-size: clamp(24px, 2.4vw, 30px);
-  font-weight: 700;
+  background: rgba(245, 240, 230, 0.9);
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
   line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .capture-buttons-13jun26 {
@@ -323,12 +329,14 @@ html {
   }
 
   .name {
-    font-size: 7px;
+    font-size: 8.5px;
   }
 
   .seat-guests-pill-13jun26 {
     margin-top: 16px;
-    padding: 11px 20px;
+    min-width: 150px;
+    min-height: 56px;
+    padding: 0 20px;
     border-width: 3px;
     font-size: 16px;
   }
