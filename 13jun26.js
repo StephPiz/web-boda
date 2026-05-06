@@ -6,10 +6,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (seatingMap) {
     const params = new URLSearchParams(window.location.search);
-    const guestName = (params.get("name") || "").trim().toLowerCase();
+    const normalize = (value) =>
+      (value || "")
+        .trim()
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/\s+/g, " ");
+
+    const guestName = normalize(params.get("name"));
     const guestCode = (params.get("code") || "").trim();
 
-    if (guestName === "katherine" || guestCode === "2705") {
+    if (guestName.includes("katherine") || guestCode === "2705") {
       seatingMap.classList.add("show-seat-katy");
     }
   }
