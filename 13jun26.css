@@ -136,10 +136,17 @@
 }
 
 .seat-image-13jun26 {
-  width: 200%;
-  max-width: 900px;
+  width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
+}
+
+@media (min-width: 721px) {
+  .seat-image-13jun26 {
+    width: 200%;
+    max-width: 900px;
+  }
 }
 
 .name {
@@ -307,6 +314,11 @@ html {
   }
 
   .seating-map {
+    max-width: 100%;
+  }
+
+  .seat-image-13jun26 {
+    width: 100%;
     max-width: 100%;
   }
 
