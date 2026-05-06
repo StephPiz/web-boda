@@ -246,6 +246,106 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+
+.guests-modal-13jun26 {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 120;
+}
+
+.guests-modal-13jun26.is-open {
+  display: flex;
+}
+
+.guests-modal-backdrop-13jun26 {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.22);
+}
+
+.guests-modal-panel-13jun26 {
+  position: relative;
+  z-index: 1;
+  width: min(920px, 94vw);
+  max-height: min(86vh, 980px);
+  overflow: auto;
+  background: #fffdf8;
+  border-radius: 28px;
+  padding: 34px 34px 28px;
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.16);
+}
+
+.guests-modal-close-13jun26 {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  border: 0;
+  background: transparent;
+  font-size: 34px;
+  line-height: 1;
+  cursor: pointer;
+  color: #111;
+}
+
+.guests-modal-title-13jun26 {
+  margin: 0 0 24px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.guests-modal-family-13jun26 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-bottom: 34px;
+  text-align: center;
+}
+
+.guests-modal-family-13jun26 p,
+.guests-modal-family-13jun26 h4,
+.guests-modal-col-13jun26 p {
+  margin: 0;
+}
+
+.guests-modal-family-13jun26 article {
+  display: grid;
+  gap: 10px;
+}
+
+.guests-modal-family-13jun26 p {
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.guests-modal-family-13jun26 h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.guests-modal-list-13jun26 {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 0.8fr);
+  gap: 34px;
+}
+
+.guests-modal-col-13jun26 {
+  display: grid;
+  gap: 10px;
+}
+
+.guests-modal-col-13jun26 p {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.guests-modal-col-handles-13jun26 p {
+  color: #222;
 }
 
 .capture-buttons-13jun26 {
@@ -405,6 +505,46 @@ html {
     padding: 0 20px;
     border-width: 3px;
     font-size: 16px;
+  }
+
+  .guests-modal-13jun26 {
+    padding: 14px;
+  }
+
+  .guests-modal-panel-13jun26 {
+    width: 100%;
+    max-height: 88vh;
+    border-radius: 24px;
+    padding: 28px 18px 22px;
+  }
+
+  .guests-modal-title-13jun26 {
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+
+  .guests-modal-family-13jun26 {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-bottom: 26px;
+  }
+
+  .guests-modal-family-13jun26 p,
+  .guests-modal-family-13jun26 h4 {
+    font-size: 16px;
+  }
+
+  .guests-modal-list-13jun26 {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .guests-modal-col-13jun26 {
+    gap: 8px;
+  }
+
+  .guests-modal-col-13jun26 p {
+    font-size: 15px;
   }
 
   .page-13jun26 .details-title.capture-title-13jun26 {

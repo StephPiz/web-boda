@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const mobileMenu = document.getElementById("mobileMenu");
   const nav = document.querySelector(".page-13jun26 .invite-nav");
   const seatingMap = document.querySelector(".seating-map");
+  const guestsModal = document.getElementById("guestsModal");
+  const openGuestsModalBtn = document.getElementById("openGuestsModal");
 
   if (seatingMap) {
     const params = new URLSearchParams(window.location.search);
@@ -20,6 +22,33 @@ document.addEventListener("DOMContentLoaded", () => {
     if (guestName.includes("katherine") || guestCode === "2705") {
       seatingMap.classList.add("show-seat-katy");
     }
+  }
+
+  if (guestsModal && openGuestsModalBtn) {
+    const openGuestsModal = () => {
+      guestsModal.classList.add("is-open");
+      guestsModal.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+    };
+
+    const closeGuestsModal = () => {
+      guestsModal.classList.remove("is-open");
+      guestsModal.setAttribute("aria-hidden", "true");
+      document.body.style.overflow = "";
+    };
+
+    openGuestsModalBtn.addEventListener("click", openGuestsModal);
+
+    guestsModal.addEventListener("click", (event) => {
+      const target = event.target;
+      if (target?.dataset?.close === "true") closeGuestsModal();
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && guestsModal.classList.contains("is-open")) {
+        closeGuestsModal();
+      }
+    });
   }
 
   if (nav) {
