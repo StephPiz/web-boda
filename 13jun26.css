@@ -159,6 +159,21 @@
   line-height: 1;
 }
 
+.seat-highlight {
+  position: absolute;
+  display: none;
+  background: rgba(255, 158, 19, 0.53);
+  pointer-events: none;
+}
+
+.seating-map.show-seat-katy .seat-highlight-katy {
+  display: block;
+  top: 43.2%;
+  left: 22.1%;
+  width: 15.2%;
+  height: 8.4%;
+}
+
 .azzurra { top: 8%; left: 22%; }
 .aldo { top: 8%; left: 29.5%; }
 .simone { top: 8%; left: 34%; }
@@ -330,6 +345,13 @@ html {
 
   .name {
     font-size: 8.5px;
+  }
+
+  .seating-map.show-seat-katy .seat-highlight-katy {
+    top: 39.6%;
+    left: 18.8%;
+    width: 17.5%;
+    height: 9.2%;
   }
 
   .azzurra { top: 8%; left: 22%; }

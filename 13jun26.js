@@ -2,6 +2,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const mobileMenuBtn = document.getElementById("mobileMenuBtn");
   const mobileMenu = document.getElementById("mobileMenu");
   const nav = document.querySelector(".page-13jun26 .invite-nav");
+  const seatingMap = document.querySelector(".seating-map");
+
+  if (seatingMap) {
+    const params = new URLSearchParams(window.location.search);
+    const guestName = (params.get("name") || "").trim().toLowerCase();
+    const guestCode = (params.get("code") || "").trim();
+
+    if (guestName === "katherine" || guestCode === "2705") {
+      seatingMap.classList.add("show-seat-katy");
+    }
+  }
 
   if (nav) {
     const placeholder = document.createElement("div");
