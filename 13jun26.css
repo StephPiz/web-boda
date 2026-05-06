@@ -140,6 +140,8 @@
   max-width: 100%;
   height: auto;
   display: block;
+  position: relative;
+  z-index: 1;
 }
 
 @media (min-width: 721px) {
@@ -157,6 +159,7 @@
   color: #111;
   white-space: nowrap;
   line-height: 1;
+  z-index: 3;
 }
 
 .seat-highlight {
@@ -164,6 +167,7 @@
   display: none;
   background: rgba(255, 158, 19, 0.53);
   pointer-events: none;
+  z-index: 2;
 }
 
 .seating-map.show-seat-katy .seat-highlight-katy {
