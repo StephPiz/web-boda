@@ -151,7 +151,7 @@
 
 .name {
   position: absolute;
-  font-size: 9px;
+  font-size: 11px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #111;
@@ -160,9 +160,9 @@
 }
 
 .azzurra { top: 8%; left: 22%; }
-.aldo { top: 18.5%; left: 21.5%; }
-.simone { top: 18.5%; left: 27%; }
-.vane { top: 18.5%; left: 34%; }
+.aldo { top: 8%; left: 29.5%; }
+.simone { top: 8%; left: 34%; }
+.vane { top: 8%; left: 40.5%; }
 .bea { top: 18.5%; left: 40.5%; }
 .manu-top { top: 18.5%; left: 46%; }
 .clau { top: 18.5%; left: 54%; }
