@@ -145,6 +145,16 @@
   display: block;
 }
 
+.menu-cancionero-cta-13jun26 {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 42px;
+}
+
+.menu-cancionero-btn-13jun26 {
+  text-decoration: none;
+}
+
 .menu-course-13jun26 {
   width: min(820px, 92vw);
   margin: 0 auto 52px;
@@ -594,6 +604,10 @@ html {
 
   .menu-line-13jun26 {
     width: min(100%, 340px);
+  }
+
+  .menu-cancionero-cta-13jun26 {
+    margin-bottom: 30px;
   }
 
   .menu-course-13jun26 {
