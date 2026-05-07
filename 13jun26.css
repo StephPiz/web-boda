@@ -117,7 +117,7 @@
 
 .songbook-13jun26 {
   padding-top: 120px;
-  background: #fff;
+  background: transparent;
   color: #111;
 }
 
@@ -149,16 +149,6 @@
   width: min(760px, 86vw);
   height: auto;
   display: block;
-}
-
-.menu-cancionero-cta-13jun26 {
-  display: flex;
-  justify-content: center;
-  margin: 0 0 42px;
-}
-
-.menu-cancionero-btn-13jun26 {
-  text-decoration: none;
 }
 
 .menu-course-13jun26 {
@@ -776,10 +766,6 @@ html {
 
   .menu-line-13jun26 {
     width: min(100%, 340px);
-  }
-
-  .menu-cancionero-cta-13jun26 {
-    margin-bottom: 30px;
   }
 
   .menu-course-13jun26 {
