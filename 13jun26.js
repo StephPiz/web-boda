@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
   const mobileMenuBtn = document.getElementById("mobileMenuBtn");
   const mobileMenu = document.getElementById("mobileMenu");
   const nav = document.querySelector(".page-13jun26 .invite-nav");
@@ -17,32 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/[\u0300-\u036f]/g, "")
       .replace(/\s+/g, " ");
 
-  const SONGBOOK_DATA = [
-    {
-      id: "morenito",
-      title: "Morenito de tu cara",
-      artist: "Cancionero demo",
-      snippet:
-        "Yo no entiendo de colores ni de razas\nA mí me gusta el morenito de tu cara",
-      tags: ["demo", "latina", "frase clave"],
-      spotify: "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-      search: [
-        "yo no entiendo de colores ni de razas",
-        "a mi me gusta el morenito de tu cara",
-        "morenito de tu cara",
-      ],
-    },
-    {
-      id: "playlist-base",
-      title: "Playlist de la boda",
-      artist: "Steph y Ale",
-      snippet:
-        "Esta es una base de ejemplo para el cancionero.\nCuando me pases la lista, sustituimos estas entradas por las canciones reales.",
-      tags: ["base", "spotify", "boda"],
-      spotify: "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-      search: ["playlist boda", "cancionero boda", "steph y ale"],
-    },
-  ];
+  const SONGBOOK_PATH = "assets/data/songbook.json";
+
+  let SONGBOOK_DATA = [];
 
   if (seatingMap) {
     const params = new URLSearchParams(window.location.search);
@@ -55,6 +32,16 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   if (songbookSearch && songbookResults && songbookDetail) {
+    try {
+      const response = await fetch(SONGBOOK_PATH, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const payload = await response.json();
+      SONGBOOK_DATA = Array.isArray(payload) ? payload : [];
+    } catch (error) {
+      console.warn("No se pudo cargar songbook.json", error);
+      SONGBOOK_DATA = [];
+    }
+
     let activeId = SONGBOOK_DATA[0]?.id || null;
 
     const renderDetail = (song) => {
@@ -71,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
       songbookDetail.innerHTML = `
         <h3 class="songbook-detail-title-13jun26">${song.title}</h3>
         <p class="songbook-detail-artist-13jun26">${song.artist}</p>
-        <p class="songbook-detail-snippet-13jun26">${song.snippet.replace(/\n/g, "<br>")}</p>
+        <div class="songbook-detail-snippet-13jun26">${(song.lyrics || song.snippet || "").replace(/\n/g, "<br>")}</div>
         <div class="songbook-detail-tags-13jun26">${tags}</div>
         <a class="songbook-detail-link-13jun26" href="${song.spotify}" target="_blank" rel="noopener">Escuchar en Spotify</a>
       `;
@@ -113,6 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
           song.artist,
           ...(song.tags || []),
           ...(song.search || []),
+          song.lyrics,
           song.snippet,
         ]
           .map(normalize)

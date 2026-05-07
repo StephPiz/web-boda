@@ -1,0 +1,12 @@
+[
+  {
+    "id": "te-encontre",
+    "title": "Te Encontré",
+    "artist": "El Vega",
+    "spotify": "https://open.spotify.com/playlist/XXXXXXXX",
+    "tags": ["romántica", "latina"],
+    "search": ["te encontre", "ya encontre la mujer"],
+    "snippet": "Ya encontré la mujer que por tanto tiempo había esperado",
+    "lyrics": "Pega aquí la letra completa usando \\n para cada salto de línea"
+  }
+]
