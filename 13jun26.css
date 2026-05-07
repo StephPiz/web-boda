@@ -115,6 +115,12 @@
   background: #fff;
 }
 
+.songbook-13jun26 {
+  padding-top: 120px;
+  background: linear-gradient(180deg, #2f3d2a 0%, #34462f 100%);
+  color: #eef1e6;
+}
+
 .page-13jun26 .details-title.capture-title-13jun26 {
   font-family: "SonicWaves", cursive;
   font-size: 60px;
@@ -187,6 +193,168 @@
   width: min(430px, 72vw);
   height: auto;
   display: block;
+}
+
+.songbook-intro-13jun26 {
+  max-width: 760px;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.songbook-actions-13jun26 {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 30px;
+}
+
+.songbook-spotify-btn-13jun26 {
+  background: rgba(255, 255, 255, 0.08);
+  color: #f4f6ee;
+  border-color: #f4f6ee;
+  text-decoration: none;
+}
+
+.songbook-spotify-btn-13jun26:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.songbook-shell-13jun26 {
+  width: min(1080px, 94vw);
+  margin: 0 auto;
+}
+
+.songbook-search-wrap-13jun26 {
+  display: grid;
+  gap: 10px;
+  margin: 0 auto 24px;
+  max-width: 760px;
+  text-align: left;
+}
+
+.songbook-search-label-13jun26 {
+  font-size: 15px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.songbook-search-13jun26 {
+  width: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-size: 16px;
+  padding: 14px 18px;
+  outline: none;
+}
+
+.songbook-search-13jun26::placeholder {
+  color: rgba(255, 255, 255, 0.54);
+}
+
+.songbook-layout-13jun26 {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.8fr) minmax(0, 1.2fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.songbook-results-13jun26,
+.songbook-detail-13jun26 {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 30px;
+  padding: 22px;
+  min-height: 320px;
+}
+
+.songbook-empty-13jun26 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.songbook-result-card-13jun26 {
+  width: 100%;
+  border: 0;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  padding: 18px 18px 16px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.songbook-result-card-13jun26 + .songbook-result-card-13jun26 {
+  margin-top: 12px;
+}
+
+.songbook-result-card-13jun26.is-active {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.songbook-result-title-13jun26 {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.songbook-result-meta-13jun26 {
+  display: block;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.songbook-detail-title-13jun26 {
+  margin: 0 0 8px;
+  font-size: 28px;
+  line-height: 1.1;
+}
+
+.songbook-detail-artist-13jun26 {
+  margin: 0 0 18px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.songbook-detail-snippet-13jun26 {
+  margin: 0 0 22px;
+  font-size: clamp(22px, 3vw, 34px);
+  line-height: 1.25;
+  color: #f2f4ea;
+}
+
+.songbook-detail-tags-13jun26 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.songbook-detail-tag-13jun26 {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+}
+
+.songbook-detail-link-13jun26 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  min-height: 52px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: 2px solid #f3f5ee;
+  color: #f3f5ee;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.songbook-detail-link-13jun26:hover {
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .seating-map {
@@ -515,6 +683,10 @@ html {
     padding-top: 84px;
   }
 
+  .songbook-13jun26 {
+    padding-top: 84px;
+  }
+
   .seating-map {
     max-width: 100%;
   }
@@ -628,6 +800,66 @@ html {
 
   .menu-table-13jun26 {
     width: min(260px, 70vw);
+  }
+
+  .songbook-actions-13jun26 {
+    margin-bottom: 24px;
+  }
+
+  .songbook-shell-13jun26 {
+    width: min(100%, 520px);
+  }
+
+  .songbook-search-wrap-13jun26 {
+    margin-bottom: 18px;
+  }
+
+  .songbook-search-label-13jun26 {
+    font-size: 14px;
+  }
+
+  .songbook-search-13jun26 {
+    font-size: 15px;
+    padding: 13px 16px;
+  }
+
+  .songbook-layout-13jun26 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .songbook-results-13jun26,
+  .songbook-detail-13jun26 {
+    min-height: 0;
+    padding: 18px;
+    border-radius: 24px;
+  }
+
+  .songbook-empty-13jun26 {
+    font-size: 15px;
+  }
+
+  .songbook-result-title-13jun26 {
+    font-size: 16px;
+  }
+
+  .songbook-detail-title-13jun26 {
+    font-size: 24px;
+  }
+
+  .songbook-detail-artist-13jun26 {
+    font-size: 15px;
+  }
+
+  .songbook-detail-snippet-13jun26 {
+    font-size: 18px;
+    line-height: 1.35;
+  }
+
+  .songbook-detail-link-13jun26 {
+    min-width: 160px;
+    min-height: 48px;
+    font-size: 15px;
   }
 
   .guests-modal-13jun26 {
