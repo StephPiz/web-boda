@@ -513,13 +513,13 @@ html {
   .benito-1 { top: 80.4%; left: 94%; }
 
   .enzo { top: 35.9%; left: 5%; }
-  .katy { top: 40.9%; left: 5%; }
-  .josefina { top: 45%; left: 5%; }
-  .mauro { top: 49%; left: 5%; }
+  .katy { top: 39.5%; left: 5%; }
+  .josefina { top: 44%; left: 5%; }
+  .mauro { top: 47%; left: 5%; }
   .manuela { top: 63%; left: 5%; }
-  .olivero { top: 68%; left: 5%; }
-  .andrea { top: 73.5%; left: 5%; }
-  .sara { top: 76.4%; left: 5%; }
+  .olivero { top: 66.5%; left: 5%; }
+  .andrea { top: 70%; left: 5%; }
+  .sara { top: 73%; left: 5%; }
 
   .seat-guests-pill-13jun26 {
     margin-top: 16px;
@@ -558,8 +558,8 @@ html {
   }
 
   .guests-modal-list-13jun26 {
-    grid-template-columns: 1fr;
-    gap: 0;
+    grid-template-columns: minmax(0, 1fr) minmax(120px, 0.82fr);
+    gap: 14px;
   }
 
   .guests-modal-col-13jun26 {
@@ -567,14 +567,14 @@ html {
   }
 
   .guests-modal-col-13jun26 p {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 1.15;
   }
 
   .guests-modal-col-handles-13jun26 {
-    margin-top: 18px;
-    padding-top: 18px;
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
   }
 
   .guests-modal-close-13jun26 {
