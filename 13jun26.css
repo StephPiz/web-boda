@@ -162,7 +162,7 @@
 .menu-course-13jun26 p {
   margin: 0 auto 18px;
   max-width: 28ch;
-  font-size: clamp(24px, 2.3vw, 38px);
+  font-size: 18px;
   line-height: 1.25;
   color: #111;
 }
