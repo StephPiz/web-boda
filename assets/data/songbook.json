@@ -1,1 +1,372 @@
-[]
+[
+  {
+    "id": "mi-persona-favorita",
+    "title": "Mi Persona Favorita",
+    "artist": "Alejandro Sanz, Camila Cabello",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["romantica"],
+    "search": ["mi persona favorita", "alejandro sanz", "camila cabello"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "purple-rain",
+    "title": "Purple Rain",
+    "artist": "Prince",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["ingles"],
+    "search": ["purple rain", "prince"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "te-encontre",
+    "title": "Te Encontré",
+    "artist": "El Vega",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["latina", "romantica"],
+    "search": ["te encontre", "el vega"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "yo-que-no-vivo-sin-ti",
+    "title": "Yo Que No Vivo Sin Ti",
+    "artist": "Luis Miguel",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["balada"],
+    "search": ["yo que no vivo sin ti", "luis miguel"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "no-podras",
+    "title": "No Podras",
+    "artist": "Cristian Castro",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["balada"],
+    "search": ["no podras", "cristian castro"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "sara-perche-ti-amo",
+    "title": "Sarà perchè ti amo",
+    "artist": "Ricchi E Poveri",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["italiana", "fiesta"],
+    "search": ["sara perche ti amo", "ricchi e poveri"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "amor",
+    "title": "Amor",
+    "artist": "Cristian Castro",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["romantica"],
+    "search": ["amor", "cristian castro"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "cuando-quieras-donde-quieras",
+    "title": "Cuando quieras , donde quieras",
+    "artist": "Dyango",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["balada"],
+    "search": ["cuando quieras donde quieras", "dyango"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "how-deep-is-your-love",
+    "title": "How Deep Is Your Love",
+    "artist": "Bee Gees",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["ingles", "clasica"],
+    "search": ["how deep is your love", "bee gees"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "hay-que-venir-al-sur",
+    "title": "Hay Que Venir Al Sur",
+    "artist": "Raffaella Carra",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["italiana", "fiesta"],
+    "search": ["hay que venir al sur", "raffaella carra"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "gloria",
+    "title": "Gloria",
+    "artist": "Umberto Tozzi",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["italiana"],
+    "search": ["gloria", "umberto tozzi"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "un-beso-y-una-flor",
+    "title": "Un Beso Y Una Flor",
+    "artist": "Nino Bravo",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["clasica"],
+    "search": ["un beso y una flor", "nino bravo"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "ti-amo",
+    "title": "Ti Amo",
+    "artist": "Umberto Tozzi",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["italiana", "romantica"],
+    "search": ["ti amo", "umberto tozzi"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "nel-blu-dipinto-di-blu",
+    "title": "Nel Blu Dipinto Di Blu",
+    "artist": "Dolce Vita",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["italiana", "clasica"],
+    "search": ["nel blu dipinto di blu", "dolce vita", "volare"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "perderme-contigo",
+    "title": "Perderme Contigo",
+    "artist": "Bacilos",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["latina"],
+    "search": ["perderme contigo", "bacilos"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "volare",
+    "title": "Volare",
+    "artist": "Gipsy Kings",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["fiesta", "italiana"],
+    "search": ["volare", "gipsy kings"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "quedate",
+    "title": "Quédate",
+    "artist": "Christian Meier",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["romantica", "balada"],
+    "search": ["quedate", "christian meier"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "september",
+    "title": "September",
+    "artist": "Earth, Wind & Fire",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["ingles", "fiesta"],
+    "search": ["september", "earth wind and fire"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "perfect",
+    "title": "Perfect",
+    "artist": "Ed Sheeran",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["ingles", "romantica"],
+    "search": ["perfect", "ed sheeran"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "por-primera-vez",
+    "title": "Por Primera Vez",
+    "artist": "Camilo",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["latina", "romantica"],
+    "search": ["por primera vez", "camilo"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "la-flaca",
+    "title": "La Flaca",
+    "artist": "Jarabe de Palo",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["clasica"],
+    "search": ["la flaca", "jarabe de palo"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "when-i-was-your-man",
+    "title": "When I Was Your Man",
+    "artist": "Bruno Mars",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["ingles", "balada"],
+    "search": ["when i was your man", "bruno mars"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "all-of-me",
+    "title": "All of Me",
+    "artist": "John Legend",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["ingles", "romantica"],
+    "search": ["all of me", "john legend"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "marry-you",
+    "title": "Marry You",
+    "artist": "Bruno Mars",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["ingles", "fiesta"],
+    "search": ["marry you", "bruno mars"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "hoy",
+    "title": "Hoy",
+    "artist": "Gloria Estefan",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["latina", "romantica"],
+    "search": ["hoy", "gloria estefan"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "por-ti-volare",
+    "title": "Por Ti Volaré",
+    "artist": "Andrea Bocelli",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["clasica", "italiana"],
+    "search": ["por ti volare", "andrea bocelli"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "rosas",
+    "title": "Rosas",
+    "artist": "La Oreja de Van Gogh",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["espanola"],
+    "search": ["rosas", "la oreja de van gogh"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "every-breath-you-take",
+    "title": "Every Breath You Take",
+    "artist": "The Police",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["ingles", "clasica"],
+    "search": ["every breath you take", "the police"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "dancing-queen",
+    "title": "Dancing Queen",
+    "artist": "ABBA",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["ingles", "fiesta"],
+    "search": ["dancing queen", "abba"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "tacones-rojos",
+    "title": "Tacones Rojos",
+    "artist": "Sebastian Yatra",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["latina", "fiesta"],
+    "search": ["tacones rojos", "sebastian yatra"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "me-rehuso",
+    "title": "Me Rehúso",
+    "artist": "Danny Ocean",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["latina"],
+    "search": ["me rehuso", "danny ocean"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "asi-era-ella",
+    "title": "Así Era Ella",
+    "artist": "Cristian Castro",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["balada"],
+    "search": ["asi era ella", "cristian castro"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "bella-ciao",
+    "title": "Bella Ciao",
+    "artist": "House Of Paper",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["italiana", "fiesta"],
+    "search": ["bella ciao", "house of paper"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "nada-fue-un-error",
+    "title": "Nada Fue Un Error",
+    "artist": "Coti",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["latina"],
+    "search": ["nada fue un error", "coti"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "la-bachata",
+    "title": "La Bachata",
+    "artist": "Manuel Turizo",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["latina", "fiesta"],
+    "search": ["la bachata", "manuel turizo"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "fast-car",
+    "title": "Fast Car",
+    "artist": "Tracy Chapman",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["ingles"],
+    "search": ["fast car", "tracy chapman"],
+    "snippet": "",
+    "lyrics": ""
+  },
+  {
+    "id": "vida-de-rico",
+    "title": "Vida de Rico",
+    "artist": "Camilo",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": ["latina", "fiesta"],
+    "search": ["vida de rico", "camilo"],
+    "snippet": "",
+    "lyrics": ""
+  }
+]
