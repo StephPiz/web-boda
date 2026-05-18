@@ -411,6 +411,10 @@
   transform-origin: left top;
 }
 
+.aldo-right { top: -2.5%; left: 93.5%; }
+.azzurra-right { top: 1%; left: 93.5%; }
+.vane-right { top: 4.6%; left: 93.5%; }
+.simone-right { top: 7.1%; left: 93.5%; }
 .sofi { top: 9.3%; left: 93.5%; }
 .manu-right { top: 12.3%; left: 93.5%; }
 .chari { top: 15.9%; left: 93.5%; }
@@ -719,6 +723,10 @@ html {
   .bea-top { top: 0%; left: 57%; }
   .manu-top { top: 0%; left: 62.9%; }
 
+  .aldo-right { top: -2.4%; left: 94%; }
+  .azzurra-right { top: 1.1%; left: 94%; }
+  .vane-right { top: 4.6%; left: 94%; }
+  .simone-right { top: 7.2%; left: 94%; }
   .sofi { top: 9%; left: 94%; }
   .manu-right { top: 11.6%; left: 94%; }
   .chari { top: 15.2%; left: 94%; }
