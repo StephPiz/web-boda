@@ -397,17 +397,14 @@
   height: 2.3%;
 }
 
-.azzurra { top: 0%; left: 22%; }
-.aldo { top: 0%; left: 29.5%; }
-.simone { top: 0%; left: 34%; }
-.vane { top: 0%; left: 40.5%; }
-.bea { top: 0%; left: 46%; }
-.manu-top { top: 0%; left: 51%; }
-.clau { top: 0%; left: 58%; }
-.sam { top: 0%; left: 63.6%; }
-.fabrizio,
-.nose,
-.vale { display: none; }
+.giulio { top: 0%; left: 22%; }
+.vale-top { top: 0%; left: 29.5%; }
+.nose-top { top: 0%; left: 34%; }
+.fabri { top: 0%; left: 40.5%; }
+.sam-top { top: 0%; left: 46%; }
+.clau-top { top: 0%; left: 51%; }
+.bea-top { top: 0%; left: 58%; }
+.manu-top { top: 0%; left: 63.6%; }
 
 .right-top {
   transform: rotate(90deg);
@@ -713,17 +710,14 @@ html {
     height: 2%;
   }
 
-  .azzurra { top: 0%; left: 20%; }
-  .aldo { top: 0%; left: 28.2%; }
-  .simone { top: 0%; left: 33%; }
-  .vane { top: 0%; left: 40.3%; }
-  .bea { top: 0%; left: 46%; }
-  .manu-top { top: 0%; left: 50.1%; }
-  .clau { top: 0%; left: 57%; }
-  .sam { top: 0%; left: 62.9%; }
-  .fabrizio,
-  .nose,
-  .vale { display: none; }
+  .giulio { top: 0%; left: 20%; }
+  .vale-top { top: 0%; left: 28.2%; }
+  .nose-top { top: 0%; left: 33%; }
+  .fabri { top: 0%; left: 40.3%; }
+  .sam-top { top: 0%; left: 46%; }
+  .clau-top { top: 0%; left: 50.1%; }
+  .bea-top { top: 0%; left: 57%; }
+  .manu-top { top: 0%; left: 62.9%; }
 
   .sofi { top: 9%; left: 94%; }
   .manu-right { top: 11.6%; left: 94%; }
