@@ -414,27 +414,27 @@
   transform-origin: left top;
 }
 
-.sofi { top: 9.3%; left: 94%; }
-.manu-right { top: 12.3%; left: 94%; }
-.chari { top: 15.9%; left: 94%; }
-.nito { top: 19.9%; left: 94%; }
-.sebas { top: 23%; left: 94%; }
-.miguel { top: 27%; left: 94%; }
-.martin { top: 31%; left: 94%; }
-.fio { top: 36%; left: 94%; }
-.sergio { top: 39%; left: 94%; }
-.brenda { top: 47%; left: 94%; }
-.roberto { top: 42.5%; left: 94%; }
-.ale { top: 51%; left: 94%; }
-.susi { top: 54.3%; left: 94%; }
-.diego { top: 57.5%; left: 94%; }
+.sofi { top: 9.3%; left: 101%; }
+.manu-right { top: 12.3%; left: 101%; }
+.chari { top: 15.9%; left: 101%; }
+.nito { top: 19.9%; left: 101%; }
+.sebas { top: 23%; left: 101%; }
+.miguel { top: 27%; left: 101%; }
+.martin { top: 31%; left: 101%; }
+.fio { top: 36%; left: 101%; }
+.sergio { top: 39%; left: 101%; }
+.brenda { top: 47%; left: 101%; }
+.roberto { top: 42.5%; left: 101%; }
+.ale { top: 51%; left: 101%; }
+.susi { top: 54.3%; left: 101%; }
+.diego { top: 57.5%; left: 101%; }
 
-.vicky { top: 64%; left: 94%; }
-.ruben { top: 67%; left: 94%; }
-.benito-2 { top: 71%; left: 94%; }
-.maria-luisa { top: 75%; left: 94%; }
-.juani { top: 79.8%; left: 94%; }
-.benito-1 { top: 83%; left: 94%; }
+.vicky { top: 64%; left: 101%; }
+.ruben { top: 67%; left: 101%; }
+.benito-2 { top: 71%; left: 101%; }
+.maria-luisa { top: 75%; left: 101%; }
+.juani { top: 79.8%; left: 101%; }
+.benito-1 { top: 83%; left: 101%; }
 
 .left-side {
   transform: rotate(-90deg);
