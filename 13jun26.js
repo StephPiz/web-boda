@@ -302,3 +302,52 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+
+// ── SUBIDA DE FOTOS A GOOGLE DRIVE ──────────────────────────────
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbw3xGmTaprfOV0b8s7wgyMc3jb5rwJjmPyTs1E-2nfpusprTeQD_U3aD9o3nbGgTvDhcQ/exec';
+
+document.getElementById('btnNormal').addEventListener('click', () => {
+  document.getElementById('fileInput').click();
+});
+
+document.getElementById('fileInput').addEventListener('change', async (e) => {
+  const files = Array.from(e.target.files);
+  if (!files.length) return;
+
+  const status = document.getElementById('uploadStatus');
+  status.textContent = `Subiendo ${files.length} foto(s)... ⏳`;
+
+  let ok = 0, fail = 0;
+
+  for (const file of files) {
+    try {
+      const base64 = await toBase64(file);
+      const res = await fetch(APPS_SCRIPT_URL, {
+        method: 'POST',
+        body: JSON.stringify({
+          filename: `${Date.now()}_${file.name}`,
+          mimeType: file.type,
+          data: base64
+        })
+      });
+      const json = await res.json();
+      if (json.status === 'ok') ok++;
+      else fail++;
+    } catch {
+      fail++;
+    }
+  }
+
+  status.textContent = `✅ ${ok} subida(s) correctamente${fail ? ` · ❌ ${fail} fallida(s)` : ''}`;
+  e.target.value = '';
+});
+
+function toBase64(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result.split(',')[1]);
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}

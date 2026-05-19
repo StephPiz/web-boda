@@ -88,16 +88,6 @@
         </article>
 
         <article class="inicio-family-card-13jun26">
-          <p>Katherine Pizan Ramos<br>Fiorella Portugal Medina</p>
-          <h3>Testigos</h3>
-        </article>
-
-        <article class="inicio-family-card-13jun26">
-          <p>Andrea Albanese<br>Aldo Scheffler</p>
-          <h3>Testigos</h3>
-        </article>
-
-        <article class="inicio-family-card-13jun26">
           <p>Susana Nieto Quispe<br>Beatrice Arena</p>
           <h3>Dama de Honor</h3>
         </article>
@@ -113,10 +103,25 @@
       <h2 class="details-title capture-title-13jun26">Captura el Momento</h2>
       <p class="capture-text-13jun26">Ayúdanos a guardar los instantes más bonitos de nuestro gran día</p>
 
+<!-- Input oculto para seleccionar fotos -->
+<input type="file" id="fileInput" accept="image/*" multiple style="display:none" />
+
+<div class="capture-buttons-13jun26">
+  <button class="btn capture-btn-13jun26" type="button" id="btnNormal">Normal</button>
+  <button id="btnVintage" class="btn capture-btn-13jun26" type="button">Vintage</button>
+</div>
+
+<!-- Estado de la subida -->
+<div id="uploadStatus" style="margin-top:1rem; font-size:0.9rem; text-align:center;"></div>
+    
+<!-- 
       <div class="capture-buttons-13jun26">
         <button class="btn capture-btn-13jun26" type="button">Normal</button>
         <button id="btnVintage" class="btn capture-btn-13jun26" type="button">Vintage</button>
       </div>
+ -->
+
+
 
       <div class="capture-image-wrap-13jun26">
         <img src="assets/baile01.png" alt="Ilustración de baile" class="capture-image-13jun26" />
@@ -129,19 +134,15 @@
         <img class="seat-image-13jun26" src="assets/mesa02.png" alt="Mapa de mesas" />
         <div class="seat-highlight seat-highlight-katy" aria-hidden="true"></div>
 
-        <span class="name giulio">Giulio</span>
-        <span class="name vale-top">Vale</span>
-        <span class="name nose-top">Nose</span>
-        <span class="name fabri">Fabri</span>
-        <span class="name sam-top">Sam</span>
-        <span class="name clau-top">Clau</span>
-        <span class="name bea-top">Bea</span>
-        <span class="name manu-top">Manu</span>
+        <span class="name azzurra">Giulio</span>
+        <span class="name aldo">Vale</span>
+        <span class="name simone">Nose</span>
+        <span class="name vane">Fabri</span>
+        <span class="name bea">Sam</span>
+        <span class="name manu-top">Clau</span>
+        <span class="name clau">Bea</span>
+        <span class="name sam">Manu</span>
 
-        <span class="name right-top aldo-right">Aldo</span>
-        <span class="name right-top azzurra-right">Azzurra</span>
-        <span class="name right-top vane-right">Vane</span>
-        <span class="name right-top simone-right">Simone</span>
         <span class="name right-top sofi">Sofi</span>
         <span class="name right-top manu-right">Manu</span>
         <span class="name right-top chari">Chari</span>
