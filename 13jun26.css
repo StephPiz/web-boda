@@ -121,6 +121,75 @@
   color: #111;
 }
 
+.staff-13jun26 {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+
+.staff-intro-13jun26 {
+  max-width: 900px;
+}
+
+.staff-list-13jun26 {
+  width: min(760px, 92vw);
+  margin: 64px auto 0;
+  display: grid;
+  gap: 56px;
+  justify-items: center;
+}
+
+.staff-card-13jun26 {
+  text-align: center;
+}
+
+.staff-card-photo-13jun26 {
+  margin-top: 8px;
+}
+
+.staff-photo-13jun26 {
+  width: 172px;
+  height: 172px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.staff-name-13jun26,
+.staff-handle-13jun26,
+.staff-role-13jun26 {
+  margin: 0;
+}
+
+.staff-name-13jun26 {
+  font-size: 24px;
+  line-height: 1.18;
+  color: #111;
+}
+
+.staff-handle-13jun26 {
+  margin-top: 4px;
+  font-size: 22px;
+  line-height: 1.18;
+}
+
+.staff-handle-13jun26 a {
+  color: rgba(0, 0, 0, 0.24);
+  text-decoration: none;
+}
+
+.staff-handle-13jun26 a:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.staff-role-13jun26 {
+  margin-top: 4px;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #111;
+}
+
 .page-13jun26 .details-title.capture-title-13jun26 {
   font-family: "SonicWaves", cursive;
   font-size: 60px;
@@ -741,12 +810,12 @@ html {
   .ale { top: 57%; left: 94%; }
   .susi { top: 59.1%; left: 94%; }
   .diego { top: 62.3%; left: 94%; }
-  .vicky { top: 66%; left: 94%; }
+  .vicky { top: 65.9%; left: 94%; }
   .ruben { top: 69%; left: 94%; }
   .benito-2 { top: 73%; left: 94%; }
-  .maria-luisa { top: 76.8%; left: 94%; }
-  .juani { top: 80.9%; left: 94%; }
-  .benito-1 { top: 83.9%; left: 94%; }
+  .maria-luisa { top: 76.3%; left: 94%; }
+  .juani { top: 80%; left: 94%; }
+  .benito-1 { top: 83.2%; left: 94%; }
 
   .enzo { top: 38%; left: 5%; }
   .katy { top: 41%; left: 5%; }
@@ -957,5 +1026,34 @@ html {
   .family-witnesses-md-13jun26 h3,
   .family-witnesses-kf-13jun26 h3 {
     display: none;
+  }
+
+  .staff-13jun26 {
+    padding-top: 96px;
+    padding-bottom: 72px;
+  }
+
+  .staff-list-13jun26 {
+    width: min(520px, 90vw);
+    margin-top: 42px;
+    gap: 44px;
+  }
+
+  .staff-photo-13jun26 {
+    width: 138px;
+    height: 138px;
+    margin-bottom: 16px;
+  }
+
+  .staff-name-13jun26 {
+    font-size: 18px;
+  }
+
+  .staff-handle-13jun26 {
+    font-size: 16px;
+  }
+
+  .staff-role-13jun26 {
+    font-size: 18px;
   }
 }
