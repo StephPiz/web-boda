@@ -36,7 +36,7 @@
 
 .invite-main-13jun26 {
   padding-top: 36px;
-  padding-bottom: 40px;
+  padding-bottom: 0;
 }
 
 .intro-13jun26 {
@@ -781,6 +781,7 @@ html {
 
   .invite-main-13jun26 {
     padding-top: 42px;
+    padding-bottom: 0;
   }
 
   .intro-13jun26 {
