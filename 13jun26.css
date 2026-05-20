@@ -204,8 +204,9 @@
 
 .closing-banner-13jun26 {
   position: relative;
-  width: 100%;
-  margin: 0 auto;
+  width: 100vw;
+  max-width: none;
+  margin: 0 calc(50% - 50vw);
   overflow: hidden;
   line-height: 0;
 }
