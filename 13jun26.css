@@ -714,14 +714,14 @@ html {
     height: 2%;
   }
 
-  .giulio { top: 0%; left: 20%; }
-  .vale-top { top: 0%; left: 28.2%; }
-  .nose-top { top: 0%; left: 33%; }
-  .fabri { top: 0%; left: 40.3%; }
-  .sam-top { top: 0%; left: 46%; }
-  .clau-top { top: 0%; left: 50.1%; }
-  .bea-top { top: 0%; left: 57%; }
-  .manu-top { top: 0%; left: 62.9%; }
+  .giulio { top: 0%; left: 35%; }
+  .vale-top { top: 0%; left: 43%; }
+  .nose-top { top: 0%; left: 49%; }
+  .fabri { top: 0%; left: 55%; }
+  .sam-top { top: 0%; left: 61%; }
+  .clau-top { top: 0%; left: 66.9%; }
+  .bea-top { top: 0%; left: 73%; }
+  .manu-top { top: 0%; left: 78%; }
 
   .aldo-right { top: -2.4%; left: 94%; }
   .azzurra-right { top: 1.1%; left: 94%; }
@@ -739,23 +739,23 @@ html {
   .brenda { top: 45%; left: 94%; }
   .roberto { top: 40.8%; left: 94%; }
   .ale { top: 49%; left: 94%; }
-  .susi { top: 52%; left: 94%; }
-  .diego { top: 55%; left: 94%; }
-  .vicky { top: 60%; left: 94%; }
-  .ruben { top: 63.3%; left: 94%; }
-  .benito-2 { top: 67.2%; left: 94%; }
-  .maria-luisa { top: 71.3%; left: 94%; }
-  .juani { top: 75.9%; left: 94%; }
-  .benito-1 { top: 79.8%; left: 94%; }
+  .susi { top: 59.8%; left: 94%; }
+  .diego { top: 62.3%; left: 94%; }
+  .vicky { top: 66%; left: 94%; }
+  .ruben { top: 69%; left: 94%; }
+  .benito-2 { top: 73%; left: 94%; }
+  .maria-luisa { top: 76.8%; left: 94%; }
+  .juani { top: 80.9%; left: 94%; }
+  .benito-1 { top: 84%; left: 94%; }
 
   .enzo { top: 29.6%; left: 5%; }
   .katy { top: 33.9%; left: 5%; }
   .josefina { top: 38.8%; left: 5%; }
-  .mauro { top: 42%; left: 5%; }
-  .manuela { top: 57%; left: 5%; }
-  .olivero { top: 61%; left: 5%; }
-  .andrea { top: 65%; left: 5%; }
-  .sara { top: 68%; left: 5%; }
+  .mauro { top: 49%; left: 5%; }
+  .manuela { top: 63%; left: 5%; }
+  .olivero { top: 67%; left: 5%; }
+  .andrea { top: 71%; left: 5%; }
+  .sara { top: 74%; left: 5%; }
 
   .seat-guests-pill-13jun26 {
     margin-top: 16px;
