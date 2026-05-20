@@ -953,4 +953,9 @@ html {
   .family-witnesses-kf-13jun26 { order: 4; }
   .family-witnesses-aa-13jun26 { order: 5; }
   .family-honor-13jun26 { order: 6; }
+
+  .family-witnesses-md-13jun26 h3,
+  .family-witnesses-kf-13jun26 h3 {
+    display: none;
+  }
 }
