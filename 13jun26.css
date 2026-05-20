@@ -728,6 +728,10 @@
   background: #fff;
 }
 
+.capture-btn-hidden-13jun26 {
+  display: none;
+}
+
 .capture-image-wrap-13jun26 {
   display: flex;
   justify-content: center;
