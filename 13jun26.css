@@ -190,6 +190,18 @@
   color: #111;
 }
 
+.staff-ball-wrap-13jun26 {
+  display: flex;
+  justify-content: center;
+  margin-top: 52px;
+}
+
+.staff-ball-13jun26 {
+  width: min(360px, 58vw);
+  height: auto;
+  display: block;
+}
+
 .page-13jun26 .details-title.capture-title-13jun26 {
   font-family: "SonicWaves", cursive;
   font-size: 60px;
@@ -1055,5 +1067,13 @@ html {
 
   .staff-role-13jun26 {
     font-size: 18px;
+  }
+
+  .staff-ball-wrap-13jun26 {
+    margin-top: 38px;
+  }
+
+  .staff-ball-13jun26 {
+    width: min(280px, 62vw);
   }
 }
