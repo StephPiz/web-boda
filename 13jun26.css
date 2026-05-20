@@ -207,6 +207,12 @@
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
+  line-height: 0;
+}
+
+.closing-banner-13jun26 picture {
+  display: block;
+  width: 100%;
 }
 
 .closing-banner-image-13jun26 {
