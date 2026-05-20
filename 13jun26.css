@@ -235,26 +235,42 @@
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  line-height: 0.98;
+  line-height: 1.2;
   letter-spacing: 0;
 }
 
-.closing-banner-line-small-13jun26 {
+.closing-banner-line-1-13jun26 {
   font-size: clamp(30px, 3vw, 40px);
 }
 
-.closing-banner-line-medium-13jun26 {
+.closing-banner-line-2-13jun26 {
+  font-size: clamp(58px, 6vw, 82px);
+}
+
+.closing-banner-line-2-13jun26 span {
+  font-size: 0.48em;
+  vertical-align: middle;
+}
+
+.closing-banner-line-3-13jun26 {
+  font-size: clamp(30px, 3vw, 40px);
+}
+
+.closing-banner-line-4-13jun26 {
+  font-size: clamp(58px, 6vw, 82px);
+}
+
+.closing-banner-line-5-13jun26 {
   font-size: clamp(30px, 3.2vw, 42px);
   margin-top: 8px;
 }
 
-.closing-banner-line-xl-13jun26 {
-  font-size: clamp(58px, 6vw, 82px);
+.closing-banner-line-6-13jun26 {
+  font-size: clamp(30px, 3.2vw, 42px);
 }
 
-.closing-banner-line-xl-13jun26 span {
-  font-size: 0.48em;
-  vertical-align: middle;
+.closing-banner-line-7-13jun26 {
+  font-size: clamp(30px, 3.2vw, 42px);
 }
 
 .page-13jun26 .details-title.capture-title-13jun26 {
@@ -1143,16 +1159,28 @@ html {
     width: 76%;
   }
 
-  .closing-banner-line-small-13jun26 {
+  .closing-banner-image-13jun26 {
+    width: 200%;
+    transform: translateX(-35%);
+  }
+
+  .closing-banner-line-1-13jun26,
+  .closing-banner-line-3-13jun26 {
     font-size: clamp(18px, 5vw, 28px);
   }
 
-  .closing-banner-line-medium-13jun26 {
-    font-size: clamp(18px, 5vw, 28px);
-    margin-top: 6px;
-  }
-
-  .closing-banner-line-xl-13jun26 {
+  .closing-banner-line-2-13jun26,
+  .closing-banner-line-4-13jun26 {
     font-size: clamp(40px, 11vw, 58px);
+  }
+
+  .closing-banner-line-5-13jun26,
+  .closing-banner-line-6-13jun26,
+  .closing-banner-line-7-13jun26 {
+    font-size: clamp(18px, 5vw, 28px);
+  }
+
+  .closing-banner-line-5-13jun26 {
+    margin-top: 6px;
   }
 }
