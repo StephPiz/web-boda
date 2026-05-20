@@ -233,8 +233,9 @@
 
 .closing-banner-line-13jun26 {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 700 !important;
+  font-style: normal;
   line-height: 1.2;
   letter-spacing: 0;
 }
