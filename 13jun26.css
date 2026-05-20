@@ -708,7 +708,7 @@ html {
   }
 
   .seating-map.show-seat-katy .seat-highlight-katy {
-    top: 31.5%;
+    top: 39%;
     left: 9%;
     width: 5%;
     height: 2%;
@@ -723,10 +723,10 @@ html {
   .bea-top { top: 0%; left: 73%; }
   .manu-top { top: 0%; left: 78%; }
 
-  .aldo-right { top: -2.4%; left: 94%; }
-  .azzurra-right { top: 1.1%; left: 94%; }
-  .vane-right { top: 4.6%; left: 94%; }
-  .simone-right { top: 7.2%; left: 94%; }
+  .aldo-right { top: 5%; left: 94%; }
+  .azzurra-right { top: 8%; left: 94%; }
+  .vane-right { top: 12%; left: 94%; }
+  .simone-right { top: 14.7%; left: 94%; }
   .sofi { top: 19%; left: 94%; }
   .manu-right { top: 21.7%; left: 94%; }
   .chari { top: 25%; left: 94%; }
