@@ -204,7 +204,7 @@
 
 .closing-banner-13jun26 {
   position: relative;
-  width: min(910px, 100vw);
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -212,6 +212,7 @@
 .closing-banner-image-13jun26 {
   width: 100%;
   display: block;
+  object-position: center;
 }
 
 .closing-banner-copy-13jun26 {
