@@ -946,4 +946,11 @@ html {
   .inicio-family-card-13jun26 h3 {
     font-size: 18px;
   }
+
+  .family-bride-parents-13jun26 { order: 1; }
+  .family-groom-parents-13jun26 { order: 2; }
+  .family-witnesses-md-13jun26 { order: 3; }
+  .family-witnesses-kf-13jun26 { order: 4; }
+  .family-witnesses-aa-13jun26 { order: 5; }
+  .family-honor-13jun26 { order: 6; }
 }
