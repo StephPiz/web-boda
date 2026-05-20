@@ -391,7 +391,7 @@
 
 .seating-map.show-seat-katy .seat-highlight-katy {
   display: block;
-  top: 33%;
+  top: 40.6%;
   left: 9%;
   width: 5%;
   height: 2.3%;
@@ -411,27 +411,27 @@
   transform-origin: left top;
 }
 
-.aldo-right { top: -2.5%; left: 93.5%; }
-.azzurra-right { top: 1%; left: 93.5%; }
-.vane-right { top: 4.6%; left: 93.5%; }
-.simone-right { top: 7.1%; left: 93.5%; }
-.sofi { top: 9.3%; left: 93.5%; }
-.manu-right { top: 12.3%; left: 93.5%; }
-.chari { top: 15.9%; left: 93.5%; }
-.nito { top: 19.9%; left: 93.5%; }
-.sebas { top: 23%; left: 93.5%; }
-.miguel { top: 27%; left: 93.5%; }
-.martin { top: 31%; left: 93.5%; }
-.fio { top: 36%; left: 93.5%; }
-.sergio { top: 39%; left: 93.5%; }
-.brenda { top: 47%; left: 93.5%; }
-.roberto { top: 42.5%; left: 93.5%; }
-.ale { top: 51%; left: 93.5%; }
-.susi { top: 54.3%; left: 93.5%; }
-.diego { top: 57.5%; left: 93.5%; }
+.aldo-right { top: 6%; left: 93.5%; }
+.azzurra-right { top: 9%; left: 93.5%; }
+.vane-right { top: 13%; left: 93.5%; }
+.simone-right { top: 15.8%; left: 93.5%; }
+.sofi { top: 19.9%; left: 93.5%; }
+.manu-right { top: 23%; left: 93.5%; }
+.chari { top: 26.1%; left: 93.5%; }
+.nito { top: 30%; left: 93.5%; }
+.sebas { top: 33%; left: 93.5%; }
+.miguel { top: 37%; left: 93.5%; }
+.martin { top: 41%; left: 93.5%; }
+.fio { top: 45.7%; left: 93.5%; }
+.sergio { top: 48%; left: 93.5%; }
+.roberto { top: 51.3%; left: 93.5%; }
+.brenda { top: 55.5%; left: 93.5%; }
+.ale { top: 59.7%; left: 93.5%; }
+.susi { top: 62.7%; left: 93.5%; }
+.diego { top: 65.7%; left: 93.5%; }
 
-.vicky { top: 64%; left: 93.5%; }
-.ruben { top: 67%; left: 93.5%; }
+.vicky { top: 69%; left: 93.5%; }
+.ruben { top: 72.7%; left: 93.5%; }
 .benito-2 { top: 76.5%; left: 93.5%; }
 .maria-luisa { top: 80%; left: 93.5%; }
 .juani { top: 84%; left: 93.5%; }
