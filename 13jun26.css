@@ -202,6 +202,53 @@
   display: block;
 }
 
+.closing-banner-13jun26 {
+  position: relative;
+  width: min(910px, 100vw);
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.closing-banner-image-13jun26 {
+  width: 100%;
+  display: block;
+}
+
+.closing-banner-copy-13jun26 {
+  position: absolute;
+  left: 9.5%;
+  bottom: 9%;
+  width: min(560px, 62%);
+  text-align: left;
+  color: #000;
+}
+
+.closing-banner-line-13jun26 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 0.98;
+  letter-spacing: 0;
+}
+
+.closing-banner-line-small-13jun26 {
+  font-size: clamp(30px, 3vw, 40px);
+}
+
+.closing-banner-line-medium-13jun26 {
+  font-size: clamp(30px, 3.2vw, 42px);
+  margin-top: 8px;
+}
+
+.closing-banner-line-xl-13jun26 {
+  font-size: clamp(58px, 6vw, 82px);
+}
+
+.closing-banner-line-xl-13jun26 span {
+  font-size: 0.48em;
+  vertical-align: middle;
+}
+
 .page-13jun26 .details-title.capture-title-13jun26 {
   font-family: "SonicWaves", cursive;
   font-size: 60px;
@@ -1075,5 +1122,24 @@ html {
 
   .staff-ball-13jun26 {
     width: min(280px, 62vw);
+  }
+
+  .closing-banner-copy-13jun26 {
+    left: 9%;
+    bottom: 8%;
+    width: 76%;
+  }
+
+  .closing-banner-line-small-13jun26 {
+    font-size: clamp(18px, 5vw, 28px);
+  }
+
+  .closing-banner-line-medium-13jun26 {
+    font-size: clamp(18px, 5vw, 28px);
+    margin-top: 6px;
+  }
+
+  .closing-banner-line-xl-13jun26 {
+    font-size: clamp(40px, 11vw, 58px);
   }
 }
