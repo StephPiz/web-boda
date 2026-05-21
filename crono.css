@@ -172,6 +172,37 @@
   border-bottom: 0;
 }
 
+.crono-info-card {
+  display: grid;
+  gap: 34px;
+  text-align: left;
+}
+
+.crono-info-block {
+  display: grid;
+  gap: 14px;
+}
+
+.crono-info-title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #111;
+}
+
+.crono-info-list {
+  display: grid;
+  gap: 10px;
+}
+
+.crono-info-list p {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.55;
+  color: rgba(0, 0, 0, 0.82);
+}
+
 .crono-back {
   margin: 12px auto 0;
 }
@@ -238,5 +269,18 @@
     font-size: 14px;
     line-height: 1.45;
     min-width: 132px;
+  }
+
+  .crono-info-card {
+    gap: 28px;
+  }
+
+  .crono-info-title {
+    font-size: 18px;
+  }
+
+  .crono-info-list p {
+    font-size: 15px;
+    line-height: 1.5;
   }
 }
