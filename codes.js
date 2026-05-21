@@ -65,9 +65,12 @@ const CODES = [
   { code: "0004", name: "Fernando Molina" },
   { code: "0005", name: "María Berdejo" },
   { code: "0006", name: "Laura Guijarro" },
-  { code: "0007", name: "Bea" },
+  { code: "0007", name: "Bibi" },
   { code: "0008", name: "Guzo" },
   { code: "0009", name: "Mani" },
   { code: "0010", name: "Lacra" },
   { code: "0011", name: "Steph" },
+  { code: "0012", name: "Ale" },
+  { code: "0013", name: "Palomo" },
+  { code: "0014", name: "Diego" },
 ];

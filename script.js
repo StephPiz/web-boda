@@ -2,8 +2,10 @@ let lang = 'es';
 let guestName = '';
 let targetPage = 'invitation.html';
 
-const CRONO_CODES = new Set(['0007', '0008', '0009', '0010', '0011']);
-const CRONO_MESSAGE = 'Gracias por estar tan involucrada en este día tan especial para nosotros 🤍';
+const CRONO_FEMALE_CODES = new Set(['0007', '0008', '0009', '0010', '0011']);
+const CRONO_MALE_CODES = new Set(['0012', '0013', '0014']);
+const CRONO_MESSAGE_FEMALE = 'Gracias por estar tan involucrada en este día tan especial para nosotros 🤍';
+const CRONO_MESSAGE_MALE = 'Gracias por estar tan involucrado en este día tan especial para nosotros 🤍';
 const CRONO_BUTTON_TEXT = 'Ver Cronograma';
 
 const T = {
@@ -97,14 +99,18 @@ function submitCode(){
   //xd
 
   guestName = found.name;
-  targetPage = CRONO_CODES.has(found.code) ? 'crono.html' : 'invitation.html';
+  targetPage = (CRONO_FEMALE_CODES.has(found.code) || CRONO_MALE_CODES.has(found.code))
+    ? 'crono.html'
+    : 'invitation.html';
 
   // ✅ idioma automático según " e " o " y "
   lang = autoLangFromText(found.code) || autoLangFromText(guestName) || lang;
 
   const plural = isPlural(found.code) || isPlural(guestName);
-  const line = CRONO_CODES.has(found.code)
-    ? `${guestName}, ${CRONO_MESSAGE}`
+  const line = CRONO_FEMALE_CODES.has(found.code)
+    ? `${guestName}, ${CRONO_MESSAGE_FEMALE}`
+    : CRONO_MALE_CODES.has(found.code)
+    ? `${guestName}, ${CRONO_MESSAGE_MALE}`
     : (plural ? T[lang].plural(guestName) : T[lang].singular(guestName));
 
   // Oculta pantallas
@@ -116,7 +122,7 @@ function submitCode(){
   document.getElementById('page').classList.remove('hidden');
 
   document.getElementById('heroText').textContent = line;
-  document.getElementById('heroBtn').textContent = CRONO_CODES.has(found.code)
+  document.getElementById('heroBtn').textContent = (CRONO_FEMALE_CODES.has(found.code) || CRONO_MALE_CODES.has(found.code))
     ? CRONO_BUTTON_TEXT
     : T[lang].viewInvite;
 
