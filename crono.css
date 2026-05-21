@@ -177,6 +177,16 @@
   border-bottom: 0;
 }
 
+.crono-mini-table-wrap {
+  margin-top: 2px;
+}
+
+.crono-mini-table th,
+.crono-mini-table td {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .crono-info-card {
   display: grid;
   gap: 46px;
