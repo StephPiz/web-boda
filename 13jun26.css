@@ -295,7 +295,7 @@
 }
 
 .closing-banner-line-2-13jun26 {
-  font-size: 68.18px;
+  font-size: 35.47px;
 }
 
 .closing-word-es-13jun26 {
@@ -308,7 +308,7 @@
 }
 
 .closing-banner-line-4-13jun26 {
-  font-size: 68.18px;
+  font-size: 35.47px;
 }
 
 .closing-banner-line-5-13jun26 {
@@ -322,6 +322,16 @@
 
 .closing-banner-line-7-13jun26 {
   font-size: 35.47px;
+}
+
+.felicidad-13jun26 {
+  font-size: 68.18px;
+  line-height: 1;
+}
+
+.compartes-13jun26 {
+  font-size: 68.18px;
+  line-height: 1;
 }
 
 .page-13jun26 .details-title.capture-title-13jun26 {
@@ -1225,7 +1235,7 @@ html {
   }
 
   .closing-banner-line-2-13jun26 {
-    font-size: 54px;
+    font-size: 23px;
   }
 
   .closing-banner-line-3-13jun26 {
@@ -1234,7 +1244,7 @@ html {
   }
 
   .closing-banner-line-4-13jun26 {
-    font-size: 56px;
+    font-size: 23px;
     margin-top: 2px;
   }
 
@@ -1249,10 +1259,20 @@ html {
   }
 
   .closing-word-es-13jun26 {
-    font-size: 20px;
+    font-size: 23px;
     margin-left: 6px;
     vertical-align: middle;
     transform: translateY(-2px);
+  }
+
+  .felicidad-13jun26 {
+    font-size: 46px;
+    line-height: 1;
+  }
+
+  .compartes-13jun26 {
+    font-size: 46px;
+    line-height: 1;
   }
 
   .lo-13jun26 {}
