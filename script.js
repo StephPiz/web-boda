@@ -3,6 +3,7 @@ let guestName = '';
 let targetPage = 'invitation.html';
 
 const CRONO_CODES = new Set(['0007', '0008', '0009', '0010', '0011']);
+const CRONO_MESSAGE = 'Gracias por estar tan involucrada en este día tan especial para nosotros 🤍';
 
 const T = {
   es: {
@@ -101,7 +102,9 @@ function submitCode(){
   lang = autoLangFromText(found.code) || autoLangFromText(guestName) || lang;
 
   const plural = isPlural(found.code) || isPlural(guestName);
-  const line = plural ? T[lang].plural(guestName) : T[lang].singular(guestName);
+  const line = CRONO_CODES.has(found.code)
+    ? CRONO_MESSAGE
+    : (plural ? T[lang].plural(guestName) : T[lang].singular(guestName));
 
   // Oculta pantallas
   document.getElementById('code-screen').classList.remove('active');
