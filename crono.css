@@ -273,6 +273,10 @@
   margin-top: 4px;
 }
 
+.ceremony-name-mobile {
+  display: none;
+}
+
 .crono-secondary-section {
   display: grid;
   gap: 22px;
@@ -389,7 +393,7 @@
   }
 
   .ceremony-layout-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 14px;
   }
 
@@ -406,6 +410,14 @@
   .ceremony-layout-card p {
     font-size: 15px;
     line-height: 1.45;
+  }
+
+  .ceremony-name-desktop {
+    display: none;
+  }
+
+  .ceremony-name-mobile {
+    display: inline;
   }
 
   .crono-secondary-heading {
