@@ -75,6 +75,12 @@
   color: rgba(0, 0, 0, 0.68);
 }
 
+.crono-btn-subtitle {
+  display: block;
+  margin-top: 6px;
+  line-height: 1.2;
+}
+
 .crono-detail {
   display: grid;
   gap: 22px;
