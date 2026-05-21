@@ -116,6 +116,12 @@
   color: rgba(0, 0, 0, 0.74);
 }
 
+.crono-subtitle-compact {
+  margin-top: -8px;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
 .crono-card {
   padding: 34px 24px;
   border: 1px solid rgba(0, 0, 0, 0.08);
@@ -319,6 +325,11 @@
   .crono-text {
     font-size: 17px;
     line-height: 1.5;
+  }
+
+  .crono-subtitle-compact {
+    margin-top: -4px;
+    font-size: 14px;
   }
 
   .crono-actions {
