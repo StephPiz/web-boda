@@ -69,4 +69,5 @@ const CODES = [
   { code: "0008", name: "Susi" },
   { code: "0009", name: "Kats" },
   { code: "0010", name: "Fio" },
+  { code: "0011", name: "Steph" },
 ];
