@@ -1182,8 +1182,8 @@ html {
 
   .closing-banner-copy-13jun26 {
     left: 9%;
-    bottom: 8%;
-    width: 76%;
+    bottom: 12%;
+    width: 78%;
   }
 
   .closing-banner-image-13jun26 {
@@ -1191,23 +1191,41 @@ html {
     transform: translateX(-35%);
   }
 
-  .closing-banner-line-1-13jun26,
-  .closing-banner-line-3-13jun26 {
-    font-size: clamp(18px, 5vw, 28px);
+  .closing-banner-line-13jun26 {
+    line-height: 1.06;
   }
 
-  .closing-banner-line-2-13jun26,
+  .closing-banner-line-1-13jun26 {
+    font-size: 16px;
+  }
+
+  .closing-banner-line-2-13jun26 {
+    font-size: 30px;
+  }
+
+  .closing-banner-line-3-13jun26 {
+    font-size: 16px;
+    margin-top: 2px;
+  }
+
   .closing-banner-line-4-13jun26 {
-    font-size: clamp(40px, 11vw, 58px);
+    font-size: 31px;
+    margin-top: 1px;
   }
 
   .closing-banner-line-5-13jun26,
   .closing-banner-line-6-13jun26,
   .closing-banner-line-7-13jun26 {
-    font-size: clamp(18px, 5vw, 28px);
+    font-size: 16px;
   }
 
   .closing-banner-line-5-13jun26 {
-    margin-top: 6px;
+    margin-top: 3px;
+  }
+
+  .closing-word-es-13jun26 {
+    font-size: 0.42em;
+    margin-left: 2px;
+    vertical-align: baseline;
   }
 }
