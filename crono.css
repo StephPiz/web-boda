@@ -109,6 +109,11 @@
   color: #111;
 }
 
+.crono-heading-compact {
+  font-size: clamp(20px, 2.4vw, 32px);
+  line-height: 1.12;
+}
+
 .crono-subtitle {
   margin: 0;
   font-size: 20px;
@@ -335,6 +340,10 @@
   .crono-subtitle-compact {
     margin-top: -4px;
     font-size: 14px;
+  }
+
+  .crono-heading-compact {
+    font-size: 18px;
   }
 
   .crono-actions {
