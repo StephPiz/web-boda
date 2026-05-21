@@ -4,6 +4,7 @@ let targetPage = 'invitation.html';
 
 const CRONO_CODES = new Set(['0007', '0008', '0009', '0010', '0011']);
 const CRONO_MESSAGE = 'Gracias por estar tan involucrada en este día tan especial para nosotros 🤍';
+const CRONO_BUTTON_TEXT = 'Ver Cronograma';
 
 const T = {
   es: {
@@ -115,7 +116,9 @@ function submitCode(){
   document.getElementById('page').classList.remove('hidden');
 
   document.getElementById('heroText').textContent = line;
-  document.getElementById('heroBtn').textContent = T[lang].viewInvite;
+  document.getElementById('heroBtn').textContent = CRONO_CODES.has(found.code)
+    ? CRONO_BUTTON_TEXT
+    : T[lang].viewInvite;
 
   window.scrollTo({ top: 0, behavior: 'instant' });
 }
