@@ -187,6 +187,11 @@
   margin-top: 2px;
 }
 
+.crono-inline-table-card {
+  padding: 10px 24px 6px;
+  background: rgba(255, 255, 255, 0.94);
+}
+
 .crono-mini-table th,
 .crono-mini-table td {
   padding-left: 0;
@@ -369,6 +374,10 @@
   .crono-table th,
   .crono-table td {
     padding: 14px 14px;
+  }
+
+  .crono-inline-table-card {
+    padding: 8px 16px 4px;
   }
 
   .crono-table th {
