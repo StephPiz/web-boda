@@ -114,6 +114,11 @@
   line-height: 1.12;
 }
 
+.crono-heading-centered {
+  width: 100%;
+  text-align: center;
+}
+
 .crono-subtitle {
   margin: 0;
   font-size: 20px;
