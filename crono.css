@@ -240,6 +240,39 @@
   border-radius: 18px;
 }
 
+.ceremony-layout-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.ceremony-layout-card {
+  padding: 18px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.56);
+  text-align: left;
+}
+
+.ceremony-layout-card h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  color: #111;
+}
+
+.ceremony-layout-card p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.82);
+}
+
+.ceremony-layout-card p + p {
+  margin-top: 4px;
+}
+
 .crono-secondary-section {
   display: grid;
   gap: 22px;
@@ -353,6 +386,26 @@
 
   .crono-map-image {
     border-radius: 14px;
+  }
+
+  .ceremony-layout-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .ceremony-layout-card {
+    padding: 16px 16px;
+    border-radius: 18px;
+  }
+
+  .ceremony-layout-card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .ceremony-layout-card p {
+    font-size: 15px;
+    line-height: 1.45;
   }
 
   .crono-secondary-heading {
