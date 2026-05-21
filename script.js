@@ -1,5 +1,8 @@
 let lang = 'es';
 let guestName = '';
+let targetPage = 'invitation.html';
+
+const CRONO_CODES = new Set(['0007', '0008', '0009', '0010', '0011']);
 
 const T = {
   es: {
@@ -92,6 +95,7 @@ function submitCode(){
   //xd
 
   guestName = found.name;
+  targetPage = CRONO_CODES.has(found.code) ? 'crono.html' : 'invitation.html';
 
   // ✅ idioma automático según " e " o " y "
   lang = autoLangFromText(found.code) || autoLangFromText(guestName) || lang;
@@ -114,7 +118,7 @@ function submitCode(){
 }
 
 function goToInvitationPage(){
-  const url = new URL('invitation.html', window.location.href);
+  const url = new URL(targetPage, window.location.href);
   url.searchParams.set('lang', lang);
   if(guestName) url.searchParams.set('name', guestName);
   window.location.href = url.toString();
