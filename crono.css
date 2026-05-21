@@ -131,6 +131,47 @@
   color: rgba(0, 0, 0, 0.74);
 }
 
+.crono-table-card {
+  padding: 10px 0 0;
+  overflow: hidden;
+}
+
+.crono-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.crono-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  color: #111;
+}
+
+.crono-table th,
+.crono-table td {
+  padding: 18px 20px;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.crono-table th {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.78);
+}
+
+.crono-table td {
+  font-size: 16px;
+  line-height: 1.55;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.crono-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
 .crono-back {
   margin: 12px auto 0;
 }
@@ -182,5 +223,20 @@
   .crono-placeholder {
     font-size: 16px;
     line-height: 1.55;
+  }
+
+  .crono-table th,
+  .crono-table td {
+    padding: 14px 14px;
+  }
+
+  .crono-table th {
+    font-size: 12px;
+  }
+
+  .crono-table td {
+    font-size: 14px;
+    line-height: 1.45;
+    min-width: 132px;
   }
 }
