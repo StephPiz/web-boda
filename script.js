@@ -104,7 +104,7 @@ function submitCode(){
 
   const plural = isPlural(found.code) || isPlural(guestName);
   const line = CRONO_CODES.has(found.code)
-    ? CRONO_MESSAGE
+    ? `${guestName}, ${CRONO_MESSAGE}`
     : (plural ? T[lang].plural(guestName) : T[lang].singular(guestName));
 
   // Oculta pantallas
