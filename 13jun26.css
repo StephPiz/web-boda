@@ -245,6 +245,11 @@
   font-weight: 700 !important;
   font-style: normal;
   display: inline-block;
+  position: relative;
+  left: 0;
+  top: 0;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 .closing-word-lo-13jun26 {}
@@ -265,6 +270,25 @@
 .closing-word-la-vida-13jun26 {}
 .closing-word-merezca-13jun26 {}
 .closing-word-la-pena-13jun26 {}
+
+.lo-13jun26 {}
+.mejor-13jun26 {}
+.de-13jun26 {}
+.la-13jun26 {}
+.felicidad-13jun26 {}
+.es-13jun26 {}
+.cuando-13jun26 {}
+.la-2-13jun26 {}
+.compartes-13jun26 {}
+.con-13jun26 {}
+.las-13jun26 {}
+.personas-13jun26 {}
+.que-13jun26 {}
+.hacen-13jun26 {}
+.que-2-13jun26 {}
+.la-vida-13jun26 {}
+.merezca-13jun26 {}
+.la-pena-13jun26 {}
 
 .closing-banner-line-1-13jun26 {
   font-size: clamp(30px, 3vw, 40px);
@@ -1230,4 +1254,23 @@ html {
     vertical-align: middle;
     transform: translateY(-2px);
   }
+
+  .lo-13jun26 {}
+  .mejor-13jun26 {}
+  .de-13jun26 {}
+  .la-13jun26 {}
+  .felicidad-13jun26 {}
+  .es-13jun26 {}
+  .cuando-13jun26 {}
+  .la-2-13jun26 {}
+  .compartes-13jun26 {}
+  .con-13jun26 {}
+  .las-13jun26 {}
+  .personas-13jun26 {}
+  .que-13jun26 {}
+  .hacen-13jun26 {}
+  .que-2-13jun26 {}
+  .la-vida-13jun26 {}
+  .merezca-13jun26 {}
+  .la-pena-13jun26 {}
 }
