@@ -240,6 +240,32 @@
   letter-spacing: 0;
 }
 
+.closing-word-13jun26 {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  display: inline-block;
+}
+
+.closing-word-lo-13jun26 {}
+.closing-word-mejor-13jun26 {}
+.closing-word-de-13jun26 {}
+.closing-word-la-13jun26 {}
+.closing-word-felicidad-13jun26 {}
+.closing-word-es-13jun26 {}
+.closing-word-cuando-13jun26 {}
+.closing-word-la-2-13jun26 {}
+.closing-word-compartes-13jun26 {}
+.closing-word-con-13jun26 {}
+.closing-word-las-13jun26 {}
+.closing-word-personas-13jun26 {}
+.closing-word-que-13jun26 {}
+.closing-word-hacen-13jun26 {}
+.closing-word-que-2-13jun26 {}
+.closing-word-la-vida-13jun26 {}
+.closing-word-merezca-13jun26 {}
+.closing-word-la-pena-13jun26 {}
+
 .closing-banner-line-1-13jun26 {
   font-size: clamp(30px, 3vw, 40px);
 }
@@ -248,7 +274,7 @@
   font-size: clamp(58px, 6vw, 82px);
 }
 
-.closing-banner-line-2-13jun26 span {
+.closing-word-es-13jun26 {
   font-size: 0.48em;
   vertical-align: middle;
 }
