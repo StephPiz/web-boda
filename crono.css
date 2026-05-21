@@ -228,6 +228,18 @@
   color: #111;
 }
 
+.crono-map-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.crono-map-image {
+  width: min(100%, 720px);
+  height: auto;
+  display: block;
+  border-radius: 18px;
+}
+
 .crono-secondary-section {
   display: grid;
   gap: 22px;
@@ -337,6 +349,10 @@
   .crono-info-block {
     gap: 12px;
     padding-bottom: 20px;
+  }
+
+  .crono-map-image {
+    border-radius: 14px;
   }
 
   .crono-secondary-heading {
