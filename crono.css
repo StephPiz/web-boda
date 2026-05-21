@@ -223,6 +223,18 @@
   gap: 22px;
 }
 
+.crono-separator-image-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 12px 0 8px;
+}
+
+.crono-separator-image {
+  width: min(220px, 36vw);
+  height: auto;
+  display: block;
+}
+
 .crono-secondary-heading {
   margin: 18px 0 0;
   font-size: clamp(28px, 3.2vw, 42px);
@@ -320,5 +332,9 @@
   .crono-secondary-heading {
     margin-top: 10px;
     font-size: 24px;
+  }
+
+  .crono-separator-image {
+    width: min(160px, 42vw);
   }
 }
