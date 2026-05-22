@@ -347,8 +347,21 @@
         </div>
       </section>
 
-      <a class="btn crono-back" href="crono.html">Volver</a>
+      <a class="btn crono-back" id="cronoBackLink" href="crono.html">Volver</a>
     </section>
   </main>
+  <script>
+    (() => {
+      const params = new URLSearchParams(window.location.search);
+      const backLink = document.getElementById('cronoBackLink');
+      if (!backLink) return;
+      const url = new URL('crono.html', window.location.href);
+      ['lang', 'name', 'code'].forEach((key) => {
+        const value = params.get(key);
+        if (value) url.searchParams.set(key, value);
+      });
+      backLink.href = url.toString();
+    })();
+  </script>
 </body>
 </html>

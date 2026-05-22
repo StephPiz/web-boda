@@ -9,26 +9,26 @@
 </head>
 <body class="crono-page">
   <main class="crono-shell">
-    <h1 class="crono-title">Cronograma</h1>
-    <p class="crono-text">Elige una parte del día para ver su página correspondiente.</p>
+    <h1 class="crono-title" id="cronoPageTitle">Cronograma</h1>
+    <p class="crono-text" id="cronoPageText">Elige una parte del día para ver su página correspondiente.</p>
 
     <div class="crono-actions">
       <a class="crono-btn" id="cronoPreparacion" href="preparacion.html">
-        <strong>PREPARACIÓN</strong>
+        <strong id="cronoPreparacionLabel">PREPARACIÓN</strong>
       </a>
 
       <a class="crono-btn" id="cronoCeremonia" href="ceremonia.html">
-        <strong>CEREMONIA</strong>
-        <span class="crono-btn-subtitle">CATEDRAL DE SEGOVIA</span>
+        <strong id="cronoCeremoniaLabel">CEREMONIA</strong>
+        <span class="crono-btn-subtitle" id="cronoCeremoniaSubtitle">CATEDRAL DE SEGOVIA</span>
       </a>
 
       <a class="crono-btn" id="cronoCelebracion" href="celebracion.html">
-        <strong>CELEBRACIÓN</strong>
-        <span class="crono-btn-subtitle">ZIBA EVENTOS</span>
+        <strong id="cronoCelebracionLabel">CELEBRACIÓN</strong>
+        <span class="crono-btn-subtitle" id="cronoCelebracionSubtitle">ZIBA EVENTOS</span>
       </a>
 
       <a class="crono-btn" id="cronoInvitacion" href="invitation.html">
-        <strong>INVITACIÓN</strong>
+        <strong id="cronoInvitacionLabel">INVITACIÓN</strong>
       </a>
     </div>
   </main>
@@ -39,6 +39,29 @@
       const lang = params.get('lang') || 'es';
       const name = params.get('name') || '';
       const code = params.get('code') || '';
+      const T = {
+        es: {
+          title: 'Cronograma',
+          text: 'Elige una parte del día para ver su página correspondiente.',
+          preparacion: 'PREPARACIÓN',
+          ceremonia: 'CEREMONIA',
+          celebracion: 'CELEBRACIÓN',
+          invitacion: 'INVITACIÓN',
+          ceremoniaSubtitle: 'CATEDRAL DE SEGOVIA',
+          celebracionSubtitle: 'ZIBA EVENTOS',
+        },
+        it: {
+          title: 'Cronoprogramma',
+          text: 'Scegli una parte della giornata per vedere la pagina corrispondente.',
+          preparacion: 'PREPARAZIONE',
+          ceremonia: 'CERIMONIA',
+          celebracion: 'CELEBRAZIONE',
+          invitacion: 'INVITO',
+          ceremoniaSubtitle: 'CATTEDRALE DI SEGOVIA',
+          celebracionSubtitle: 'ZIBA EVENTOS',
+        },
+      };
+      const copy = T[lang] || T.es;
 
       const links = {
         preparacion: document.getElementById('cronoPreparacion'),
@@ -46,6 +69,15 @@
         celebracion: document.getElementById('cronoCelebracion'),
         invitacion: document.getElementById('cronoInvitacion'),
       };
+
+      document.getElementById('cronoPageTitle').textContent = copy.title;
+      document.getElementById('cronoPageText').textContent = copy.text;
+      document.getElementById('cronoPreparacionLabel').textContent = copy.preparacion;
+      document.getElementById('cronoCeremoniaLabel').textContent = copy.ceremonia;
+      document.getElementById('cronoCelebracionLabel').textContent = copy.celebracion;
+      document.getElementById('cronoInvitacionLabel').textContent = copy.invitacion;
+      document.getElementById('cronoCeremoniaSubtitle').textContent = copy.ceremoniaSubtitle;
+      document.getElementById('cronoCelebracionSubtitle').textContent = copy.celebracionSubtitle;
 
       const buildUrl = (page) => {
         const url = new URL(page, window.location.href);
@@ -77,6 +109,7 @@
 
       if (code === '0001' || code === '0002') {
         hide(links.preparacion);
+        hide(links.ceremonia);
       }
 
       if (code === '0005') {
