@@ -60,7 +60,7 @@ Ejemplo con dos canciones:
     "tags": ["balada", "romántica"],
     "search": ["quedate esta noche conmigo", "ya no estare"],
     "snippet": "Quédate esta noche conmigo, mi amor",
-    "lyrics": "Línea 1\\nLínea 2\\nLínea 3"
+    "lyrics": "Cae la tarde en un frío color\\nEscucho mi nombre en el corredor\\nYa no es tu risa la que me recuerda\\nQue un libro se acaba\\nAunque sea el mejor\\nFrente a mí y yo sé que no ves\\nQue la esencia nos hizo crecer\\nY es que aunque me disparen\\nNo me comparen con fotos de ayer\\nQuédate esta noche conmigo, mi amor\\nY cierra los ojos, entiende que yo\\nEnciendo mis sueños\\nCuando a mi lado siento tu calor\\nY abrázame fuerte por última vez\\nQue no nos importe qué pase después\\nSi tú también sabes\\nQue cuando amanezca yo ya no estaré\\nYa no estaré\\nSolamente te pido un favor\\nToma este puñal que es mejor que yo\\nY hunde su fuerza en mí de lado a lado\\nY arranca la pena con todo el dolor\\nTodos saben que pronto me voy\\nTe seguí hasta la plaza mayor\\nY aunque todo ha cambiado\\nNunca he olvidado el idiota que soy\\nQuédate esta noche conmigo, mi amor\\nY cierra los ojos, entiende que yo\\nEnciendo mis sueños\\nCuando a mi lado siento tu calor\\nY abrázame fuerte por última vez\\nQue no nos importe qué pase después\\nSi tú también sabes\\nQue cuando amanezca yo ya no estaré\\nYa no estaré"
   }
 ]
 ```
