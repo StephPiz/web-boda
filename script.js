@@ -3,7 +3,7 @@ let guestName = '';
 let targetPage = 'invitation.html';
 
 const CRONO_FEMALE_CODES = new Set(['0001', '0005', '0006', '0007', '0008', '0009', '0010', '0011', '0015', '0016']);
-const CRONO_MALE_CODES = new Set(['0012', '0013', '0014']);
+const CRONO_MALE_CODES = new Set(['0004', '0012', '0013', '0014']);
 
 const T = {
   es: {
