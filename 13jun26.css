@@ -628,6 +628,22 @@
   height: 2.3%;
 }
 
+.seating-map.show-seat-0909 .seat-highlight-manuela {
+  display: block;
+  top: 63.6%;
+  left: 9%;
+  width: 5%;
+  height: 2.3%;
+}
+
+.seating-map.show-seat-0909 .seat-highlight-oliviero {
+  display: block;
+  top: 67.8%;
+  left: 9%;
+  width: 5%;
+  height: 2.3%;
+}
+
 .giulio { top: 0%; left: 36%; }
 .vale-top { top: 0%; left: 44%; }
 .nose-top { top: 0%; left: 49%; }
@@ -945,6 +961,20 @@ html {
 
   .seating-map.show-seat-katy .seat-highlight-katy {
     top: 39%;
+    left: 9%;
+    width: 5%;
+    height: 2%;
+  }
+
+  .seating-map.show-seat-0909 .seat-highlight-manuela {
+    top: 60.8%;
+    left: 9%;
+    width: 5%;
+    height: 2%;
+  }
+
+  .seating-map.show-seat-0909 .seat-highlight-oliviero {
+    top: 64.8%;
     left: 9%;
     width: 5%;
     height: 2%;

@@ -29,6 +29,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (guestName.includes("katherine") || guestCode === "2705") {
       seatingMap.classList.add("show-seat-katy");
     }
+
+    if (guestCode === "0909" || (guestName.includes("oliviero") && guestName.includes("manuela"))) {
+      seatingMap.classList.add("show-seat-0909");
+    }
   }
 
   if (songbookSearch && songbookResults && songbookDetail) {
