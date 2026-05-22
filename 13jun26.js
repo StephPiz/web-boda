@@ -308,7 +308,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         mobile: { top: 60.4, left: 9, width: 5, height: 2 },
       },
       olivero: {
-        desktop: { top: 67.8, left: 9, width: 5, height: 2.3 },
+        desktop: { top: 67, left: 9, width: 5, height: 2.3 },
         mobile: { top: 63.5, left: 9, width: 5, height: 2 },
       },
     };
