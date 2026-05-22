@@ -25,14 +25,148 @@ document.addEventListener("DOMContentLoaded", async () => {
     const params = new URLSearchParams(window.location.search);
     const guestName = normalize(params.get("name"));
     const guestCode = (params.get("code") || "").trim();
+    const SEAT_CODE_MAP = {
+      "0909": ["olivero", "manuela"],
+      "2306": ["andrea", "sara"],
+      "2005": ["vane-right", "simone-right"],
+      "2010": ["mauro", "josefina"],
+      "2705": ["katy"],
+      "2712": ["enzo"],
+      "0712": ["fabri"],
+      "4523": ["chari"],
+      "0709": ["nose-top", "vale-top"],
+      "1914": ["bea-top", "manu-top"],
+      "2107": ["aldo-right", "azzurra-right"],
+      "2004": ["miguel"],
+      "2003": ["susi"],
+      "2729": ["manu-right", "sofi"],
+      "1025": ["nito"],
+      "1101": ["ale"],
+      "2504": ["sebas"],
+      "1501": ["ruben", "vicky"],
+      "0710": ["diego"],
+      "0619": ["fio", "sergio"],
+      "2012": ["martin"],
+      "2204": ["maria-luisa", "benito-2"],
+      "2205": ["juani", "benito-1"],
+      "1107": ["brenda", "roberto"],
+      "0225": ["sam-top", "clau-top"],
+    };
 
-    if (guestName.includes("katherine") || guestCode === "2705") {
-      seatingMap.classList.add("show-seat-katy");
-    }
+    const SEAT_NAME_MAP = [
+      { match: ["katherine"], seats: ["katy"] },
+      { match: ["oliviero", "manuela"], seats: ["olivero", "manuela"] },
+      { match: ["andrea", "sara"], seats: ["andrea", "sara"] },
+      { match: ["vanessa", "simone"], seats: ["vane-right", "simone-right"] },
+      { match: ["mauro", "josefina"], seats: ["mauro", "josefina"] },
+      { match: ["enzo"], seats: ["enzo"] },
+      { match: ["fabrizio"], seats: ["fabri"] },
+      { match: ["chiara"], seats: ["chari"] },
+      { match: ["gianluca", "valentina"], seats: ["nose-top", "vale-top"] },
+      { match: ["beatrice", "manuel"], seats: ["bea-top", "manu-top"] },
+      { match: ["aldo", "azzurra"], seats: ["aldo-right", "azzurra-right"] },
+      { match: ["miguel"], seats: ["miguel"] },
+      { match: ["susana"], seats: ["susi"] },
+      { match: ["manuel", "sofia"], seats: ["manu-right", "sofi"] },
+      { match: ["nito"], seats: ["nito"] },
+      { match: ["alejandro"], seats: ["ale"] },
+      { match: ["sebastian"], seats: ["sebas"] },
+      { match: ["ruben", "victoria"], seats: ["ruben", "vicky"] },
+      { match: ["diego"], seats: ["diego"] },
+      { match: ["fiorella", "sergio"], seats: ["fio", "sergio"] },
+      { match: ["martin"], seats: ["martin"] },
+      { match: ["maria luisa", "benito"], seats: ["maria-luisa", "benito-2"] },
+      { match: ["juani", "benito"], seats: ["juani", "benito-1"] },
+      { match: ["brenda", "roberto"], seats: ["brenda", "roberto"] },
+      { match: ["samuele", "claudia"], seats: ["sam-top", "clau-top"] },
+    ];
 
-    if (guestCode === "0909" || (guestName.includes("oliviero") && guestName.includes("manuela"))) {
-      seatingMap.classList.add("show-seat-0909");
-    }
+    const SEAT_OVERRIDES = {
+      katy: {
+        desktop: { top: 40.6, left: 9, width: 5, height: 2.3 },
+        mobile: { top: 39, left: 9, width: 5, height: 2 },
+      },
+      manuela: {
+        desktop: { top: 63.6, left: 9, width: 5, height: 2.3 },
+        mobile: { top: 60.4, left: 9, width: 5, height: 2 },
+      },
+      olivero: {
+        desktop: { top: 67.8, left: 9, width: 5, height: 2.3 },
+        mobile: { top: 63.5, left: 9, width: 5, height: 2 },
+      },
+    };
+
+    const findSeatTargets = () => {
+      if (SEAT_CODE_MAP[guestCode]) return SEAT_CODE_MAP[guestCode];
+      return (
+        SEAT_NAME_MAP.find(({ match }) => match.every((token) => guestName.includes(token)))?.seats || []
+      );
+    };
+
+    const createHighlight = (style) => {
+      const highlight = document.createElement("div");
+      highlight.className = "seat-highlight";
+      highlight.style.display = "block";
+      highlight.style.top = `${style.top}%`;
+      highlight.style.left = `${style.left}%`;
+      highlight.style.width = `${style.width}%`;
+      highlight.style.height = `${style.height}%`;
+      highlight.setAttribute("aria-hidden", "true");
+      return highlight;
+    };
+
+    const getSeatStyle = (seatId, seatEl) => {
+      const isMobile = window.matchMedia("(max-width: 720px)").matches;
+      const mode = isMobile ? "mobile" : "desktop";
+      if (SEAT_OVERRIDES[seatId]?.[mode]) {
+        return SEAT_OVERRIDES[seatId][mode];
+      }
+
+      const mapRect = seatingMap.getBoundingClientRect();
+      const seatRect = seatEl.getBoundingClientRect();
+      const top = ((seatRect.top - mapRect.top) / mapRect.height) * 100;
+      const left = ((seatRect.left - mapRect.left) / mapRect.width) * 100;
+
+      if (seatEl.classList.contains("left-side")) {
+        return {
+          top: top - (isMobile ? 2.6 : 2.3),
+          left: 9,
+          width: 5,
+          height: isMobile ? 2 : 2.3,
+        };
+      }
+
+      if (seatEl.classList.contains("right-top")) {
+        return {
+          top,
+          left: isMobile ? 94 : 93.5,
+          width: 5,
+          height: isMobile ? 2 : 2.3,
+        };
+      }
+
+      return {
+        top: isMobile ? 1.9 : 2.2,
+        left,
+        width: 5,
+        height: isMobile ? 2 : 2.3,
+      };
+    };
+
+    const renderSeatHighlights = () => {
+      seatingMap.querySelectorAll(".seat-highlight.dynamic-seat-highlight").forEach((node) => node.remove());
+      const seats = findSeatTargets();
+      seats.forEach((seatId) => {
+        const seatEl = seatingMap.querySelector(`.${seatId}`);
+        if (!seatEl) return;
+        const highlight = createHighlight(getSeatStyle(seatId, seatEl));
+        highlight.classList.add("dynamic-seat-highlight");
+        seatingMap.appendChild(highlight);
+      });
+    };
+
+    renderSeatHighlights();
+    window.addEventListener("resize", renderSeatHighlights);
   }
 
   if (songbookSearch && songbookResults && songbookDetail) {
