@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
+  const params = new URLSearchParams(window.location.search);
+  const pageLang = (params.get("lang") || "es").toLowerCase();
   const mobileMenuBtn = document.getElementById("mobileMenuBtn");
   const mobileMenu = document.getElementById("mobileMenu");
   const nav = document.querySelector(".page-13jun26 .invite-nav");
@@ -17,12 +19,227 @@ document.addEventListener("DOMContentLoaded", async () => {
       .replace(/[\u0300-\u036f]/g, "")
       .replace(/\s+/g, " ");
 
+  const T = {
+    es: {
+      title: "13 JUN 26",
+      nav: ["Inicio", "Fotos", "Asiento", "Menú", "Canciones", "Staff"],
+      intro:
+        "<strong>Bienvenidos a esta experiencia</strong><br>Gracias por ser parte de nuestra historia italoperuana en suelo español.<br>Que disfruten cada momento, rían, bailen y celebren el amor junto a nosotros.",
+      familyTitles: [
+        "Padres de la Novia",
+        "Padres del Novio",
+        "Testigos",
+        "Testigos",
+        "Dama de Honor",
+        "Testigos",
+      ],
+      photosTitle: "Captura el Momento",
+      photosText: "Ayúdanos a guardar los instantes más bonitos de nuestro gran día",
+      uploadBtn: "Subir fotos aqui",
+      seatTitle: "Encuentra tu lugar",
+      guestsBtn: "Invitados",
+      menuTitle: "Un recorrido de sabores",
+      menuCourses: ["ENTRADA", "SORBETE", "PRINCIPAL", "POSTRE"],
+      menuTexts: [
+        ["Carpaccio de presa con helado de queso"],
+        ['Sorbete de Mandarina y Pago de Carraovejas<br>"Autor" Jose Maria'],
+        ['Cochinillo asado de nuestra carta y horneado D.O.<br>Marca de Garantia "Cochinillo asado de Segovia"'],
+        [
+          "Mousse de choco negro con espejo de caramelo<br>y helado de mandarina",
+          "Esfera de queso castellanos con arandanos y<br>helado de frutos rojos",
+        ],
+      ],
+      songbookTitle: "Cancionero",
+      songbookIntro:
+        "Busca una canción por título, artista o una frase que recuerdes. Aquí iremos reuniendo las favoritas de la boda.",
+      songbookOpen: "Abrir playlist",
+      songbookSearchLabel: "Buscar canción",
+      songbookSearchPlaceholder: "Ej: artista, título o frase",
+      songbookEmpty:
+        "No encontramos coincidencias. Cuando me pases la lista de canciones, aquí mostraremos la letra clave, el artista y el acceso directo a Spotify.",
+      songbookNoResults:
+        "No hay resultados todavía. Prueba con otra palabra o pásame más canciones para ampliar el cancionero.",
+      spotifyListen: "Escuchar en Spotify",
+      staffTitle: "Staff",
+      staffIntro: "Estamos muy agradecidos de contar con el trabajo de",
+      staffRoles: [
+        "Ilustradora",
+        "Fotografa",
+        "Wedding Filmmaker",
+        "Cantante / Guitarrista",
+        "Baterista",
+        "Cantante / Pianista",
+        "Wedding Planner de Ziba Eventos",
+      ],
+      closing: [
+        ["LO", "MEJOR", "DE", "LA"],
+        ["FELICIDAD", "ES"],
+        ["CUANDO", "LA"],
+        ["COMPARTES"],
+        ["CON", "LAS", "PERSONAS", "QUE"],
+        ["HACEN", "QUE", "LA VIDA"],
+        ["MEREZCA", "LA PENA"],
+      ],
+      modalTitle: "Invitados",
+      modalClose: "Cerrar invitados",
+      modalFamilyTitles: ["Padres de la Novia", "Padres del Novio"],
+    },
+    it: {
+      title: "13 GIU 26",
+      nav: ["Inizio", "Foto", "Posto", "Menu", "Canzoni", "Staff"],
+      intro:
+        "<strong>Benvenuti in questa esperienza</strong><br>Grazie per far parte della nostra storia italo-peruviana in terra spagnola.<br>Godetevi ogni momento, ridete, ballate e celebrate l’amore insieme a noi.",
+      familyTitles: [
+        "Genitori della Sposa",
+        "Genitori dello Sposo",
+        "Testimoni",
+        "Testimoni",
+        "Damigella d'Onore",
+        "Testimoni",
+      ],
+      photosTitle: "Cattura il Momento",
+      photosText: "Aiutaci a conservare gli istanti più belli del nostro grande giorno",
+      uploadBtn: "Carica le foto qui",
+      seatTitle: "Trova il tuo posto",
+      guestsBtn: "Invitati",
+      menuTitle: "Un percorso di sapori",
+      menuCourses: ["ANTIPASTO", "SORBETTO", "PORTATA PRINCIPALE", "DESSERT"],
+      menuTexts: [
+        ["Carpaccio di presa con gelato al formaggio"],
+        ['Sorbetto al mandarino e Pago de Carraovejas<br>"Autore" Jose Maria'],
+        ['Maialino da latte arrosto della nostra carta e cotto al forno D.O.<br>Marchio di Garanzia "Cochinillo asado de Segovia"'],
+        [
+          "Mousse di cioccolato fondente con specchio al caramello<br>e gelato al mandarino",
+          "Sfera di formaggio castigliano con mirtilli rossi e<br>gelato ai frutti rossi",
+        ],
+      ],
+      songbookTitle: "Canzoniere",
+      songbookIntro:
+        "Cerca una canzone per titolo, artista o una frase che ricordi. Qui raccoglieremo le preferite del matrimonio.",
+      songbookOpen: "Apri playlist",
+      songbookSearchLabel: "Cerca canzone",
+      songbookSearchPlaceholder: "Es: artista, titolo o frase",
+      songbookEmpty:
+        "Non abbiamo trovato corrispondenze. Quando mi passerai la lista delle canzoni, qui mostreremo il testo chiave, l’artista e l’accesso diretto a Spotify.",
+      songbookNoResults:
+        "Non ci sono ancora risultati. Prova con un’altra parola oppure passami più canzoni per ampliare il canzoniere.",
+      spotifyListen: "Ascolta su Spotify",
+      staffTitle: "Staff",
+      staffIntro: "Siamo molto grati di poter contare sul lavoro di",
+      staffRoles: [
+        "Illustratrice",
+        "Fotografa",
+        "Wedding Filmmaker",
+        "Cantante / Chitarrista",
+        "Batterista",
+        "Cantante / Pianista",
+        "Wedding Planner di Ziba Eventos",
+      ],
+      closing: [
+        ["IL", "MEGLIO", "DI", "TUTTO"],
+        ["FELICITÀ", "È"],
+        ["QUANDO", "LA"],
+        ["CONDIVIDI"],
+        ["CON", "LE", "PERSONE", "CHE"],
+        ["RENDONO", "LA", "VITA"],
+        ["DEGNA", "DI ESSERE VISSUTA"],
+      ],
+      modalTitle: "Invitati",
+      modalClose: "Chiudi invitati",
+      modalFamilyTitles: ["Genitori della Sposa", "Genitori dello Sposo"],
+    },
+  };
+
+  const copy = T[pageLang] || T.es;
+
+  const applyPageI18n = () => {
+    document.documentElement.lang = pageLang;
+    document.title = copy.title;
+
+    const navLinks = [
+      ...document.querySelectorAll(".invite-nav-inner a"),
+      ...document.querySelectorAll(".mobile-menu-links a"),
+    ];
+    navLinks.forEach((link, index) => {
+      if (copy.nav[index % copy.nav.length]) link.textContent = copy.nav[index % copy.nav.length];
+    });
+
+    const introText = document.querySelector(".intro-text-13jun26");
+    if (introText) introText.innerHTML = copy.intro;
+
+    document.querySelectorAll(".inicio-family-card-13jun26 h3").forEach((el, index) => {
+      if (copy.familyTitles[index]) el.textContent = copy.familyTitles[index];
+    });
+
+    const titles = document.querySelectorAll(".capture-title-13jun26");
+    if (titles[0]) titles[0].textContent = copy.photosTitle;
+    if (titles[1]) titles[1].textContent = copy.seatTitle;
+    if (titles[2]) titles[2].textContent = copy.menuTitle;
+    if (titles[3]) titles[3].textContent = copy.songbookTitle;
+    if (titles[4]) titles[4].textContent = copy.staffTitle;
+
+    const photoText = document.querySelector(".capture-text-13jun26");
+    if (photoText) photoText.textContent = copy.photosText;
+
+    const uploadBtn = document.getElementById("btnNormal");
+    if (uploadBtn) uploadBtn.textContent = copy.uploadBtn;
+
+    const guestsBtn = document.getElementById("openGuestsModal");
+    if (guestsBtn) guestsBtn.textContent = copy.guestsBtn;
+
+    document.querySelectorAll(".menu-course-13jun26 h3").forEach((el, index) => {
+      if (copy.menuCourses[index]) el.textContent = copy.menuCourses[index];
+    });
+    document.querySelectorAll(".menu-course-13jun26").forEach((courseEl, index) => {
+      const texts = copy.menuTexts[index] || [];
+      courseEl.querySelectorAll("p").forEach((p, pIndex) => {
+        if (texts[pIndex]) p.innerHTML = texts[pIndex];
+      });
+    });
+
+    const songbookIntro = document.querySelector(".songbook-intro-13jun26");
+    if (songbookIntro) songbookIntro.textContent = copy.songbookIntro;
+    const songbookSpotifyBtn = document.querySelector(".songbook-spotify-btn-13jun26");
+    if (songbookSpotifyBtn) songbookSpotifyBtn.textContent = copy.songbookOpen;
+    const songbookSearchLabel = document.querySelector(".songbook-search-label-13jun26");
+    if (songbookSearchLabel) songbookSearchLabel.textContent = copy.songbookSearchLabel;
+    const songbookSearchInput = document.getElementById("songbookSearch");
+    if (songbookSearchInput) songbookSearchInput.placeholder = copy.songbookSearchPlaceholder;
+    const songbookInitialEmpty = document.querySelector(".songbook-empty-13jun26");
+    if (songbookInitialEmpty) songbookInitialEmpty.textContent = copy.songbookEmpty;
+
+    const staffIntro = document.querySelector(".staff-intro-13jun26");
+    if (staffIntro) staffIntro.textContent = copy.staffIntro;
+    document.querySelectorAll(".staff-role-13jun26").forEach((el, index) => {
+      if (copy.staffRoles[index]) el.textContent = copy.staffRoles[index];
+    });
+
+    const closingLines = document.querySelectorAll(".closing-banner-line-13jun26");
+    copy.closing.forEach((line, index) => {
+      const lineEl = closingLines[index];
+      if (!lineEl) return;
+      const spans = lineEl.querySelectorAll(".closing-word-13jun26");
+      spans.forEach((span, spanIndex) => {
+        if (line[spanIndex]) span.textContent = line[spanIndex];
+      });
+    });
+
+    const modalTitle = document.getElementById("guestsModalTitle");
+    if (modalTitle) modalTitle.textContent = copy.modalTitle;
+    const modalClose = document.querySelector(".guests-modal-close-13jun26");
+    if (modalClose) modalClose.setAttribute("aria-label", copy.modalClose);
+    document.querySelectorAll(".guests-modal-family-13jun26 h4").forEach((el, index) => {
+      if (copy.modalFamilyTitles[index]) el.textContent = copy.modalFamilyTitles[index];
+    });
+  };
+
+  applyPageI18n();
+
   const SONGBOOK_PATH = "assets/data/songbook.json";
 
   let SONGBOOK_DATA = [];
 
   if (seatingMap) {
-    const params = new URLSearchParams(window.location.search);
     const guestName = normalize(params.get("name"));
     const guestCode = (params.get("code") || "").trim();
     const SEAT_CODE_MAP = {
@@ -185,7 +402,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const renderDetail = (song) => {
       if (!song) {
         songbookDetail.innerHTML =
-          '<p class="songbook-empty-13jun26">No encontramos coincidencias. Cuando me pases la lista de canciones, aquí mostraremos la letra clave, el artista y el acceso directo a Spotify.</p>';
+          `<p class="songbook-empty-13jun26">${copy.songbookEmpty}</p>`;
         return;
       }
 
@@ -198,14 +415,14 @@ document.addEventListener("DOMContentLoaded", async () => {
         <p class="songbook-detail-artist-13jun26">${song.artist}</p>
         <div class="songbook-detail-snippet-13jun26">${(song.lyrics || song.snippet || "").replace(/\n/g, "<br>")}</div>
         <div class="songbook-detail-tags-13jun26">${tags}</div>
-        <a class="songbook-detail-link-13jun26" href="${song.spotify}" target="_blank" rel="noopener">Escuchar en Spotify</a>
+        <a class="songbook-detail-link-13jun26" href="${song.spotify}" target="_blank" rel="noopener">${copy.spotifyListen}</a>
       `;
     };
 
     const renderResults = (songs) => {
       if (!songs.length) {
         songbookResults.innerHTML =
-          '<p class="songbook-empty-13jun26">No hay resultados todavía. Prueba con otra palabra o pásame más canciones para ampliar el cancionero.</p>';
+          `<p class="songbook-empty-13jun26">${copy.songbookNoResults}</p>`;
         renderDetail(null);
         return;
       }
