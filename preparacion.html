@@ -363,5 +363,141 @@
       backLink.href = url.toString();
     })();
   </script>
+  <script>
+    (() => {
+      const lang = new URLSearchParams(window.location.search).get('lang') || 'es';
+      if (lang !== 'it') return;
+
+      document.documentElement.lang = 'it';
+      document.title = 'Preparazione';
+
+      const topTable = document.querySelectorAll('.crono-table')[0];
+      const groomTable = document.querySelectorAll('.crono-table')[1];
+      const brideInfo = document.querySelectorAll('.crono-info-card')[0];
+      const groomInfo = document.querySelector('.crono-secondary-section .crono-info-card');
+
+      document.querySelector('.crono-chip').textContent = 'Cronoprogramma';
+      document.querySelector('.crono-detail > .crono-heading').textContent = 'PREPARAZIONE SPOSA MATTINA DEL MATRIMONIO';
+      document.querySelector('.crono-detail > .crono-subtitle').textContent = 'Prima della cerimonia, volevamo vivere la mattina con calma, circondati dalle persone più importanti per noi.';
+      document.querySelector('.crono-secondary-section .crono-heading').textContent = 'PREPARAZIONE SPOSO MATTINA DEL MATRIMONIO';
+      document.querySelector('.crono-secondary-section .crono-subtitle').textContent = 'Una mattina tranquilla, classica ed elegante prima di incontrarsi all’altare.';
+      document.getElementById('cronoBackLink').textContent = 'Torna al cronoprogramma';
+
+      const setHead = (table, labels) => {
+        if (!table) return;
+        [...table.tHead.rows[0].cells].forEach((cell, i) => {
+          if (labels[i]) cell.textContent = labels[i];
+        });
+      };
+
+      setHead(topTable, ['ORARIO', 'DURATA', 'ATTIVITÀ', 'LUOGO', 'PERSONE']);
+      setHead(groomTable, ['ORARIO', 'ATTIVITÀ', 'LUOGO', 'DURATA', 'PERSONE']);
+
+      const brideRows = [
+        ['Pettinatura damigelle d’onore', 'La Judería', 'Damigelle d’onore (Fiorella + Susana) + Laura (stylist)'],
+        ['Trucco mamma', 'Áurea Convento Capuchinos', 'Mamma + Kinga (truccatrice)'],
+        ['Trasferimento a piedi', '→ Capuchinos', 'Laura (stylist)'],
+        ['Prima parte acconciatura sposa', 'Capuchinos', 'Stephany + Laura (stylist)'],
+        ['Trucco sposa', 'Capuchinos', 'Stephany + Kinga (truccatrice)'],
+        ['Pettinatura mamma', 'Capuchinos', 'Mamma + Laura (stylist)'],
+        ['Pettinatura zia', 'Capuchinos', 'Zia + Laura (stylist)'],
+        ['Seconda parte acconciatura della sposa', 'Capuchinos', 'Stephany + Laura (stylist)'],
+        ['Posizionamento iniziale del velo', 'Capuchinos', 'Stephany + Laura (stylist)'],
+        ['Arrivo fotografia + video', 'Capuchinos', 'Laura (fotografa) + Fernando (videografo)'],
+        ['Foto intime (senza abito)', 'Capuchinos', 'Madre + zia'],
+        ['Vestirsi (momento importante)', 'Capuchinos', 'Stephany + madre + zia'],
+        ['Posizionamento finale del velo', 'Capuchinos', 'Stephany + Laura (stylist)'],
+        ['Foto da sola con l’abito', 'Capuchinos', 'Laura (fotografa) + Fernando (videografo)'],
+        ['Arrivo damigelle d’onore', 'Capuchinos', 'Damigelle d’onore'],
+        ['Damigelle d’onore (foto)', 'Capuchinos', 'Stephany + damigelle'],
+        ['First look con tuo padre', 'Capuchinos', 'Stephany + papà'],
+        ['Uscita verso la cattedrale', 'Hotel → tragitto', 'Stephany + papà'],
+        ['Arrivo + margine', 'Cattedrale di Segovia', 'Tutti'],
+        ['Ingresso cerimonia', 'Cattedrale', 'Tutti'],
+      ];
+      [...topTable.tBodies[0].rows].forEach((row, i) => {
+        const data = brideRows[i];
+        if (!data) return;
+        row.cells[2].textContent = data[0];
+        row.cells[3].textContent = data[1];
+        row.cells[4].textContent = data[2];
+      });
+
+      const groomRows = [
+        ['Arrivo fotografa + videografo', 'Real Hotel Segovia', 'Laura (fotografa) + Fernando (videografo)'],
+        ['Foto dettagli (abito, scarpe, orologio, profumo, ecc.)', 'Camera d’hotel', 'Alessandro'],
+        ['Vestirsi (momento con sua madre / cravatta)', 'Hotel', 'Alessandro + madre'],
+        ['Foto con la famiglia', 'Hotel', 'Genitori + fratello'],
+        ['Ritratti rapidi / finali', 'Hotel', 'Alessandro'],
+        ['Fine copertura Alessandro + trasferimento staff', 'Hotel', 'Laura + Fernando'],
+        ['Camminata verso Capuchinos', 'Tragitto', 'Laura + Fernando'],
+        ['Arrivo + preparazione staff con te', 'Áurea Convento Capuchinos', 'Laura + Fernando'],
+        ['Inizio copertura sposa', 'Capuchinos', 'Stephany'],
+      ];
+      [...groomTable.tBodies[0].rows].forEach((row, i) => {
+        const data = groomRows[i];
+        if (!data) return;
+        row.cells[1].textContent = data[0];
+        row.cells[2].textContent = data[1];
+        row.cells[4].textContent = data[2];
+      });
+
+      const setBlock = (card, index, title, lines) => {
+        const block = card?.querySelectorAll('.crono-info-block')[index];
+        if (!block) return;
+        block.querySelector('.crono-info-title').textContent = title;
+        const list = block.querySelector('.crono-info-list');
+        list.innerHTML = lines.map((line) => `<p>${line}</p>`).join('');
+      };
+
+      setBlock(brideInfo, 0, 'LOCATION', [
+        '<strong>HOTEL DELLE DAMIGELLE:</strong> HOSPEDAJE LA JUDERIA, <a href="https://www.google.com/maps/search/?api=1&query=C.+la+Almuzara,+1,+40003+Segovia" target="_blank" rel="noopener">C. la Almuzara, 1, 40003 Segovia</a>',
+        '<strong>HOTEL DELLA SPOSA:</strong> AUREA CONVENTO CAPUCHINOS, <a href="https://www.google.com/maps/search/?api=1&query=Pl.+Capuchinos,+2,+40001+Segovia" target="_blank" rel="noopener">Pl. Capuchinos, 2, 40001 Segovia</a>',
+        '<strong>CATTEDRALE DI SEGOVIA:</strong> <a href="https://www.google.com/maps/search/?api=1&query=C.+Marqu%C3%A9s+del+Arco,+1,+40001+Segovia" target="_blank" rel="noopener">C. Marqués del Arco, 1, 40001 Segovia</a>',
+      ]);
+      setBlock(brideInfo, 1, 'PARTECIPANTI', [
+        '<strong>KATHERINE PIZAN RAMOS</strong> — DAMIGELLA D’ONORE',
+        '<strong>FIORELLA PORTUGAL</strong> — DAMIGELLA D’ONORE',
+        '<strong>SUSANA NIETO</strong> — DAMIGELLA D’ONORE',
+        '<strong>BEATRICE ARENA</strong> — DAMIGELLA D’ONORE',
+        '<strong>JOSEFINA RAMOS MORALES</strong> — MAMMA DELLA SPOSA',
+        '<strong>MAURO PIZAN MENDOZA</strong> — PAPÀ DELLA SPOSA',
+        '<strong>VICTORIA RAMOS MORALES</strong> — ZIA DELLA SPOSA',
+      ]);
+      setBlock(brideInfo, 2, 'STAFF', [
+        '<strong>KINGA</strong> — TRUCCATRICE',
+        '<strong>LAURA</strong> — STYLIST',
+        '<strong>LAURA GUIJARRO</strong> — FOTOGRAFA',
+        '<strong>FERNANDO MOLINA</strong> — FILMMAKER',
+      ]);
+      setBlock(brideInfo, 3, 'ELEMENTI IMPORTANTI', [
+        'ABITI',
+        'VELO',
+        'BOUQUET',
+        'FOTOGRAFIA INFANTILE',
+        'VOTI',
+      ]);
+
+      setBlock(groomInfo, 0, 'LOCATION', [
+        '<strong>HOTEL DELLO SPOSO:</strong> REAL SEGOVIA, <a href="https://www.google.com/maps/search/?api=1&query=C.+Juan+Bravo,+30,+40001+Segovia" target="_blank" rel="noopener">C. Juan Bravo, 30, 40001 Segovia</a>',
+        '<strong>CATTEDRALE DI SEGOVIA:</strong> <a href="https://www.google.com/maps/search/?api=1&query=C.+Marqu%C3%A9s+del+Arco,+1,+40001+Segovia" target="_blank" rel="noopener">C. Marqués del Arco, 1, 40001 Segovia</a>',
+      ]);
+      setBlock(groomInfo, 1, 'PARTECIPANTI', [
+        '<strong>MANUELA BERETTA</strong> — MAMMA DELLO SPOSO',
+        '<strong>OLIVIERO ALBANESE</strong> — PAPÀ DELLO SPOSO',
+        '<strong>ANDREA ALBANESE</strong> — FRATELLO DELLO SPOSO',
+        '<strong>SARA PERDA</strong> — COGNATA DELLO SPOSO',
+      ]);
+      setBlock(groomInfo, 2, 'STAFF', [
+        '<strong>LAURA GUIJARRO</strong> — FOTOGRAFA',
+        '<strong>FERNANDO MOLINA</strong> — FILMMAKER',
+      ]);
+      setBlock(groomInfo, 3, 'ELEMENTI IMPORTANTI', [
+        'ABITO',
+        'FOTOGRAFIA INFANTILE',
+        'VOTI',
+      ]);
+    })();
+  </script>
 </body>
 </html>

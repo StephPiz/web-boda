@@ -389,8 +389,163 @@
         </div>
       </div>
 
-      <a class="btn crono-back" href="crono.html">Volver</a>
+      <a class="btn crono-back" id="cronoBackLink" href="crono.html">Volver</a>
     </section>
   </main>
+  <script>
+    (() => {
+      const params = new URLSearchParams(window.location.search);
+      const backLink = document.getElementById('cronoBackLink');
+      if (!backLink) return;
+      const url = new URL('crono.html', window.location.href);
+      ['lang', 'name', 'code'].forEach((key) => {
+        const value = params.get(key);
+        if (value) url.searchParams.set(key, value);
+      });
+      backLink.href = url.toString();
+    })();
+  </script>
+  <script>
+    (() => {
+      const lang = new URLSearchParams(window.location.search).get('lang') || 'es';
+      if (lang !== 'it') return;
+
+      document.documentElement.lang = 'it';
+      document.title = 'Celebrazione';
+
+      const tables = document.querySelectorAll('.crono-table');
+      const infoCard = document.querySelector('.crono-info-card');
+
+      document.querySelector('.crono-chip').textContent = 'Ziba';
+      document.querySelector('.crono-heading').textContent = 'CRONOPROGRAMMA ZIBA RICEVIMENTO';
+      document.querySelector('.crono-subtitle').textContent = 'Desideravamo una celebrazione intima, elegante e viva, in cui la musica e le persone fossero le protagoniste.';
+      document.getElementById('cronoBackLink').textContent = 'Torna al cronoprogramma';
+
+      const setHead = (table, labels) => {
+        if (!table) return;
+        [...table.tHead.rows[0].cells].forEach((cell, i) => {
+          if (labels[i]) cell.textContent = labels[i];
+        });
+      };
+
+      setHead(tables[0], ['ORARIO', 'DURATA', 'ATTIVITÀ', 'LUOGO', 'PERSONE']);
+      setHead(tables[1], ['ORARIO', 'DURATA', 'ATTIVITÀ', 'MUSICA', 'PERSONE']);
+      setHead(tables[2], ['ORARIO', 'ATTIVITÀ', 'DURATA', 'MUSICA']);
+      setHead(tables[3], ['ORARIO', 'ATTIVITÀ', 'DURATA', 'MUSICA (PIANO)', 'PERSONE']);
+      setHead(tables[4], ['ORARIO', 'DURATA', 'ATTIVITÀ', 'MUSICA', 'PERSONE']);
+
+      const mainRows = [
+        ['Cocktail', 'Ziba', 'Invitati + Tyna Ros'],
+        ['Ingresso sposi + blocco familiare / balli', 'Ziba', 'Sposi + genitori'],
+        ['Banchetto + piano dal vivo', 'Ziba', 'Invitati + Miguel'],
+        ['Riscaldamento festa', 'Ziba', 'Invitati + Tyna Ros'],
+        ['Open bar / karaoke / festa', 'Ziba', 'Invitati + Miguel'],
+        ['Ultimi drink / chiusura rilassata', 'Ziba', 'Tutti'],
+      ];
+      [...tables[0].tBodies[0].rows].forEach((row, i) => {
+        const d = mainRows[i];
+        if (!d) return;
+        row.cells[2].textContent = d[0];
+        row.cells[3].textContent = d[1];
+        row.cells[4].textContent = d[2];
+      });
+
+      const blocks = infoCard.querySelectorAll('.crono-info-block');
+      blocks[0].querySelector('.crono-info-title').textContent = 'LOCATION';
+
+      blocks[1].querySelector('.crono-heading').textContent = 'COCKTAIL';
+      blocks[1].querySelector('.crono-heading-compact').textContent = 'TYNA (CANTANTE)';
+      [...tables[1].tBodies[0].rows].forEach((row) => {
+        if (row.cells[2].textContent.includes('Entrada de novios')) row.cells[2].textContent = 'Ingresso degli sposi';
+        row.cells[4].textContent = 'Stephany e Alessandro';
+      });
+      const cocktailList = blocks[1].querySelector('.crono-info-list');
+      cocktailList.querySelectorAll('.crono-info-title')[0].textContent = 'DURATA';
+      cocktailList.querySelectorAll('.crono-info-title')[1].textContent = 'INCLUDE';
+      cocktailList.querySelectorAll('.crono-info-title')[2].textContent = 'CANZONI';
+      cocktailList.querySelectorAll('p')[1].textContent = 'Atmosfera iniziale';
+      cocktailList.querySelectorAll('p')[2].textContent = 'Ingresso degli sposi';
+      cocktailList.querySelectorAll('p')[3].textContent = 'Blocco familiare / balli';
+      cocktailList.querySelectorAll('p')[4].textContent = 'Musica cocktail';
+      cocktailList.querySelectorAll('p')[5].querySelector('a').textContent = 'VEDI CANZONI QUI';
+      cocktailList.querySelectorAll('p')[6].innerHTML = '<strong>IMPORTANTE:</strong> A Tyna restano 2 ore';
+
+      blocks[2].querySelector('.crono-heading').textContent = 'BANCHETTO';
+      blocks[2].querySelector('.crono-heading-compact').textContent = 'MIGUEL (PIANISTA)';
+      [...tables[2].tBodies[0].rows].forEach((row, i) => {
+        const labels = [
+          'Ingresso invitati + sposi seduti',
+          'Antipasti / inizio servizio',
+          'Primo brindisi / parole',
+          'Piatto principale',
+          'Taglio del maialino',
+          'Continuazione pranzo / vini',
+          'Taglio della torta',
+          'Servizio dessert + transizione',
+        ];
+        if (labels[i]) row.cells[1].textContent = labels[i];
+      });
+      const banquetSummary = blocks[2].querySelector('.crono-info-list');
+      banquetSummary.querySelectorAll('.crono-info-title')[0].textContent = 'DURATA';
+      banquetSummary.querySelectorAll('.crono-info-title')[1].textContent = 'INCLUDE';
+      ['Ingresso banchetto', 'Pranzo', 'Brindisi', 'Taglio del maialino', 'Torta', 'Piano di sottofondo'].forEach((text, i) => {
+        banquetSummary.querySelectorAll('p')[i + 1].textContent = text;
+      });
+      blocks[2].querySelectorAll('.crono-info-title')[2].textContent = 'ATTIVITÀ E MUSICA';
+      [...tables[3].tBodies[0].rows].forEach((row, i) => {
+        const labels = [
+          ['Presentazione Miguel + apertura atmosfera', 'Miguel + invitati'],
+          ['Ballo sposi', 'Stephany + Alessandro'],
+          ['Ballo Stephany + padre', 'Stephany + papà'],
+          ['Ballo Alessandro + madre', 'Alessandro + mamma'],
+          ['Ballo sorpresa damigelle', 'Damigelle'],
+          ['Transizione invitati seduti + inizio servizio', 'Tutti'],
+        ];
+        if (labels[i]) {
+          row.cells[1].textContent = labels[i][0];
+          row.cells[4].textContent = labels[i][1];
+        }
+      });
+      const banquetSongs = blocks[2].querySelectorAll('.crono-info-list')[1];
+      banquetSongs.querySelector('.crono-info-title').textContent = 'CANZONI';
+      banquetSongs.querySelector('p a').textContent = 'VEDI CANZONI QUI';
+      banquetSongs.querySelectorAll('p')[1].innerHTML = '<strong>IMPORTANTE:</strong> A Miguel restano 2 ore e mezza';
+
+      blocks[3].querySelector('.crono-heading').textContent = 'RISCALDAMENTO FESTA';
+      blocks[3].querySelector('.crono-heading-compact').textContent = 'TYNA (CANTANTE)';
+      [...tables[4].tBodies[0].rows].forEach((row, i) => {
+        const labels = [
+          ['Inizio open bar', 'Tyna'],
+          ['Inizio LIVE ART', 'Maria'],
+          ['Chiusura', 'Tyna'],
+        ];
+        if (labels[i]) {
+          row.cells[2].textContent = labels[i][0];
+          row.cells[4].textContent = labels[i][1];
+        }
+      });
+      const acclimationList = blocks[3].querySelector('.crono-info-list');
+      acclimationList.querySelectorAll('.crono-info-title')[0].textContent = 'DURATA';
+      acclimationList.querySelectorAll('.crono-info-title')[1].textContent = 'INCLUDE';
+      acclimationList.querySelectorAll('.crono-info-title')[2].textContent = 'CANZONI';
+      ['Inizio OPEN BAR', 'Inizio LIVE ART', 'Crescita dell’energia', 'Musica latina', 'Canzoni più movimentate', 'Preparazione atmosfera festa'].forEach((text, i) => {
+        acclimationList.querySelectorAll('p')[i + 1].textContent = text;
+      });
+      acclimationList.querySelectorAll('p')[7].querySelector('a').textContent = 'VEDI CANZONI QUI';
+      acclimationList.querySelectorAll('p')[8].innerHTML = '<strong>IMPORTANTE:</strong> Tyna COMPLETA le sue 3 ore';
+
+      blocks[4].querySelector('.crono-heading').textContent = 'OPEN BAR / KARAOKE / FESTA';
+      blocks[4].querySelector('.crono-heading-compact').textContent = 'MIGUEL (PIANISTA E CANTANTE)';
+      const openBarList = blocks[4].querySelector('.crono-info-list');
+      openBarList.querySelectorAll('.crono-info-title')[0].textContent = 'DURATA';
+      openBarList.querySelectorAll('.crono-info-title')[1].textContent = 'INCLUDE';
+      openBarList.querySelectorAll('.crono-info-title')[2].textContent = 'CANZONI';
+      ['Karaoke', 'Piano bar', 'Festa', 'Interazione con gli invitati', 'Chiusura in alto'].forEach((text, i) => {
+        openBarList.querySelectorAll('p')[i + 1].textContent = text;
+      });
+      openBarList.querySelectorAll('p')[6].querySelector('a').textContent = 'VEDI CANZONI QUI';
+      openBarList.querySelectorAll('p')[7].innerHTML = '<strong>IMPORTANTE:</strong> Miguel COMPLETA le sue 5 ore';
+    })();
+  </script>
 </body>
 </html>

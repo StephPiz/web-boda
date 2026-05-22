@@ -321,8 +321,133 @@
         </div>
       </div>
 
-      <a class="btn crono-back" href="crono.html">Volver</a>
+      <a class="btn crono-back" id="cronoBackLink" href="crono.html">Volver</a>
     </section>
   </main>
+  <script>
+    (() => {
+      const params = new URLSearchParams(window.location.search);
+      const backLink = document.getElementById('cronoBackLink');
+      if (!backLink) return;
+      const url = new URL('crono.html', window.location.href);
+      ['lang', 'name', 'code'].forEach((key) => {
+        const value = params.get(key);
+        if (value) url.searchParams.set(key, value);
+      });
+      backLink.href = url.toString();
+    })();
+  </script>
+  <script>
+    (() => {
+      const lang = new URLSearchParams(window.location.search).get('lang') || 'es';
+      if (lang !== 'it') return;
+
+      document.documentElement.lang = 'it';
+      document.title = 'Cerimonia';
+
+      const mainTable = document.querySelectorAll('.crono-table')[0];
+      const musicTable = document.querySelectorAll('.crono-table')[1];
+      const liturgyTable = document.querySelectorAll('.crono-table')[2];
+      const infoCard = document.querySelector('.crono-info-card');
+
+      document.querySelector('.crono-chip').textContent = 'Cronoprogramma';
+      document.querySelector('.crono-heading').textContent = 'CERIMONIA CATTEDRALE DI SEGOVIA';
+      document.querySelector('.crono-subtitle').textContent = 'Alle 12:00, circondati dalle nostre famiglie e dagli amici più cari, inizierà la cerimonia nella Cattedrale di Segovia.';
+      document.getElementById('cronoBackLink').textContent = 'Torna al cronoprogramma';
+
+      const setHead = (table, labels) => {
+        if (!table) return;
+        [...table.tHead.rows[0].cells].forEach((cell, i) => {
+          if (labels[i]) cell.textContent = labels[i];
+        });
+      };
+
+      setHead(mainTable, ['ORARIO', 'DURATA', 'ATTIVITÀ', 'LUOGO', 'MUSICA', 'PERSONE']);
+      setHead(musicTable, ['MOMENTO', 'MUSICA']);
+      setHead(liturgyTable, ['MOMENTO', 'LINGUA', 'PERSONA']);
+
+      const mainRows = [
+        ['Alessandro deve già essere dentro e pronto', 'Cattedrale di Segovia', '—', 'Alessandro + Laura (fotografa) + Fernando (videografo)'],
+        ['Organizzazione finale ingresso invitati', 'Cattedrale', 'Organo soft di sottofondo', 'Tutti'],
+        ['Preparazione ingresso sposa', 'Ingresso cappella', '—', 'Stephany + padre + damigelle'],
+        ['Ingresso Alessandro', 'Cattedrale (cappella)', '<em>Purple Rain</em> (piano strumentale)', 'Alessandro + madre'],
+        ['Ingresso damigelle d’onore', 'Cattedrale (cappella)', '<em>A Thousand Years</em> (strumentale)', 'Katherine + Susana + Beatrice + Fiorella'],
+        ['Ingresso sposa', 'Cattedrale (cappella)', 'Marcia nuziale', 'Stephany + padre'],
+        ['Cerimonia', 'Cattedrale (cappella)', 'Organo / musica liturgica', 'Tutti'],
+      ];
+      [...mainTable.tBodies[0].rows].forEach((row, i) => {
+        const d = mainRows[i];
+        if (!d) return;
+        row.cells[2].textContent = d[0];
+        row.cells[3].textContent = d[1];
+        row.cells[4].innerHTML = d[2];
+        row.cells[5].textContent = d[3];
+      });
+
+      const setBlock = (index, title, lines) => {
+        const block = infoCard.querySelectorAll('.crono-info-block')[index];
+        if (!block) return;
+        block.querySelector('.crono-info-title').textContent = title;
+        const list = block.querySelector('.crono-info-list');
+        if (list && lines) list.innerHTML = lines.map((line) => `<p>${line}</p>`).join('');
+      };
+
+      setBlock(0, 'LOCATION', [
+        '<strong>CATTEDRALE DI SEGOVIA:</strong> <a href="https://www.google.com/maps/search/?api=1&query=C.+Marqu%C3%A9s+del+Arco,+1,+40001+Segovia" target="_blank" rel="noopener">C. Marqués del Arco, 1, 40001 Segovia</a>',
+      ]);
+      setBlock(1, 'ARRIVI', [
+        '<strong>Stephany</strong> → a piedi da Capuchinos insieme a suo padre',
+        '<strong>Alessandro</strong> → da Real Hotel Segovia',
+        '<strong>Damigelle d’onore</strong> → ingresso anticipato',
+      ]);
+      setBlock(2, 'PARTECIPANTI ALL’INGRESSO', [
+        'Alessandro + madre',
+        'Katherine (Lettura salmo)',
+        'Beatrice (Anelli)',
+        'Fiorella (Liturgia stampata)',
+        'Susana (Petali)',
+        'Stephany + padre',
+      ]);
+
+      const ubicBlock = infoCard.querySelectorAll('.crono-info-block')[3];
+      ubicBlock.querySelector('.crono-info-title').textContent = 'POSTI';
+      ubicBlock.querySelector('.crono-info-list p').textContent = 'Gli altri possono sedersi dove preferiscono';
+
+      const momentRows = [
+        'Ingresso degli invitati',
+        'Ingresso dello sposo',
+        'Ingresso delle damigelle d’onore',
+        'Ingresso della sposa',
+        'Alleluia*',
+        'Consenso (“quello che Dio ha unito”)',
+        'Offertorio',
+        'Sanctus',
+        'Agnus Dei',
+        'Comunione',
+        'Postcomunione (se c’è tempo)',
+        'Benedizione',
+        'Firme',
+        'Uscita della cerimonia',
+      ];
+      [...musicTable.tBodies[0].rows].forEach((row, i) => {
+        if (momentRows[i]) row.cells[0].textContent = momentRows[i];
+      });
+
+      const liturgyRows = [
+        'Prima lettura',
+        'Salmo',
+        'Seconda lettura',
+        'Preghiera 1',
+        'Preghiera 2',
+        'Preghiera 3',
+        'Preghiera 4',
+        'Preghiera 5',
+        'Preghiera 6',
+      ];
+      [...liturgyTable.tBodies[0].rows].forEach((row, i) => {
+        if (liturgyRows[i]) row.cells[0].textContent = liturgyRows[i];
+      });
+    })();
+  </script>
 </body>
 </html>
