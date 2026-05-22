@@ -13,24 +13,77 @@
     <p class="crono-text">Elige una parte del día para ver su página correspondiente.</p>
 
     <div class="crono-actions">
-      <a class="crono-btn" href="preparacion.html">
+      <a class="crono-btn" id="cronoPreparacion" href="preparacion.html">
         <strong>PREPARACIÓN</strong>
       </a>
 
-      <a class="crono-btn" href="ceremonia.html">
+      <a class="crono-btn" id="cronoCeremonia" href="ceremonia.html">
         <strong>CEREMONIA</strong>
         <span class="crono-btn-subtitle">CATEDRAL DE SEGOVIA</span>
       </a>
 
-      <a class="crono-btn" href="celebracion.html">
+      <a class="crono-btn" id="cronoCelebracion" href="celebracion.html">
         <strong>CELEBRACIÓN</strong>
         <span class="crono-btn-subtitle">ZIBA EVENTOS</span>
       </a>
 
-      <a class="crono-btn" href="invitation.html">
+      <a class="crono-btn" id="cronoInvitacion" href="invitation.html">
         <strong>INVITACIÓN</strong>
       </a>
     </div>
   </main>
+
+  <script>
+    (() => {
+      const params = new URLSearchParams(window.location.search);
+      const lang = params.get('lang') || 'es';
+      const name = params.get('name') || '';
+      const code = params.get('code') || '';
+
+      const links = {
+        preparacion: document.getElementById('cronoPreparacion'),
+        ceremonia: document.getElementById('cronoCeremonia'),
+        celebracion: document.getElementById('cronoCelebracion'),
+        invitacion: document.getElementById('cronoInvitacion'),
+      };
+
+      const buildUrl = (page) => {
+        const url = new URL(page, window.location.href);
+        url.searchParams.set('lang', lang);
+        if (name) url.searchParams.set('name', name);
+        if (code) url.searchParams.set('code', code);
+        return url.toString();
+      };
+
+      Object.entries(links).forEach(([key, link]) => {
+        if (!link) return;
+        const pageMap = {
+          preparacion: 'preparacion.html',
+          ceremonia: 'ceremonia.html',
+          celebracion: 'celebracion.html',
+          invitacion: 'invitation.html',
+        };
+        link.href = buildUrl(pageMap[key]);
+      });
+
+      const hide = (link) => {
+        if (link) link.style.display = 'none';
+      };
+
+      if (code === '0015' || code === '0016') {
+        hide(links.ceremonia);
+        hide(links.celebracion);
+      }
+
+      if (code === '0001' || code === '0002') {
+        hide(links.preparacion);
+      }
+
+      if (code === '0005') {
+        hide(links.preparacion);
+        hide(links.ceremonia);
+      }
+    })();
+  </script>
 </body>
 </html>

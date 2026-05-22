@@ -2,7 +2,7 @@ let lang = 'es';
 let guestName = '';
 let targetPage = 'invitation.html';
 
-const CRONO_FEMALE_CODES = new Set(['0007', '0008', '0009', '0010', '0011', '0015', '0016']);
+const CRONO_FEMALE_CODES = new Set(['0001', '0005', '0006', '0007', '0008', '0009', '0010', '0011', '0015', '0016']);
 const CRONO_MALE_CODES = new Set(['0012', '0013', '0014']);
 
 const T = {
@@ -136,6 +136,9 @@ function goToInvitationPage(){
   const url = new URL(targetPage, window.location.href);
   url.searchParams.set('lang', lang);
   if(guestName) url.searchParams.set('name', guestName);
+  const raw = document.getElementById('codeInput')?.value || '';
+  const found = findCode(raw.trim());
+  if(found?.code) url.searchParams.set('code', found.code);
   window.location.href = url.toString();
 }
 
