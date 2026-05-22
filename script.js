@@ -2,11 +2,8 @@ let lang = 'es';
 let guestName = '';
 let targetPage = 'invitation.html';
 
-const CRONO_FEMALE_CODES = new Set(['0007', '0008', '0009', '0010', '0011']);
+const CRONO_FEMALE_CODES = new Set(['0007', '0008', '0009', '0010', '0011', '0015', '0016']);
 const CRONO_MALE_CODES = new Set(['0012', '0013', '0014']);
-const CRONO_MESSAGE_FEMALE = 'Gracias por estar tan involucrada en este día tan especial para nosotros 🤍';
-const CRONO_MESSAGE_MALE = 'Gracias por estar tan involucrado en este día tan especial para nosotros 🤍';
-const CRONO_BUTTON_TEXT = 'Ver Cronograma';
 
 const T = {
   es: {
@@ -16,9 +13,12 @@ const T = {
     codeHint: '* Utiliza el código que te enviamos por WhatsApp.',
     enter: 'Entrar',
     viewInvite: 'Ver invitación',
+    viewSchedule: 'Ver Cronograma',
     invalid: 'Código incorrecto. Revisa tu invitación.',
     singular: (name) => `${name}, estás cordialmente invitado a nuestra boda`,
     plural:   (name) => `${name}, están cordialmente invitados a nuestra boda`,
+    specialFemale: (name) => `${name}, Gracias por estar tan involucrada en este día tan especial para nosotros 🤍`,
+    specialMale: (name) => `${name}, Gracias por estar tan involucrado en este día tan especial para nosotros 🤍`,
   },
   it: {
     langTitle: 'Scegli la lingua',
@@ -27,9 +27,12 @@ const T = {
     codeHint: '*Utilizza il codice che ti abbiamo inviato tramite WhatsApp.',
     enter: 'Entra',
     viewInvite: 'Vedi invito',
+    viewSchedule: 'Vedi Cronoprogramma',
     invalid: 'Codice non valido. Controlla il tuo invito.',
     singular: (name) => `${name}, sei cordialmente invitato al nostro matrimonio`,
     plural:   (name) => `${name}, siete cordialmente invitati al nostro matrimonio`,
+    specialFemale: (name) => `${name}, Grazie per essere così coinvolta in questo giorno così speciale per noi 🤍`,
+    specialMale: (name) => `${name}, Grazie per essere così coinvolto in questo giorno così speciale per noi 🤍`,
   }
 };
 
@@ -108,9 +111,9 @@ function submitCode(){
 
   const plural = isPlural(found.code) || isPlural(guestName);
   const line = CRONO_FEMALE_CODES.has(found.code)
-    ? `${guestName}, ${CRONO_MESSAGE_FEMALE}`
+    ? T[lang].specialFemale(guestName)
     : CRONO_MALE_CODES.has(found.code)
-    ? `${guestName}, ${CRONO_MESSAGE_MALE}`
+    ? T[lang].specialMale(guestName)
     : (plural ? T[lang].plural(guestName) : T[lang].singular(guestName));
 
   // Oculta pantallas
@@ -123,7 +126,7 @@ function submitCode(){
 
   document.getElementById('heroText').textContent = line;
   document.getElementById('heroBtn').textContent = (CRONO_FEMALE_CODES.has(found.code) || CRONO_MALE_CODES.has(found.code))
-    ? CRONO_BUTTON_TEXT
+    ? T[lang].viewSchedule
     : T[lang].viewInvite;
 
   window.scrollTo({ top: 0, behavior: 'instant' });
