@@ -49,7 +49,12 @@ function goToHistoria() {
 
 let lang = "es";
 let guestName = "";
+let guestCode = "";
 let ui = null;
+const SPECIAL_CRONO_CODES = new Set([
+  "0001","0002","0003","0004","0005","0006","0007","0008",
+  "0009","0010","0011","0012","0013","0014","0015","0016"
+]);
 
 const T = {
   es: {
@@ -367,6 +372,7 @@ function applyI18n(dict) {
 window.addEventListener("load", () => {
   lang = (qs("lang") || "es").toLowerCase();
   guestName = qs("name") || "";
+  guestCode = qs("code") || "";
   const t = T[lang] || T.es;
   ui = I18N[lang] || I18N.es;
 
@@ -390,6 +396,20 @@ window.addEventListener("load", () => {
     backBtn.textContent = t.back;
     backBtn.addEventListener("click", () => {
       window.location.href = backUrl.toString();
+    });
+  }
+
+  const cronoReturnSection = document.getElementById("cronoReturnSection");
+  const cronoReturnBtn = document.getElementById("cronoReturnBtn");
+  if (cronoReturnSection && cronoReturnBtn && SPECIAL_CRONO_CODES.has(guestCode)) {
+    const cronoUrl = new URL("crono.html", window.location.href);
+    cronoUrl.searchParams.set("lang", lang);
+    if (guestName) cronoUrl.searchParams.set("name", guestName);
+    if (guestCode) cronoUrl.searchParams.set("code", guestCode);
+    cronoReturnSection.style.display = "";
+    cronoReturnBtn.textContent = lang === "it" ? "Torna al cronoprogramma" : "Volver";
+    cronoReturnBtn.addEventListener("click", () => {
+      window.location.href = cronoUrl.toString();
     });
   }
 
