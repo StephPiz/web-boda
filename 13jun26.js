@@ -261,7 +261,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       "1101": ["ale"],
       "2504": ["sebas"],
       "1501": ["ruben", "vicky"],
-      "0710": ["diego"],
+      "0704": ["diego"],
       "0619": ["fio", "sergio"],
       "2012": ["martin"],
       "2204": ["maria-luisa", "benito-2"],
