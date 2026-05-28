@@ -248,8 +248,16 @@ document.addEventListener("DOMContentLoaded", async () => {
     const text = (value || "").trim();
     if (!text) return "";
 
+    const normalized = text.replace(/\\n/g, "\n");
+    const compacted = normalized.replace(/\n{3,}/g, "\n\n");
+    const paragraphSeed = compacted.includes("\n\n")
+      ? compacted
+      : compacted
+          .replace(/([.!?])\s+([A-ZÁÉÍÓÚÑÜ])/g, "$1\n\n$2")
+          .replace(/([a-záéíóúñü])\n([A-ZÁÉÍÓÚÑÜ])/g, "$1\n\n$2");
+
     return text
-      .replace(/\\n/g, "\n")
+      && paragraphSeed
       .split(/\n{2,}/)
       .map((paragraph) =>
         `<p class="songbook-lyrics-paragraph-13jun26">${paragraph
