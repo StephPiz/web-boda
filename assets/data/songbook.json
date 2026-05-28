@@ -18,6 +18,23 @@
     "duration": "3:59"
   },
   {
+    "id": "te-encontre",
+    "title": "Te Encontré",
+    "artist": "El Vega",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": [
+      "latina",
+      "romantica"
+    ],
+    "search": [
+      "te encontre",
+      "el vega"
+    ],
+    "snippet": "",
+    "lyrics": "",
+    "duration": "4:23"
+  },
+  {
     "id": "corazon-partio",
     "title": "Corazón Partío",
     "artist": "Alejandro Sanz",
@@ -3457,17 +3474,17 @@
     "duration": "3:20"
   },
   {
-    "id": "corazon-espinado-feat-mana",
-    "title": "Corazon Espinado (feat. Mana)",
-    "artist": "Santana, Maná",
+    "id": "corazon-espinado",
+    "title": "Corazon Espinado",
+    "artist": "Santana feat. Maná",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "corazon espinado (feat. mana)",
-      "santana, mana",
+      "corazon espinado",
+      "santana feat mana",
       "corazon",
       "espinado",
-      "feat",
+      "santana",
       "mana"
     ],
     "snippet": "",
