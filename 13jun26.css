@@ -542,8 +542,17 @@
 .songbook-detail-snippet-13jun26 {
   margin: 0 0 22px;
   font-size: clamp(22px, 3vw, 34px);
-  line-height: 1.25;
+  line-height: 1.4;
   color: #111;
+  text-align: left;
+}
+
+.songbook-lyrics-paragraph-13jun26 {
+  margin: 0 0 24px;
+}
+
+.songbook-lyrics-paragraph-13jun26:last-child {
+  margin-bottom: 0;
 }
 
 .songbook-detail-empty-13jun26 {
@@ -1168,7 +1177,11 @@ html {
 
   .songbook-detail-snippet-13jun26 {
     font-size: 18px;
-    line-height: 1.35;
+    line-height: 1.5;
+  }
+
+  .songbook-lyrics-paragraph-13jun26 {
+    margin-bottom: 18px;
   }
 
   .songbook-detail-empty-13jun26 {

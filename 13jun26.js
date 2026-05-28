@@ -244,6 +244,22 @@ document.addEventListener("DOMContentLoaded", async () => {
   const SONGBOOK_PATH = "assets/data/songbook.json";
 
   let SONGBOOK_DATA = [];
+  const formatSongLyrics = (value) => {
+    const text = (value || "").trim();
+    if (!text) return "";
+
+    return text
+      .replace(/\\n/g, "\n")
+      .split(/\n{2,}/)
+      .map((paragraph) =>
+        `<p class="songbook-lyrics-paragraph-13jun26">${paragraph
+          .split("\n")
+          .map((line) => line.trim())
+          .filter(Boolean)
+          .join("<br>")}</p>`
+      )
+      .join("");
+  };
 
   if (seatingMap) {
     const guestName = normalize(params.get("name"));
@@ -397,11 +413,12 @@ document.addEventListener("DOMContentLoaded", async () => {
       const tags = (song.tags || [])
         .map((tag) => `<span class="songbook-detail-tag-13jun26">${tag}</span>`)
         .join("");
-      const hasLyrics = Boolean((song.lyrics || song.snippet || "").trim());
+      const rawLyrics = song.lyrics || song.snippet || "";
+      const hasLyrics = Boolean(rawLyrics.trim());
       const letrasQuery = encodeURIComponent(`${song.title} ${song.artist}`);
       const letrasUrl = song.lyricsUrl || `https://www.letras.com/?q=${letrasQuery}`;
       const lyricsMarkup = hasLyrics
-        ? `<div class="songbook-detail-snippet-13jun26">${(song.lyrics || song.snippet || "").replace(/\n/g, "<br>")}</div>`
+        ? `<div class="songbook-detail-snippet-13jun26">${formatSongLyrics(rawLyrics)}</div>`
         : `<p class="songbook-detail-empty-13jun26">${copy.songbookNoLyrics}</p>`;
 
       songbookDetail.innerHTML = `
