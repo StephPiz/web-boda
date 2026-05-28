@@ -128,6 +128,23 @@
     "duration": "5:30"
   },
   {
+    "id": "sara-perche-ti-amo",
+    "title": "Sarà perché ti amo",
+    "artist": "Ricchi E Poveri",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": [
+      "italiana",
+      "fiesta"
+    ],
+    "search": [
+      "sara perche ti amo",
+      "ricchi e poveri"
+    ],
+    "snippet": "",
+    "lyrics": "",
+    "duration": "3:11"
+  },
+  {
     "id": "cuando-nadie-me-ve",
     "title": "Cuando Nadie Me Ve",
     "artist": "Alejandro Sanz",
@@ -1999,22 +2016,6 @@
     "duration": "5:11"
   },
   {
-    "id": "corazon-partio",
-    "title": "Corazón partío",
-    "artist": "Alejandro Sanz",
-    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-    "tags": [],
-    "search": [
-      "corazon partio",
-      "alejandro sanz",
-      "corazon",
-      "partio"
-    ],
-    "snippet": "",
-    "lyrics": "",
-    "duration": "5:43"
-  },
-  {
     "id": "en-algun-lugar",
     "title": "En algún lugar",
     "artist": "Duncan Dhu",
@@ -2755,21 +2756,6 @@
     "duration": "3:37"
   },
   {
-    "id": "isn-t-she-lovely",
-    "title": "Isn't She Lovely",
-    "artist": "Stevie Wonder",
-    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-    "tags": [],
-    "search": [
-      "isn't she lovely",
-      "stevie wonder",
-      "lovely"
-    ],
-    "snippet": "",
-    "lyrics": "",
-    "duration": "3:19"
-  },
-  {
     "id": "how-deep-is-your-love",
     "title": "How Deep Is Your Love",
     "artist": "Bee Gees",
@@ -3305,21 +3291,6 @@
     "duration": "4:51"
   },
   {
-    "id": "la-bicicleta",
-    "title": "La Bicicleta",
-    "artist": "Carlos Vives, Shakira",
-    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-    "tags": [],
-    "search": [
-      "la bicicleta",
-      "carlos vives, shakira",
-      "bicicleta"
-    ],
-    "snippet": "",
-    "lyrics": "",
-    "duration": "3:48"
-  },
-  {
     "id": "reggaeton-lento-bailemos",
     "title": "Reggaetón Lento (Bailemos)",
     "artist": "CNCO",
@@ -3365,22 +3336,6 @@
     "duration": "3:49"
   },
   {
-    "id": "vivir-mi-vida",
-    "title": "Vivir Mi Vida",
-    "artist": "Marc Anthony",
-    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-    "tags": [],
-    "search": [
-      "vivir mi vida",
-      "marc anthony",
-      "vivir",
-      "vida"
-    ],
-    "snippet": "",
-    "lyrics": "",
-    "duration": "4:12"
-  },
-  {
     "id": "la-vida-es-un-carnaval",
     "title": "La Vida Es Un Carnaval",
     "artist": "Celia Cruz",
@@ -3395,22 +3350,6 @@
     "snippet": "",
     "lyrics": "",
     "duration": "4:39"
-  },
-  {
-    "id": "valio-la-pena",
-    "title": "Valió la Pena",
-    "artist": "Salsa Version - Marc Anthony",
-    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-    "tags": [],
-    "search": [
-      "valio la pena",
-      "salsa version - marc anthony",
-      "valio",
-      "pena"
-    ],
-    "snippet": "",
-    "lyrics": "",
-    "duration": "4:49"
   },
   {
     "id": "hay-que-venir-al-sur",
