@@ -18,6 +18,21 @@
     "duration": "3:59"
   },
   {
+    "id": "bella-ciao",
+    "title": "Bella Ciao",
+    "artist": "",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": [
+      "italiana"
+    ],
+    "search": [
+      "bella ciao"
+    ],
+    "snippet": "",
+    "lyrics": "",
+    "duration": ""
+  },
+  {
     "id": "te-encontre",
     "title": "Te Encontré",
     "artist": "El Vega",
@@ -33,6 +48,20 @@
     "snippet": "",
     "lyrics": "",
     "duration": "4:23"
+  },
+  {
+    "id": "purple-rain",
+    "title": "Purple Rain",
+    "artist": "Prince",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": [],
+    "search": [
+      "purple rain",
+      "prince"
+    ],
+    "snippet": "",
+    "lyrics": "",
+    "duration": ""
   },
   {
     "id": "corazon-partio",
