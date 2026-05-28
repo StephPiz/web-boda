@@ -60,6 +60,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       songbookNoResults:
         "No hay resultados todavía. Prueba con otra palabra o pásame más canciones para ampliar el cancionero.",
       spotifyListen: "Escuchar en Spotify",
+      letrasListen: "Buscar letra en Letras.com",
+      songbookNoLyrics:
+        "Todavía no hay letra guardada aquí. Puedes buscar esta canción en Letras.com mientras completas el cancionero.",
       staffTitle: "Staff",
       staffIntro: "Estamos muy agradecidos de contar con el trabajo de",
       staffRoles: [
@@ -124,6 +127,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       songbookNoResults:
         "Non ci sono ancora risultati. Prova con un’altra parola oppure passami più canzoni per ampliare il canzoniere.",
       spotifyListen: "Ascolta su Spotify",
+      letrasListen: "Cerca testo su Letras.com",
+      songbookNoLyrics:
+        "Qui non c'è ancora il testo salvato. Puoi cercare questa canzone su Letras.com mentre completi il canzoniere.",
       staffTitle: "Staff",
       staffIntro: "Siamo molto grati di poter contare sul lavoro di",
       staffRoles: [
@@ -391,13 +397,22 @@ document.addEventListener("DOMContentLoaded", async () => {
       const tags = (song.tags || [])
         .map((tag) => `<span class="songbook-detail-tag-13jun26">${tag}</span>`)
         .join("");
+      const hasLyrics = Boolean((song.lyrics || song.snippet || "").trim());
+      const letrasQuery = encodeURIComponent(`${song.title} ${song.artist}`);
+      const letrasUrl = song.lyricsUrl || `https://www.letras.com/?q=${letrasQuery}`;
+      const lyricsMarkup = hasLyrics
+        ? `<div class="songbook-detail-snippet-13jun26">${(song.lyrics || song.snippet || "").replace(/\n/g, "<br>")}</div>`
+        : `<p class="songbook-detail-empty-13jun26">${copy.songbookNoLyrics}</p>`;
 
       songbookDetail.innerHTML = `
         <h3 class="songbook-detail-title-13jun26">${song.title}</h3>
         <p class="songbook-detail-artist-13jun26">${song.artist}</p>
-        <div class="songbook-detail-snippet-13jun26">${(song.lyrics || song.snippet || "").replace(/\n/g, "<br>")}</div>
+        ${lyricsMarkup}
         <div class="songbook-detail-tags-13jun26">${tags}</div>
-        <a class="songbook-detail-link-13jun26" href="${song.spotify}" target="_blank" rel="noopener">${copy.spotifyListen}</a>
+        <div class="songbook-detail-actions-13jun26">
+          <a class="songbook-detail-link-13jun26" href="${song.spotify}" target="_blank" rel="noopener">${copy.spotifyListen}</a>
+          <a class="songbook-detail-link-13jun26 songbook-detail-link-secondary-13jun26" href="${letrasUrl}" target="_blank" rel="noopener">${copy.letrasListen}</a>
+        </div>
       `;
     };
 
