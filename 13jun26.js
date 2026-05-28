@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         "Wedding Planner di Ziba Eventos",
       ],
       closing: [
-        ["IL", "MEGLIO", "DI", "TUTTO"],
+        ["LA", "COSA", "PIÙ", "BELLA DELLA"],
         ["FELICITÀ", "È"],
         ["QUANDO", "LA"],
         ["CONDIVIDI"],
