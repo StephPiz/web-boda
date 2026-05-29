@@ -336,6 +336,62 @@ document.addEventListener("DOMContentLoaded", async () => {
     return blocks.join("");
   };
 
+  const detectSongLanguage = (song) => {
+    const text = (song?.lyrics || "").slice(0, 1200);
+    if (!text.trim()) return null;
+    if (/\b(che|non|sei|una|della|perché|lassù|partigiano|libertà|cuore|amore|portami|svegliato)\b/i.test(text)) {
+      return "it";
+    }
+    if (/[¿¡áéíóúñ]|\b(que|como|cuando|donde|amor|vida|para|conmigo|ojos|corazón|quiero|noche|canción)\b/i.test(text)) {
+      return "es";
+    }
+    return null;
+  };
+
+  const formatTranslatedLyrics = (originalText, translatedText) => {
+    const originalParagraphs = (originalText || "")
+      .replace(/\\n/g, "\n")
+      .replace(/\n{3,}/g, "\n\n")
+      .split(/\n{2,}/)
+      .map((paragraph) =>
+        paragraph
+          .split("\n")
+          .map((line) => line.trim())
+          .filter(Boolean)
+      )
+      .filter((lines) => lines.length);
+
+    const translatedParagraphs = (translatedText || "")
+      .replace(/\\n/g, "\n")
+      .replace(/\n{3,}/g, "\n\n")
+      .split(/\n{2,}/)
+      .map((paragraph) =>
+        paragraph
+          .split("\n")
+          .map((line) => line.trim())
+          .filter(Boolean)
+      )
+      .filter((lines) => lines.length);
+
+    const count = Math.max(originalParagraphs.length, translatedParagraphs.length);
+    const blocks = [];
+    for (let i = 0; i < count; i += 1) {
+      const originalLines = originalParagraphs[i] || [];
+      const translatedLines = translatedParagraphs[i] || [];
+      blocks.push(
+        `<p class="songbook-lyrics-paragraph-13jun26 songbook-lyrics-bilingual-13jun26">` +
+          (originalLines.length
+            ? `<span class="songbook-lyrics-line-13jun26 songbook-lyrics-line-primary-13jun26">${originalLines.join("<br>")}</span>`
+            : "") +
+          (translatedLines.length
+            ? `<span class="songbook-lyrics-line-13jun26 songbook-lyrics-line-translation-13jun26">${translatedLines.join("<br>")}</span>`
+            : "") +
+        `</p>`
+      );
+    }
+    return blocks.join("");
+  };
+
   const shouldUseBilingualLayout = (text) => {
     const lines = (text || "")
       .replace(/\\n/g, "\n")
@@ -356,6 +412,18 @@ document.addEventListener("DOMContentLoaded", async () => {
   const formatSongLyrics = (song) => {
     const text = (song?.lyrics || "").trim();
     if (!text) return "";
+
+    const originalLang = detectSongLanguage(song);
+    const alternateTranslation =
+      originalLang === "it"
+        ? song?.translations?.es || ""
+        : originalLang === "es"
+          ? song?.translations?.it || ""
+          : "";
+
+    if (alternateTranslation.trim()) {
+      return formatTranslatedLyrics(text, alternateTranslation);
+    }
 
     if (song?.id === "hey-jude") {
       return formatBilingualLyrics(text, HEY_JUDE_IT);
