@@ -583,14 +583,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 
 .songbook-lyrics-paragraph-13jun26 {
   margin: 0 0 30px;
-  max-width: 24ch;
-  margin-left: auto;
-  margin-right: auto;
+  width: min(100%, 24ch);
+  text-align: left;
+}
+
+.songbook-lyrics-bilingual-13jun26 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.songbook-lyrics-line-13jun26 {
+  display: block;
+}
+
+.songbook-lyrics-line-primary-13jun26 {
+  color: #111;
+}
+
+.songbook-lyrics-line-translation-13jun26 {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 0.72em;
+  line-height: 1.45;
 }
 
 .songbook-lyrics-paragraph-13jun26:last-child {
@@ -1246,8 +1266,12 @@ html {
   }
 
   .songbook-lyrics-paragraph-13jun26 {
-    max-width: 22ch;
+    width: min(100%, 22ch);
     margin-bottom: 36px;
+  }
+
+  .songbook-lyrics-line-translation-13jun26 {
+    font-size: 0.75em;
   }
 
   .songbook-detail-empty-13jun26 {

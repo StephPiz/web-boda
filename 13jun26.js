@@ -243,10 +243,127 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const SONGBOOK_PATH = "assets/data/songbook.json?v=20260529-1";
 
+  const HEY_JUDE_IT = {
+    "Oye, Jude, no te pongas mal": "Ehi Jude, non prenderla male",
+    "Toma una canción triste y hazla mejor": "Prendi una canzone triste e rendila migliore",
+    "Recuerda dejarla entrar en tu corazón": "Ricorda di lasciarla entrare nel tuo cuore",
+    "Entonces podrás empezar a mejorarla": "Allora potrai cominciare a migliorarla",
+    "Oye, Jude, no tengas miedo": "Ehi Jude, non avere paura",
+    "Naciste para ir a conquistarla": "Sei nato per andarla a conquistare",
+    "En el momento que te permitas sentirla": "Nel momento in cui ti permetti di sentirla",
+    "Entonces comenzarás a mejorarla": "Allora comincerai a migliorarla",
+    "Y siempre que sientas el dolor": "E ogni volta che sentirai il dolore",
+    "Oye, Jude, tómalo con calma": "Ehi Jude, prendila con calma",
+    "No lleves el mundo sobre tus hombros": "Non portarti il mondo sulle spalle",
+    "Sabes muy bien que eso es una tontería": "Sai benissimo che è una sciocchezza",
+    "El que actúa como si nada": "Chi fa finta di niente",
+    "Por hacer su mundo un poco más frío": "Rendendo il suo mondo un po' più freddo",
+    "Oye, Jude, no me defraudes": "Ehi Jude, non deludermi",
+    "La encontraste, ahora ve y conquístala": "L'hai trovata, ora vai e conquistala",
+    "Así que déjalo salir y déjalo entrar": "Quindi lascialo uscire e lascialo entrare",
+    "Oye, Jude, empieza": "Ehi Jude, comincia",
+    "Estás esperando alguien para lograr cosas": "Stai aspettando qualcuno con cui farlo",
+    "¿Y no sabes que ese alguien es nadie más que tú?": "E non sai che quel qualcuno sei proprio tu?",
+    "Oye, Jude, vas a lograrlo": "Ehi Jude, ce la farai",
+    "El movimiento que necesitas está sobre tus hombros": "Il movimento di cui hai bisogno è sulle tue spalle",
+    "(Mejorar, mejorar, mejorar, mejorar, mejorar, oh, sí)": "(Meglio, meglio, meglio, meglio, meglio, oh sì)",
+  };
+
   let SONGBOOK_DATA = [];
-  const formatSongLyrics = (value) => {
-    const text = (value || "").trim();
+
+  const dedupeSongbookData = (songs) => {
+    const byId = new Map();
+    songs.forEach((song) => {
+      const existing = byId.get(song.id);
+      if (!existing) {
+        byId.set(song.id, song);
+        return;
+      }
+      const score = (entry) =>
+        (entry.lyrics || "").trim().length +
+        (entry.snippet || "").trim().length +
+        (entry.artist || "").length;
+      if (score(song) > score(existing)) byId.set(song.id, song);
+    });
+    return [...byId.values()];
+  };
+
+  const ENGLISH_HINTS =
+    /\b(the|and|you|your|don't|cant|can't|love|heart|baby|time|night|day|take|make|better|under|with|when|what|how|all|now|feel|little|forever|together|rain|eyes)\b/i;
+  const ROMANCE_HINTS =
+    /[¿¡áéíóúñ]| \b(que|como|cuando|donde|dime|amor|vida|para|con|sin|por|non|che|sei|una|nel|cuore|ehi|ricorda)\b/i;
+
+  const getLanguageBucket = (line) => {
+    const text = (line || "").trim();
+    if (!text) return "other";
+    if (ENGLISH_HINTS.test(text) && !ROMANCE_HINTS.test(text)) return "en";
+    if (ROMANCE_HINTS.test(text)) return "romance";
+    return "other";
+  };
+
+  const formatBilingualLyrics = (value, translationMap = null) => {
+    const lines = (value || "")
+      .replace(/\\n/g, "\n")
+      .split("\n")
+      .map((line) => line.trim())
+      .filter(Boolean);
+
+    const blocks = [];
+    for (let i = 0; i < lines.length; i += 2) {
+      const first = lines[i];
+      const second = lines[i + 1];
+      const firstLang = getLanguageBucket(first);
+      const secondLang = getLanguageBucket(second);
+      const firstIsTranslation = firstLang === "romance" && secondLang === "en";
+      const secondIsTranslation = firstLang === "en" && secondLang === "romance";
+      const translation = firstIsTranslation ? first : secondIsTranslation ? second : first;
+      const original = firstIsTranslation ? second : secondIsTranslation ? first : second;
+      if (!original && !translation) continue;
+      const localizedTranslation =
+        pageLang === "it" && translationMap ? translationMap[translation] || translation : translation;
+      blocks.push(
+        `<p class="songbook-lyrics-paragraph-13jun26 songbook-lyrics-bilingual-13jun26">` +
+          (original
+            ? `<span class="songbook-lyrics-line-13jun26 songbook-lyrics-line-primary-13jun26">${original}</span>`
+            : "") +
+          (localizedTranslation
+            ? `<span class="songbook-lyrics-line-13jun26 songbook-lyrics-line-translation-13jun26">${localizedTranslation}</span>`
+            : "") +
+        `</p>`
+      );
+    }
+
+    return blocks.join("");
+  };
+
+  const shouldUseBilingualLayout = (text) => {
+    const lines = (text || "")
+      .replace(/\\n/g, "\n")
+      .split("\n")
+      .map((line) => line.trim())
+      .filter(Boolean);
+    let mixedPairs = 0;
+    for (let i = 0; i < lines.length - 1; i += 2) {
+      const a = getLanguageBucket(lines[i]);
+      const b = getLanguageBucket(lines[i + 1]);
+      if ((a === "en" && b === "romance") || (a === "romance" && b === "en")) {
+        mixedPairs += 1;
+      }
+    }
+    return mixedPairs >= 2;
+  };
+
+  const formatSongLyrics = (song) => {
+    const text = (song?.lyrics || "").trim();
     if (!text) return "";
+
+    if (song?.id === "hey-jude") {
+      return formatBilingualLyrics(text, HEY_JUDE_IT);
+    }
+
+    if (shouldUseBilingualLayout(text)) {
+      return formatBilingualLyrics(text);
+    }
 
     const normalized = text.replace(/\\n/g, "\n");
     const compacted = normalized.replace(/\n{3,}/g, "\n\n");
@@ -446,12 +563,12 @@ document.addEventListener("DOMContentLoaded", async () => {
       const response = await fetch(SONGBOOK_PATH, { cache: "no-store" });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const payload = await response.json();
-      SONGBOOK_DATA = Array.isArray(payload) ? payload : [];
+      SONGBOOK_DATA = dedupeSongbookData(Array.isArray(payload) ? payload : []);
     } catch (error) {
       console.warn("No se pudo cargar songbook.json, uso fallback en JS", error);
-      SONGBOOK_DATA = Array.isArray(window.SONGBOOK_DATA_13JUN26)
-        ? window.SONGBOOK_DATA_13JUN26
-        : [];
+      SONGBOOK_DATA = dedupeSongbookData(
+        Array.isArray(window.SONGBOOK_DATA_13JUN26) ? window.SONGBOOK_DATA_13JUN26 : []
+      );
     }
 
     let activeId = SONGBOOK_DATA[0]?.id || null;
@@ -471,7 +588,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const letrasQuery = encodeURIComponent(`${song.title} ${song.artist}`);
       const letrasUrl = song.lyricsUrl || `https://www.letras.com/?q=${letrasQuery}`;
       const lyricsMarkup = hasLyrics
-        ? `<div class="songbook-detail-snippet-13jun26">${formatSongLyrics(rawLyrics)}</div>`
+        ? `<div class="songbook-detail-snippet-13jun26">${formatSongLyrics(song)}</div>`
         : `<p class="songbook-detail-empty-13jun26">${copy.songbookNoLyrics}</p>`;
 
       songbookDetail.innerHTML = `
