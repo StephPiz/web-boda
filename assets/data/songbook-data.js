@@ -14,7 +14,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "favorita"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "TEST",
     "duration": "3:59"
   },
   {
@@ -47,7 +47,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "rain"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "I never meant to cause you any sorrow\nI never meant to cause you any pain\nI only wanted to one time to see you laughing\nI only wanted to see you\nLaughing in the purple rain\n\nPurple rain, purple rain\nPurple rain, purple rain\nPurple rain, purple rain\nI only wanted to see you\nBathing in the purple rain\n\nI never wanted to be your weekend lover\nI only wanted to be some kind of friend\nBaby, I could never steal you from another\nIt's such a shame our friendship had to end\n\nPurple rain, purple rain\nPurple rain, purple rain\nPurple rain, purple rain\nI only wanted to see you\nUnderneath the purple rain\n\nHoney, I know, I know\nI know times are changing\nIt's time we all reach out\nFor something new, that means you too\nYou say you want a leader\nBut you can't seem to make up your mind\nI think you better close it\nAnd let me guide you to the purple rain\n\nPurple rain, purple rain\nPurple rain, purple rain\nIf you know what I'm singing about up here\nCome on, raise your hands\nPurple rain, purple rain\nI only want to see you\nI only want to see you\nIn the purple rain",
     "duration": ""
   },
   {
