@@ -158,7 +158,7 @@ const I18N = {
       "No tenemos lista de regalos. Si deseas acompañarnos con un detalle, puedes hacerlo mediante transferencia bancaria.",
     gift_beneficiary: "Beneficiario",
     gift_beneficiary_value:
-      "NOMBRE: Alessandro Albanese<br>APELLIDO: Stephany Pizan",
+      "NOMBRE: Alessandro Albanese<br>APELLIDO: Stephany Pizan Ramos",
     gift_bank: "Banco",
     gift_corr: "BIC banco corresponsal",
     faq_title: "FAQ",
@@ -271,7 +271,7 @@ const I18N = {
       "Non abbiamo una lista regalo. Se vuoi accompagnarci con un pensiero, puoi farlo tramite bonifico bancario.",
     gift_beneficiary: "Beneficiario",
     gift_beneficiary_value:
-      "NOME: Alessandro Albanese<br>COGNOME: Stephany Pizan",
+      "NOME: Alessandro Albanese<br>COGNOME: Stephany Pizan Ramos",
     gift_bank: "Banca",
     gift_corr: "BIC banca corrispondente",
     faq_title: "FAQ",
