@@ -2274,7 +2274,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "documentos"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Déjame atravesar el viento sin documentos\nQue lo haré por el tiempo que tuvimos\nPorque no queda salida\nPorque pareces dormida\nPorque buscando tu sonrisa estaría toda mi vida\nQuiero ser el único que te muerda la boca\nQuiero saber que la vida contigo no va a terminar\nDéjame que te cierre esta noche los ojos\nY mañana vendré con un cigarro a la cama\nPorque no tengo más intenciones\nQue seguir bebiendo de esta copa\nQue no está tan rota\nQuiero ser el único que te muerda la boca\nQuiero saber que la vida contigo no va a terminar\nPorque sí, porque sí, porque sí\nPorque en esta vida no quiero pasar\nUn día entero sin ti, uuh\nPorque sí, porque sí, porque sí\nPorque mientras te espero por ti me muero\nY no quiero seguir así, uuh\nDéjame atravesar el viento sin documentos\nQue lo haré por el tiempo que tuvimos\nPorque no queda salida\nPorque pareces dormida\nPorque buscando tu sonrisa estaría toda mi vida\nQuiero ser el único que te muerda la boca\nQuiero saber que la vida contigo no va a terminar\nPorque sí, porque sí, porque sí\nPorque en esta vida no quiero pasar\nMás de un día entero sin ti, uuh\nPorque sí, porque sí, porque sí\nPorque mientras te espero por ti me muero\nY no quiero seguir así, uuh\nQuiero ser el único que te muerda la boca\nQuiero saber que la vida contigo no va a terminar\nAy, quiero ser el único que te muerda la boca\nQuiero saber que la vida contigo no va a terminar\nPorque sí, porque sí\nPorque en esta vida no quiero pasar\nMás de un día entero sin ti, uuh\nPorque sí, porque sí\nPorque mientras te espero por ti me muero\nY no quiero seguir así",
     "duration": "4:45"
   },
   {
@@ -2325,7 +2325,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "queria"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "¿Por qué eres tan hermosa y a la vez tan difícil?\n¿Por qué la vida pasa y pasa y te quiero a mi vera?\nSi me trataste como a un juguete sucio y abandonado\nSi no comprendes que el amar es algo más que besarnos\nEnvidio a todo aquel que el amor ha encontrado\nQue lo mío no es ir de flor en flor, que de eso ya me he cansado\nSolo quería adornar las noches con tu cara morena\nY decirte que hay corazones que no huyen de la tormenta\nA veces la miro y lloro y lloro\nPensando que pudo y no fue al final\nVer a las nubes, tapar las estrellas\nEstrellas que solo te quieren mirar\nPorque eres la cuna que mece sin nada\nPorque eres la lluvia que no hace mojar\nSin ti yo veía tardes de historias\nHistorias que nunca quise ver acabar\nTanto la quería, tanto que yo\nPor ella moría, eso bien lo sabe Dios\nElla es la reina de mi inspiración\nPor la que yo sufro, la musa de mi amor\nBusco en el recuerdo y no encuentro mi pasado\nLas campanas y más campanas que mi alma ha escuchado\nTú sabes bien que a la última frontera te hubiera llevado\nQue los senderos de la vida hay que cogerlos con dos manos\nA veces la miro y lloro y lloro\nPensando que pudo y no fue al final\nVer a las nubes, tapar las estrellas\nEstrellas que solo te quieren mirar\nPorque eres la cuna que mece sin nada\nPorque eres la lluvia que no hace mojar\nSin ti yo veía tardes de historias\nHistorias que nunca quise ver acabar\nTanto la quería, tanto que yo\nPor ella moría, eso bien lo sabe Dios\nElla es la reina de mi inspiración\nPor la que yo sufro, la musa de mi amor\nTanto la quería, tanto que yo\nPor ella moría, eso bien lo sabe Dios\nElla es la reina de mi inspiración\nPor la que yo sufro, la musa de mi amor\nTanto la quería, tanto, tanto la quería\nQue por ella moría, ay por ella yo moría\nElla es la reina, reina de mi reina\nPor la que yo sufro",
     "duration": "4:40"
   },
   {
@@ -2402,7 +2402,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "song"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "It's a little bit funny this feeling inside\nEs un poco gracioso este sentimiento dentro de mí\n\nI'm not one of those who can easily hide\nNo soy uno de esos que pueden ocultarlo fácilmente\n\nI don't have much money, but, boy, if I did\nNo tengo mucho dinero, pero, oye, si lo tuviera\n\nI'd buy a big house where we both could live\nCompraría una casa grande donde podríamos vivir\n\nSi yo fuera escultor, pero, de nuevo, no lo soy\nIf I was a sculptor, but then again, no\n\nOr a man who makes potions in a travelling show\nO un hombre que hace pociones en un espectáculo itinerante\n\nI know it's not much, but it's the best I can do\nSé que no es mucho, pero es lo mejor que puedo hacer\n\nMy gift is my song and this one's for you\nMi regalo es mi canción y esta es para ti\n\nAnd you can tell everybody this is your song\nY le puedes decir a todo el mundo que esta es tu canción\n\nIt may be quite simple, but now that it's done\nPuede que sea muy simple, pero ahora que está terminada\n\nI hope you don't mind\nEspero que no te importes\n\nI hope you don't mind that I put down in words\nEspero que no te importes que yo ponga en palabras\n\nHow wonderful life is while you're in the world\nLo maravillosa que es la vida mientras estás tú en el mundo\n\nI sat on the roof and kicked off the moss\nMe senté en el techo y arranqué el musgo\n\nWell, a few of the verses, well, they've got me quite cross\nBueno, algunos de los versos, a ver, me tienen bastante confundido\n\nBut the sun's been quite kind while I wrote this song\nPero el Sol fue muy amable mientras yo escribía esta canción\n\nIt's for people like you that keep it turned on\nEs por gente como tú que él sigue brillando\n\nSo excuse me forgetting, but these things I do\nAsí que perdóname por olvidar, pero estas cosas lo hago\n\nYou see, I've forgotten if they're green or they're blue\nYa ves, me olvidé si son verdes o azules\n\nAnyway the thing is what I really mean\nIgual, lo que realmente quiero decir es que\n\nYours are the sweetest eyes I've ever seen\nTus ojos son los más dulces que ya he visto\n\nAnd you can tell everybody this is your song\nY le puedes decir a todo el mundo que esta es tu canción\n\nIt may be quite simple, but now that it's done\nPuede que sea muy simple, pero ahora que está terminada\n\nI hope you don't mind\nEspero que no te importes\n\nI hope you don't mind that I put down in words\nEspero que no te importes que yo ponga en palabras\n\nHow wonderful life is while you're in the world\nLo maravillosa que es la vida mientras estás tú en el mundo\n\nI hope you don't mind\nEspero que no te importes\n\nI hope you don't mind that I put down in words\nEspero que no te importes que yo ponga en palabras\n\nHow wonderful life is while you're in the world\nLo maravillosa que es la vida mientras estás tú en el mundo",
     "duration": "4:02"
   },
   {
@@ -2419,7 +2419,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "love"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "You need coolin'\nBaby, I'm not foolin'\nI'm gonna send you back to schoolin'\nWay down inside\nHoney, you need it\nI'm gonna give you my love\nI'm gonna give you my love, oh\nWanna whole lotta love\nWanna whole lotta love\nWanna whole lotta love\nWanna whole lotta love\nYou've been learnin'\nBaby, I been learnin'\nAll them good times\nBaby, baby, I've been yearnin'\nWay, way down inside\nHoney, you need it\nI'm gonna give you my love\nI'm gonna give you my love\nOh!\nWhole lotta love\nWanna whole lotta love\nWanna whole lotta love\nWanna whole lotta love\nAh, ah, ah, ah, ah, ah!\nLove!\nLove!\nYou've been coolin'\nBaby, I've been droolin'\nAll the good times, baby\nI've been misusin'\nWay, way down inside\nI'm gonna give you my love\nI'm gonna give you every inch of my love\nI'm gonna give you my love\nYeah, alright, let's go\nWanna whole lotta love\nWanna whole lotta love\nWanna whole lotta love\nWanna whole lotta love\nWay down inside\nWoman\nYou need\nLove!\nMy, my, my, my!\nMy, my, my, my, oh!\nShake for me, girl\nI wanna be your backdoor man\nHey, oh!\nHey, oh!\nHey, oh!\nOoh, oh\nOh, oh, oh, oh\nOoh, my, my baby\nKeep it coolin', baby\nKeep it coolin', baby\nKeep it coolin', baby\nAh, keep it coolin', baby",
     "duration": "5:34"
   },
   {
@@ -2433,7 +2433,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "abba"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "My, my\nAt Waterloo, Napoleon did surrender\nOh, yeah\nAnd I have met my destiny in quite a similar way\nThe history book on the shelf\nIs always repeating itself\nWaterloo\nI was defeated, you won the war\nWaterloo\nPromise to love you forevermore\nWaterloo\nCouldn't escape if I wanted to\nWaterloo\nKnowing my fate is to be with you\nWa-Wa-Wa-Wa-Waterloo\nFinally facing my Waterloo\nMy, my\nI tried to hold you back, but you were stronger\nOh, yeah\nAnd now it seems my only chance is giving up the fight\nAnd how could I ever refuse?\nI feel like I win when I lose\nWaterloo\nI was defeated, you won the war\nWaterloo\nPromise to love you forevermore\nWaterloo\nCouldn't escape if I wanted to\nWaterloo\nKnowing my fate is to be with you\nWa-Wa-Wa-Wa-Waterloo\nFinally facing my Waterloo\nSo how could I ever refuse?\nI feel like I win when I lose\nWaterloo\nCouldn't escape if I wanted to\nWaterloo\nKnowing my fate is to be with you\nWa-Wa-Wa-Wa-Waterloo\nFinally facing my Waterloo, ooh\nWaterloo\nKnowing my fate is to be with you\nWa-Wa-Wa-Wa-Waterloo\nFinally facing my Waterloo, ooh\nWaterloo\nKnowing my fate is to be with you",
     "duration": "2:49"
   },
   {
@@ -2465,7 +2465,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "girl"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Oh, oh\nUptown girl\nShe's been living in her uptown world\nI bet she's never had a backstreet guy\nI bet her momma never told her why\nI'm gonna try for an\nUptown girl (uptown girl)\nShe's been living in her white bread world (white bread world)\nAs long as anyone with hot blood can (hot blood can)\nAnd now she's looking for a downtown man (downtown man)\nThat's what I am\nAnd when she knows what she wants\nFrom her time (from her time)\nAnd when she wakes up\nAnd makes up her mind\nShe'll see I'm not so tough\nJust because I'm in love with an\nUptown girl (uptown girl)\nYou know I've seen her in her uptown world (uptown world)\nShe's getting tired of her high class toys (high class toys)\nAnd all the presents from her uptown boys (uptown boys)\nShe's got a choice\nOh, oh\nUptown girl\nYou know I can't afford to buy her pearls\nBut maybe someday, when my ship comes in\nShe'll understand what kind of guy I've been (I've been)\nAnd then I'll win\nAnd when she's walking\nShe's looking so fine\nAnd when she's talking\nShe'll say that she's mine\nShe'll say I'm not so tough (she'll say)\nJust because I'm in love with an (she knows)\nUptown girl\nShe's been living in her white bread world\nAs long as anyone with hot blood can\nAnd now she's looking for a downtown man\nThat's what I am\nOh, oh\nUptown girl (uptown girl)\nShe's my uptown girl\nYou know I'm in love with an uptown girl\nMy uptown girl\nYou know I'm in love with an uptown girl\nMy uptown girl\nYou know I'm in love with an uptown girl\nMy uptown girl\nYou know I'm in love with an uptown girl\nShe's an uptown girl",
     "duration": "3:18"
   },
   {
@@ -2484,7 +2484,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "mars"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Doh\nDo-do-doh, do-do-doh, do-do\nDo-do-doh, do-do-doh, do-do\nDo-do-doh, do-do-doh, do-do\nDo-do-doh (aow), do-do\nThis hit, that ice cold\nMichelle Pfeiffer, that white gold\nThis one for them hood girls\nThem good girls\nStraight masterpieces\nStylin', wilin'\nLivin' it up in the city\nGot Chucks on with Saint Laurent\nGotta kiss myself\nI'm so pretty\nI'm too hot (hot damn)\nCall the police and the fireman\nI'm too hot (hot damn)\nMake a dragon wanna retire, man\nI'm too hot (hot damn)\nSay my name, you know who I am\nI'm too hot (hot damn)\nAnd my band 'bout that money\nBreak it down\nGirls, hit your hallelujah (woo)\nGirls, hit your hallelujah (woo)\nGirls, hit your hallelujah (woo)\n'Cause Uptown Funk gon' give it to you\n'Cause Uptown Funk gon' give it to you\n'Cause Uptown Funk gon' give it to you\nSaturday night and we in the spot\nDon't believe me, just watch (come on)\nDoh\nDo-do-doh, do-do-doh, do-do (ah)\nDon't believe me, just watch\nDoh\nDo-do-doh, do-do-doh, do-do (ah)\nDon't believe me, just watch\nDon't believe me, just watch\nDon't believe me, just watch\nDon't believe me, just watch\nHey, hey, hey, oh\nStop\nWait a minute\nFill my cup, put some liquor in it\nTake a sip, sign the check\nJulio, get the stretch\nRide to Harlem, Hollywood\nJackson, Mississippi\nIf we show up, we gon' show out\nSmoother than a fresh jar of Skippy\nI'm too hot (hot damn)\nCall the police and the fireman\nI'm too hot (hot damn)\nMake a dragon wanna retire, man\nI'm too hot (hot damn) (hot damn)\nBitch, say my name, you know who I am\nI'm too hot (hot damn)\nAnd my band 'bout that money\nBreak it down\nGirls, hit your hallelujah (woo)\nGirls, hit your hallelujah (woo)\nGirls, hit your hallelujah (woo)\n'Cause Uptown Funk gon' give it to you\n'Cause Uptown Funk gon' give it to you\n'Cause Uptown Funk gon' give it to you\nSaturday night and we in the spot\nDon't believe me, just watch (come on)\nDoh\nDo-do-doh, do-do-doh, do-do (ah)\nDon't believe me, just watch\nDoh\nDo-do-doh, do-do-doh, do-do (ah)\nDon't believe me, just watch\nDon't believe me, just watch\nDon't believe me, just watch\nDon't believe me, just watch\nHey, hey, hey, oh\nDoh\nDo-do-doh, do-do-doh, do-do\nBefore we leave\nLemme tell y'all a lil' something\nUptown Funk you up\nUptown Funk you up\nUptown Funk you up\nUptown Funk you up\nI said: Uptown Funk you up\nUptown Funk you up\nUptown Funk you up\nUptown Funk you up\nCome on, dance, jump on it\nIf you sexy then flaunt it\nIf you freaky then own it\nDon't brag about it, come show me\nCome on\nDance, jump on it\nIf you sexy then flaunt it\nWell, it's Saturday night and we in the spot\nDon't believe me, just watch (come on)\nDoh\nDo-do-doh, do-do-doh, do-do (ah)\nDon't believe me, just watch\nDoh\nDo-do-doh, do-do-doh, do-do (ah)\nDon't believe me, just watch\nDon't believe me, just watch\nDon't believe me, just watch\nDon't believe me, just watch\nHey, hey, hey, oh\nUptown Funk you up (wow, come on)\nUptown Funk you up (say wha'?)\nUptown Funk you up (hey)\nUptown Funk you up (come on)\nUptown Funk you up (wow, come on)\nUptown Funk you up (say wha'?)\nUptown Funk you up (hey)\nUptown Funk you up (come on)\nUptown Funk you up (wow, come on)\nUptown Funk you up (say wha'?)\nUptown Funk you up\nUptown Funk you up (come on)\nUptown Funk you up\nUptown Funk you up (say wha'?)\nUptown Funk you up\nAow!",
     "duration": "4:30"
   },
   {
@@ -2498,7 +2498,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "bbc radio 1 live lounge - amy winehouse"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Well, shake it up, baby, now (shake it up, baby)\nTwist and shout (twist and shout)\nCome on, come on, come on, come on, baby, now (come on, baby)\nCome on and work it on out (work it on out)\nWell, work it on out (work it on out)\nYou know you look so good (look so good)\nYou know you got me going now (got me going)\nJust like I knew you would (like I knew you would)\nWell, shake it up, baby, now (shake it up, baby)\nTwist and shout (twist and shout)\nCome on, come on, come on, come on, baby, now (come on, baby)\nCome on and work it on out (work it on out)\nYou know you twist, little girl (twist, little girl)\nYou know you twist so fine (twist so fine)\nCome on and twist a little closer now (twist a little closer)\nAnd let me know that you're mine (let me know you're mine)\nAh, ah, ah, ah, ah, ah!\nBaby, now (shake it up, baby)\nTwist and shout (twist and shout)\nCome on, come on, come on, come on, baby, now (come on, baby)\nCome on and work it on out (work it on out)\nYou know you twist, little girl (twist, little girl)\nYou know you twist so fine (twist so fine)\nCome on and twist a little closer now (twist a little closer)\nAnd let me know that you're mine (let me know you're mine)\nWell, shake it, shake it, shake it, baby, now (shake it up, baby)\nWell, shake it, shake it, shake it, baby, now (shake it up, baby)\nWell, shake it, shake it, shake it, baby, now (shake it up, baby)\nAh, ah, ah, yeah!",
     "duration": "3:52"
   },
   {
@@ -2514,7 +2514,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "shout"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Well, shake it up, baby, now (shake it up, baby)\nTwist and shout (twist and shout)\nCome on, come on, come on, come on, baby, now (come on, baby)\nCome on and work it on out (work it on out)\nWell, work it on out (work it on out)\nYou know you look so good (look so good)\nYou know you got me going now (got me going)\nJust like I knew you would (like I knew you would)\nWell, shake it up, baby, now (shake it up, baby)\nTwist and shout (twist and shout)\nCome on, come on, come on, come on, baby, now (come on, baby)\nCome on and work it on out (work it on out)\nYou know you twist, little girl (twist, little girl)\nYou know you twist so fine (twist so fine)\nCome on and twist a little closer now (twist a little closer)\nAnd let me know that you're mine (let me know you're mine)\nAh, ah, ah, ah, ah, ah!\nBaby, now (shake it up, baby)\nTwist and shout (twist and shout)\nCome on, come on, come on, come on, baby, now (come on, baby)\nCome on and work it on out (work it on out)\nYou know you twist, little girl (twist, little girl)\nYou know you twist so fine (twist so fine)\nCome on and twist a little closer now (twist a little closer)\nAnd let me know that you're mine (let me know you're mine)\nWell, shake it, shake it, shake it, baby, now (shake it up, baby)\nWell, shake it, shake it, shake it, baby, now (shake it up, baby)\nWell, shake it, shake it, shake it, baby, now (shake it up, baby)\nAh, ah, ah, yeah!",
     "duration": "2:35"
   },
   {
@@ -2530,7 +2530,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "sale"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Sapore di sale, sapore di mare\nChe hai sulla pelle, che hai sulle labbra\nQuando esci dall'acqua e ti vieni a sdraiare\nVicino a me, vicino a me\nSapore di sale, sapore di mare\nUn gusto un po'amaro di cose perdute\nDi cose lasciate lontano da noi\nDove il mondo è diverso, diverso da qui\nQui il tempo è dei giorni che passano pigri\nE lasciano in bocca il gusto del sale\nTi butti nell'acqua e mi lasci a guardarti\nE rimango da solo nella sabbia e nel sole\nPoi torni vicino e ti lasci cadere\nCosì nella sabbia e nelle mie braccia\nE mentre ti bacio sapore di sale\nSapore di mare, sapore di te\nQui il tempo è dei giorni che passano pigri\nE lasciano in bocca il gusto del sale\nTi butti nell'acqua e mi lasci a guardarti\nE rimango da solo nella sabbia e nel sole\nPoi torni vicino e ti lasci cadere\nCosì nella sabbia e nelle mie braccia\nE mentre ti bacio sapore di sale\nSapore di mare, sapore di te",
     "duration": "3:34"
   },
   {
@@ -2820,7 +2820,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "love"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "How deep is your love?\nHow deep is your love?\nI really mean to learn\n'Cause we're living in a world of fools\nBreaking us down when they all should let us be\nWe belong to you and me\n\nI believe in you\nYou know the door to my very soul\nYou're the light in my deepest, darkest hour\nYou're my savior when I fall\nAnd you may not think I care for you\nWhen you know down inside that I really do\n\nWe belong to you and me\n\nI believe in you\nYou know the door to my very soul\nYou're the light in my deepest, darkest hour\nYou're my savior when I fall\nAnd you may not think I care for you\nWhen you know down inside that I really do\n\nHow deep is your love?\nHow deep is your love?\nI really mean to learn",
     "duration": "4:05"
   },
   {
@@ -2835,7 +2835,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "jude"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Oye, Jude, no te pongas mal\nHey, Jude, don't make it bad\n\nToma una canción triste y hazla mejor\nTake a sad song and make it better\n\nRecuerda dejarla entrar en tu corazón\nRemember to let her into your heart\n\nEntonces podrás empezar a mejorarla\nThen you can start to make it better\n\nOye, Jude, no tengas miedo\nHey, Jude, don't be afraid\n\nNaciste para ir a conquistarla\nYou were made to go out and get her\n\nEn el momento que te permitas sentirla\nThe minute you let her under your skin\n\nEntonces comenzarás a mejorarla\nThen you begin to make it better\n\nY siempre que sientas el dolor\nAnd anytime you feel the pain\n\nOye, Jude, tómalo con calma\nHey, Jude, refrain\n\nNo lleves el mundo sobre tus hombros\nDon't carry the world upon your shoulders\n\nSabes muy bien que eso es una tontería\nFor well you know that it's a fool\n\nEl que actúa como si nada\nWho plays it cool\n\nPor hacer su mundo un poco más frío\nBy making his world a little colder\n\nNa-na-na-na-na-na-na-na\nNa-na-na-na-na-na-na-na\n\nOye, Jude, no me defraudes\nHey, Jude, don't let me down\n\nLa encontraste, ahora ve y conquístala\nYou have found her, now go and get her\n\nRecuerda dejarla entrar en tu corazón\nRemember to let her into your heart\n\nEntonces podrás empezar a mejorarla\nThen you can start to make it better\n\nAsí que déjalo salir y déjalo entrar\nSo let it out and let it in\n\nOye, Jude, empieza\nHey, Jude, begin\n\nEstás esperando alguien para lograr cosas\nYou're waiting for someone to perform with\n\n¿Y no sabes que ese alguien es nadie más que tú?\nAnd don't you know that is just you?\n\nOye, Jude, vas a lograrlo\nHey, Jude, you'll do\n\nEl movimiento que necesitas está sobre tus hombros\nThe movement you need is on your shoulder\n\nNa-na-na-na-na-na-na-na\nNa-na-na-na-na-na-na-na\n\nOye, Jude, no te pongas mal\nHey, Jude, don't make it bad\n\nToma una canción triste y hazla mejor\nTake a sad song and make it better\n\nRecuerda dejarla entrar en tu corazón\nRemember to let her under your skin\n\nEntonces podrás empezar a mejorarla\nThen you'll begin to make it better\n\n(Mejorar, mejorar, mejorar, mejorar, mejorar, oh, sí)\n(Better, better, better, better, better, oh, yeah)\n\nNa, na-na-na-na-na-na-na-na, oye, Jude\nNa, na-na-na-na-na-na-na-na, hey, Jude\n\nNa, na-na-na-na-na-na-na-na, oye, Jude\nNa, na-na-na-na-na-na-na-na, hey, Jude\n\nNa, na-na-na-na-na-na-na-na, oye, Jude\nNa, na-na-na-na-na-na-na-na, hey, Jude\n\nNa, na-na-na-na-na-na-na-na, oye, Jude\nNa, na-na-na-na-na-na-na-na, hey, Jude",
     "duration": "7:06"
   },
   {
@@ -2853,21 +2853,6 @@ window.SONGBOOK_DATA_13JUN26 = [
     "snippet": "",
     "lyrics": "",
     "duration": "3:56"
-  },
-  {
-    "id": "help",
-    "title": "Help!",
-    "artist": "2023 Mix - The Beatles",
-    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-    "tags": [],
-    "search": [
-      "help!",
-      "2023 mix - the beatles",
-      "help"
-    ],
-    "snippet": "",
-    "lyrics": "",
-    "duration": "2:20"
   },
   {
     "id": "hello-goodbye",
