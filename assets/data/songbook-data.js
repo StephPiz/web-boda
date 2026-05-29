@@ -14,7 +14,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "favorita"
     ],
     "snippet": "",
-    "lyrics": "TEST",
+    "lyrics": "Yo no entiendo de colores ni de razas\nA mí me gusta el morenito de tu cara\nTe he buscado en cada tarde, vida mía\nSe me corta la respiración por ti\nLo siento bebé\nTu pasito en mi camino va naciendo\nSólo porque tú me miras yo me muero\nLos atardeceres de tus ojos, mira\nLa verdad que tiene niña, tus enojos\n\nYo sé que tú a mí me quieres un poco\nCon tu carita posada en mi hombro\nMira quien canta es la voz de mi amor\nMi persona favorita\nTiene la cara bonita\nTiene un ángel en su sonrisa\nTiene un corazón y yo\nA mi persona favorita\nYo le canto esta cosita\nDe juguetes en mi vida\nJuega con mi corazón\nOhhhh\nEres como el sol\nSales sin razón\nDando luz y calma\nUna sola flor\nQue me guardo yo\nY tu voz que me desarma\nYo sé que tú a mí me quieres un poco\nCon tu carita posada en mi hombro\nMira quien canta es la voz de mi amor\n(Lerelerele)\nMi persona favorita\nTiene la cara bonita\nTiene un ángel en su sonrisa\nTiene un corazón y yo\nA mi persona favorita\nYo le canto esta cosita\nDe juguetes en mi vida\nJuega con mi corazón\n\n\nYo sé que tú a mí me quieres un poco\nCon tu carita pegada en mi hombro\nMi persona favorita\nTiene la cara bonita\nTiene un ángel en su sonrisa\nTiene un corazón y yo\nA mi persona favorita\nYo le canto esta cosita\nDe juguetes en mi vida\nJuega con mi corazón",
     "duration": "3:59"
   },
   {
@@ -62,7 +62,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "bella ciao"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Bella Ciao\nUna mattina mi son' svegliato\nO bella ciao, bella ciao, bella ciao, ciao, ciao\nUna mattina mi son' svegliato\nE ho trovato l'invasor\n\n\nO partigiano, portami via\nO bella ciao, bella ciao, bella ciao, ciao, ciao\nO partigiano, portami via\nChé mi sento di morir\nE se io muoio da partigiano\nO bella ciao, bella ciao, bella ciao, ciao, ciao\nE se io muoio da partigiano\nTu mi devi seppellir\nE seppellire lassù in montagna\nO bella ciao, bella ciao, bella ciao, ciao, ciao\nEseppellire lassù in montagna\nSotto l'ombra di un bel fior\nTutte le genti che passeranno\nO bella ciao, bella ciao, bella ciao, ciao, ciao\nTutte le genti che passeranno\nMi diranno: Che bel fior\nE quest' è il fiore del partigiano\nO bella ciao, bella ciao, bella ciao, ciao, ciao\nE quest'è il fiore del partigiano\nMorto per la libertà\nE quest'è il fiore del partigiano\nMorto per la libertà",
     "duration": ""
   },
   {
@@ -1044,7 +1044,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "remastered 2009 - the beatles"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Yesterday,\nAll my troubles seemed so far away,\nNow it looks as though they're here to stay\nOh I believe in yesterday\n\n\nSuddenly,\nI'm not half the man I used to be\nThere's a shadow hanging over me\nOh yesterday came suddenly\n\n\nWhy she had to go\nI don't know, she wouldn't say\nI said something wrong\nnow I long for yesterday\n\n\nYesterday,\nLove was such an easy game to play\nNow I need a place to hide away\nOh I believe in yesterday\n\n\nWhy she had to go\nI don't know, she wouldn't say\nI said something wrong\nnow I long for yesterday\n\n\nYesterday,\nLove was such an easy game to play\nNow I need a place to hide away\nOh I believe in yesterday",
     "duration": "2:05"
   },
   {
@@ -1184,7 +1184,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "help"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Help, I need somebody\nHelp, not just anybody\nHelp, you know, I need someone\nHelp\n\n(When)\nWhen I was younger, so much younger than today (I never needed)\nI never needed anybody's help in any way (now)\nBut now these days are gone, I'm not so self assured (and now I find)\nNow I find, I've changed my mind, I've opened up the doors\n\nHelp me if you can, I'm feeling down\nAnd I do appreciate you being 'round\nHelp me get my feet back on the ground\nWon't you, please, please help me?\n\n(Now)\nAnd now my life has changed in, oh, so many ways (my independence)\nMy independence seems to vanish in the haze (but)\nBut every now and then I feel so insecure (I know that I)\nI know that I just need you like I've never done before\n\nHelp me if you can, I'm feeling down\nAnd I do appreciate you being 'round\nHelp me get my feet back on the ground\nWon't you, please, please help me?\n\nWhen I was younger, so much younger than today\nI never needed anybody's help in any way (now)\nBut now these days are gone, I'm not so self assured (and now I find)\nNow I find, I've changed my mind, I've opened up the doors\n\nHelp me if you can, I'm feeling down\nAnd I do appreciate you being 'round\nHelp me get my feet back on the ground\nWon't you, please, please help me?\nHelp me, help me",
     "duration": "2:18"
   },
   {
@@ -2882,7 +2882,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "goodbye"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "You say yes, I say no\nYou say stop and I say go, go, go\n\nOh, no\nYou say goodbye and I say hello\nHello, hello\nI don't know why you say goodbye, I say hello\nHello, hello\nI don't know why you say goodbye, I say hello\n\nI say high, you say low\nYou say why and I say I don't know\n\nOh, no\nYou say goodbye and I say hello\n(Hello, goodbye, hello, goodbye)\nHello, hello\n(Hello, goodbye)\nI don't know why you say goodbye, I say hello\n(Hello, goodbye, hello, goodbye)\nHello, hello\n(Hello, goodbye)\nI don't know why you say goodbye, I say hello\n(Hello, goodbye)\n\nWhy, why, why, why, why, why do you say goodbye?\nGoodbye, bye, bye, bye, bye\n\nOh, no\nYou say goodbye and I say hello\nHello, hello\nI don't know why you say goodbye, I say hello\nHello, hello\nI don't know why you say goodbye, I say hello\n\nYou say yes (I say yes)\nI say no (but I may mean no)\nYou say stop (I can stay)\nAnd I say go, go, go (till it's time to go)\n\nOh, oh, no\nYou say goodbye and I say hello\nHello, hello\nI don't know why you say goodbye, I say hello\nHello, hello\nI don't know why you say goodbye, I say hello\nHello, hello\nI don't know why you say goodbye, I say hello, oh, oh\nHello\n\nHela, heba, helloa\nHela, heba, helloa, cha-cha-cha\nHela, heba, helloa, woo\nHela, heba, helloa, hela\nHela, heba, helloa, cha-cha-cha\nHela, heba, helloa, woo-hoo\nHela, heba, helloa, cha-cha-cha\nHela, heba, helloa, cha-cha-cha",
     "duration": "3:30"
   },
   {
@@ -2897,7 +2897,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "come"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Come as you are, as you were\nAs I want you to be\nAs a friend, as a friend\nAs an known enemy\n\nTake your time, hurry up\nThe choice is yours, don't be late\nTake a rest as a friend\nAs an old\n\nMemoria, memoria\nMemoria, memoria\n\nCome doused in mud, soaked in bleach\nAs I want you to be\nAs a trend, as a friend\nAs an old\n\nMemoria, memoria\nMemoria, memoria\n\nAnd I swear that I don't have a gun\nNo I don't have a gun\nNo I don't have a gun\n\nMemoria, memoria\nMemoria, memoria\n(No I don't have a gun)\n\nAnd I swear that I don't have a gun\nNo I don't have a gun\nNo I don't have a gun\nNo I don't have a gun\nNo I don't have a gun\n\n(Memoria, memoria)",
     "duration": "3:39"
   },
   {
@@ -2912,7 +2912,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "mind"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "I got my mind set on you\nI got my mind set on you\nI got my mind set on you\nI got my mind set on you\n\nBut it's gonna take money\nA whole lotta spending money\nIt's gonna take plenty of money\nTo do it right child\n\nIt's gonna take time\nA whole lot of precious time\nIt's gonna take patience and time, mmm\nTo do it, to do it, to do it, to do it, to do it\nTo do it right, child\n\nI got my mind set on you\nI got my mind set on you\nI got my mind set on you\nI got my mind set on you\n\nAnd this time I know it's for real\nThe feelings that I feel\nI know if I put my mind to it\nI know that I really can do it\n\nI got my mind set on you\nSet on you\nI got my mind set on you\nSet on you\n\nBut it's gonna take money\nA whole lotta spending money\nIt's gonna take plenty of money\nTo do it right child\n\nIt's gonna take time\nA whole lot of precious time\nIt's gonna take patience and time, mmm\nTo do it, to do it, to do it, to do it, to do it\nTo do it right\n\nI got my mind set on you\nI got my mind set on you\nI got my mind set on you\nI got my mind set on you\n\nAnd this time I know it's for real\nThe feelings that I feel\nI know if I put my mind to it\nI know that I really can do it\n\nBut it's gonna take money\nA whole lotta spending money\nIt's gonna take plenty of money\nTo do it right child\n\nIt's gonna take time\nA whole lot of precious time\nIt's gonna take patience and time, mmm\nTo do it, to do it, to do it, to do it, to do it\nTo do it right\n\nSet on you\nSet on you\nSet on you\nSet on you\nSet on you\nSet on you\nSet on you\nSet on you\nSet on you\nSet on you",
     "duration": "3:55"
   },
   {
@@ -2941,7 +2941,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "2023 mix - the beatles"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Michelle, ma belle\nThese are words that go together well\nMy Michelle\nMichelle, ma belle\nSont les mots qui vont tres bien ensemble\nTres bien ensemble\nI love you, I love you, I love you\nThat's all I want to say\nUntil I find a way\nI will say the only words I know that you'll understand\n\nMichelle, ma belle\nSont les mots qui vont tres bien ensemble\nTres bien ensemble\nI need to, I need to, I need to\nI need to make you see\nOh, what you mean to me\nUntil I do, I'm hoping you will know what I mean\nI love you...\n\nI want you, I want you, I want you\nI think you know by now\nI'll get to you somehow\nUntil I do, I'm telling you so you'll understand\nMichelle, ma belle\nSont les mots qui vont tres bien ensemble\nTres bien ensemble\nAnd I will say the only words I know that you'll understand\nMy Michelle\n\n\nKnowing Me Knowing You - ABBA\nNo more carefree laughter\nSilence ever after\nWalking through an empty house\nTears in my eyes\nHere is were the story ends\nThis is goodbye\n\nKnowing me, knowing you\nThere is nothing we can do\nKnowing me, knowing you\nWe just have to face it\nThis is the time we're through\nBreakin' up is never easy,\nI know But I have to go\n\nKnowing Me, Knowing You\nIt's the best I can do\n\nMem'ries, good days, bad days\nThey'll be with me always\nIn these old familiar rooms\nChildren would play\nNow there's only emptiness\nNothing to say\n\nKnowing me, knowing you..",
     "duration": "2:42"
   },
   {
@@ -2958,7 +2958,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "know"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "I walked across an empty land\nI knew the pathway like the back of my hand\nI felt the earth beneath my feet\nSat by the river, and it made me complete\n\nOh, simple thing, where have you gone?\nI'm getting old, and I need something to rely on\nSo tell me when you're gonna let me in\nI'm getting tired, and I need somewhere to begin\n\nI came across a fallen tree\nI felt the branches of it looking at me\nIs this the place we used to love?\nIs this the place that I've been dreaming of?\n\nOh, simple thing, where have you gone?\nI'm getting old, and I need something to rely on\nSo tell me when you're gonna let me in\nI'm getting tired, and I need somewhere to begin\n\nAnd if you have a minute, why don't we go\nTalk about it somewhere only we know?\nThis could be the end of everything\nSo why don't we go\nSomewhere only we know?\n\nOh, simple thing, where have you gone?\nI'm getting old, and I need something to rely on\nSo tell me when you're gonna let me in\nI'm getting tired, and I need somewhere to begin\n\nAnd if you have a minute, why don't we go\nTalk about it somewhere only we know?\nThis could be the end of everything\nSo why don't we go?\nSo why don't we go?\n\nThis could be the end of everything\nSo why don't we go\nSomewhere only we know\nSomewhere only we know\nSomewhere only we know?",
     "duration": "3:57"
   },
   {
@@ -2974,7 +2974,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "like"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "I heard that you're settled down\nThat you found a girl and you're married now\nI heard that your dreams came true\nGuess she gave you things, I didn't give to you\n\nOld friend\nWhy are you so shy?\nIt ain't like you to hold back\nOr hide from the light\n\nI hate to turn up out of the blue, uninvited\nBut I couldn't stay away, I couldn't fight it\nI had hoped you'd see my face and that you'd be reminded\nThat for me, it isn't over\n\nNever mind, I'll find someone like you\nI wish nothing but the best for you, too\nDon't forget me, I beg, I remember you said\nSometimes it lasts in love\nBut sometimes it hurts instead\nSometimes it lasts in love\nBut sometimes it hurts instead, yeah\n\nYou know how the time flies\nOnly yesterday was the time of our lives\nWe were born and raised in a summer haze\nBound by the surprise of our glory days\n\nI hate to turn up out of the blue, uninvited\nBut I couldn't stay away, I couldn't fight it\nI had hoped you'd see my face and that you'd be reminded\nThat for me, it isn't over\n\nNever mind, I'll find someone like you\nI wish nothing but the best for you, too\nDon't forget me, I beg, I remember you said\nSometimes it lasts in love\nBut sometimes it hurts instead, yeah\n\nNothing compares, no worries or cares\nRegrets and mistakes, they're memories made\nWho would have known how bittersweet this would taste?\n\nNever mind, I'll find someone like you\nI wish nothing but the best for you\nDon't forget me, I beg, I remember you said\nSometimes it lasts in love\nBut sometimes it hurts instead\n\nNever mind, I'll find someone like you\nI wish nothing but the best for you, too\nDon't forget me, I beg, I remember you said\nSometimes it lasts in love\nBut sometimes it hurts instead\nSometimes it lasts in love\nBut sometimes it hurts instead, yeah, yeah",
     "duration": "4:45"
   },
   {
@@ -2989,7 +2989,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "lonely"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Well someone told me yesterday\nThat when you throw your love away\nYou act as if you just don't care\nYou look as if you're going somewhere\n\nBut I just can't convince myself\nI couldn't live with no one else\nAnd I can only play that part\nAnd sit and nurse my broken heart\n\nSo lonely, so lonely, so lonely, so lonely\nSo lonely, so lonely, so lonely\nSo lonely, so lonely, so lonely\nSo lonely, so lonely\n\nNow no one's knocked upon my door\nFor a thousand years or more\nAll made up and nowhere to go\nWelcome to this one man show\n\nJust take a seat they're always free\nNo surprise no mystery\nIn this theatre that I call my soul\nI always play the starring role\n\nSo lonely, so lonely, so lonely, so lonely\nSo lonely, so lonely, so lonely\nSo lonely, so lonely, so lonely\nSo lonely, so lonely\n\nSo lonely, so lonely, so lonely, so lonely\nSo lonely, so lonely, so lonely\n\nLonely, I'm so lonely\nI feel so alone\nI feel low\nI feel so\nFeel so low\nI feel low, low\nI feel low, low, low\nI feel low, low, low\nI feel low, low, low\nI feel low, low, low\nI feel low, low, low\nLow, I feel low\nI feel low\nI feel low\nI feel so lonely\nI feel so lonely\nI feel so lonely, lonely, lonely, lone\nLonely, lone\nI feel so alone, yeah\n\nSo lonely, so lonely, so lonely, so lonely\nSo lonely, so lonely, so lonely\n(I feel so alone, I feel so alone, I feel so lonely)\nSo lonely, so lonely, so lonely\n(I feel so alone, I feel so alone, I feel so lonely)\nSo lonely, so lonely, so lonely\n(I feel so alone, I feel so alone, I feel so lonely)\nSo lonely, so lonely, so lonely\n(I feel so alone, I feel so alone, I feel so lonely)\nSo lonely, so lonely, so lonely\n(I feel so alone, I feel so alone, I feel so lonely)\nSo lonely, so lonely, so lonely",
     "duration": "4:50"
   },
   {
@@ -3005,7 +3005,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "love"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Can anybody find me somebody to love?\n\nOoh\n\nEach morning I get up, I die a little\nCan barely stand on my feet\n(Take a look at yourself in the mirror) take a look in the mirror\nAnd cry (and cry)\nLord, what you're doing to me (yeah, yeah)\nI have spent all my years in believing you\nBut I just can't get no relief, Lord\n\nSomebody (somebody)\nOoh, somebody (somebody)\nCan anybody find me somebody to love?\n\nI work hard (he works hard)\nEveryday of my life\nI work till I ache my bones\nAt the end (at the end of the day)\nI take home my hard-earned pay all on my own (yes, on my knees on)\nI get down (down) on my knees (knees)\nAnd I start to pray (praise the Lord)\nTill the tears run down from my eyes, Lord\n\nSomebody (somebody)\nOoh, somebody (please)\nCan anybody find me somebody to love?\n\n(He works hard) everyday (everyday)\nI try, and I try, and I try\nBut everybody wants to put me down, they say I'm goin' crazy\nThey say I got a lot of water in my brain\nAh, I got no common sense\nI got nobody left to believe in\n(Yeah, yeah, yeah, yeah)\n\nOoh, somebody (somebody)\nCan anybody find me somebody to love? (Anyone)\n(Somebody find me someone to love) got no feel, I got no rhythm\nI just keep losing my beat (you just keep losing and losing)\nI'm okay, I'm alright (he's alright, he's alright)\nI ain't gonna face no defeat (yeah, yeah)\nI just gotta get out of this prison cell\nSomeday I'm gonna be free, Lord\n\nFind me somebody to love\nFind me somebody to love\nFind me somebody to love\nFind me somebody to love\nFind me somebody to love (find me, find me)\nFind me somebody to love (find me)\nFind me somebody to love\nFind me somebody to love-ove-ove (ooh, find me, find me somebody to love)\nFind me somebody to love (somebody to love)\nFind me somebody to love\n\nSomebody (somebody), somebody (somebody)\nSomebody (find me), somebody find me somebody to love\nCan anybody find me somebody to love?\n\nFind me somebody to love\nFind me somebody to love (find me somebody)\nFind me somebody to love (somebody, somebody, somebody to love)\nFind me, find me, find me (find me, find me, find me, find me, find me)\nFind me somebody to love (ooh, somebody to love)\nFind me somebody to love (ooh, find me, find me, find me somebody to love)\nFind me somebody to love (anybody, anywhere, anybody find me somebody to love)\nFind me, find me, find me",
     "duration": "4:56"
   },
   {
@@ -3019,7 +3019,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "abba"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Where are those happy days, they seem so hard to find\nI tried to reach for you, but you have closed your mind\nWhatever happened to our love?\nI wish I understood\nIt used to be so nice, it used to be so good\n\n\nSo when you're near me, darling can't you hear me\nS. O. S.\nThe love you gave me, nothing else can save me\nS. O. S.\nWhen you're gone\nHow can I even try to go on?\nWhen you're gone\nThough I try how can I carry on?\nYou seem so far away though you are standing near\nYou made me feel alive, but something died I fear\nI really tried to make it out\nI wish I understood\nWhat happened to our love, it used to be so good\nSo when you're near me, darling can't you hear me\nS. O. S.\nThe love you gave me, nothing else can save me\nS. O. S.\nWhen you're gone\nHow can I even try to go on?\nWhen you're gone\nThough I try how can I carry on?\nSo when you're near me, darling can't you hear me\nS. O. S.\nAnd the love you gave me, nothing else can save me\nS. O. S.\nWhen you're gone\nHow can I even try to go on?\nWhen you're gone\nThough I try how can I carry on?\nWhen you're gone\nHow can I even try to go on?\nWhen you're gone\nThough I try how can I carry on?",
     "duration": "3:22"
   },
   {
@@ -3035,7 +3035,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "with"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Guess it's true, I'm not good at a one-night stand\nBut I still need love 'cause I'm just a man\nThese nights never seem to go to plan\nI don't want you to leave, will you hold my hand?\n\nOh, won't you stay with me?\n'Cause you're all I need\nThis ain't love, it's clear to see\nBut, darling, stay with me\n\nWhy am I so emotional?\nNo, it's not a good look, gain some self-control\nAnd deep down I know this never works\nBut you can lay with me so it doesn't hurt\n\nOh, won't you stay with me?\n'Cause you're all I need\nThis ain't love, it's clear to see\nBut, darling, stay with me\n\n(Oh) ooh\n(Oh) oh\n(Oh) ooh\n(Oh) oh\n\nOh, won't you stay with me?\n'Cause you're all I need\nThis ain't love, it's clear to see\nBut, darling, stay with me\n\nOh, won't you stay with me?\n'Cause you're all I need\nThis ain't love, it's clear to see\nBut, darling, stay with me",
     "duration": "2:53"
   },
   {
@@ -3051,7 +3051,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "nights"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Summer lovin', had me a blast\nSummer lovin', happened so fast\nMet a girl crazy for me\nMet a boy cute as can be\nSummer days drifting away\nTo, uh oh, those summer nights\n\nWell-a, well-a, well-a, uh!\nTell me more, tell me more\nDid you get very far?\nTell me more, tell me more\nLike does he have a car?\n\nShe swam by me, she got a cramp\nHe ran by me, got my suit damp\nSaved her life, she nearly drowned\nHe showed off splashing around\nSummer sun, something's begun\nBut, uh oh, those summer nights\n\nWell-a, well-a, well-a, uh!\nTell me more, tell me more\nWas it love at first sight?\nTell me more, tell me more\nDid she put up a fight?\n\nTook her bowling in the arcade\nWe went strolling; drank lemonade\nWe made out under the dock\nWe stayed out till ten o'clock\nSummer fling don't mean a thing\nBut, uh oh, those summer nights\n\nTell me more, tell me more\nBut you don't gotta brag\nTell me more, tell me more\n'Cause he sounds like a drag\n\nHe got friendly holding my hand\nWell, she got friendly down in the sand\nHe was sweet, just turned eighteen\nWell, she was good, you know what I mean\nSummer heat, boy and girl meet\nBut, uh oh, those summer nights\n\nTell me more, tell me more\nHow much dough did he spend?\nTell me more, tell me more\nCould she get me a friend?\n\nIt turned colder; that's where it ends\nSo I told her we'd still be friends\nThen we made our true love vow\nWonder what she's doin' now\nSummer dreams ripped at the seams\nBut, oh, those summer nights\nTell me more, tell me more",
     "duration": "3:37"
   },
   {
@@ -3065,7 +3065,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "stevie wonder"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Very superstitious, writings on the wall\nVery superstitious, ladders bout' to fall\nThirteen month old baby, broke the lookin' glass\nSeven years of bad luck, the good things in your past\n\nWhen you believe in things that you don't understand\nThen you suffer\nSuperstition ain't the way\n\nVery superstitious, wash your face and hands\nRid me of the problems, do all that you can\nKeep me in a daydream, keep me goin' strong\nYou don't want to save me, sad is my song\n\nWhen you believe in things you don't understand\nThen you suffer\nSuperstition ain't the way, yeh, yeh\n\nVery superstitious, nothin' more to say\nVery superstitious, the devil's on his way\nThirteen month old baby, broke the lookin' glass\nSeven years of bad luck, good things in your past\n\nWhen you believe in things that you don't understand\nThen you suffer\nSuperstition ain't the way, no, no, no",
     "duration": "4:26"
   },
   {
@@ -3096,7 +3096,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "stand"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "When the night has come\nAnd the land is dark\nAnd the Moon is the only light we'll see\nNo, I won't be afraid\nOh, I won't be afraid\nJust as long as you stand, stand by me\n\nSo, darlin', darlin', stand by me\nOh, stand by me\nOh, stand\nStand by me\nStand by me\n\nIf the sky that we look upon\nShould tumble and fall\nOr the mountains should crumble to the sea\nI won't cry, I won't cry\nNo, I won't shed a tear\nJust as long as you stand, stand by me\n\nAnd, darlin', darlin', stand by me\nOh, stand by me\nWhoa, stand now\nStand by me\nStand by me\n\nDarlin', darlin', stand by me\nOh, stand by me\nOh, stand now\nStand by me\nStand by me\n\nWhenever you're in trouble, won't you stand by me?\nOh, stand by me\nWow, just stand now\nOh, stand\nStand by me",
     "duration": "3:00"
   },
   {
@@ -3112,7 +3112,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "caroline"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Where it began, I can't begin to knowing\nBut then I know it's growing strong\nWas in the spring\nAnd spring became the summer\nWho'd have believed you'd come along\n\n\nHands, touching hands\nReaching out, touching me, touching you\n\nSweet Caroline\nGood times never seemed so good\nI'd be inclined\nTo believe they never would\nBut now I\n\nLook at the night and it don't seem so lonely\nWe filled it up with only two\nAnd when I hurt\nHurting runs off my shoulders\nHow can I hurt when I'm holding you\n\nOne, touching one\nReaching out, touching me, touching you\n\nSweet Caroline\nGood times never seemed so good\nI'd be inclined\nTo believe they never would\nOh no, no\n\nSweet Caroline\nGood times never seemed so good\nSweet Caroline\nI believe they never could\nSweet Caroline\nGood times never seemed so good",
     "duration": "3:24"
   },
   {
@@ -3127,7 +3127,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "take"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "We're talking away\nI don't know what I'm to say\nI'll say it anyway\nToday's another day to find you\nShying away\nI'll be coming for your love, okay?\n\nTake on me (take on me)\nTake me on (take on me)\nI'll be gone\nIn a day or two\n\nSo needless to say\nI'm odds and ends\nBut I'll be stumbling away\nSlowly learning that life is okay\nSay after me\nIt's no better to be safe than sorry\n\nTake on me (take on me)\nTake me on (take on me)\nI'll be gone\nIn a day or two\n\nAll things that you say\nIs it life or just to play my worries away?\nYou're all the things I've got to remember\nYou're shying away\nI'll be coming for you anyway\n\nTake on me (take on me)\nTake me on (take on me)\nI'll be gone\nIn a day\n\nTake on me (take on me)\nTake me on (take on me)\nI'll be gone (take on me)\nIn a day",
     "duration": "3:45"
   },
   {
@@ -3143,7 +3143,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "love"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "I was so high I did not recognize\nThe fire burning in her eyes\nThe chaos that controlled my mind\nWhispered goodbye as she got on a plane\nNever to return again\nBut always in my heart\nOh\n\nThis love has taken its toll on me\nShe said goodbye too many times before\nAnd her heart is breaking in front of me\nAnd I have no choice\n'Cause I won't say goodbye anymore\n\nWhoa-oh-oh\nWhoa-oh-oh\nWhoa-oh-oh-ooh\n\nI tried my best to feed her appetite\nKeep her coming every night\nSo hard to keep her satisfied\nOh, kept playing love like it was just a game\nPretending to feel the same\nThen turn around and leave again\nBut I know\n\nThis love has taken its toll on me\nShe said goodbye too many times before\nAnd her heart is breaking in front of me\nAnd I have no choice\n'Cause I won't say goodbye anymore\n\nWhoa-oh-oh\nWhoa-oh-oh\nWhoa-oh-oh-ooh\n\nI'll fix these broken things\nRepair your broken wings\nAnd make sure everything's alright (it's alright, it's alright)\nMy pressure on your hips\nSinking my fingertips\nEvery inch of you\nBecause I know that's what you want me to do\n\nThis love has taken its toll on me\nShe said goodbye too many times before (oh)\nAnd her heart is breaking in front of me\nAnd I have no choice\n'Cause I won't say goodbye anymore\n\nThis love has taken its toll on me\nShe said goodbye too many times before (oh)\nAnd my heart is breaking in front of me\nShe said goodbye too many times before\n\nThis love has taken its toll on me (oh, yeah, yeah)\nShe said goodbye too many times before (yeah, oh)\nAnd her heart is breaking in front of me (yeah)\nI have no choice\n'Cause I won't say goodbye anymore",
     "duration": "3:26"
   },
   {
@@ -3160,7 +3160,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "heart"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Total Eclipse Of The Heart - Bonnie Tyler\n(Turn around)\nEvery now and then I get a little bit lonely\nAnd you're never coming 'round\n(Turn around)\nEvery now and then I get a little bit tired\nOf listening to the sound of my tears\n(Turn around)\nEvery now and then I get a little bit nervous\nThat the best of all the years have gone by\n(Turn around)\nEvery now and then I get a little bit terrified\nAnd then I see the look in your eyes\n\n\n(Turn around, bright eyes!)\nEvery now and then I fall apart\n(Turn around, bright eyes!)\nEvery now and then I fall apart\n\n(Turn around)\nEvery now and then I get a little bit restless\nAnd I dream of something wild\n(Turn around)\nEvery now and then I get a little bit helpless\nAnd I'm lying like a child in your arms\n(Turn around)\nEvery now and then I get a little bit angry\nAnd I know I've got to get out and cry\n(Turn around)\nEvery now and then I get a little bit terrified\nBut then I see the look in your eyes\n\n(Turn around, bright eyes!)\nEvery now and then I fall apart\n(Turn around, bright eyes!)\nEvery now and then I fall apart\n\nAnd I need you now tonight\nAnd I need you more than ever\nAnd if you only hold me tight\nWe'll be holding on forever\nAnd we'll only be making it right\n'Cause we'll never be wrong\nTogether we can take it to the end of the line\nYour love is like a shadow on me all of the time (All of the time)\nI don't know what to do and I'm always in the dark\nWe're living in a powder keg and giving off sparks\nI really need you tonight\nForever's gonna start tonight\nForever's gonna start tonight\n\nOnce upon a time I was falling in love\nNow I'm only falling apart\nThere's nothing I can do\nA total eclipse of the heart\nOnce upon a time there was light in my life\nBut now there's only love in the dark\nNothing I can say\nA total eclipse of the heart\n\n(Turn around, bright eyes)\n(Turn around, bright eyes)\n\n(Turn around)\nEvery now and then\nI know you'll never be the boy\nYou always wanted to be\n(Turn around)\nBut every now and then\nI know you'll always be the only boy\nWho wanted me the way that I am\n(Turn around)\nEvery now and then\nI know there's no one in the universe\nAs magical and wondrous as you\n(Turn around)\nEvery now and then\nI know there's nothing any better\nThere's nothing that I just wouldn't do\n\n(Turn around, bright eyes)\nEvery now and then I fall apart\n(Turn around, bright eyes)\nEvery now and then I fall apart\n\nAnd I need you now tonight\nAnd I need you more than ever\nAnd if you only hold me tight\nWe'll be holding on forever\nAnd we'll only be making it right\n'Cause we'll never be wrong\nTogether we can take it to the end of the line\nYour love is like a shadow on me all of the time (all of the time)\nI don't know what to do\nI'm always in the dark\nLiving in a powder keg and giving off sparks\nI really need you tonight\nForever's gonna start tonight\n(Forever's gonna start tonight)\n\nOnce upon a time I was falling in love\nNow I'm only falling apart\nThere's nothing I can do\nA total eclipse of the heart\nOnce upon a time there was light in my life\nBut now there's only love in the dark\nNothing I can say\nA total eclipse of the heart\nA total eclipse of the heart\nA total eclipse of the heart\n\n(Turn around, bright eyes)\n(Turn around, bright eyes)\n(Turn around)",
     "duration": "4:27"
   },
   {
@@ -3176,7 +3176,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "vous"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "People everywhere\nA sense of expectation hanging in the air\nGiving out a spark\nAcross the room your eyes are glowing in the dark\nAnd here we go again, we know the start, we know the end\nMasters of the scene\nWe've done it all before and now we're back to get some more\nYou know what I mean\n\n\nVoulez-vous (ah-ha)\nTake it now or leave it (ah-ha)\nNow it's all we get (ah-ha)\nNothing promised, no regrets\nVoulez-vous (ah-ha)\nAin't no big decision (ah-ha)\nYou know what to do (ah-ha)\nLa question c'est voulez-vous\nVoulez-vous\n\nI know what you think\nThe girl means business so I'll offer her a drink\nLooking mighty proud\nI see you leave your table, pushing through the crowd\nI'm really glad you came, you know the rules, you know the game\nMaster of the scene\nWe've done it all before and now we're back to get some more\nYou know what I mean\n\nVoulez-vous (ah-ha)\nTake it now or leave it (ah-ha)\nNow it's all we get (ah-ha)\nNothing promised, no regrets\nVoulez-vous (ah-ha)\nAin't no big decision (ah-ha)\nYou know what to do (ah-ha)\nLa question c'est voulez-vous\n\n\nAnd here we go again, we know the start, we know the end\nMasters of the scene\nWe've done it all before and now we're back to get some more\nYou know what I mean\n\nVoulez-vous (ah-ha)\nTake it now or leave it (ah-ha)\nNow it's all we get (ah-ha)\nNothing promised, no regrets\nVoulez-vous (ah-ha)\nAin't no big decision (ah-ha)\nYou know what to do (ah-ha)\nLa question c'est voulez-vous\nVoulez-vous\nVoulez-vous (ah-ha ah-ha, ah-ha)\nVoulez-vous (ah-ha ah-ha, ah-ha)\nVoulez-vous (ah-ha ah-ha, ah-ha)\nVoulez-vous (ah-ha ah-ha, ah-ha)\nVoulez-vous (ah-ha)\nTake it now or leave it (ah-ha)\nNow it's all we get (ah-ha)\nNothing promised, no regrets\nVoulez-vous (ah-ha)\nAin't no big decision (ah-ha)\nYou know what to do (ah-ha)\nI can still say voulez-vous\n\nVoulez-vous (ah-ha)\nTake it now or leave it (ah-ha)\nNow it's all we get (ah-ha)\nNothing promised, no regrets\nVoulez-vous (ah-ha)\nAin't no big decision (ah-ha)\nYou know what to do (ah-ha)\nI can still say voulez-vous",
     "duration": "5:09"
   },
   {
@@ -3189,7 +3189,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "ymca",
       "village people"
     ],
-    "snippet": "",
+    "snippet": "Young Man\nThere's no need to feel down,\nI said, Young Man\nGet yourself off the ground,\nI said, Young Man\n'Cause you're in a new town\nThere's no need to be un-happy..\n\n\nYoung Man\nThere's a place you can go,\nI said, Young Man\nWhen you're short on your dough,\nYou can stay there\nAnd I'm sure you will find,\nMany ways to have a good time..\n\nIt's fun to stay at the YMCA,\nIt's fun to stay at the YMCA.\nThey have everything for young men to enjoy,\nYou can hang out with all the boys..\n\nIt's fun to stay at the YMCA,\nIt's fun to stay at the YMCA.\nYou can get yourself clean,\nYou can have a good meal,\nYou can do whatever you feel..\n\nYoung Man - Are you listening to me?\nI said, Young Man,\nWhat do you wanna' be?\nI said, Young Man\nYou can make real your dreams,\nBut you've got to know this one thing:\n\nNo man,\nDoes it all by himself,\nI said, Young Man\nPut your pride on the shelf,\nAnd just go there -\nTo the YMCA,\nI'm sure they can help you today..\n\nIt's fun to stay at the YMCA,\nIt's fun to stay at the YMCA.\nThey have everything for young men to enjoy,\nYou can hang out with all the boys..\n\nIt's fun to stay at the YMCA,\nIt's fun to stay at the YMCA\nYou can get yourself clean,\nYou can have a good meal,\nYou can do whatever you feel..\n\nYoung Man,\nI was once in your shoes,\nI said, I was -\nDown and out with the blues,\nI felt no man cared that I were alive,\nI felt the whole world was so tired.\n\nThat's when,\nSomeone came up to me,\nAnd said, Young Man\nTake a walk up the street,\nIt's a place there -\nCalled the YMCA,\nThey can start you back on your way..\nIt's fun to stay at the YMCA,\nIt's fun to stay at the YMCA.\nThey have everything for young men to enjoy,\nYou can hang out with all the boys..\n\n\nYMCA,\nIt's fun to stay at the\nYMCA..\n\nYoung Man, Young Man\nThere's no need to feel down,\nYoung Man, Young Man\nPick yourself off the ground..\n\nYMCA\nAnd just go to the -\nYMCA\n\nYoung Man, Young Man\nI was once in your shoes\nYoung Man, Young Man\nI was down with the blues..",
     "lyrics": "",
     "duration": "3:23"
   },
@@ -3220,7 +3220,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "tell"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "It was a teenage wedding, and the old folks wished them well\nYou could see that Pierre did truly love the mademoiselle\nAnd now the young monsieur and madame have rung the chapel bell\n\"C'est la vie\", say the old folks, it goes to show you never can tell\n\n\nThey furnished off an apartment with a two room Roebuck sale\nThe coolerator was crammed with TV dinners and ginger ale\nBut when Pierre found work, the little money comin' worked out well\n\"C'est la vie\", say the old folks, it goes to show you never can tell\n\n\nThey had a hi-fi phono, boy, did they let it blast\nSeven hundred little records, all rock, rhythm and jazz\nBut when the sun went down, the rapid tempo of the music fell\n\"C'est la vie\", say the old folks, it goes to show you never can tell\n\n\nThey bought a souped-up jitney, 'twas a cherry red '53\nThey drove it down to Orleans to celebrate the anniversary\nIt was there that Pierre was married to the lovely mademoiselle\n\"C'est la vie\", say the old folks, it goes to show you never can tell",
     "duration": "2:42"
   },
   {
@@ -3236,7 +3236,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "conmigo"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Hay tanto que quiero contarte\nHay tanto que quiero saber de ti\nYa podemos empezar poco a poco\nCuéntame, qué te trae por aquí­\n\nNo te asustes de decirme la verdad\nEso nunca puede estar así­ tan mal\nYo también tengo secretos para darte\nY que sepas que ya no me sirven más\n\nHay tantos caminos por andar\nDime si tu quisieras andar conmigo\nCuéntame si quisieras andar conmigo\nDime si tu quisieras andar conmigo\nCuéntame si quisieras andar conmigo\n\nEstoy ansiosa por soltarlo todo\nDesde el principio hasta llegar al dí­a de hoy\nUna historia tengo en mi para entregarte\nUna historia todaví­a sin final\n\nPodrí­amos decirnos cualquier cosa\nIncluso darnos para siempre un siempre no\nPero ahora frente a frente, aquí­ sentados\nFestejemos que la vida nos cruzó\n\nHay tantos caminos por andar\nDime si tu quisieras andar conmigo\nCuéntame si quisieras andar conmigo\nDime si tu quisieras andar conmigo\nCuéntame si quisieras andar conmigo",
     "duration": "3:13"
   },
   {
@@ -3255,7 +3255,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "rico"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Yo puedo ofrecerte una vida muy interesante\nPero depende, para ti, qué es interesante\nSi estás pensando en discotecas, carros y diamantes\nEntonces puede que pa' ti sea insignificante\n\nNo es vida de rico\nPero se pasa bien rico\nY si en la casa no alcanza pa'l aire\nTe pongo abanico\n\nYo no tengo pa' darte ni un peso\nPero sí puedo darte mis besos\nPa' sacarte, yo tengo poquito\nPero es gratis bailar pegaditos\n\nYo no tengo pa' abrirte champaña\nPero sí cervecita en la playa\nAunque es poco lo que yo te ofrezco\nCon orgullo, todo lo que tengo es tuyo\n\nSería mentira decir que ahora mismo\nPuedo darte el viaje que tú te mereces\nNo será Europa, pero el Sol cayendo\nDesde mi balcón, medio se le parece\n\nY yo que tú no me acostumbraría\nA estar aquí en estas cuatro paredes\nHaría todo por comprarte un día\nCasa con piscina, si Diosito quiere\n\nYo no tengo pa' darte ni un peso\nPero sí puedo darte mis besos\nPa' sacarte, yo tengo poquito\nPero es gratis bailar pegaditos\n\nYo no tengo pa' abrirte champaña\nPero sí cervecita en la playa\nAunque es poco lo que yo te ofrezco\nCon orgullo, todo lo que tengo es tuyo\n\nAunque no es mucho\nEs tuyo, tuyo, tuyo\nNo es vida de rico\nPero se pasa bien rico (se pasa bien rico)\nY si en la casa no alcanza pa'l aire\nTe pongo abanico\n\nYo no tengo pa' darte ni un peso\nPero sí puedo darte mis besos\nPa' sacarte, yo tengo poquito\nPero es gratis bailar pegaditos (pegaditos)\n\nYo no tengo pa' abrirte champaña\nPero sí cervecita en la playa (ay, en la playa)\nAunque es poco lo que yo te ofrezco\nCon orgullo, todo lo que tengo es tuyo",
     "duration": "3:07"
   },
   {
@@ -3289,7 +3289,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "bachata"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Te bloqueé de Insta\nPero por otra cuenta veo tus historias (oh, oh, oh)\nTu número lo borré\nNo sé pa' qué si me lo sé de memoria\n\nMe hiciste daño\nY así te extraño\nY aunque sé que un día te voy a olvidar\nAún no lo hago\nEs complicado\nTodo lo que hicimo', me gusta recordar\n\nAndo manejando por las calles que me besaste\nOyendo las canciones que un día me dedicaste\nTe diría que volvieras pero eso no se pide\nMejor le pido a Dios que me cuide\n\nPorque ando manejando por las calles que me besaste\nOyendo las canciones que un día me dedicaste\nTe diría que volvieras pero eso no se pide\nMejor le pido a Dios que me cuide, eh\n\nQue me cuide de otra que se parezca a ti\nNo quiero caer como hice por ti\nOjalá te enamore'\nTe hagan lo mismo que me hiciste a mí\nTú me enseñaste a no amar a cualquiera\nY también como no quiero que me quieran\n\nNo\nÉramos tres en una relación de dos\nNo te perdono, pídele perdón a Dios\nDije que te olvidé y la verdad e' que yo\nYo\n\nAndo manejando por las calles que me besaste\nOyendo las canciones que un día me dedicaste\nTe diría que volvieras pero eso no se pide\nMejor le pido a Dios que me cuide\n\nPorque ando manejando por las calles que me besaste\nOyendo las canciones que un día me dedicaste\nTe diría que volvieras pero eso no se pide\nMejor le pido a Dios que me cuide, eh",
     "duration": "2:43"
   },
   {
@@ -3305,7 +3305,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "bonita"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Lo que siento por ti\nEs ternura y pasión\nTú me has hecho sentir\nQue hay en mi corazón\nTanto amor\nTanto amor\n\n\nYo nací para ti\nY tú también para mí\nY ahora sé que morir es tratar de vivir\nSin tu amor\nSin tu amor\n\nMi niña bonita mi dulce princesa\nMe siento en las nubes cuando tú me besas\nY siento que vuelo más alto que el cielo\nSi tengo de cerca el olor de tú pelo\nMi niña bonita brillante lucero\nTe queda pequeña la frase te quiero\nPor eso mis labios te dicen te amo\nCuando estamos juntos más nos enamoramos\n\nAquí hay amor\nAquí hay amor\nAquí hay amor amor\nAquí hay amor amor\nAquí hay hay hay hay hay hay amor\n\nEste amor que como espuma sube\nQue cuando te tomo de la mano por el parque\nCamino en las nubes\nParece mentira que ya no recuerdo nada\nCuando solo estuve\nNada se podrá comparar\nCon algo tan especial\nNada se compara con lo nuestro mi vida",
     "duration": "3:37"
   },
   {
@@ -3335,7 +3335,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "blondie"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "She moves like she don't care\nSmooth as silk, cool as air\nOoh it makes you wanna cry\nShe doesn't know your name\nAnd your heart beats like a subway train\nOoh it makes you wanna die\n\n\nOoh, don't you wanna take her?\nOoh, wanna make her all your own?\nMaria, you've gotta see her\nGo insane and out of your mind\nLatina, Ave Maria\nA million and one candle lights\nI've seen this thing before\nIn my best friend and the boy next door\nFool for love and fool on fire\nWon't come in from the rain\nShe's oceans running down the drain\nBlue as ice and desire\nDon't you wanna make her?\nOoh, don't you wanna take her home?\nMaria, you've gotta see her\nGo insane and out of your mind\nLatina, Ave Maria\nA million and one candle lights\nOoh, don't you wanna break her?\nOoh, don't you wanna take her home?\nShe walks like she don't care\nYou wanna take her everywhere\nOoh, it makes you wanna cry\nShe's like a millionaire\nWalkin' on imported air\nOoh, it makes you wanna die\n\n\nMaria, you've gotta see her\nGo insane and out of your mind\nLatina, Ave Maria\nA million and one candle lights\nMaria, you've gotta see her\nGo insane and out of your mind\nLatina, Ave Maria\nA million and one candle lights\nMaria, you've gotta see her\nGo insane and out of your mind\nLatina, Ave Maria\nA million and one candle lights\nMaria, you've gotta see her\nGo insane and out of your mind\nLatina, Ave Maria",
     "duration": "4:51"
   },
   {
@@ -3352,7 +3352,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "bailemos"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Qué bien se ve,\nme trae loco su figura,\nese trajecito corto le queda bien,\ncombinado con su lipstick color café.\n\n\nQué bien se ve\nme hipnotiza su cintura,\ncuando baila hasta los dioses la quieren ver,\nya no perderé más tiempo, me acercaré.\nYo sólo la miré y me gustó,\nme pegué y la invité: “Bailemos, eh?”,\nla noche está para un reggaetón lento,\nde esos que no se bailan hace tiempo.\nYo sólo la miré y me gustó,\nme pegué y la invité: “Bailemos, eh?”,\nla noche está para un reggaetón lento,\nde esos que no se bailan hace tiempo.\nPermíteme bailar contigo esta pieza,\nentre todas las mujeres se resalta tu belleza,\nme encanta tu firmeza, te mueves con destreza,\nmuévete, muévete, muévete.\nMuy rica, latina, estás llena de vida,\nsube las dos manos, dale pa´ arriba.\n¿Dónde están las solteras y las que no, también?\nSin miedo muévete, muévete, muévete.\n\n\nYo sólo la miré y me gustó,\nme pegué y la invité: “Bailemos, eh?”,\nla noche está para un reggaetón lento,\nde esos que no se bailan hace tiempo.\nYo sólo la miré y me gustó,\nme pegué y la invité: “Bailemos, eh?”,\nla noche está para un reggaetón lento,\nde esos que no se bailan hace tiempo.\nBaila conmigo,\nla noche está para un reggaetón lento,\nde esos que no se bailan hace tiempo.\nGirl you know you like it when I take you to the floor,\nI know you like this reggaetón lento,\nThis is happend baby till I say so,\nCome get - come get some more.\nEs imposible atrasar las horas,\ncada minuto contigo es un sueño,\nquisiera ser su confidente.\n¿Por qué no te atreves y lo hacemos ahora?\nNo te pongas tímida,\nestamos tú y yo a solas.\n\n\nYo sólo la miré y me gustó,\nme pegué y la invité: “Bailemos, eh?”,\nla noche está para un reggaetón lento,\nde esos que no se bailan hace tiempo.\nYo sólo la miré y me gustó,\nme pegué y la invité: “Bailemos, eh?”,\nla noche está para un reggaetón lento,\nde esos que no se bailan hace tiempo.\nYo sólo la miré y me gustó,\nme pegué y la invité: “Bailemos, eh?”,\nla noche está para un reggaetón lento,\nde esos que no se bailan hace tiempo.\nYo sólo la miré y me gustó,\nme pegué y la invité: “Bailemos, eh?”,\nla noche está para un reggaetón lento,\nde esos que no se bailan hace tiempo.\nMuévete, muévete,\nbáilalo, báilalo,\nla noche está para un reggaetón lento,\nde esos que no se bailan hace tiempo.\nMuévete, muévete,\nbáilalo, báilalo,\nla noche está para un reggaetón lento,\nde esos que no se bailan hace tiempo.\n\n\n¿Que quiénes somos?\n¡CNCO!\nQué bien se ve,\nme trae loco su figura,\nese trajecito corto le queda bien,\ncombinado con su lipstick color café.\nQué bien se ve.",
     "duration": "3:42"
   },
   {
@@ -3366,7 +3366,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "spanish version - enrique iglesias, descemer bueno, gente de zona"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "He, he, he, he\nEnrique Iglesias (¡One love, One love!)\nGente De Zona\nDescemer\nYo te miro y se me corta la respiración\nCuando tú me miras se me sube el corazón\n(Me palpita lento el corazón)\nY en un silencio tu mirada dice mil palabras\nLa noche en la que te suplico que no salga el sol\n\n\nBailando (Bailando)\nBailando (Bailando)\nTú cuerpo y el mío\nLlenando el vacìo\nSubiendo y bajando (Subiendo y bajando)\nBailando (Bailando)\nBailando (Bailando)\nEse fuego por dentro\nMe está enloqueciendo\nMe va saturando\nCon tu física y tu química\nTambién tu anatomía\nLa cerveza y el tequila\nY tu boca con la mía\nYa no puedo más (Ya no puedo más)\nYa no puedo más (Ya no puedo más)\nCon esta melodía\nTu color, tu fantasía\nCon tu filosofía\nMi cabeza está vacía\nY ya no puedo más (Ya no puedo mas)\nYa no puedo más (Ya no puedo mas)\nYo quiero estar contigo, vivir contigo\nBailar contigo tener contigo\nUna noche loca (Una noche loca)\nAy besar tu boca (Y besar tu boca)\nYo quiero estar contigo, vivir contigo\nBailar contigo tener contigo\nUna noche loca\nCon tremenda nota\n\n\nOh oh oh oh\nOh oh oh oh\nOh oh oh\nOh oh\nOh oh oh oh\nTú me miras y me llevas a otra dimensión\n(Estoy en otra dimension)\nTus latidos aceleran a mi corazón\n(Tus latidos aceleran a mi corazón)\nQue ironía del destino no poder tocarte\nAbrazarte y sentir la magia de tu olor\nBailando (Bailando)\nBailando (Bailando)\nTú cuerpo y el mío\nLlenando el vacìo\nSubiendo y bajando (Subiendo y bajando)\nBailando (Bailando)\nBailando (Bailando)\nEse fuego por dentro\nMe está enloqueciendo\nMe va saturando\nCon tu física y tu química\nTambién tu anatomía\nLa cerveza y el tequila\nY tu boca con la mía\nYa no puedo más (Ya no puedo más)\nYa no puedo más (Ya no puedo más)\n\n\nCon esta melodía\nTu color, tu fantasía\nCon tu filosofía\nMi cabeza está vacía\nY ya no puedo más (Ya no puedo mas)\nYa no puedo más (Ya no puedo mas)\nYo quiero estar contigo, vivir contigo\nBailar contigo tener contigo\nUna noche loca (Una noche loca)\nAy besar tu boca (Y besar tu boca)\nYo quiero estar contigo, vivir contigo\nBailar contigo tener contigo\nUna noche loca\nCon tremenda nota\nOh oh oh oh\nOh oh oh oh\nOh oh oh\nOh oh\nOh oh oh oh\nOh oh oh oh\nOh oh oh oh\nOh oh oh\nOh oh\nOh oh oh oh\nOh oh oh oh (Bailando amor)\nOh oh oh oh (Bailando amor)\nOh oh oh\nOh oh (Es que se me va el dolor)\nOh oh oh oh",
     "duration": "4:03"
   },
   {
@@ -3380,7 +3380,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "luis fonsi, daddy yankee"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Ay\nFonsi\nDY\nOh oh…\nOh no, oh no…\nOh\nYeah…\nDididiri Daddy\nGo\nSí, sabes que ya llevo un rato mirándote\nTengo que bailar contigo hoy (DY)\nVi que tu mirada ya estaba llamándome\nMuéstrame el camino que yo voy (Oh)\n\n\nTú, tú eres el imán y yo soy el metal\nMe voy acercando y voy armando el plan\nSolo con pensarlo se acelera el pulso (Oh yeah)\nYa, ya me está gustando más de lo normal\nTodos mis sentidos van pidiendo más\nEsto hay que tomarlo sin ningún apuro\nDespacito\nQuiero respirar tu cuello despacito\nDeja que te diga cosas al oido\nPara que te acuerdes si no estás conmigo\nDespacito\nQuiero desnudarte a besos despacito\nFirmo en las paredes de tu laberinto\nY hacer de tu cuerpo todo un manuscrito\nSube sube\nSube, sube, sube\nQuiero ver bailar tu pelo\nQuiero ser tu ritmo\nQue le enseñes a mi boca\nTus lugares favoritos (Favorito, favorito baby)\nDéjame sobrepasar tus zonas de peligro\nHasta provocar tus gritos\nY que olvides tu apellido\n\n\nSi te pido un beso ven dámelo\nYo sé que estás pensándolo\nLlevo tiempo intentándolo\nMami esto es dando y dandolo\nSabes que tu corazón conmigo te hace bom bom\nSabes que esa beba está buscando de mi bom bom\nVen prueba de mi boca para ver como te sabe\nquiero quiero quiero ver cuanto amor a ti te cabe\nYo no tengo prisa yo me quiero dar el viaje\nEmpecemos lento, después salvaje\nPasito a pasito, suave suavecito\nNos vamos pegando, poquito a poquito\ncuando tú me besas con esa destreza\nVeo que eres malicia con delicadeza\nPasito a pasito, suave suavecito\nNos vamos pegando, poquito a poquito\nY es que esa belleza es un rompecabezas\nPero pa montarlo aquí tengo la pieza, (oye)\nDespacito\nQuiero respirar tu cuello despacito\nDeja que te diga cosas al oido\nPara que te acuerdes si no estás conmigo\n\n\nDespacito\nQuiero desnudarte a besos despacito\nFirmo en las paredes de tu laberinto\nY hacer de tu cuerpo todo un manuscrito\nSube, sube, sube, sube, sube\nQuiero ver bailar tu pelo\nQuiero ser tu ritmo\nQue le enseñes a mi boca\nTus lugares favoritos (Favorito, favorito baby)\nDéjame sobrepasar tus zonas de peligro\nHasta provocar tus gritos\nY que olvides tu apellido\nDespacito\nVamos a hacerlo en una playa en Puerto Rico\nhasta que las olas griten Ay Bendito\nPara que mi sello se quede contigo\nPasito a pasito, suave suavecito\nNos vamos pegando, poquito a poquito\nQue le enseñes a mi boca\nTus lugares favoritos (Favorito, favorito baby)\nPasito a pasito, suave suavecito\nNos vamos pegando, poquito a poquito\nHasta provocar tus gritos\nY que olvides tu apellido\nDespacito\n\n\nPasito a pasito, suave suavecito\nNos vamos pegando, poquito a poquito (ehh ehhh)\nPasito a pasito, suave suavecito\nNos vamos pegando, poquito a poquito (ehh ehhh)",
     "duration": "3:49"
   },
   {
@@ -3396,7 +3396,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "carnaval"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Todo aquel\nQue piense que la vida es desigual\nTiene que saber que no es así\nQue la vida es una hermosura\nHay que vivirla\n\n\nTodo aquel\nQue piense que está solo y que está mal\nTiene que saber que no es así\nQue en la vida no hay nadie solo\nSiempre hay alguien\nAy, no hay que llorar\n(No hay que llorar)\nQue la vida es un carnaval\nQue es más bello vivir cantando\nOh oh oh ay, no hay que llorar\n(No hay que llorar)\nQue la vida es una carnaval\nY las penas se van cantando\nOh oh oh ay, no hay que llorar\n(No hay que llorar)\nQue la vida es un carnaval\nQue es más bello vivir cantando\nOh oh oh ay, no hay que llorar\n(No hay que llorar)\nQue la vida es un carnaval\nY las penas se van cantando\nTodo aquel\nQue piensa que este mundo siempre es cruel\nTiene que saber que no es así\nQue tan solo hay momentos malos\nY todo pasa\nTodo aquel\nQue piense que esta vida es desigual\nTiene que saber que no es así\nQue al mal tiempo buena cara y todo cambia\n\n\nAy, no hay que llorar\n(No hay que llorar)\nQue la vida es un carnaval\nQue es más bello vivir cantando\nOh oh oh ay, no hay que llorar\n(No hay que llorar)\nQue la vida es una carnaval\nY las penas se van cantando\nOh oh oh ay, no hay que llorar\n(No hay que llorar)\nQue la vida es un carnaval\nQue es más bello vivir cantando\nOh oh oh ay, no hay que llorar\n(No hay que llorar)\nQue la vida es un carnaval\nY las penas se van cantando\n(Carnaval) es para reír\n(No hay que llorar) para gozar\n(Carnaval) para disfrutar\n(Hay que vivir cantando)\n(Carnaval) la vida es un carnaval\n(No hay que llorar) todos podemos gozar\n(Carnaval) ay señores\n(Hay que vivir cantando)\n(Carnaval) todo aquel que piense\n(No hay que llorar) que la vida es cruel\n(Carnaval) nunca estará solo\n(Hay que vivir cantando) Dios está con él\n\n\nPara aquellos que se quejan tanto (bua)\nPara aquellos que solo critican (bua)\nPara aquellos que usan las armas (bua)\nPara aquellos que nos contaminan (bua)\nPara aquellos que hacen la guerra (bua)\nPara aquellos que no nos quieren (bua)\nPara aquellos que nos maltratan (bua)\nPara aquellos que no sirven pa' nada (bua)\n¿Cómo es eso?",
     "duration": "4:39"
   },
   {
@@ -3414,7 +3414,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "venir"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Por si acaso se acabe el mundo\nTodo el tiempo he de aprovechar\nCorazón de vagabundo\nVoy buscando mi libertad\nHe viajado por la Tierra\nY me he dado cuenta de que\nDonde no hay odio ni guerra\nEl amor se convierte en rey\nTuve muchas experiencias\nY he llegado a la conclusión\nQue perdida la inocencia\nEn el sur se pasa mejor\nPara hacer bien el amor hay que venir al sur\nPara hacer bien el amor iré donde estás tú\nSin amantes\n¿Quién se puede consolar?\nSin amantes\nEsta vida es infernal\nPara hacer bien el amor hay que venir al sur\nLo importante es que lo hagas con quien quieras tú\nY si te deja, no lo pienses más\nBúscate otro más bueno\nY vuélvete a enamorar\nTodos dicen que el amor\nEs amigo de la locura\nPero a mí, que ya estoy loca\nEs lo único que me cura\nCuántas veces la inconsciencia\nRompe con la vulgaridad\nVenceremos resistencias\nPara amarnos cada vez más\nTuve muchas experiencias\nY he llegado a la conclusión\nQue perdida la inocencia\nEn el sur se pasa mejor\nPara hacer bien el amor hay que venir al sur\nPara hacer bien el amor iré donde estás tú\nSin amantes\n¿Quién se puede consolar?\nSin amantes\nEsta vida es infernal\nPara hacer bien el amor hay que venir al sur\nLo importante es que lo hagas con quien quieras tú\nY si te deja, no lo pienses más\nBúscate otro más bueno\nY vuélvete a enamorar\nPara hacer bien el amor hay que venir al sur\nPara hacer bien el amor iré donde estás tú\nSin amantes\n¿Quién se puede consolar?\nSin amantes\nEsta vida es infernal\nPara hacer bien el amor hay que venir al sur\nLo importante es que lo hagas con quien quieras tú\nY si te deja, no lo pienses más\nBúscate otro más bueno\nY vuélvete a enamorar\nBúscate otro más bueno\nY vuélvete a enamorar\nBúscate otro más bueno\n¡Y vuélvete a enamorar!",
     "duration": "3:52"
   },
   {
@@ -3428,7 +3428,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "sebastian yatra, manuel turizo, beele"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Puedes salir con cualquiera, na-na-na-na-na\nPasarte en la borrachera, na-na-na-na-na\nTatuarte la Biblia entera no te va a ayudar\nA olvidarte de un amor que no se va a acabar\nPuedo estar con todo el mundo, na-na-na-na-na\nDármelas de vagabundo, na-na-na-na-na\nY aunque a veces me confundo y creo que voy a olvidar\nTú dejaste ese vacío que nadie va a llenar (alright)\nPuedes hacer cara' cuando me veas la cara\nTambién me sé portar como si nada me importara\nDizque ya no sientes nada, ya no te hagas la idea (oye, beba)\nDecir que no me quieres, dime algo que te crea\nAy-ay-ay-ay, muchacha\nAunque pase el tiempo\nTodavía me dominan esos movimientos\nAy-ay-ay-ay, mi cielo\nEl amor duele y cuando está doliendo\nPuedes salir con cualquiera, na-na-na-na-na\nPasarte la borrachera, na-na-na-na-na\nTatuarte la Biblia entera no te va a ayudar\nPa olvidarte de un amor que no se va a acabar\nPuedo estar con todo el mundo, na-na-na-na-na\nDármelas de vagabundo, na-na-na-na-na\nY aunque a veces me confundo y creo que voy a olvidar\nTú dejaste ese vacío que nadie va a llenar\nY si tú la ve', tú la ve'\nDile que yo sigo soltero\nQue me hago el que la quería\nY, en verdad, todavía la quiero\nTe sueño en la noche y te pienso to el día\nAunque pase un año, no te olvidaría\nTu boca rosada por tomar sangría\nVive en mi mente y no paga estadía, ey\nSana que sana\nHoy voy a beber lo que me dé la gana\nDijiste que quedáramos como amigos\nEntonces ven y dame un beso de panas\nY esperando el fin de semana-na\nPa ver si te veo, pero na-na-na\nVen y amanecemos una vez más\nComo aquella noche en San Bernard\nPuedes salir con cualquiera, na-na-na-na-na\nPasarte en la borrachera, na-na-na-na-na\nTatuarte la Biblia entera no te va a ayudar\nA olvidarte de un amor que no se va a acabar\nPuedo estar con todo el mundo, na-na-na-na-na\nDármelas de vagabundo, na-na-na-na-na\nY aunque a veces me confundo y creo que voy a olvidar\nTú dejaste ese vacío que nadie va a llenar (Yatra, Yatra)\n¿Cómo estás, amor? Te veo mejor\nAsí, bronceadita de ese color\nNo bailes así, que me das calor\nTú pegas más duro que el reggaetón\nSe te nota el gimnasio\nCuando lo haces despacio\nSé que no soy tu novio\nPero te quiero, obvio\nAy-ay-ay-ay, muchacha\nAunque pase el tiempo\nTodavía me dominan esos movimientos\nAy-ay-ay-ay, mi cielo\nEl amor duele y cuando está doliendo\nPuedes salir con cualquiera, na-na-na-na-na\nPasarte la borrachera, na-na-na-na-na\nTatuarte la Biblia entera no te va a ayudar\nA olvidarte de un amor que no se va a acabar\nPuedo estar con todo el mundo, na-na-na-na-na\nDármelas de vagabundo, na-na-na-na-na\nY aunque a veces me confundo y creo que voy a olvidar\nTú dejaste ese vacío que nadie va a llenar",
     "duration": "3:36"
   },
   {
@@ -3475,7 +3475,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "mana"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Corazón Espinado\nEsa mujer me esta matando\nMe ha Espinado el corazon\nY por mas que trato de olvidarla\nMi alma no da razon\nMi corazon aplastado\nMolido y abandonado\nA ver A ver\nTu sabes, dime mi amor\nCuanto amor\nY que dolor nos quedo\n\n\nAh ah ah, corazon espinado\nComo duele, me duele la man\nAh ah ahy, como me duele el amor\nY como duele, como duele el corazon\nCuando uno es bien entregado\nPero no olvides mujer que algun dia diras\nAy ay ay, como me duele el amor\nAh ah ahy, corazon espinado\nComo duele, me duele la man\nAh ah ah, como me duele el amor\nAh ah ahy, corazon espinado\nAh ah ah, como me duele el amor...\nComo me duele el olvido\nComo duele el corazon\nComo me duele estar vivo\nSi tenerte a un lado amor\nCorazon Espinado (x4)",
     "duration": "4:35"
   },
   {
@@ -3489,7 +3489,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "reik, j balvin, lalo ebratt"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "J Balvin, man\nLalo Ebratt (su movimiento me tiene indeciso)\nReik, leggo'\n(Leggo')\n\nSiempre que ella baila así\nA mí me daña la cabeza\nEl día que la conocí\nTomaba tequila y cerveza\n\nY ahora yo me la paso buscando\nUna razón pa' verte bailando\nMe robó el corazón sin permiso\nSu movimiento me tiene indeciso\n\nSiempre que ella baila así\nA mí me daña la cabeza\nEl día que la conocí\nTomaba tequila y cerveza\n\nY ahora yo me la paso buscando\nUna razón pa' verte bailando\nMe robó el corazón sin permiso\nSu movimiento me tiene indeciso\n\nPor esas caderas yo estoy indeciso\nSu movimiento me tiene indeciso\n\nDe todita las relaciones\nContigo nunca voy a excepciones\nPero hay alguien que está en esta fiesta\nCuánto me cuesta verla otra vez\n\nTú eres mi Dua Lipa\nSuelta, mami, tú sabes que estas bien rica\nDándole hasta abajo, ella no se quita\nPerfume de Chanel, ella rompe con su Flex\nY le da\n\nA ella le gusta que la miren (la miren)\nParece modelo de cine (de cine)\nElla lo sabe y yo me le acerqué\nPorque sabe que estamos PPP\n\nA ella le gusta que la miren (la miren)\nParece modelo de cine (de cine)\nElla lo sabe y yo me le acerqué\nPorque sabe que estamos PPP\nYeh‚ yeh‚ yeh\n\nSiempre que ella baila así\nA mí me daña la cabeza\nEl día que la conocí\nTomaba tequila y cerveza\n\nY ahora yo me la paso buscando\nUna razón pa' verte bailando\nMe robó el corazón sin permiso\nSu movimiento me tiene indeciso\n\nPor esas caderas yo estoy indeciso\nSu movimiento me tiene indeciso\nLeggo'\nPor esas caderas yo estoy indeciso\nSu movimiento me tiene indeciso\n\nEsa mirada me cautiva\nMotiva, activa, así da'‚ que hace mal\nManda razones con tu amiga\nYa vi tu llamada perdida\n\nVictoria, ella no es un secreto\nQue tú a mí me gustas, que yo te comprendo\nDolce tus gafas, Gabbana, so sexy\nChanel tu perfume (tú siempre estas trending)\n\nSofía, tú no le digas a Lucia\nQue la otra noche yo estuve viendo a María\nNo confía ni en su mejor amiga\nNadie me baila como ella me bailaría\n\nSiempre que ella baila así (así)\nA mí me daña la cabeza (¿cómo?)\nEl día que la conocí (latino gang)\nTomaba tequila y cerveza\n\nY ahora yo me la paso buscando\nUna razón pa' verte bailando\nMe robó el corazón sin permiso\nSu movimiento me tiene indeciso\n\nNunca bajamos los niveles (por esas caderas)\nMango (yo estoy indeciso)\nTropical Minds (su movimiento me tiene indeciso)\n2030 y pico (J Balvin, man)\nL-A-L-O (Lalo Ebratt)\nVomitando flow (Reik)\nSu movimiento me tiene indeciso (el negocio, socio)",
     "duration": "3:37"
   },
   {
