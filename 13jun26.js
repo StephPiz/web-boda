@@ -370,6 +370,48 @@ document.addEventListener("DOMContentLoaded", async () => {
       "manu-top": "seat-highlight-ManuTop",
     };
 
+    const SEAT_HIGHLIGHT_ALIAS_MAP = {
+      "aldo-right": ["seat-highlight-Aldo"],
+      "azzurra-right": ["seat-highlight-Azzurra"],
+      "vane-right": ["seat-highlight-Vane"],
+      "simone-right": ["seat-highlight-Simone"],
+      sofi: ["seat-highlight-Sofi"],
+      "manu-right": ["seat-highlight-ManuRight"],
+      chari: ["seat-highlight-Chari"],
+      nito: ["seat-highlight-Nito"],
+      sebas: ["seat-highlight-Sebas"],
+      miguel: ["seat-highlight-Miguel"],
+      martin: ["seat-highlight-Martin"],
+      fio: ["seat-highlight-Fio"],
+      sergio: ["seat-highlight-Sergio"],
+      roberto: ["seat-highlight-Roberto"],
+      brenda: ["seat-highlight-Brenda"],
+      ale: ["seat-highlight-Ale"],
+      susi: ["seat-highlight-Susi"],
+      diego: ["seat-highlight-Diego"],
+      vicky: ["seat-highlight-Vicky"],
+      ruben: ["seat-highlight-Ruben"],
+      "benito-2": ["seat-highlight-Benito2"],
+      "maria-luisa": ["seat-highlight-MLuisa"],
+      juani: ["seat-highlight-Juani"],
+      "benito-1": ["seat-highlight-Benito1"],
+      "vale-top": ["seat-highlight-Vale"],
+      "nose-top": ["seat-highlight-Nose"],
+      fabri: ["seat-highlight-Fabri"],
+      "sam-top": ["seat-highlight-Sam"],
+      "clau-top": ["seat-highlight-Clau"],
+      "bea-top": ["seat-highlight-Bea"],
+      "manu-top": ["seat-highlight-ManuTop", "seat-highlight-Manu"],
+      enzo: ["seat-highlight-Enzo"],
+      katy: ["seat-highlight-Katy"],
+      josefina: ["seat-highlight-Josefina"],
+      mauro: ["seat-highlight-Mauro"],
+      manuela: ["seat-highlight-Manuela"],
+      olivero: ["seat-highlight-Oliviero"],
+      andrea: ["seat-highlight-Andrea"],
+      sara: ["seat-highlight-Sara"],
+    };
+
     const findSeatTargets = () => {
       if (SEAT_CODE_MAP[guestCode]) return SEAT_CODE_MAP[guestCode];
       return (
@@ -380,7 +422,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     const createHighlight = (seatId) => {
       const highlight = document.createElement("div");
       const highlightClass = SEAT_HIGHLIGHT_CLASS_MAP[seatId] || `seat-highlight-${seatId}`;
-      highlight.className = `seat-highlight dynamic-seat-highlight ${highlightClass}`;
+      const aliasClasses = SEAT_HIGHLIGHT_ALIAS_MAP[seatId] || [];
+      highlight.className = `seat-highlight dynamic-seat-highlight ${[highlightClass, ...aliasClasses].join(" ")}`;
       highlight.style.display = "block";
       highlight.setAttribute("aria-hidden", "true");
       return highlight;

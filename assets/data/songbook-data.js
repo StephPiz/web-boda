@@ -42,7 +42,9 @@ window.SONGBOOK_DATA_13JUN26 = [
     "tags": [],
     "search": [
       "purple rain",
-      "prince"
+      "prince",
+      "purple",
+      "rain"
     ],
     "snippet": "",
     "lyrics": "",
@@ -3546,7 +3548,8 @@ window.SONGBOOK_DATA_13JUN26 = [
       "happy together",
       "the turtles",
       "happy",
-      "together"
+      "together",
+      "togeter"
     ],
     "snippet": "",
     "lyrics": "",
