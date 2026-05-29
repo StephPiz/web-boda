@@ -349,42 +349,64 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
 
   const formatTranslatedLyrics = (originalText, translatedText) => {
-    const originalParagraphs = (originalText || "")
-      .replace(/\\n/g, "\n")
-      .replace(/\n{3,}/g, "\n\n")
-      .split(/\n{2,}/)
-      .map((paragraph) =>
-        paragraph
-          .split("\n")
-          .map((line) => line.trim())
-          .filter(Boolean)
-      )
-      .filter((lines) => lines.length);
+    const normalizeParagraphs = (text) =>
+      (text || "")
+        .replace(/\\n/g, "\n")
+        .replace(/\n{3,}/g, "\n\n")
+        .split(/\n{2,}/)
+        .map((paragraph) =>
+          paragraph
+            .split("\n")
+            .map((line) => line.trim())
+            .filter(Boolean)
+        )
+        .filter((lines) => lines.length);
 
-    const translatedParagraphs = (translatedText || "")
-      .replace(/\\n/g, "\n")
-      .replace(/\n{3,}/g, "\n\n")
-      .split(/\n{2,}/)
-      .map((paragraph) =>
-        paragraph
-          .split("\n")
-          .map((line) => line.trim())
-          .filter(Boolean)
-      )
-      .filter((lines) => lines.length);
+    const originalParagraphs = normalizeParagraphs(originalText);
+    const translatedParagraphs = normalizeParagraphs(translatedText);
 
-    const count = Math.max(originalParagraphs.length, translatedParagraphs.length);
+    const originalLines = originalParagraphs.flat();
+    const translatedLines = translatedParagraphs.flat();
+
+    if (
+      originalLines.length &&
+      translatedLines.length &&
+      Math.abs(originalLines.length - translatedLines.length) <= 2
+    ) {
+      const blocks = [];
+      const count = Math.max(originalLines.length, translatedLines.length);
+      for (let i = 0; i < count; i += 1) {
+        const originalLine = originalLines[i] || "";
+        const translatedLine = translatedLines[i] || "";
+        if (!originalLine && !translatedLine) continue;
+        blocks.push(
+          `<p class="songbook-lyrics-paragraph-13jun26 songbook-lyrics-bilingual-13jun26">` +
+            (originalLine
+              ? `<span class="songbook-lyrics-line-13jun26 songbook-lyrics-line-primary-13jun26">${originalLine}</span>`
+              : "") +
+            (translatedLine
+              ? `<span class="songbook-lyrics-line-13jun26 songbook-lyrics-line-translation-13jun26">${translatedLine}</span>`
+              : "") +
+          `</p>`
+        );
+      }
+      return blocks.join("");
+    }
+
+    const originalParagraphsGrouped = originalParagraphs;
+    const translatedParagraphsGrouped = translatedParagraphs;
+    const count = Math.max(originalParagraphsGrouped.length, translatedParagraphsGrouped.length);
     const blocks = [];
     for (let i = 0; i < count; i += 1) {
-      const originalLines = originalParagraphs[i] || [];
-      const translatedLines = translatedParagraphs[i] || [];
+      const originalGroup = originalParagraphsGrouped[i] || [];
+      const translatedGroup = translatedParagraphsGrouped[i] || [];
       blocks.push(
         `<p class="songbook-lyrics-paragraph-13jun26 songbook-lyrics-bilingual-13jun26">` +
-          (originalLines.length
-            ? `<span class="songbook-lyrics-line-13jun26 songbook-lyrics-line-primary-13jun26">${originalLines.join("<br>")}</span>`
+          (originalGroup.length
+            ? `<span class="songbook-lyrics-line-13jun26 songbook-lyrics-line-primary-13jun26">${originalGroup.join("<br>")}</span>`
             : "") +
-          (translatedLines.length
-            ? `<span class="songbook-lyrics-line-13jun26 songbook-lyrics-line-translation-13jun26">${translatedLines.join("<br>")}</span>`
+          (translatedGroup.length
+            ? `<span class="songbook-lyrics-line-13jun26 songbook-lyrics-line-translation-13jun26">${translatedGroup.join("<br>")}</span>`
             : "") +
         `</p>`
       );
