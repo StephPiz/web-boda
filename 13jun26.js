@@ -405,8 +405,10 @@ document.addEventListener("DOMContentLoaded", async () => {
       const payload = await response.json();
       SONGBOOK_DATA = Array.isArray(payload) ? payload : [];
     } catch (error) {
-      console.warn("No se pudo cargar songbook.json", error);
-      SONGBOOK_DATA = [];
+      console.warn("No se pudo cargar songbook.json, uso fallback en JS", error);
+      SONGBOOK_DATA = Array.isArray(window.SONGBOOK_DATA_13JUN26)
+        ? window.SONGBOOK_DATA_13JUN26
+        : [];
     }
 
     let activeId = SONGBOOK_DATA[0]?.id || null;
