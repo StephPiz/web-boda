@@ -580,11 +580,14 @@
   font-size: clamp(22px, 3vw, 34px);
   line-height: 1.4;
   color: #111;
-  text-align: left;
+  text-align: center;
 }
 
 .songbook-lyrics-paragraph-13jun26 {
   margin: 0 0 24px;
+  max-width: 26ch;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .songbook-lyrics-paragraph-13jun26:last-child {
