@@ -415,10 +415,18 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const originalLang = detectSongLanguage(song);
     const alternateTranslation =
-      originalLang === "it"
-        ? song?.translations?.es || ""
-        : originalLang === "es"
-          ? song?.translations?.it || ""
+      pageLang === "es"
+        ? originalLang === "it"
+          ? song?.translations?.es || ""
+          : originalLang === "en"
+            ? song?.translations?.es || ""
+            : ""
+        : pageLang === "it"
+          ? originalLang === "es"
+            ? song?.translations?.it || ""
+            : originalLang === "en"
+              ? song?.translations?.it || ""
+              : ""
           : "";
 
     if (alternateTranslation.trim()) {
