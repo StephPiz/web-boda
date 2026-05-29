@@ -79,7 +79,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "el vega"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Quien iba a pensar\nQue me iba a ajuiciar\nY que algún día yo diría\nYa encontré ya encontré la mujer\nQue por tanto tiempo había esperado y no sé\nSi creer que en verdad existe\nQue es que estoy alucinando\nNo hace falta ver sus alas pa' creer\nQue ella es el ángel que Dios me mandó\nPa' que me cuidara\nY es que esa carita, ese pelo, esa cinturita\nEsos ojitos tan bonitos, esa boquita rosadita\nMe hace sentir el dueño del mundo\nAllá ya hay quien lo creería\nQue yo me enamoraría así así\nY es que por ti hago lo que sea, niña linda\nPorque me has cambiado\nY le has dado color a mi vida\nDefinitivamente de ti estoy enamorado\nY no hay nadie que me contradiga\nGracias a Dios él me mandó\nQuien le va a dar sentido a mi vida\nElla es, ella es, ella es realmente el amor de mi vida\nYa encontré, ya encontré la mujer\nQue por tanto tiempo había esperado\nY no sé si creer que en verdad existe\nQue es que estoy alucinando\nNo hace falta ver sus alas pa' creer\nQue ella es el ángel que Dios me mandó\nPa' que me cuidara\nY es que esa carita, ese pelo, esa cinturita\nEsos ojitos tan bonitos, esa boquita rosadita\nMe hace sentir el dueño del mundo\nAllá ya hay quien lo creería\nQue yo me enamoraría así así\nY quiero que el resto de mis días sean junto a ti\nMi vida junto a ti, mi mundo junto a ti\nTodo, todo, todo, todo mi mundo junto a ti\nQue te quedes aquí conmigo\nYa encontré, ya encontré la mujer\nQue por tanto tiempo había esperado\nY no sé si creer que en verdad existe\nQue es que estoy alucinando\nNo hace falta ver sus alas pa' creer\nQue ella es el ángel que Dios me mandó\nPa' que me cuidara\nY es que esa carita, ese pelo, esa cinturita\nEsos ojitos tan bonitos, esa boquita rosadita\nMe hace sentir el dueño del mundo\nAllá ya hay quien lo creería\nQue yo me enamoraría así así\nNo hace falta ver sus alas pa' creer\nQue ella es el ángel que Dios me mandó\nPa' que me cuidara",
     "duration": "4:23"
   },
   {
@@ -95,7 +95,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "partio"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Corazón partío\nNo me digas que no\nQue no me amas más\nY que ya no sientes nada\nCorazón partío\nNo me digas que no\nQue no me amas más\nY que ya no sientes nada",
     "duration": "5:43"
   },
   {
@@ -110,7 +110,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "amiga"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Amiga mía, lo sé, solo vives por él, que lo sabe también\nPero él no te ve como yo, suplicarle a mi boca\nQue diga que me ha confesado entre copas\nQue es con tu piel con quien sueña de noche\nY que enloquece con cada botón\nQue te desabrochas pensando en sus manos\nÉl no te ha visto temblar, esperando\nUna palabra, algún gesto, un abrazo\nÉl no te ve como yo, suspirando\nCon los ojitos abiertos, de par en par\nEscucharme nombrarle\nAy, amiga mía, lo sé y él también\nAmiga mía\nNo sé qué decir ni qué hacer para verte feliz\nOjalá pudiera mandar en el alma\nO en la libertad, que es lo que a él le hace falta\nLlenarte los bolsillos de guerras ganadas\nDe sueños e ilusiones renovadas\nYo quiero regalarte una poesía\nTú piensas que estoy dando las noticias\nAmiga mía, ojalá algún día\nEscuchando mi canción, de pronto, entiendas\nQue lo que nunca quise fue contar tu historia\nPorque pudiera resultar conmovedora\nPero perdona, amiga mía\nNo es inteligencia ni sabiduría\nEsta es mi manera de decir las cosas\nNo es que sea mi trabajo, es que es mi idioma\nY, amiga mía (amiga)\nPrincesa de un cuento infinito\nAmiga mía (amiga)\nTan solo pretendo que cuentes conmigo\nAmiga mía (amiga)\nA ver si uno de estos días\nPor fin, aprendo a hablar sin tener que dar tantos rodeos\nQue toda esta historia me importa porque eres mi amiga\nNo, no\nNo, no\nAmiga mía, lo sé, solo vives por él, que lo sabe también\nPero él no te ve como yo, suplicarle a mi boca\nQue diga que me ha confesado entre copas\nQue es con tu piel con quien sueña de noche\nAmiga mía\nNo sé qué decir ni qué hacer para verte feliz\nOjalá pudiera mandar en el alma\nO en la libertad, que es lo que a él le hace falta\nLlenarte los bolsillos de guerras ganadas\nDe sueños e ilusiones renovadas\nYo quiero regalarte una poesía\nTú piensas que estoy dando las noticias\nAmiga mía (amiga)\nPrincesa de un cuento infinito\nAmiga mía (amiga)\nTan solo pretendo que cuentes conmigo\nAmiga mía (amiga)\nA ver si uno de estos días\nPor fin, aprendo a hablar sin tener que dar tantos rodeos\nQue toda esta historia me importa porque eres mi amiga\nNo, no, no\nAmiga mía (amiga)\nPrincesa de un cuento infinito\nAmiga mía (amiga)\nTan solo pretendo que cuentes conmigo\nAmiga mía (amiga)\nA ver si uno de estos días\nPor fin, aprendo a hablar sin tener que dar tantos rodeos\nQue toda esta historia me importa porque eres mi amiga",
     "duration": "4:48"
   },
   {
@@ -126,7 +126,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "paradise"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Everybody say\nOh oh oh oh (3x)\n(Ladies first!)\nDriving in a fast car\nTrying to get somewhere\nDon't know where I´m going\nBut i gotta get there\nA veces me siento perdido\nInquieto, solo y confundido\nEntonces me ato a las estrellas\nY al mundo entero le doy vueltas\nI'm singing for somebody like you\nSorta like me baby\nYo canto para alguien como tú\nPon la oreja, nena\nOh oh oh oh\nEstoy buscando ese momento\nLa música, que cuando llega\nMe llena con su sentimiento\nCon sentimiento, vida llena\nWalking down the sideway\nLooking for innocence\nTrying to find my way\nTrying to make some sense\nYo canto para alguien como tú\nSólo como tú, baby\nI'm singing for somebody like you\nWhat about you?\nI'm singing for someone\nSomeone like you\nTú, dime a quién le cantas\n'Cause there's something about you that\nSpeaks to my heart\nSpeaks to my soul\nI'm singing for someone\nSorta like you\nYo canto para alguien\nSomeone like you, someone like me\nSólo como tú, oh, my sister\nTodo el mundo va buscando ese lugar\nLooking for paradise\nOh oh oh oh\nA ese corazón herido\nLa música le da sentido\nTe damos con la voz tus alas\nLe damos a tus pies camino\nOh does anybody out there\nfeel like I feel?\nTrying to find a better way\nSo we can heal\nI'm singing for somebody like you\nSorta like me baby\nYo canto para alguien como tú\nSólo como tú\nWhat about you?\nYo canto para ti\n(I'm singing for someone)\nYo canto para alguien\n'Cause there's something about you that\nSpeaks to my heart\n(Speaks to my heart)\nSpeaks to my soul\nI'm singing for someone\n(I'm singing)\nSorta like you\nYo canto para alguien\nSomeone like you, someone like me\nSólo como tú, oh, my sister\nTodo el mundo va buscando ese lugar\nLooking for paradise\nOh oh oh oh\n(Oh, I'm talking 'bout you\nIf you're looking for paradise\nBuscando, buscando)\nLooking for paradise...",
     "duration": "4:33"
   },
   {
@@ -141,7 +141,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "compares"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Ahora que crujen las patas de la mecedora\nY hay nieve en el televisor\nAhora que llueve en la sala y se apagan\nLas velas de un cielo que me iluminó\nAhora que corren los lentos derramando trova\nY el mundo, ring-ring, despertó\nAhora que truena un silencio feroz\nAhora nos entra la tos\nAhora que hallamos el tiempo\nPodemos mirarnos detrás del rencor\nAhora te enseño de dónde vengo\nY las piezas rotas del motor\nAhora que encuentro mi puerto\nAhora me encuentro tu duda feroz\nAhora te enseño de dónde vengo\nY de qué tengo hecho el corazón\nVengo del aire\nQue te secaba a ti la piel, mi amor\nYo soy la calle\nDonde te lo encontraste a él\nNo me compares\nBajé a la Tierra en un pincel por ti\nImperdonable\nQue yo no me parezco a él\nNi a él, ni a nadie\nAhora que saltan los gatos buscando las sobras\nMaúllas la triste canción\nAhora que tú te has queda'o sin palabras\nComparas, comparas, con tanta pasión\nAhora podemos mirarnos\nSin miedo al reflejo en el retrovisor\nAhora te enseño de dónde vengo\nY las heridas que me dejó el amor\nAhora no quiero aspavientos\nTan solo una charla tranquila entre nos\nSi quieres, te cuento por qué te quiero\nY si quieres, cuento por qué no\nVengo del aire\nQue te secaba a ti la piel, mi amor\nSoy de la calle\nDonde te lo encontraste a él\nNo me compares\nBajé a la Tierra en un pincel por ti\nImperdonable\nQue yo no me parezco a él\nNi a él, ni a nadie\nQue alguien me seque de tu piel, mi amor\nQue nos desclaven\nY que te borren de mi sien\nQue no me hables\nQue alguien me seque de tu piel, mi amor\nQue nos desclaven\nYo soy tu alma, tú eres mi aire\nNo me compares\nQue nos separen, si es que pueden\nQue nos separen, que lo intenten\nQue nos separen, que lo intenten\nYo soy tu alma y tú, mi suerte\nQue nos separen, si es que pueden (si es que pueden)\nQue nos desclaven, que lo intenten (que lo intenten)\nQue nos separen, que lo intenten\nYo soy tu alma y tú, mi suerte\nQue nos separen, si es que pueden (si es que pueden)\nQue nos desclaven, que lo intenten (que lo intenten)\nQue nos separen, que lo intenten (alma)\nYo soy tu alma (suerte) y tú, mi suerte",
     "duration": "4:38"
   },
   {
@@ -157,7 +157,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "cuando"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Ya no duele, porque al fin ya te encontré\nHoy te miro y siento mil cosas a la vez\nMira si busqué, mira si busqué\nTengo tanto que aprender\nTodo lo que tengo es tu mirar\nDe mis recuerdos salen brisas a bordar\nLas locuras que tú me quieras regalar\nY mira si busqué, mira si busqué\nTengo tanto para dar\nReconozco puertas que yo sé\nSe abren solamente alguna vez\nAsí de poco\nDesde cuando te estaré esperando\nDesde cuando estoy buscando\nTu mirada en el firmamento, estás temblando\nTe he buscado en un millón de auroras\nY ninguna me enamora como tú sabes\nY me he dado cuenta ahora\nPuede parecer atrevimiento\nPero es puro sentimiento\nDime por favor tu nombre\nYo te llevo, por las calles a correr\nVamos lejos, más allá de lo que crees\nY si pregunto bien si pregunto mal\nTengo tanto que ofrecer\nAbro puertas que alguien me cerró\nY no busco más sentido a mi dolor\nMira no me vuelvas loco\nDesde cuando te estaré esperando\nDesde cuando estoy buscando\nTu mirada en el firmamento va temblando\nTe he buscando en un millón de auroras\nY ninguna me enamora como tú sabes\nY me he dado cuenta ahora\nPuede parecer atrevimiento\nPero es puro sentimiento\nDime por favor tu nombre\nNo me vuelvas loco\nDesde cuando te estaré esperando\nDesde cuando estoy buscando\nTu mirada en el firmamento va temblando\nTe he buscando en un millón de auroras\nY ninguna me enamora\nY al final cuando te encuentro\nEstabas sola",
     "duration": "3:55"
   },
   {
@@ -172,7 +172,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "quisiera"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Quisiera ser el dueño, del pacto de tu boca\nQuisiera ser el verbo al que no invitas\nA la fiesta de tu voz\nTe has preguntado alguna vez, di la verdad\nSi siente el viento, debajo de tu ropa\nCuando te bañas en el mar desnuda\nY te acaricia el cuerpo, en la fiesta de tu piel\nSe sentirá la sal, las olas, sentirá la arena\nMe dá pena\nQuisiera ser el aire que escapa de tu risa\nQuisiera ser la sal para escocerte en tus heridas\nQuisiera ser la sangre que envuelves con tu vida\nQuisiera ser el sueño que jamás compartirías\nY el jardín de tu alegría en la fiesta de tu piel\nSon de esos besos que ni frío ni calor\nPero si son de tu boca, también los quiero yo\nQuisiera ser sincero\nApuesto a que te pierdo\nEn esta frase solo pido tu perdón\nPor qué no escribo algo mejor\nAy yo no sé\nMe has preguntado alguna vez, por preguntar\nQué es lo que quiero\nPor qué motivo he dibujado el aire\nQue jugaba a ser silencio\nSi en realidad te entiendo sólo nos queremos\nY si a la noche como a mí le duele tanto\nDesear de lejos\nSe sentirá la sal, las olas, sentirá la arena\nMe dá pena\nQuisiera ser el aire que escapa de tu risa\nQuisiera ser la sal para escocerte en tus heridas\nQuisiera ser la sangre que envuelves con tu vida\nQuisiera ser el sueño que jamás compartirías\nY el jardín de tu alegría en la fiesta de tu piel\nSon de esos besos que ni frío ni calor\nPero si son de tu boca, también los quiero yo\nQuisiera ser el aire que escapa de tu risa\nQuisiera ser la sal para escocerte en tus heridas\nQuisiera ser la sangre que envuelves con tu vida\nQuisiera ser el sueño que jamás compartirías\nY el jardín de tu alegría en la fiesta de tu piel\nQuisiera ser el aire que escapa de tu risa\nQuisiera ser la sal para escocerte en tus heridas\nQuisiera ser la sangre que envuelves con tu vida\nSi quieres ser el aire, yo te invito niña a mi camisa\nMi camisa de tu alegría y la fiesta de tu piel, no, no, no",
     "duration": "5:30"
   },
   {
@@ -189,7 +189,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "ricchi e poveri"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Che confusione, sarà perché ti amo\nÈ un'emozione che cresce piano, piano\nStringimi forte, e stammi più vicino\nSe ci sto bene, sarà perché ti amo\nIo canto al ritmo del dolce tuo respiro\nÈ primavera, sarà perché ti amo\nCade una stella, ma dimmi dove siamo\nChe te ne frega, será perché ti amo\nE vola, vola si sa, sempre più in alto si va\nE vola, vola con me, il mondo è matto perché\nE se l'amore non c'è\nBasta una sola canzone, per far confusione\nFuori e dentro di te\nE vola, vola si va, sempre più in alto si va\nE vola, vola con me, il mondo è matto perché\nE se l'amore non c'è\nBasta una sola canzone, per far confusione\nFuori e dentro di te\nMa dopo tutto, che cosa c'è di strano\nÈ una canzone, sarà perché ti amo\nSe cade il mondo, allora ci spostiamo\nSe cade il mondo, sarà perché ti amo\nStringimi forte, e stammi più vicino\nÈ così bello, che non mi sembra vero\nSe il mondo è matto che cosa c'è di strano\nMatto per matto, almeno noi ci amiamo!\nE vola, vola si sa, siempre più in alto si va\nE vola, vola con me, il mondo è matto perché\nE se l'amore non c'è\nBasta una sola canzone, per far confusione\nFuori e dentro di te\nE vola, vola si va, sarà perché ti amo\nE vola, vola com me e stammi più vicino\nE se l’amore non c’è? Ma dimmi dove siamo\nChe confusione! Sarà perché ti amo",
     "duration": "3:11"
   },
   {
@@ -427,7 +427,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "ayer"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Comprendan que no\nPretendo ofenderla\nTampoco le estoy haciendo\nUn reproche\nUsted es dueña de su vida\nDe su cuerpo y de sus noches\nConfieso me enamoré como un niño\nY siento que no estoy arrepentido\nDisfrute de tu experiencia\nHasta calmar mi ansiedad\nFui dueño de su alcoba\nY de su almohada\nLa tuve beso a beso, piel con piel\nY el Sol me sorprendió por su ventana\nCansado de delirio y de placer\nHasta ayer, hasta ayer\nY perdona usted señora\nPero cuando el alma llora\nEl silencio no es remedio\nPara calmar el sufrir\nHasta ayer, hasta ayer\nMi dulce dama elegante\nSupe que tiene otro amante\nAl que quizás con el tiempo\nLe hará lo mismo que a mí\nFui dueño de su alcoba\nY de su almohada\nLa tuve beso a beso, piel con piel\nY el Sol me sorprendió por su ventana\nCansado de delirio y de placer\nHasta ayer, hasta ayer\nY perdona usted señora\nPero cuando el alma llora\nEl silencio no es remedio\nPara calmar el sufrir\nHasta ayer, hasta ayer\nMi dulce dama elegante\nSupe que tiene otro amante\nAl que quizás con el tiempo\nLe hará lo mismo que a mí, eh\nFue enredándome en sus besos\nHasta que me volvió preso\nY en su juego despiadado\nMe entregó con su pasión\nLuego vino la traición\nY cuál si yo fuera un niño\nMe dijo que su cariño\nLo brindaba a quien quisiera\nEres otra bandolera que jugo\nCon mi querer\nYa no creo más mentiras\nNi en llanto de mujer\nYo te quería tanto, mujer, eh\nYo te adoraba tanto, mujer, eh",
     "duration": "4:02"
   },
   {
@@ -443,7 +443,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "corriente"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "No hay día que pase\nQue yo no me acuerde de ti\nNo hay labios que bese\nQue no me sepan a ti\nTú te quedaste para siempre aquí\nEn mi pensamiento\nTú me dominas\nTienes el control\nDe mis sentimientos\nAunque estés lejos de nada me sirve\nPorque yo te quiero\nMás que ayer, más que ayer\nYo trato, trato, trato\nPero no te olvido\nYo lucho, lucho, lucho\nY no lo consigo\nLo pongo todo de mi parte\nY no es suficiente\nEs como seguir nadando\nContra la corriente\nNo hay noche que llegue\nQue yo no te sienta aquí\nTú te quedaste para siempre\nAquí en mi pensamiento\nTú me dominas tienes el control\nDe mis sentimientos\nY aunque estés lejos\nDe nada me sirve\nPorque yo te quiero\nMás que ayer, más que ayer\nYo trato, trato, trato\nPero no te olvido\nYo lucho, lucho, lucho\nY no lo consigo\nLo pongo todo de mi parte\nY no es suficiente\nEs como seguir nadando\nContra la corriente",
     "duration": "5:05"
   },
   {
@@ -458,7 +458,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "ames"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Dime, ¿por qué lloras? De felicidad\n¿Y por qué te ahogas? Por la soledad\nDi por qué me tomas fuerte así mis manos\nY tus pensamientos te van llevando\nYo te quiero tanto, ¿y por qué será?\nLoco testarudo, no lo dudes más\nAunque en el futuro, haya un muro enorme\nYo no tengo miedo, quiero enamorarme\nNo me ames porque pienses que parezco diferente\n¿Tú no piensas que es lo justo ver pasar el tiempo juntos?\nNo me ames, que comprendo la mentira que sería\nSi tu amor no merezco, no me ames, más quédate otro día\nNo me ames porque estoy perdido\nPorque cambié el mundo\nPorque es el destino, porque\nNo se puede, somos un espejo\nY tú así serías lo que yo de mi reflejo\nNo me ames para estar muriendo\nDentro de una guerra llena de arrepentimientos\nNo me ames para estar en tierra\nQuiero alzar el vuelo con tu gran amor por el azul del cielo\nNo sé qué decirte, esa es la verdad\nSi la gente quiere, sabe lastimar\nTú y yo partiremos, ellos no se mueven\nPero en este cielo, sola no me dejes\nNo me dejes, no me dejes\nNo me escuches si te digo\nNo me ames, no me dejes\nNo desarmes mi corazón con ese: No me ames\nNo me ames, te lo ruego\nMi amargura, déjame\nSabes bien que no puedo, que es inútil\nQue siempre te amaré\nNo me ames pues te haré sufrir\nCon este corazón que se llenó de mil inviernos\nNo me ames para así olvidarte de tus días grises\nQuiero que me ames solo por amarme\nNo me ames, tú y yo volaremos\nUno con el otro, y seguiremos siempre juntos\nEste amor es como el Sol que sale tras de la tormenta\nComo dos cometas en la misma estela\nNo me ames\nNo, no me ames\nNo me ames",
     "duration": "4:38"
   },
   {
@@ -474,7 +474,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "conmigo"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Será la magia que tienen tus ojos\nY esos truquitos para enamorar\nTú me seduces a tu antojo\nY de tu hechizo no puedo escapar\nQue ganas tengo de buscarte\nY de volverte a besar\nPor más que traten de alejarte\nBaby conmigo hoy tú te vas\nYo solo quiero que confíes en mi\nY seas valiente bebe\nEscápate conmigo esta noche bebe\nTe quiero comer, te va a encantar\nTu sabes que conmigo siempre la pasas bien\nTe quiero comer, tus labios besar\nBebe no digas que no, si solo somos tu y yo\nY se te eriza la piel, cuando entramos en calor\nBebe no digas que no, si solo somos tu y yo\nY se te eriza la piel, cuando entramos en calor\nMi super nova, la que una sonrisa me roba\nTremenda loba, solo un beso y calienta la alcoba\nSe me pega y me soba, no se incomoda\nLa baby es una pantera, yo soy su casanova\nEscápate conmigo, donde no hayan testigos\nSi te preguntan, dile que soy tu mejor amigo\nYo quiero un beso, tu quieres castigo\nSabes que no te obligo, te deseo, siempre te lo digo\n(Mamita deja la ventana abierta)\nEscápate conmigo esta noche bebe\nTe quiero comer, te va a encantar\nTu sabes que conmigo siempre la pasas bien\nTe quiero comer, tus labios besar\nEs que yo quiero un poco más, de tu rica desnudes\nEs que el sudor de tu piel, es el que yo quiero probar\nEs que yo quiero un poco más, de tu rica desnudes\nEs que el sudor de tu piel, es el que yo quiero probar\nBaby andamos con los poderes\nOzuna\nMi mente descontrola y si la llamo\nElla me dice que la busque que está sola\nQue no hay tiempo, pero haciéndolo se demora\nSi le fallo, que tranquilo por que no se enamore\nTranquila, la vida conmigo te la vacilas\nQue no he visto otra baby, de tu liga\nEsos besitos que me dan ganas\nDe amanecer contigo todas las mañanas\nA las dos de la madrugada estoy en tu casa\nEscápate conmigo esta noche bebe\nTe quiero comer, te va a encantar\nTu sabes que conmigo siempre la pasas bien\nTe quiero comer, tus labios besar\nBebe no digas que no, si solo somos tu y yo\nY se te eriza la piel, cuando entramos en calor\nBebe no digas que no, si solo somos tu y yo\nY se te eriza la piel, cuando entramos en calor\nSeñoritas, es sencillo\nTodo lo hacemos por ustedes\nJunte poderoso\nW\nOzuna\nMultimedia Records\nLos legendarios\nHyde el quimico\nGaby Music\nOtros niveles musicales",
     "duration": "3:52"
   },
   {
@@ -489,7 +489,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "niego"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Es difícil abrir mis ojos y ya no verte\nTu olor en la cama aún sigue intacto\nTe he buscado en mis sueños, deseando tenerte\nY no encuentro tu rostro, por más que trato\nAún quedan tus retratos en cada rincón de la casa\nY el silencio me habla de ti\nEs que sobra tanto espacio desde que no estás\nDaría todo lo que hoy me queda por tenerte\nPor que vuelvas\nEs que me niego a perderte (a perderte)\nJamás nunca verte (nunca verte)\nMe niego aceptar que lo nuestro ya se acabó\nY es que me niego a perderte, jamás nunca verte\nMe niego aceptar que lo nuestro ya se acabó\nQue lo nuestro ya se acabó (Ozuna)\nNo puedo asimilar\nQue ya tú no estás, sin ti nada es igual\nSé que por el mundo no hay otra similar\n¿Qué tú me hiciste que no te puedo olvidar?\nTú me quieres a tu manera\nMi mente quisiera que otra me quisiera\nMi corazón dice que por ti espera\nQue, por que volvieras, daría lo que fuera\nPero es que tú, chica, con ese piquete\nDices que me olvidaste y en tus ojos veo que mientes\nAhora puedo decir, sufrir amor, lo que se siente\nTe sacaré de mi mente y eso será de repente\nPero es que tú, chica, con ese piquete\nDices que me olvidaste y en tus ojos veo que mientes\nAhora puedo decir, sufrir amor, lo que se siente\nTe sacaré de mi mente y eso será de repente\nY es que me niego a perderte, jamás nunca verte\nMe niego aceptar que lo nuestro ya se acabó\nY es que me niego a perderte, jamás nunca verte\nMe niego aceptar que lo nuestro ya se acabó\nMe está matando la soledad\nDuele saber que ya no estás\nQuiero pensar\nQue todo esto es mentira (que todo esto es mentira)\nY que al llamarte, contestarás\nAl llegar la noche, regrasarás\nAún podemos intentarlo (W)\nNo te alejes de mi vida (yo sigo aquí confundido y solo)\nLlorando de noche, muriendo de día, viviendo esta agonía\nNo puedo entender que ya no seas mía\nEl círculo se cierra y el dolor me entierra\n¡Qué difícil es vivir en esta guerra!\nMe niego (quiero estar contigo)\nAunque digas que estoy ciego\nDesde que te fuiste, soy un andariego\nA todo compromiso, tarde le llego, distraído\nDe tu foto, no me despego\nSi tú eres mi vida, ¿por qué me liquidas? (Dime qué estás haciendo)\nYo no provoqué tu partida\nNecesito tu olor, necesito tu calor\nNecesito verte encima de mí, en ropa interior\nAún quedan tus retratos en cada rincón de la casa\nY el silencio me habla de ti\nEs que sobra tanto espacio desde que no estás\nDaría todo lo que hoy me queda por tenerte\nPor que vuelvas\nEs que me niego a perderte, jamás nunca verte\nMe niego aceptar que lo nuestro ya se acabó\nEs que me niego a perderte, jamás nunca verte\nMe niego aceptar que lo nuestro ya se acabó\nQue lo nuestro ya se acabó",
     "duration": "3:41"
   },
   {
@@ -505,7 +505,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "derechos"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Te presto mis ojos\nPara que veas lo hermosa que eres\nTe presto mis manos\nPara que toques las nubes si quieres\nTe presto mis dedos, para que recuerdes\nTodo lo que hicimos esa noche del viernes\nTe presto mis besos y me los devuelves\nAsí tengo una excusa para volver a verte\nYo no te pido que te enamores\nSeamos eternos solo esta noche\nYo no te pido que seamos novios\nSi siendo amigos ya nos damos de todo\nAmigos con derechos\nY todos tus despechos\nTe los quitas conmigo\nComo nadie lo había hecho\nAmigos con derechos\nQue sea nuestro secreto\nQue solo las paredes\nSean testigos de lo nuestro (oye, oye)\nEscucha cómo nos conocimos\n(Venga)\nEran las 8:15, en la Plaza de San Juán\nIbas caminando con un par de amigas más\nTe hacías la juguetona, como quien no quiere la cosa\nMe tiraste una mirada misteriosa, yey\nMátame\nCon esa boquita, embriágame\nCon tu cuerpo, ven, sedúceme\nQuitémonos ya la ropa\nQue así desnuda te ves más sexy\nPara mí, tú eres mi lady\nYo soy tu Maluma, baby\nAmigos con derechos, tu buen provecho\nTe presto mis dedos, para que recuerdes\nTodo lo que hicimos esa noche del viernes\nTe presto mis besos y me los devuelves\nAsí tengo una excusa para volver a verte\nYo no te pido que te enamores\nSeamos eternos solo esta noche\nYo no te pido que seamos novios\nSi siendo amigos ya nos damos de todo\nAmigos con derechos\nY todos tus despechos\nTe los quitas conmigo\nComo nadie lo había hecho\nAmigos con derechos\nQue sea nuestro secreto\nQue solo las paredes\nSean testigos de lo nuestro\nUh-uh-uh-uh (uoh-uoh), uh-uh-uh-uh (yeh)\nVamos a besarnos y que sea nuestro secreto\nUh-uh-uh-uh (uoh-uoh), uh-uh-uh-uh (yeh)\nAunque todo el mundo ya sospeche de lo nuestro\nUh-uh-uh-uh (Maluma, baby)\nUh-uh-uh-uh (dímelo, Reik)\nAunque todo el mundo\nYa sospeche de lo nuestro (Colombia-México)\nWorldwide, baby",
     "duration": "3:25"
   },
   {
@@ -520,7 +520,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "noviembre"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "La tarde se aleja, el cielo está gris\nLa noche aparece sin ti\nCallado, en la playa\nTe lloro en silencio otra vez\nMe ahoga esta pena, no puedo vivir\nLas olas no me hablan de ti\nSentado, en la arena\nEscribo tu nombre otra vez\nPorque te extraño desde aquel noviembre\nCuando soñamos juntos a querernos siempre\nMe duele este frío noviembre\nCuando las hojas caen a morir por siempre\nNoviembre sin ti es sentir que la lluvia\nMe dice, llorando, que todo acabó\nNoviembre sin ti es pedirle a la Luna\nQue brille en la noche de mi corazón otra vez\nOtra vez (otra vez)\nQuisiera decirte que quiero volver\nTu nombre va escrito en mi piel\nYa es de madrugada\nTe sigo esperando otra vez\nPorque te extraño desde aquel noviembre\nCuando soñamos juntos a querernos siempre\nMe duele este frío noviembre\nCuando las hojas caen a morir por siempre\nNoviembre sin ti es sentir que la lluvia\nMe dice, llorando, que todo acabó\nNoviembre sin ti es pedirle a la Luna\nQue brille en la noche de mi corazón otra vez\nOtra vez (otra vez)\nNoviembre sin ti es sentir que la lluvia\nMe dice, llorando, que todo acabó\nNoviembre sin ti es pedirle a la Luna\nQue brille en la noche de mi corazón otra vez\nOtra vez (otra vez)",
     "duration": "3:22"
   },
   {
@@ -535,7 +535,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "quisiera"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Soy tu mejor amigo\nTu pañuelo de lágrimas\nDe amores perdidos\nTe recargas en mi hombro\nTu llanto no cesa\nYo solo te acaricio\nY me dices por qué la vida es tan cruel\nCon tus sentimientos\nYo solo te abrazo y te consuelo\nMe pides mil consejos para protegerte\nDe tu próximo encuentro\nSabes que te cuido\nLo que no sabes es que yo quisiera ser\nEse por quien tú te desvelas y te desesperas\nYo quisiera ser tu llanto\nEse que viene de tus sentimientos\nYo quisiera ser\nEse por quien tú despertaras ilusionada\nYo quisiera que vivieras\nDe mí siempre enamorada\nOoh\nOh, no, no\nTú te me quedas viendo\nY me preguntas\nSi algo me está pasando\nY yo no sé qué hacer\nSi tú supieras que me estoy muriendo\nQuisiera decirte lo que yo siento, no, no, no\nPero tengo miedo de que me rechaces\nY que solo en mi mente\nVivas para siempre\nPor eso yo quisiera ser\nEse por quien tú te desvelas y te desesperas\nYo quisiera ser tu llanto\nEse que viene de tus sentimientos\nYo quisiera ser\nEse por quien tú despertaras ilusionada\nYo quisiera que vivieras\nDe mí siempre enamorada\nYo (yo quisiera ser) quisiera\nSer tu llanto (tu vida), no\nYo (yo quisiera ser) quisiera\nSer tu llanto, tu vida\nYo quisiera ser\nTu llanto, tu vida (ser tu vida, amor)\nYo quisiera ser\nTu llanto (tu llanto), tu vida (tu vida)",
     "duration": "3:38"
   },
   {
@@ -551,7 +551,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "amarte"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Me duele amarte\nSabiendo que ya te perdí\nTan solo quedará la lluvia\nMojando mi llanto y me hablará de ti\nMe duele amarte\nLos sueños que eran para ti\nSe pierden con cada palabra\nCon cada momento que esperé vivir\nMe duele más imaginar\nQue tú te vas y dejarás\nDetrás de ti\nTu ausencia en mis brazos\nMe duele tanto sospechar\nQue ni tu sombra volverá\nPara abrigar\nMi alma en pedazos\nMe duele amarte así hasta morir\nLanzándome a la nada viéndote partir\nMe duele aquel abril\nCuando te vi por vez primera\nY dije que eras para mí\nMe duele amarte tanto\nMe duele amarte\nLos sueños que eran para ti\nSe pierden con cada palabra\nCon cada momento que esperé vivir\nMe duele más imaginar\nQue tú te vas y dejarás\nDetrás de ti\nTu ausencia en mis brazos\nMe duele tanto sospechar\nQue ni tu sombra volverá\nPara abrigar\nMi alma en pedazos\nMe duele amarte así hasta morir\nLanzándome a la nada viéndote partir\nMe duele aquel abril\nCuando te vi por vez primera\nY dije que eras para mí\nMe duele amarte tanto\nUh uh, uh uh\nMe duele amarte tanto",
     "duration": "3:14"
   },
   {
@@ -580,7 +580,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "reik"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "¿Sabes?\nNo pido nada más que estar entre tus brazos\nY huir de todo el mal, que a todo he renunciado\nPor estar junto a ti\n¿Sabes?\nNo dejo de pensar que estoy enamorado\nTe quiero confesar que soy solo un esclavo\nQue no sabe vivir sin ti\nCuando llegaste tú te metiste en mi ser\nEncendiste la luz, me llenaste de fe\nTanto tiempo busqué, pero al fin te encontré\nTan perfecta como te imaginé\nNo, no, oh\nComo aguja en un pajar te busqué sin cesar\nComo huella en el mar tan difícil de hallar\nTanto tiempo busqué, pero al fin te encontré\nTan perfecta como te imaginé\n¿Sabes?\nTe quiero confesar que te encuentro irresistible\nNo dejo de pensar que haría lo imposible\nPor quedarme cerca de ti\nCuando llegaste tú te metiste en mi ser\nEncendiste la luz, me llenaste de fe\nTanto tiempo busqué, pero al fin te encontré\nTan perfecta como te imaginé\nNo, no, oh\nComo aguja en un pajar te busqué sin cesar\nComo huella en el mar tan difícil de hallar\nTanto tiempo busqué, pero al fin te encontré\nTan perfecta como te imaginé\n¿Sabes?\nNo pido nada más que estar entre tus brazos",
     "duration": "3:41"
   },
   {
@@ -596,7 +596,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "aqui"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Te fuiste de aquí, sin pensarlo\nDijiste que no me amabas más\nYo te supliqué: Quédate aquí\nYo no sé que haría sin ti\nNo creo soportarlo\nTe fuiste de aquí, todo ha acabado\nY llora mi alma en soledad\nLa vida me puso junto a ti\nNunca pude predecir\nMe convertiría en tu pasado\nTe fuiste de aquí y encontraste otra vida\nTe fuiste de aquí y enterraste la mía\nY aunque no estés\nYo sigo respirando aquel amor\nTe fuiste de aquí, descubriste otros brazos\nBorraste mis besos, me hiciste pedazos\nY duele ver\nQue le entregaste a otro el corazón\nTe fuiste de aquí, todo es silencio\nQuedaron las huellas de nuestro amor, no\nSueño que te abrazo una vez más\nMe despierto y ya no estás\nMe estoy ahogando en el vacío, no\nTe fuiste de aquí, encontraste otra vida\nTe fuiste de aquí, enterraste la mía\nY aunque no estés\nYo sigo respirando aquel amor\nTe fuiste de aquí, descubriste otros brazos\nBorraste mis besos, me hiciste pedazos\nY duele ver\nQue le entregaste a otro el corazón\nY aún siento en el aire\nQue me acaricia tu voz\nMe robaste la Luna\nEl cielo y las estrellas\nTe fuiste de aquí, encontraste otra vida\nTe fuiste de aquí, enterraste la mía\nY aunque no estés\nYo sigo respirando aquel amor\nTe fuiste de aquí, descubriste otros brazos\nBorraste mis besos, me hiciste pedazos\nY duele ver\nQue le entregaste a otro el corazón\nOh, uoh, uoh\nLe entregaste a otro el corazón",
     "duration": "3:41"
   },
   {
@@ -610,7 +610,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "reik"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Era tan bella, era tan bella\nQue su mirada todavía me quema\nCómo quisiera poderla olvidar\nPero se acerca y no lo puedo evitar\nPorque cuando habla con sus ojos\nDice cosas que no puedo entender\nY se desnuda poco a poco\nY se convierte en tu piel\nY yo no sé cómo vivir\nSi ya no puedo sacarla de aquí\nQué no daría por besarla\nPor abrazarla una vez más\nY ya no quiero dejarla escapar\nSi es que la puedo volver a encontrar\nNo quiero perderla, porque solo es ella\nInolvidable para mi corazón\nInolvidable, inolvidable\nFue como un cuento, se fue como el viento\nA veces, me digo que tal vez me lo invento\nSi al menos pudiera tener una prueba\nAlgún recuerdo de que estuve con ella\nMe estoy volviendo loco, un poco\nA veces, me despierto y siento aquí mi pena\nQue me susurra en el oído\nY dice: ¿Dónde estás, amor?\nY yo no sé cómo vivir\nSi ya no puedo sacarla de aquí\nQué no daría por besarla\nPor abrazarla una vez más\nY ya no quiero dejarla escapar\nSi es que la puedo volver a encontrar\nNo puedo perderla, porque solo es ella\nInolvidable para mi corazón\nInolvidable, inolvidable\nInolvidable, inolvidable\nY yo no sé cómo vivir\nSi ya no puedo sacarla de aquí\nQué no daría por besarla\nPor abrazarla una vez más\nY ya no quiero dejarla escapar\nSi es que la puedo volver a encontrar\nNo puedo perderla, porque solo es ella\nInolvidable para mi corazón\nInolvidable, inolvidable",
     "duration": "3:41"
   },
   {
@@ -625,7 +625,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "entere"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Ya me enteré\nQue hay alguien nuevo acariciando tu piel\nAlgún idiota al que quieres convencer\nQue tú y yo somos pasado\nYa me enteré\nQue soy el malo y todo el mundo te cree\nQue estás mejor desde que ya no me ves\nMás feliz con otro al lado\n¿A quién piensas que vas a engañar?\nSabes bien que eres mi otra mitad\nOlvídate de ese perdedor\nY repítele que yo soy mejor\nQue no le eres fiel con el corazón\nQue eres mía y solo mía, amor\nDespídete de ese perdedor\nQue imagina que ya no existo yo\nDeja claro que, aunque intente, no\nNo vas a querer\nLa verdad es que me extrañas tanto, lo sé\nYa me enteré\nRegresarás\nEstoy seguro de que regresarás\nEstás con él por pura comodidad\nAburrida entre sus brazos\n¿A quién piensas que vas a engañar?\nSabes bien que eres mi otra mitad\nOlvídate de ese perdedor\nY repítele que yo soy mejor\nQue no le eres fiel con el corazón\nQue eres mía y solo mía, amor\nDespídete de ese perdedor\nQue imagina que ya no existo yo\nDeja claro que, aunque intente, no\nNo vas a querer, no\nLa verdad es que me extrañas tanto, lo sé\nYa me enteré\nLa verdad es que me extrañas tanto, lo sé\nYa me enteré\nYa me enteré",
     "duration": "3:23"
   },
   {
@@ -2927,7 +2927,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "knowing"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "No más risas despreocupadas\nNo more carefree laughter\n\nSilencio para siempre\nSilence ever after\n\nCaminando por una casa vacía\nWalking through an empty house\n\nLágrimas en mis ojos\nTears in my eyes\n\nAquí es donde termina la historia\nHere is where the story ends\n\nEsto es un adiós\nThis is goodbye\n\nConociéndome, conociéndote\nKnowing me, knowing you\n\nNo hay nada que podemos hacer\nThere is nothing we can do\n\nConociéndome, conociéndote\nKnowing me, knowing you\n\nSolo tenemos que enfrentarlo\nWe just have to face it\n\nEsta vez hemos terminado\nThis time we're through\n\nRomper nunca es fácil\nBreaking up is never easy\n\nLo sé, pero tengo que irme\nI know, but I have to go\n\nConociéndome, conociéndote\nKnowing me, knowing you\n\nEs lo mejor que puedo hacer\nIt's the best I can do\n\nRecuerdos, buenos días, malos días\nMemories, good days, bad days\n\nEllos estarán conmigo siempre\nThey'll be with me always\n\nEn estas viejas habitaciones familiares\nIn these old familiar rooms\n\nLos niños jugarían\nChildren would play\n\nAhora solo hay vacío\nNow there's only emptiness\n\nNada que decir\nNothing to say\n\nConociéndome, conociéndote\nKnowing me, knowing you\n\nNo hay nada que podemos hacer\nThere is nothing we can do\n\nConociéndome, conociéndote\nKnowing me, knowing you\n\nSolo tenemos que enfrentarlo\nWe just have to face it\n\nEsta vez hemos terminado\nThis time we're through\n\nRomper nunca es fácil\nBreaking up is never easy\n\nLo sé, pero tengo que irme\nI know, but I have to go\n\nConociéndome, conociéndote\nKnowing me, knowing you\n\nEs lo mejor que puedo hacer\nIt's the best I can do\n\nConociéndome, conociéndote\nKnowing me, knowing you\n\nNo hay nada que podemos hacer\nThere is nothing we can do\n\nConociéndome, conociéndote\nKnowing me, knowing you\n\nSolo tenemos que enfrentarlo\nWe just have to face it\n\nEsta vez hemos terminado\nThis time we're through\n\nRomper nunca es fácil\nBreaking up is never easy\n\nLo sé, pero tengo que irme\nI know, but I have to go\n\nConociéndome, conociéndote\nKnowing me, knowing you\n\nEs lo mejor que puedo hacer\nIt's the best I can do",
     "duration": "4:02"
   },
   {
@@ -3520,7 +3520,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "amor"
     ],
     "snippet": "",
-    "lyrics": "Cuando no tengas dónde ir\nCuando te sangre la nariz\nCuando te duela la cabeza\nY se termine esa cerveza\nCuando las alas de tu avión\nSe derritan sin razón\nY el cáncer de la soledad\nTe haya matado en la ciudad\nYo romperé tus fotos\nYo quemaré tus cartas\nPara no verte más\nPara no verte más\nYo romperé tus fotos\nYo quemaré tus cartas\nPara no verte más\nPara no verte más\nY si logras sobrevivir\nAl refusilo de maldad\nPreguntarás en dónde estás\nPreguntarás qué te pasó\nMe voy a poner a fumar\nSin preocuparme en nada más\nTotal ya es tarde pa' volver\nTotal ya es tarde pa' soñar\nY romperé tus fotos\nY quemaré tus cartas\nPara no verte más\nPara no verte más\nYo romperé tus fotos\nYo quemaré tus cartas\nPara no verte más\nPara no verte más\nYo romperé tus fotos\nYo quemaré tus cartas\nPara no verte más\nPara no verte más\nYo romperé tus fotos\n\n\nOye Mi Amor, Maná\nNo sabes cómo te deseo\nNo sabes cómo te he soñado\nSi tú supieras que me muero\nPor tu amor y por tus labios\nSi tú supieras que soy sincero\nQue yo soy derecho y no te fallo\nSi tú supieras lo que te quiero\nPodría darte todo, hasta mis ojos\nEy\nPero tú ya tienes otro\nUn tipo frío y aburrido\nUn tonto que es un reprimido\nEso no te queda a ti\nNo te va\nOye, mi amor\nNo me digas que no\nY vamos juntando las almas\nOye, mi amor\nNo me digas que no\nY vamos juntando los cuerpos\nConmigo, tú alucinarías, ¿cómo no?\nConmigo, tú hasta el fin del mundo\nContigo, yo me perdería\nContigo, yo quiero todo y nada a medias\nPero tú ya tienes otro\nUn tipo frío y aburrido\nUn tonto que es un reprimido\nEso no te queda a ti\nNo te va\nNo-no-no, no\nOye, mi amor\nNo me digas que no\nY vamos juntando las almas\nOye, mi amor\nNo me digas que no\nY vamos juntando los cuerpos\nOye, mi amor\nNo me digas que no\nY vamos juntando las almas\nOye, mi amor\nNo me digas que no\nY vamos juntando los cuerpos",
+    "lyrics": "No sabes cómo te deseo\nNo sabes cómo te he soñado\nSi tú supieras que me muero\nPor tu amor y por tus labios\nSi tú supieras que soy sincero\nQue yo soy derecho y no te fallo\nSi tú supieras lo que te quiero\nPodría darte todo, hasta mis ojos\nEy\nPero tú ya tienes otro\nUn tipo frío y aburrido\nUn tonto que es un reprimido\nEso no te queda a ti\nNo te va\nOye, mi amor\nNo me digas que no\nY vamos juntando las almas\nOye, mi amor\nNo me digas que no\nY vamos juntando los cuerpos\nConmigo, tú alucinarías, ¿cómo no?\nConmigo, tú hasta el fin del mundo\nContigo, yo me perdería\nContigo, yo quiero todo y nada a medias\nPero tú ya tienes otro\nUn tipo frío y aburrido\nUn tonto que es un reprimido\nEso no te queda a ti\nNo te va\nNo-no-no, no\nOye, mi amor\nNo me digas que no\nY vamos juntando las almas\nOye, mi amor\nNo me digas que no\nY vamos juntando los cuerpos\nOye, mi amor\nNo me digas que no\nY vamos juntando las almas\nOye, mi amor\nNo me digas que no\nY vamos juntando los cuerpos",
     "duration": "4:23"
   },
   {
