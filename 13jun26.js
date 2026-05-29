@@ -241,7 +241,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   applyPageI18n();
 
-  const SONGBOOK_PATH = "assets/data/songbook.json";
+  const SONGBOOK_PATH = "assets/data/songbook.json?v=20260529-1";
 
   let SONGBOOK_DATA = [];
   const formatSongLyrics = (value) => {
