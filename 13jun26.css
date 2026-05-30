@@ -612,6 +612,8 @@
   color: var(--muted);
   font-size: 0.72em;
   line-height: 1.22;
+  position: relative;
+  top: -3px;
 }
 
 .songbook-lyrics-paragraph-13jun26:last-child {
