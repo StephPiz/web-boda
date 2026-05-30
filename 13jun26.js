@@ -241,7 +241,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   applyPageI18n();
 
-  const SONGBOOK_PATH = "assets/data/songbook.json?v=20260530-1";
+  const SONGBOOK_PATH = "assets/data/songbook.json?v=20260530-2";
 
   const HEY_JUDE_IT = {
     "Oye, Jude, no te pongas mal": "Ehi Jude, non prenderla male",
