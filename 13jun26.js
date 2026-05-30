@@ -241,7 +241,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   applyPageI18n();
 
-  const SONGBOOK_PATH = "assets/data/songbook.json?v=20260529-1";
+  const SONGBOOK_PATH = "assets/data/songbook.json?v=20260530-1";
 
   const HEY_JUDE_IT = {
     "Oye, Jude, no te pongas mal": "Ehi Jude, non prenderla male",
@@ -289,7 +289,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
 
   const ENGLISH_HINTS =
-    /\b(the|and|you|your|don't|cant|can't|love|heart|baby|time|night|day|take|make|better|under|with|when|what|how|all|now|feel|little|forever|together|rain|eyes)\b/i;
+    /\b(the|and|you|your|don't|cant|can't|love|heart|baby|time|night|day|take|make|better|under|with|when|what|how|all|now|feel|little|forever|together|rain|eyes|more|silence|walking|through|tears|here|story|goodbye|there|just|face|this|breaking|memories|children|nothing|say)\b/i;
   const ROMANCE_HINTS =
     /[¿¡áéíóúñ]| \b(que|como|cuando|donde|dime|amor|vida|para|con|sin|por|non|che|sei|una|nel|cuore|ehi|ricorda)\b/i;
 
@@ -298,6 +298,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (!text) return "other";
     if (ENGLISH_HINTS.test(text) && !ROMANCE_HINTS.test(text)) return "en";
     if (ROMANCE_HINTS.test(text)) return "romance";
+    if (/^[A-Za-z0-9 ,.'?!;:()&-]+$/.test(text) && text.split(/\s+/).length >= 2) return "en";
     return "other";
   };
 
@@ -435,6 +436,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     const text = (song?.lyrics || "").trim();
     if (!text) return "";
 
+    if (shouldUseBilingualLayout(text)) {
+      return formatBilingualLyrics(text);
+    }
+
     const originalLang = detectSongLanguage(song);
     const alternateTranslation =
       pageLang === "es"
@@ -457,10 +462,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     if (song?.id === "hey-jude") {
       return formatBilingualLyrics(text, HEY_JUDE_IT);
-    }
-
-    if (shouldUseBilingualLayout(text)) {
-      return formatBilingualLyrics(text);
     }
 
     const normalized = text.replace(/\\n/g, "\n");
