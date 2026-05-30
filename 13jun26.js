@@ -337,6 +337,15 @@ document.addEventListener("DOMContentLoaded", async () => {
     return blocks.join("");
   };
 
+  const extractEnglishFromBilingual = (value) =>
+    (value || "")
+      .replace(/\\n/g, "\n")
+      .split("\n")
+      .map((line) => line.trim())
+      .filter(Boolean)
+      .filter((line) => getLanguageBucket(line) === "en")
+      .join("\n");
+
   const detectSongLanguage = (song) => {
     const text = (song?.lyrics || "").slice(0, 1200);
     if (!text.trim()) return null;
@@ -440,6 +449,17 @@ document.addEventListener("DOMContentLoaded", async () => {
   const formatSongLyrics = (song) => {
     const text = (song?.lyrics || "").trim();
     if (!text) return "";
+
+    const inlineTranslation =
+      pageLang === "es"
+        ? song?.translations?.es || ""
+        : pageLang === "it"
+          ? song?.translations?.it || ""
+          : "";
+
+    if (INLINE_BILINGUAL_IDS.has(song?.id) && shouldUseBilingualLayout(text) && inlineTranslation.trim()) {
+      return formatTranslatedLyrics(extractEnglishFromBilingual(text), inlineTranslation);
+    }
 
     if (INLINE_BILINGUAL_IDS.has(song?.id) && shouldUseBilingualLayout(text)) {
       return formatBilingualLyrics(text);
