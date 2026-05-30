@@ -349,11 +349,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   const detectSongLanguage = (song) => {
     const text = (song?.lyrics || "").slice(0, 1200);
     if (!text.trim()) return null;
-    if (/\b(che|non|sei|una|della|perché|lassù|partigiano|libertà|cuore|amore|portami|svegliato)\b/i.test(text)) {
-      return "it";
-    }
     if (/[¿¡áéíóúñ]|\b(que|como|cuando|donde|amor|vida|para|conmigo|ojos|corazón|quiero|noche|canción)\b/i.test(text)) {
       return "es";
+    }
+    if (/\b(perché|lassù|partigiano|libertà|portami|svegliato|mattina|fiore|conoscendo|soltanto|affrontarlo|pioggia|vederti)\b/i.test(text)) {
+      return "it";
+    }
+    if (/\b(che|non|sei|della|cuore|amore)\b/i.test(text) && !/\b(que|como|cuando|donde|quiero|ojos|corazón)\b/i.test(text)) {
+      return "it";
     }
     return null;
   };
