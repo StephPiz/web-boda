@@ -432,11 +432,16 @@ document.addEventListener("DOMContentLoaded", async () => {
     return mixedPairs >= 2;
   };
 
+  const INLINE_BILINGUAL_IDS = new Set([
+    "hey-jude",
+    "knowing-me-knowing-you",
+  ]);
+
   const formatSongLyrics = (song) => {
     const text = (song?.lyrics || "").trim();
     if (!text) return "";
 
-    if (shouldUseBilingualLayout(text)) {
+    if (INLINE_BILINGUAL_IDS.has(song?.id) && shouldUseBilingualLayout(text)) {
       return formatBilingualLyrics(text);
     }
 
