@@ -115,18 +115,19 @@ window.SONGBOOK_DATA_13JUN26 = [
     "duration": "5:43"
   },
   {
-    "id": "amiga-mia",
-    "title": "Amiga Mía",
-    "artist": "Alejandro Sanz",
+    "id": "yo-que-no-vivo-sin-ti",
+    "title": "Yo Que No Vivo Sin Ti",
+    "artist": "Luis Miguel",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "amiga mia",
-      "alejandro sanz",
-      "amiga"
+      "yo que no vivo sin ti",
+      "luis miguel",
+      "vivo",
+      "ti"
     ],
     "snippet": "",
-    "lyrics": "Amiga mía, lo sé, solo vives por él, que lo sabe también\nPero él no te ve como yo, suplicarle a mi boca\nQue diga que me ha confesado entre copas\nQue es con tu piel con quien sueña de noche\nY que enloquece con cada botón\nQue te desabrochas pensando en sus manos\nÉl no te ha visto temblar, esperando\nUna palabra, algún gesto, un abrazo\nÉl no te ve como yo, suspirando\nCon los ojitos abiertos, de par en par\nEscucharme nombrarle\nAy, amiga mía, lo sé y él también\nAmiga mía\nNo sé qué decir ni qué hacer para verte feliz\nOjalá pudiera mandar en el alma\nO en la libertad, que es lo que a él le hace falta\nLlenarte los bolsillos de guerras ganadas\nDe sueños e ilusiones renovadas\nYo quiero regalarte una poesía\nTú piensas que estoy dando las noticias\nAmiga mía, ojalá algún día\nEscuchando mi canción, de pronto, entiendas\nQue lo que nunca quise fue contar tu historia\nPorque pudiera resultar conmovedora\nPero perdona, amiga mía\nNo es inteligencia ni sabiduría\nEsta es mi manera de decir las cosas\nNo es que sea mi trabajo, es que es mi idioma\nY, amiga mía (amiga)\nPrincesa de un cuento infinito\nAmiga mía (amiga)\nTan solo pretendo que cuentes conmigo\nAmiga mía (amiga)\nA ver si uno de estos días\nPor fin, aprendo a hablar sin tener que dar tantos rodeos\nQue toda esta historia me importa porque eres mi amiga\nNo, no\nNo, no\nAmiga mía, lo sé, solo vives por él, que lo sabe también\nPero él no te ve como yo, suplicarle a mi boca\nQue diga que me ha confesado entre copas\nQue es con tu piel con quien sueña de noche\nAmiga mía\nNo sé qué decir ni qué hacer para verte feliz\nOjalá pudiera mandar en el alma\nO en la libertad, que es lo que a él le hace falta\nLlenarte los bolsillos de guerras ganadas\nDe sueños e ilusiones renovadas\nYo quiero regalarte una poesía\nTú piensas que estoy dando las noticias\nAmiga mía (amiga)\nPrincesa de un cuento infinito\nAmiga mía (amiga)\nTan solo pretendo que cuentes conmigo\nAmiga mía (amiga)\nA ver si uno de estos días\nPor fin, aprendo a hablar sin tener que dar tantos rodeos\nQue toda esta historia me importa porque eres mi amiga\nNo, no, no\nAmiga mía (amiga)\nPrincesa de un cuento infinito\nAmiga mía (amiga)\nTan solo pretendo que cuentes conmigo\nAmiga mía (amiga)\nA ver si uno de estos días\nPor fin, aprendo a hablar sin tener que dar tantos rodeos\nQue toda esta historia me importa porque eres mi amiga",
+    "lyrics": "Nos quedamos solos\nComo cada noche\nHoy te siento triste\nY sé muy bien porque\nTu querrás decirme\nQue he cambiado mucho\nEl amor se acaba\nY quiero terminar\nYo que ni un momento puedo estar lejos de ti\n¿Cómo soportar la vida entera ya sin ti?\nTe quiero, te quiero\nTe juro que yo, no puedo vivir sin tu amor\nVen aquí y abrázame\nYo te amo tanto\nY te pido por favor\nQue creas más en mi\nYo que ni un momento puedo estar lejos de ti\n¿Cómo soportar la vida entera ya sin ti?\nTe quiero, te quiero\nYo que ni un momento puedo estar lejos de ti\n¿Cómo soportar la vida entera ya sin ti?\nTe quiero, te quiero, te quiero, te quiero",
     "duration": "4:48"
   },
   {
@@ -146,49 +147,48 @@ window.SONGBOOK_DATA_13JUN26 = [
     "duration": "4:33"
   },
   {
-    "id": "no-me-compares",
-    "title": "No Me Compares",
-    "artist": "Alejandro Sanz",
+    "id": "un-beso-y-una-flor",
+    "title": "Un Beso y una Flor",
+    "artist": "Nino Bravo",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "no me compares",
-      "alejandro sanz",
-      "compares"
+      "un beso y una flor",
+      "nino bravo",
+      "beso"
     ],
     "snippet": "",
-    "lyrics": "Ahora que crujen las patas de la mecedora\nY hay nieve en el televisor\nAhora que llueve en la sala y se apagan\nLas velas de un cielo que me iluminó\nAhora que corren los lentos derramando trova\nY el mundo, ring-ring, despertó\nAhora que truena un silencio feroz\nAhora nos entra la tos\nAhora que hallamos el tiempo\nPodemos mirarnos detrás del rencor\nAhora te enseño de dónde vengo\nY las piezas rotas del motor\nAhora que encuentro mi puerto\nAhora me encuentro tu duda feroz\nAhora te enseño de dónde vengo\nY de qué tengo hecho el corazón\nVengo del aire\nQue te secaba a ti la piel, mi amor\nYo soy la calle\nDonde te lo encontraste a él\nNo me compares\nBajé a la Tierra en un pincel por ti\nImperdonable\nQue yo no me parezco a él\nNi a él, ni a nadie\nAhora que saltan los gatos buscando las sobras\nMaúllas la triste canción\nAhora que tú te has queda'o sin palabras\nComparas, comparas, con tanta pasión\nAhora podemos mirarnos\nSin miedo al reflejo en el retrovisor\nAhora te enseño de dónde vengo\nY las heridas que me dejó el amor\nAhora no quiero aspavientos\nTan solo una charla tranquila entre nos\nSi quieres, te cuento por qué te quiero\nY si quieres, cuento por qué no\nVengo del aire\nQue te secaba a ti la piel, mi amor\nSoy de la calle\nDonde te lo encontraste a él\nNo me compares\nBajé a la Tierra en un pincel por ti\nImperdonable\nQue yo no me parezco a él\nNi a él, ni a nadie\nQue alguien me seque de tu piel, mi amor\nQue nos desclaven\nY que te borren de mi sien\nQue no me hables\nQue alguien me seque de tu piel, mi amor\nQue nos desclaven\nYo soy tu alma, tú eres mi aire\nNo me compares\nQue nos separen, si es que pueden\nQue nos separen, que lo intenten\nQue nos separen, que lo intenten\nYo soy tu alma y tú, mi suerte\nQue nos separen, si es que pueden (si es que pueden)\nQue nos desclaven, que lo intenten (que lo intenten)\nQue nos separen, que lo intenten\nYo soy tu alma y tú, mi suerte\nQue nos separen, si es que pueden (si es que pueden)\nQue nos desclaven, que lo intenten (que lo intenten)\nQue nos separen, que lo intenten (alma)\nYo soy tu alma (suerte) y tú, mi suerte",
-    "duration": "4:38"
+    "lyrics": "Dejaré mi tierra por ti\nDejaré mis campos y me iré\nLejos de aquí\nCruzaré, llorando, el jardín\nY, con tus recuerdos, partiré\nLejos de aquí\nDe día, viviré\nPensando en tus sonrisas\nDe noche, las estrellas me acompañarán\nSerás como una luz\nQue alumbre mi camino\nMe voy, pero te juro que mañana volveré\nAl partir, un beso y una flor\nUn te quiero, una caricia y un adiós\nEs ligero equipaje\nPara tan largo viaje\nLas penas pesan en el corazón\nMás allá del mar, habrá un lugar\nDonde el Sol cada mañana brille más\nForjarán mi destino, las piedras del camino\nLo que nos es querido siempre queda atrás\nBuscaré un hogar para ti\nDonde el cielo se une con el mar\nLejos de aquí\nCon mis manos y con tu amor\nLograré encontrar otra ilusión\nLejos de aquí\nDe día viviré\nPensando en tus sonrisas\nDe noche las estrellas me acompañarán\nSerás como una luz\nQue alumbre en mi camino\nMe voy, pero te juro que mañana volveré\nAl partir, un beso y una flor\nUn te quiero, una caricia y un adiós\nEs ligero equipaje\nPara tan largo viaje\nLas penas pesan en el corazón\nMás allá del mar, habrá un lugar\nDonde el Sol cada mañana brille más\nForjarán mi destino, las piedras del camino\nLo que nos es querido siempre queda atrás\nAl partir, un beso y una flor\nUn te quiero, una caricia y un adiós\nEs ligero equipaje\nPara tan largo viaje\nLas penas pesan en el corazón"
   },
   {
-    "id": "desde-cuando",
-    "title": "Desde Cuándo",
-    "artist": "Alejandro Sanz",
+    "id": "cuando-quieras-donde-quieras",
+    "title": "Cuando Quieras, Donde Quieras",
+    "artist": "Dyango",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "desde cuando",
+      "cuando quieras, donde quieras",
       "alejandro sanz",
-      "desde",
-      "cuando"
+      "cuando",
+      "donde"
     ],
     "snippet": "",
-    "lyrics": "Ya no duele, porque al fin ya te encontré\nHoy te miro y siento mil cosas a la vez\nMira si busqué, mira si busqué\nTengo tanto que aprender\nTodo lo que tengo es tu mirar\nDe mis recuerdos salen brisas a bordar\nLas locuras que tú me quieras regalar\nY mira si busqué, mira si busqué\nTengo tanto para dar\nReconozco puertas que yo sé\nSe abren solamente alguna vez\nAsí de poco\nDesde cuando te estaré esperando\nDesde cuando estoy buscando\nTu mirada en el firmamento, estás temblando\nTe he buscado en un millón de auroras\nY ninguna me enamora como tú sabes\nY me he dado cuenta ahora\nPuede parecer atrevimiento\nPero es puro sentimiento\nDime por favor tu nombre\nYo te llevo, por las calles a correr\nVamos lejos, más allá de lo que crees\nY si pregunto bien si pregunto mal\nTengo tanto que ofrecer\nAbro puertas que alguien me cerró\nY no busco más sentido a mi dolor\nMira no me vuelvas loco\nDesde cuando te estaré esperando\nDesde cuando estoy buscando\nTu mirada en el firmamento va temblando\nTe he buscando en un millón de auroras\nY ninguna me enamora como tú sabes\nY me he dado cuenta ahora\nPuede parecer atrevimiento\nPero es puro sentimiento\nDime por favor tu nombre\nNo me vuelvas loco\nDesde cuando te estaré esperando\nDesde cuando estoy buscando\nTu mirada en el firmamento va temblando\nTe he buscando en un millón de auroras\nY ninguna me enamora\nY al final cuando te encuentro\nEstabas sola",
+    "lyrics": "En el prado y el mar debes de\nQuererme mucho mas ¡ámame!\nBajo el sol y por las sombras\nSon tus besos que me nombran así\n¡Llámame! Otra vez\nTus palabras valen más\nMe acaricias siempre como si final\n¡Acaríciame!, tu bien lo sabes\nComo te quiero\nCuando quieras, donde quieras\nEl sitio que mejor prefieras\nCon todo nuestro amor los dos\nCuando quieras, donde quieras\nTu sabes que yo te diré... Quiéreme\nTiemblo lleno de inquietud\nCuando espero y no llegas tú\n¿Dónde estás?\nMas yo veo que regresas\nY me abrazas y me besas así\n¡Bésame! ¡otra vez!\nTus palabras valen mas me acaricias\nSiempre como si final\n¡Acaríciame!\nTú bien lo sabes como te quiero\nCuando quieras donde quieras\nEl sitio que mejor prefieras\nCon todo nuestro amor los dos\nCuando quieras donde quieras\nTu sabes que yo te diré quiéreme\nCuando quieras donde quieras\nEl sitio que mejor prefieras\nCon todo nuestro amor los dos\nCuando quieras donde quieras\nTu sabes que yo te diré\nQuiéreme",
     "duration": "3:55"
   },
   {
-    "id": "quisiera-ser",
-    "title": "Quisiera Ser",
-    "artist": "Alejandro Sanz",
+    "id": "gloria",
+    "title": "Gloria",
+    "artist": "Umberto Tozzi",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "quisiera ser",
-      "alejandro sanz",
-      "quisiera"
+      "gloria",
+      "umberto tozzi",
+      "italiana"
     ],
     "snippet": "",
-    "lyrics": "Quisiera ser el dueño, del pacto de tu boca\nQuisiera ser el verbo al que no invitas\nA la fiesta de tu voz\nTe has preguntado alguna vez, di la verdad\nSi siente el viento, debajo de tu ropa\nCuando te bañas en el mar desnuda\nY te acaricia el cuerpo, en la fiesta de tu piel\nSe sentirá la sal, las olas, sentirá la arena\nMe dá pena\nQuisiera ser el aire que escapa de tu risa\nQuisiera ser la sal para escocerte en tus heridas\nQuisiera ser la sangre que envuelves con tu vida\nQuisiera ser el sueño que jamás compartirías\nY el jardín de tu alegría en la fiesta de tu piel\nSon de esos besos que ni frío ni calor\nPero si son de tu boca, también los quiero yo\nQuisiera ser sincero\nApuesto a que te pierdo\nEn esta frase solo pido tu perdón\nPor qué no escribo algo mejor\nAy yo no sé\nMe has preguntado alguna vez, por preguntar\nQué es lo que quiero\nPor qué motivo he dibujado el aire\nQue jugaba a ser silencio\nSi en realidad te entiendo sólo nos queremos\nY si a la noche como a mí le duele tanto\nDesear de lejos\nSe sentirá la sal, las olas, sentirá la arena\nMe dá pena\nQuisiera ser el aire que escapa de tu risa\nQuisiera ser la sal para escocerte en tus heridas\nQuisiera ser la sangre que envuelves con tu vida\nQuisiera ser el sueño que jamás compartirías\nY el jardín de tu alegría en la fiesta de tu piel\nSon de esos besos que ni frío ni calor\nPero si son de tu boca, también los quiero yo\nQuisiera ser el aire que escapa de tu risa\nQuisiera ser la sal para escocerte en tus heridas\nQuisiera ser la sangre que envuelves con tu vida\nQuisiera ser el sueño que jamás compartirías\nY el jardín de tu alegría en la fiesta de tu piel\nQuisiera ser el aire que escapa de tu risa\nQuisiera ser la sal para escocerte en tus heridas\nQuisiera ser la sangre que envuelves con tu vida\nSi quieres ser el aire, yo te invito niña a mi camisa\nMi camisa de tu alegría y la fiesta de tu piel, no, no, no",
+    "lyrics": "Gloria\nManchi tu nell'aria\nManchi ad una mano\nChe lavora piano\nManchi a questa bocca\nChe cibo più non tocca\nE sempre questa storia\nChe lei la chiamo Gloria\nGloria sui tuoi fianchi la mattina nasce il sole\nEntra odio ed esce amore dal nome Gloria\nGloria\nManchi tu nell'aria\nManchi come il sale\nManchi più del sole\nSciogli questa neve\nChe soffoca il mio petto\nT'aspetto Gloria\nGloria\n(Gloria)\nChiesa di campagna\n(Gloria)\nAcqua nel deserto\n(Gloria)\nLascio aperto il cuore\n(Gloria)\nScappa senza far rumore\nDal lavoro del tuo letto\nDai gradini di un altare\nTi aspetto Gloria\nAh ah ah ah ah\nGloria\nPer chi accende il giorno\nE invece di dormire\nCon la memoria torna\nA un tuffo nei papaveri\nIn una terra libera\nPer chi respira nebbia\nPer chi respira rabbia\nPer me che senza Gloria\nCon te nuda sul divano\nFaccio stelle di cartone\nPensando a Gloria\nGloria\nManchi tu nell'aria\nManchi come il sale\nManchi più del sole\nSciogli questa neve\nChe soffoca il mio petto\nT'aspetto Gloria\nGloria\n(Gloria)\nChiesa di campagna\n(Gloria)\nAcqua nel deserto\n(Gloria)\nLascio aperto il cuore\n(Gloria)\nScappa senza far rumore\nDal lavoro del tuo letto\nDai gradini di un altare\nTi aspetto Gloria",
     "duration": "5:30"
   },
   {
@@ -209,97 +209,95 @@ window.SONGBOOK_DATA_13JUN26 = [
     "duration": "3:11"
   },
   {
-    "id": "cuando-nadie-me-ve",
-    "title": "Cuando Nadie Me Ve",
-    "artist": "Alejandro Sanz",
+    "id": "amor",
+    "title": "Amor",
+    "artist": "Cristian Castro",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "cuando nadie me ve",
-      "alejandro sanz",
-      "cuando",
-      "nadie"
+      "amor",
+      "cristian castro",
+      "amor"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "5:07"
+    "lyrics": "Amor como el cielo\nSe fue poniendo negro, amor\nComo siento\nHaber perdido tu calor\nY con el viento\nSe va apagando la ilusión\nQue llevo dentro\nY ahora es el momento\nPor eso me lamento\nSolo me encuentro\nY hoy\nHoy he vuelto a recordar\nTodo lo que pude amar\nY si puedes esperar, escucha\nHe venido a suplicar\nA pedirte una vez más\nQue me des otra oportunidad\nHe venido desde allá\nA decirte la verdad\nQue sin ti ya no puedo volar\nAy amor\nAy amor, amor\nYa no puedo\nMe falta fe y consuelo amor\nCon el tiempo\nMe he despertado de un largo sueño\nSolo espero un corazón sincero\nY ahora es el momento\nPor eso me lamento\nSolo me encuentro\nY hoy\nHoy he vuelto a recordar\nTodo lo que pude amar\nY si puedes esperar, escucha\nHe venido a suplicar\nA pedirte una vez más\nQue me des otra oportunidad\nHe venido desde allá\nA decirte la verdad\nQue sin ti ya no puedo volar\nAy amor\nAy amor, amor\nHe venido a suplicar\nA pedirte una vez más\nQue me des otra oportunidad\nHe venido desde allá\nA decirte la verdad\nQue sin ti ya no puedo volar\nAy amor\nAy amor, amor",
+    "duration": "5:00"
   },
   {
-    "id": "y-si-fuera-ella",
-    "title": "Y, ¿Si Fuera Ella?",
-    "artist": "Alejandro Sanz",
+    "id": "así-era-ella",
+    "title": "Así Era Ella",
+    "artist": "Cristian Castro",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "y, ¿si fuera ella?",
-      "alejandro sanz",
-      "fuera",
+      "así era ella",
+      "cristian castro",
+      "era",
       "ella"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "5:22"
+    "lyrics": "Desde el cielo a mi llegó\nUna especie de amor\nQue te juro que no conocía\nQue partió en dos mi vida\nPoco a poco iluminó\nEl mas oscuro rincón\nMe abrazaba cada noche fría\nDe su mano se iba la agonía\nYo no supe entregar\nNi la mitad del corazón\nNo sabía lo que yo tenia\nNo sabía hasta que lo perdía\nEra una ángel era un sol\nEra un sitio en mi canción\nUn milagro que no merecía\nLa verdad de todas mis mentiras\nEra blanca yo era gris\nEra luna sin un fin\nUna estrella y de todas\nLa mas bella, así era ella\nEn sus ojos vi el error\nQue mi ego cometió\nPoco a poco de mi se alejaba\nSu mirada de mi se apartaba\nYa no puedo regresar, el tiempo atrás\nNo sabía que con su partida\nSe iba a ir detrás toda mi vida\nEra una ángel era un sol\nEra un sitio en mi canción\nUn milagro que no merecía\nLa verdad de todas mis mentiras\nEra blanca yo era gris\nEra luna sin un fin\nUna estrella y de todas\nLa mas bella, así era ella\nEra una ángel era un sol\nEra un sitio en mi canción\nUn milagro que no merecía\nLa verdad de todas mis mentiras\nEra blanca yo era gris\nEra luna sin un fin\nUna estrella y de todas\nLa mas bella, así era ella",
+    "duration": "3:18"
   },
   {
-    "id": "labana",
-    "title": "Labana",
-    "artist": "Alejandro Sanz",
+    "id": "azul",
+    "title": "Azul",
+    "artist": "Cristian Castro",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "labana",
-      "alejandro sanz"
+      "azul",
+      "cristian castro"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "4:13"
+    "lyrics": "Fue una mañana que yo te encontré\nCuando la brisa besaba tu dulce piel\nTus ojos tristes que al ver adoré\nLa noche que yo te amé (azul)\nCuando, en silencio, por fin, te besé (azul)\nSentí muy dentro nacer este amor azul\nHoy, miro al cielo y, en ti, puedo ver\nLa estrella que siempre soñé (azul)\nY es que este amor es azul como el mar, azul\nComo de tu mirada nació mi ilusión\nAzul como una lágrima cuando hay perdón\nTan puro y tan azul que embriagó el corazón\nEs que este amor es azul como el mar, azul\nComo el azul del cielo, nació entre los dos\nAzul como el lucero de nuestra pasión\nUn manantial azul que me llena de amor\nComo el milagro que tanto esperé\nEres la niña que siempre busqué, azul\nEs tu inocencia que quiero entender\nTu príncipe azul, yo seré, azul\nEs mi locura si estoy junto a ti (azul)\nRayo de Luna serás para mí, azul\nY con la lluvia pintada de azul\nPor siempre serás solo tú (azul)\nY es que este amor es azul como el mar, azul\nComo de tu mirada nació mi ilusión\nAzul como una lágrima cuando hay perdón\nTan puro y tan azul que embriagó el corazón\nEs que este amor es azul como el mar, azul\nComo el azul del cielo, nació entre los dos\nAzul como el lucero de nuestra pasión\nUn manantial azul, que me llena de amor\n(Azul) y es que este amor es azul como el mar, azul\nComo de tu mirada nació mi ilusión\nAzul como una lágrima cuando hay perdón\nTan puro y tan azul que embriagó el corazón\nEs que este amor es azul como el mar, azul\nComo el azul del cielo, nació entre los dos\nAzul como el lucero de nuestra pasión\nUn manantial azul que me llena de amor\nY es que este amor es azul como el mar, azul\nComo de tu mirada nació mi ilusión\nAzul como una lágrima cuando hay perdón\n(Tan puro y tan azul que embriagó el corazón)\n(Y es que este amor es azul como el mar, azul)\n(Como el azul del cielo, nació entre los dos)\n(Azul como el lucero de nuestra pasión)\nUn manantial azul que me llena de amor\n(Y es que este amor es azul como el mar, azul)\n(Como de tu mirada nació mi ilusión)\n(Azul como una lágrima cuando hay perdón)\n(Tan puro y tan azul que embriagó el corazón)\n(Es que este amor es azul como el mar, azul)\n(Como el azul del cielo, nació entre los dos)\n(Azul como el lucero de nuestra pasión)\n(Un manantial azul que me llena de amor)",
+    "duration": "4:19"
   },
   {
-    "id": "te-lo-agradezco-pero-no",
-    "title": "Te lo Agradezco, Pero No",
-    "artist": "Alejandro Sanz, Shakira",
+    "id": "no-podras",
+    "title": "No Podras",
+    "artist": "Cristian Castro",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "te lo agradezco, pero no",
-      "alejandro sanz, shakira",
-      "agradezco",
-      "pero"
+      "no podras",
+      "cristian castro"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Tal vez te olvides de mí\nTal vez me olvide de ti, oh, no\nPero, esta vez, aprendí\nQue no se debe mentir, no, oh\nDe una promesa viví\nHoy ya no puedo seguir\nCreyendo en ti\nCada momento\nVoy tropezando en desamor\nY es que no queda nada entre tú y yo\nSi estoy llorando\nNo es que te extrañe el corazón\nEs que, a tu lado, aprendí el dolor\nNo podrás olvidar que te amé\nComo yo nunca imaginé\nEstaré en tu piel\nCada momento en donde estés\nSiempre habrá un lugar\nAlgún recuerdo que será\nUn eterno suspirar\nSi estoy llorando\nNo es que te extrañe el corazón\nEs que, a tu lado, aprendí el dolor\nNo podrás olvidar que te amé\nComo yo nunca imaginé\nEstaré en tu piel\nCada momento en donde estés\nSiempre habrá un lugar\nAlgún recuerdo que será\nUn eterno suspirar, uoh-uoh\nNo podrás olvidar que te amé (como yo nunca imaginé)\n(Cada momento en donde estés)\nComo yo nunca imaginé\n(Algún recuerdo que será)\n(Un eterno)",
     "duration": "4:33"
   },
   {
-    "id": "la-tortura",
-    "title": "La Tortura",
-    "artist": "Shakira, Alejandro Sanz",
+    "id": "ti-amo",
+    "title": "Ti amo",
+    "artist": "Umberto Tozzi",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "la tortura",
-      "shakira, alejandro sanz",
-      "tortura"
+      "ti amo",
+      "umberto tozzi",
+      "italiana"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:35"
+    "lyrics": "Ti amo\nUn soldo, ti amo\nIn aria, ti amo\nSe viene testa, vuol dire che basta\nLasciamoci\nTi amo\nIo sono, ti amo\nIn fondo un uomo\nChe non ha freddo nel cuore\nNel letto comando io\nMa tremo\nDavanti al tuo seno\nTi odio e ti amo\nÈ una farfalla che muore sbattendo le ali\nL'amore che a letto si fa\nPrendimi l'altra meta'\nOggi ritorno da lei\nPrimo maggio, su coraggio\nIo ti amo\nE chiedo perdono\nRicordi chi sono\nApri la porta a un guerriero di carta igienica\nDammi il tuo vino leggero\nChe hai fatto quando non c'ero\nE le lenzuola di lino\nDammi il sonno di un bambino\nChe già sogna cavalli e si gira\nE un po' di lavoro\nFammi abbracciare una donna\nChe stira cantando\nE poi fatti un po' prendere in giro\nPrima di fare l'amore\nVesti la rabbia di pace\nE sottane sulla luce\nIo ti amo\nE chiedo perdono\nRicordi chi sono\nTi amo, ti amo, ti amo, ti amo, ti amo\nDammi il tuo vino leggero\nChe hai fatto quando non c'ero\nE le lenzuola di lino\nDammi il sonno di un bambino\nChe già sogna cavalli e si gira\nE un po' di lavoro\nFammi abbracciare una donna\nChe stira cantando\nE poi fatti un po' prendere in giro\nPrima di fare l'amore\nVesti la rabbia di pace\nE sottane sulla luce\nIo ti amo\nTi amo, ti amo\nTi amo, ti amo\nTi amo, ti amo, ti amo, ti amo, ti amo\nTi amo, ti amo\nTi amo, ti amo\nTi amo, ti amo, ti amo, ti amo, ti amo",
+    "duration": "4:06"
   },
   {
-    "id": "deja-que-te-bese",
-    "title": "Deja Que Te Bese",
-    "artist": "Alejandro Sanz, Marc Anthony",
+    "id": "nel-blu-dipinto-di-blu",
+    "title": "Nel Blu Dipinto Di Blu (Volare)",
+    "artist": "Domenico Modugno",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "deja que te bese",
-      "alejandro sanz, marc anthony",
-      "deja",
-      "bese"
+      "nel blu dipinto di blu",
+      "domenico modugno",
+      "volare",
+      "blu",
+      "italiana"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "4:36"
+    "lyrics": "Penso che un sogno così non ritorni mai più\nMi dipingevo le mani e la faccia di blu\nPoi d'improvviso venivo dal vento rapito\nE incominciavo a volare nel cielo infinito\nVolare oh, oh\nCantare oh, oh\nNel blu, dipinto di blu\nFelice di stare lassù\nE volavo, volavo felice più in alto del sole\nEd ancora più su\nMentre il mondo pian piano spariva lontano, laggiù\nUna musica dolce suonava soltanto per me\nVolare oh, oh\nCantare oh, oh\nNel blu, dipinto di blu\nFelice di stare lassù\nMa tutti I sogni nell'alba svaniscon perché\nQuando tramonta la luna li porta con sé\nMa io continuo a sognare negli occhi tuoi belli\nChe sono blu como un cielo trapunto di stelle\nVolare oh, oh\nCantare oh, oh\nNel blu degli occhi tuoi blu\nFelice di stare quaggiù\nE continuo a volare felice più in alto del sole\nEd ancora più su\nMentre il mondo pian piano scompare negli occhi tuoi blu\nLa tua voce è una musica dolce che suona per me\nVolare oh, oh\nCantare oh, oh\nNel blu degli occhi tuoi blu\nFelice di stare quaggiù\nNel blu degli occhi tuoi blu\nFelice di stare quaggiù\nCon te",
+    "duration": "2:48"
   },
   {
     "id": "vivir-mi-vida",
@@ -314,7 +312,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "vida"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Voy a reír, voy a bailar\nVivir mi vida, la-la-la-la\nVoy a reír, voy a gozar\nVivir mi vida, la-la-la-la\nVoy a reír (¡eso!), voy a bailar\nVivir mi vida, la-la-la-la\nVoy a reír, voy a gozar\nVivir mi vida, la-la-la-la\nA veces, llega la lluvia\nPara limpiar las heridas\nA veces, solo una gota\nPuede vencer la sequía\nY para qué llorar, pa' qué\nSi duele una pena, se olvida\nY para qué sufrir, pa' qué\nSi así es la vida, hay que vivirla, la-la-le\nVoy a reír, voy a bailar\nVivir mi vida, la-la-la-la\nVoy a reír, voy a gozar\nVivir mi vida, la-la-la-la\n¡Eso!\nVoy a vivir el momento\nPara entender el destino\nVoy a escuchar el silencio\nPara encontrar el camino\nY para qué llorar, pa' qué\nSi duele una pena, se olvida\nY para qué sufrir, pa' qué\nSi duele una pena, se olvida, la-la-le\nVoy a reír, voy a bailar\nVivir mi vida, la-la-la-la\nVoy a reír, voy a gozar\nVivir mi vida, la-la-la-la\n¡Mi gente!\n(Voy a reír, voy a bailar)\n¿Pa' qué llorar? ¿Pa' qué sufrir?\nEmpieza a soñar, a reír\n(Voy a reír, voy a bailar)\nSiente y baila y goza\nQue la vida es una sola\n(Voy a reír, voy a bailar)\nVive, sigue\nSiempre pa'lante, no mires pa' tras\n¡Eso!\nMi gente\nLa vida es una\nVoy a reír, voy a bailar\nVivir mi vida, la-la-la-la\nVoy a reír, voy a gozar\nVivir mi vida, la-la-la-la",
     "duration": "4:12"
   },
   {
@@ -330,151 +328,147 @@ window.SONGBOOK_DATA_13JUN26 = [
       "pena"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Mirándote a los ojos se responden mis porqués\nMe inspiro en tus palabras y mi casa está en tu piel\nQue tierno amor, mi devoción, viniste a ser mi religión\nMi dulce sentimiento, de nada me arrepiento\nQue vivan los momentos en tu boca y en tu cuerpo\nMujer\nValió la pena lo que era necesario para estar contigo amor\nTú eres una bendición\nLas horas y la vida de tu lado nena\nEstán para vivirlas, pero a tu manera\nEnhorabuena, porque valió la pena\nValió la pena\nValió la pena lo que era necesario para estar contigo amor\nTú eres una bendición\nLas horas y la vida de tu lado nena\nEstán para vivirlas, pero a tu manera\nEnhorabuena, porque valió la pena\nValió la pena, valió la pena\nTe veo y me convenzo que tenías que llegar\nDespués de la tormenta aquí en tu pecho puedo anclar\nY ser más yo, de nuevo yo, y por bandera mi ilusión\nY mira si te quiero que por amor me entrego\nQue vivan los momentos en tu boca y en tu cuerpo\nMujer\nValió la pena lo que era necesario para estar contigo amor\nTú eres una bendición\nLas horas y la vida de tu lado nena\nEstán para vivirlas, pero a tu manera\nEnhorabuena, porque valió la pena\nValió la pena\nValió la pena lo que era necesario para estar contigo amor\nTú eres una bendición\nLas horas y la vida de tu lado nena\nEstán para vivirlas, pero a tu manera\nEnhorabuena, porque valió la pena\nValió la pena, valió la pena\n(Nena, te digo que valió la pena estar contigo amor)\nPorque tú eres una bendición\nNo tengo duda de mi devoción\n(Nena, te digo que valió la pena estar contigo amor)\nMi dulce sentimiento de nada me arrepiento mujer\nOh, pa-\nPena, valió la pena\nPena, valió la pena\nPena, bendita pena\nPena, valió la pena\nPena, valió la pena\nPena, bendita pena",
     "duration": "4:49"
   },
   {
-    "id": "tu-amor-me-hace-bien",
-    "title": "Tu Amor Me Hace Bien",
-    "artist": "Salsa Version - Marc Anthony",
+    "id": "september",
+    "title": "September",
+    "artist": "Earth,Wind & Fire",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "tu amor me hace bien",
-      "salsa version - marc anthony",
-      "amor",
-      "hace",
-      "bien"
+      "september",
+      "earth,wind & fire",
+      "september"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "5:01"
+    "lyrics": "Do you remember the 21st night of September?\nLove was changing the minds of pretenders\nWhile chasing the clouds away\nOur hearts were ringing\nIn the key that our souls were singing\nAs we danced in the night\nRemember, how the stars stole the night away\nAh, ah, ah\nBa-dee-ya, say, do you remember?\nBa-dee-ya, dancin' in September\nBa-dee-ya, never was a cloudy day\nBa-du-da, ba-du-da, ba-du-da, ba-du\nBa-du-da, ba-du, ba-du-da, ba-du\nBa-du-da, ba-du, ba-du-da\nMy thoughts are with you\nHolding hands with your heart to see you\nOnly blue talk and love\nRemember, how we knew love was here to stay\nNow December found the love\nThat we shared in September\nOnly blue talk and love\nRemember, the true love we share today\nHey, hey, hey\nBa-dee-ya, say, do you remember?\nBa-dee-ya, dancin' in September\nBa-dee-ya, never was a cloudy day\nThere was a\nBa-dee-ya, say, do you remember?\nBa-dee-ya, dancin' in September\nBa-dee-ya, golden dreams were shiny days\nThe bell was ringing\nOur souls were singing\nDo you remember?\nNever was a cloudy day, yeaw\nThere was a\nBa-dee-ya, say, do you remember?\nBa-dee-ya, dancin' in September\nBa-dee-ya, never was a cloudy day\nThere was a\nBa-dee-ya, say, do you remember?\nBa-dee-ya, dancin' in September\nBa-dee-ya, golden dreams were shiny days\nBa-dee-ya, dee-ya, dee-ya\nBa-dee-ya, dee-ya, dee-ya\nBa-dee-ya, dee-ya, dee-ya, dee-ya\nBa-dee-ya, dee-ya, dee-ya\nBa-dee-ya, dee-ya, dee-ya\nBa-dee-ya, dee-ya",
+    "duration": "3:35"
   },
   {
-    "id": "flor-palida",
-    "title": "Flor Pálida",
-    "artist": "Marc Anthony",
+    "id": "perfect",
+    "title": "Perfect",
+    "artist": "Ed Sheeran",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "flor palida",
-      "marc anthony",
-      "flor",
-      "palida"
+      "perfect",
+      "ed sheeran",
+      "perfect"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "4:35"
+    "lyrics": "I found a love for me\nDarling, just dive right in and follow my lead\nI found a girl, beautiful and sweet\nI never knew you were the someone waiting for me\n'Cause we were just kids when we fell in love\nNot knowing what it was\nI will not give you up this time\nDarling, just kiss me slow\nYour heart is all I own\nAnd in your eyes, you're holding mine\nBaby I'm, dancing in the dark\nWith you between my arms\nBarefoot on the grass\nListening to our favourite song\nWhen you said you looked a mess\nI whispered underneath my breath\nBut you heard it\nDarling, you look perfect tonight\nI found a woman, stronger than anyone I know\nShe shares my dreams, I hope that someday I'll share her home\nI found a lover to carry more than just my secrets\nTo carry love, to carry children of our own\nWe are still kids, but we're so in love\nFighting against all odds\nI know we'll be alright this time\nDarling, just hold my hand\nBe my girl, I'll be your man\nI see my future in your eyes\nBaby, I'm dancing in the dark\nWith you between my arms\nBarefoot on the grass\nListening to our favourite song\nWhen I saw you in that dress\nLooking so beautiful\nI don't deserve this\nDarling, you look perfect tonight\nBaby, I'm dancing in the dark\nWith you between my arms\nBarefoot on the grass\nListening to our favourite song\nI have faith in what I see\nNow I know I have met an angel in person\nAnd she looks perfect\nI don't deserve this\nYou look perfect tonight",
+    "duration": "4:23"
   },
   {
-    "id": "ahora-quien",
-    "title": "Ahora Quien",
-    "artist": "Salsa Version - Marc Anthony",
+    "id": "por-primera-vez",
+    "title": "Por Primera Vez",
+    "artist": "Camilo, Evaluna Montaner",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "ahora quien",
-      "salsa version - marc anthony",
-      "ahora",
-      "quien"
+      "por primera vez",
+      "camilo, evaluna montaner",
+      "por",
+      "primera",
+      "vez"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "5:12"
+    "lyrics": "Tengo tantas ganas\nDe besarte en las mañanas\nJusto cuando te levantas\n(Te amo)\nPero tengo miedo (tengo miedo)\nQue busques a alguien perfecto\nY yo tan de carne y hueso\n(Te amo)\nSi pudiera controlar el tiempo\nYo volvería a esperar de nuevo\nUna y mil veces\nPa' ver cómo amaneces\nPor primera vez\nUn amanecer bonito\nPor primera vez\nLo que quiero y necesito\nPor primera vez\nHoy duerme el cielo conmigo\nPor primera vez (te amo)\nYo volví a nacer contigo\nYeh, yeh, contigo\nSi yo te tengo, no me falta nada (no)\nTan largo que fue ayer y ya casi es mañana\nPa' darte los besos que nunca nos dimos\nPara decirte cosas bonitas\nSiempre yo aquí estaré\nPorque yo me siento bien\nCuando tú te sientes bien\nMi vida es vida solo contigo\nSi tú no estás, no tiene sentido, amor\nLo que quiero y necesito\nTú y yo\nPor primera vez\nUn amanecer bonito (un amanecer bonito)\nPor primera vez\nLo que quiero y necesito (tú eres lo que yo necesito)\nPor primera vez\nHoy duerme el cielo conmigo (yeh, yeh)\nPor primera vez (te amo)\nYo volví a nacer contigo\n(Yeh, yeh, contigo)\nMi vida es vida solo contigo (solo contigo)\nSi tú no estás, no tiene sentido, amor (que no tiene sentido)\nLo que quiero y necesito (dime)\nMi vida es vida solo contigo\nSi tú no estás, no tiene sentido, amor\nLo que quiero y necesito (yeh, yeh, yeh)\nPor primera vez\nUn amanecer bonito (un amanecer bonito)\nPor primera vez\nLo que quiero y necesito (que te quiero, ven)\nPor primera vez\nHoy duerme el cielo conmigo\nPor primera vez (te amo)\nYo volví a nacer contigo\nYeh, yeh, contigo\nSi pudiera controlar el tiempo\nYo volvería a esperar de nuevo\nUna y mil veces\nPa' ver cómo amaneces",
+    "duration": "3:35"
   },
   {
-    "id": "y-hubo-alguien",
-    "title": "Y Hubo Alguien",
-    "artist": "Marc Anthony",
+    "id": "la-flaca",
+    "title": "La Flaca",
+    "artist": "Jarabe de Palo",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "y hubo alguien",
-      "marc anthony",
-      "hubo",
-      "alguien"
+      "la flaca",
+      "jarabe de palo",
+      "flaca",
+      "jarabe"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "6:09"
+    "lyrics": "En la vida, conocí\nMujer igual a la flaca\nCoral negro de la Habana\nTremendísima mulata\nCien libras de piel y hueso\nCuarenta kilos de salsa\nY, en la cara, dos soles\nQue, sin palabras, hablan\nQue, sin palabras, hablan\nLa flaca duerme de día\nDice que così l'hambre engaña\nY cuando cae la noche\nBaja a bailar a la tasca\nY bailar y bailar\nY tomar y tomar\nUna cerveza tras otra\nPero ella nunca engorda\nPero ella nunca engorda\nPor un beso de la flaca, daría lo que fuera\nPor un beso de ella, aunque solo uno fuera\nPor un beso de la flaca, daría lo que fuera\nPor un beso de ella, aunque solo uno fuera\nAunque solo uno fuera\nMojé mis sábanas blancas\nComo dice la canción\nRecordando las caricias\nQue me brindó el primer día\nY enloquezco de ganas\nDe dormir a su ladito\nPorque, Dios, que esta flaca\nA mí me tiene loquito, oh\nA mí me tiene loquito\nPor un beso de la flaca, yo daría lo que fuera\nPor un beso de ella, aunque solo uno fuera\nPor un beso de la flaca, yo daría lo que fuera\nPor un beso de ella, aunque solo uno fuera\nAunque solo uno fuera\nAunque solo uno fuera\nAunque solo uno fuera\nAunque solo uno fuera\nAunque solo uno fuera\nAunque solo uno fuera\nAunque solo uno fuera\nAunque solo uno fuera\nAunque solo uno fuera\nAunque solo uno fuera\nAunque solo uno fuera\nAunque solo uno fuera\nAunque solo uno fuera\nAunque solo uno fuera\nAunque solo uno fuera\nAunque solo uno fuera",
+    "duration": "4:21"
   },
   {
-    "id": "te-conozco-bien",
-    "title": "Te Conozco Bien",
-    "artist": "Marc Anthony",
+    "id": "when-i-was-your-man",
+    "title": "When I Was Your Man",
+    "artist": "Bruno Mars",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "te conozco bien",
-      "marc anthony",
-      "conozco",
-      "bien"
+      "when i was your man",
+      "bruno mars",
+      "man",
+      "when"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "5:01"
+    "lyrics": "Same bed, but it feels just a little bit bigger now\nOur song on the radio, but it don't sound the same\nWhen our friends talk about you, all it does is just tear me down\n'Cause my heart breaks a little when I hear your name\nIt all just sounds like, ooh\nMm, too young, too dumb to realize\nThat I should've bought you flowers and held your hand\nShould've gave you all my hours when I had the chance\nTake you to every party, 'cause all you wanted to do was dance\nNow my baby is dancing, but she's dancing with another man\nMy pride, my ego, my needs and my selfish ways\nCaused a good strong woman like you to walk out my life\nNow I'll never, never get to clean up the mess I made, oh\nAnd it haunts me every time I close my eyes\nIt all just sounds like, ooh\nMm, too young, too dumb to realize\nThat I should've bought you flowers and held your hand\nShould've gave you all my hours when I had the chance\nTake you to every party, 'cause all you wanted to do was dance\nNow my baby is dancing, but she's dancing with another man\nAlthough it hurts\nI'll be the first to say that I was wrong\nOh, I know I'm probably much too late\nTo try and apologize for my mistakes\nBut I just want you to know\nI hope he buys you flowers, I hope he holds your hand\nGive you all his hours when he has the chance\nTake you to every party\n'Cause I remember how much you loved to dance\nDo all the things I should've done\nWhen I was your man\nDo all the things I should've done\nWhen I was your man",
+    "duration": "3:34"
   },
   {
-    "id": "vivir-lo-nuestro",
-    "title": "Vivir Lo Nuestro",
-    "artist": "Marc Anthony, India",
+    "id": "all-of-me",
+    "title": "All of Me",
+    "artist": "John Legend",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "vivir lo nuestro",
-      "marc anthony, india",
-      "vivir",
-      "nuestro"
+      "all of me",
+      "john legend",
+      "all"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "6:06"
+    "lyrics": "What would I do without your smart mouth?\nDrawing me in and you kicking me out\nGot my head spinning, no kidding\nI can't pin you down\nWhat's going on in that beautiful mind?\nI'm on your magical mystery ride\nAnd I'm so dizzy, don't know what hit me\nBut I'll be alright\nMy head's under water\nBut I'm breathing fine\nYou're crazy and I'm out of my mind\n'Cause all of me\nLoves all of you\nLove your curves and all your edges\nAll your perfect imperfections\nGive your all to me\nI'll give my all to you\nYou're my end and my beginning\nEven when I lose, I'm winning\n'Cause I give you all of me\nAnd you give me all of you, oh-oh\nHow many times do I have to tell you?\nEven when you're crying, you're beautiful too\nThe world is beating you down, I'm around through every mood\nYou're my downfall, you're my muse\nMy worst distraction, my rhythm and blues\nI can't stop singing, it's ringing\nIn my head for you\nMy head's under water\nBut I'm breathing fine\nYou're crazy and I'm out of my mind\n'Cause all of me\nLoves all of you\nLove your curves and all your edges\nAll your perfect imperfections\nGive your all to me\nI'll give my all to you\nYou're my end and my beginning\nEven when I lose, I'm winning\n'Cause I give you all of me\nAnd you give me all of you, oh-oh\nGive me all of you, oh\nCards on the table\nWe're both showing hearts\nRisking it all, though it's hard\n'Cause all of me\nLoves all of you\nLove your curves and all your edges\nAll your perfect imperfections\nGive your all to me\nI'll give my all to you\nYou're my end and my beginning\nEven when I lose, I'm winning\n'Cause I give you all of me\nAnd you give me all of you\nI give you all of me\nAnd you give me all of you, oh",
+    "duration": "4:23"
   },
   {
-    "id": "hasta-ayer",
-    "title": "Hasta Ayer",
-    "artist": "Marc Anthony",
+    "id": "marry-you",
+    "title": "Marry You",
+    "artist": "Bruno Mars",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "hasta ayer",
-      "marc anthony",
-      "hasta",
-      "ayer"
+      "marry you",
+      "bruno mars",
+      "marry"
     ],
     "snippet": "",
-    "lyrics": "Comprendan que no\nPretendo ofenderla\nTampoco le estoy haciendo\nUn reproche\nUsted es dueña de su vida\nDe su cuerpo y de sus noches\nConfieso me enamoré como un niño\nY siento que no estoy arrepentido\nDisfrute de tu experiencia\nHasta calmar mi ansiedad\nFui dueño de su alcoba\nY de su almohada\nLa tuve beso a beso, piel con piel\nY el Sol me sorprendió por su ventana\nCansado de delirio y de placer\nHasta ayer, hasta ayer\nY perdona usted señora\nPero cuando el alma llora\nEl silencio no es remedio\nPara calmar el sufrir\nHasta ayer, hasta ayer\nMi dulce dama elegante\nSupe que tiene otro amante\nAl que quizás con el tiempo\nLe hará lo mismo que a mí\nFui dueño de su alcoba\nY de su almohada\nLa tuve beso a beso, piel con piel\nY el Sol me sorprendió por su ventana\nCansado de delirio y de placer\nHasta ayer, hasta ayer\nY perdona usted señora\nPero cuando el alma llora\nEl silencio no es remedio\nPara calmar el sufrir\nHasta ayer, hasta ayer\nMi dulce dama elegante\nSupe que tiene otro amante\nAl que quizás con el tiempo\nLe hará lo mismo que a mí, eh\nFue enredándome en sus besos\nHasta que me volvió preso\nY en su juego despiadado\nMe entregó con su pasión\nLuego vino la traición\nY cuál si yo fuera un niño\nMe dijo que su cariño\nLo brindaba a quien quisiera\nEres otra bandolera que jugo\nCon mi querer\nYa no creo más mentiras\nNi en llanto de mujer\nYo te quería tanto, mujer, eh\nYo te adoraba tanto, mujer, eh",
+    "lyrics": "It's a beautiful night\nWe're looking for something dumb to do\nHey, baby\nI think I wanna marry you\nIs it the look in your eyes\nOr is it this dancing juice?\nWho cares, baby?\nI think I wanna marry you\nWell, I know this little chapel\nOn the boulevard\nWe can go\nNo one will know\nOh, come on, girl\nWho cares if we're trashed?\nGot a pocket full of cash we can blow\nShots of Patron\nAnd it's on, girl\nDon't say no, no, no, no, no\nJust say yeah, yeah, yeah, yeah, yeah\nAnd we'll go, go, go, go, go\nIf you're ready, like I'm ready\n'Cause it's a beautiful night\nWe're looking for something dumb to do\nHey, baby\nI think I wanna marry you\nIs it the look in your eyes\nOr is it this dancing juice?\nWho cares, baby?\nI think I wanna marry you, oh\nI'll go get a ring\nLet the choir bells sing like: Ooh\nSo what you wanna do?\nLet's just run, girl\nAnd if we wake up\nAnd you wanna break up, that's cool\nNo, I won't blame you\nIt was fun, girl\nDon't say no, no, no, no, no\nJust say yeah, yeah, yeah, yeah, yeah\nAnd we'll go, go, go, go, go\nIf you're ready, like I'm ready\n'Cause it's a beautiful night\nWe're looking for something dumb to do\nHey, baby\nI think I wanna marry you\nIs it the look in your eyes\nOr is it this dancing juice?\nWho cares, baby?\nI think I wanna marry you\nJust say: I do\nTell me right now, baby\nTell me right now, baby, baby\nJust say: I do\nTell me right now, baby\nTell me right now, baby, baby, oh\nIt's a beautiful night\nWe're looking for something dumb to do\nHey, baby\nI think I wanna marry you\nIs it the look in your eyes\nOr is it this dancing juice?\nWho cares, baby?\nI think I wanna marry you",
     "duration": "4:02"
   },
   {
-    "id": "contra-la-corriente",
-    "title": "Contra La Corriente",
-    "artist": "Marc Anthony",
+    "id": "hoy",
+    "title": "Hoy",
+    "artist": "Gloria Estefan/Gian Marco",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "contra la corriente",
-      "marc anthony",
-      "contra",
-      "corriente"
+      "hoy",
+      "gloria estefan",
+      "gian marco",
+      "peruana"
     ],
     "snippet": "",
-    "lyrics": "No hay día que pase\nQue yo no me acuerde de ti\nNo hay labios que bese\nQue no me sepan a ti\nTú te quedaste para siempre aquí\nEn mi pensamiento\nTú me dominas\nTienes el control\nDe mis sentimientos\nAunque estés lejos de nada me sirve\nPorque yo te quiero\nMás que ayer, más que ayer\nYo trato, trato, trato\nPero no te olvido\nYo lucho, lucho, lucho\nY no lo consigo\nLo pongo todo de mi parte\nY no es suficiente\nEs como seguir nadando\nContra la corriente\nNo hay noche que llegue\nQue yo no te sienta aquí\nTú te quedaste para siempre\nAquí en mi pensamiento\nTú me dominas tienes el control\nDe mis sentimientos\nY aunque estés lejos\nDe nada me sirve\nPorque yo te quiero\nMás que ayer, más que ayer\nYo trato, trato, trato\nPero no te olvido\nYo lucho, lucho, lucho\nY no lo consigo\nLo pongo todo de mi parte\nY no es suficiente\nEs como seguir nadando\nContra la corriente",
+    "lyrics": "Tengo marcado en el pecho\nTodos los días que el tiempo\nNo me dejó estar aquí\nTengo una fe que madura\nQue va conmigo y me cura\nDesde que te conocí\nTengo una huella perdida\nEntre tu sombra y la mía\nQue no me deja mentir\nSoy una moneda en la fuente\nTú mi deseo pendiente\nMis ganas de revivir\nTengo una mañana constante\nY una acuarela esperando\nVerte pintado de azul\nTengo tu amor y tu suerte\nY un caminito empinado\nTengo el mar del otro lado\nTú eres mi norte y mi sur\nHoy voy a verte de nuevo\nVoy a envolverme en tu ropa\nSusúrrame en tu silencio\nCuando me veas llegar\nHoy voy a verte de nuevo\nVoy a alegrar tu tristeza\nVamos a hacer una fiesta\nPa' que este amor crezca más\nTengo una frase colgada\nEntre mi boca y mi almohada\nQue me desnuda ante ti\nTengo una playa y un pueblo\nQue me acompañan de noche\nQuando no estás junto a mi\nTengo una mañana constante\nY una acuarela esperando\nVerte pintado de azul\nTengo tu amor y tu suerte\nY un caminito empinado\nTengo el mar del otro lado\nTú eres mi norte y mi sur\nHoy voy a verte de nuevo\nVoy a envolverme en tu ropa\nSusúrrame en tu silencio\nCuando me veas llegar\nHoy voy a verte de nuevo\nVoy a alegrar tu tristeza\nVamos a hacer una fiesta\nPa' que este amor crezca más\nHoy voy a verte de nuevo\nVoy a envolverme en tu ropa\nSusúrrame en tu silencio\nCuando me veas llegar\nHoy voy a verte de nuevo\nVoy a alegrar tu tristeza\nVamos a hacer una fiesta\nPa' que este amor crezca más",
     "duration": "5:05"
   },
   {
-    "id": "no-me-ames",
-    "title": "No Me Ames",
-    "artist": "Ballad Version - Jennifer Lopez, Marc Anthony",
+    "id": "por-ti-volaré",
+    "title": "Por Ti Volaré",
+    "artist": "Andrea Bocelli",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "no me ames",
-      "ballad version - jennifer lopez, marc anthony",
-      "ames"
+      "por ti volaré",
+      "andrea bocelli",
+      "volaré"
     ],
     "snippet": "",
-    "lyrics": "Dime, ¿por qué lloras? De felicidad\n¿Y por qué te ahogas? Por la soledad\nDi por qué me tomas fuerte así mis manos\nY tus pensamientos te van llevando\nYo te quiero tanto, ¿y por qué será?\nLoco testarudo, no lo dudes más\nAunque en el futuro, haya un muro enorme\nYo no tengo miedo, quiero enamorarme\nNo me ames porque pienses que parezco diferente\n¿Tú no piensas que es lo justo ver pasar el tiempo juntos?\nNo me ames, que comprendo la mentira que sería\nSi tu amor no merezco, no me ames, más quédate otro día\nNo me ames porque estoy perdido\nPorque cambié el mundo\nPorque es el destino, porque\nNo se puede, somos un espejo\nY tú así serías lo que yo de mi reflejo\nNo me ames para estar muriendo\nDentro de una guerra llena de arrepentimientos\nNo me ames para estar en tierra\nQuiero alzar el vuelo con tu gran amor por el azul del cielo\nNo sé qué decirte, esa es la verdad\nSi la gente quiere, sabe lastimar\nTú y yo partiremos, ellos no se mueven\nPero en este cielo, sola no me dejes\nNo me dejes, no me dejes\nNo me escuches si te digo\nNo me ames, no me dejes\nNo desarmes mi corazón con ese: No me ames\nNo me ames, te lo ruego\nMi amargura, déjame\nSabes bien que no puedo, que es inútil\nQue siempre te amaré\nNo me ames pues te haré sufrir\nCon este corazón que se llenó de mil inviernos\nNo me ames para así olvidarte de tus días grises\nQuiero que me ames solo por amarme\nNo me ames, tú y yo volaremos\nUno con el otro, y seguiremos siempre juntos\nEste amor es como el Sol que sale tras de la tormenta\nComo dos cometas en la misma estela\nNo me ames\nNo, no me ames\nNo me ames",
+    "lyrics": "Cuando vivo solo, sueño un horizonte, falto de palabras\nEn la sombra y entre luces, todo es negro para mi mirada\nSi tú no estás junto a mí aquí\nTú en tu mundo\nSeparado del mío por un abismo\nOye, llámame\nYo volaré a tu mundo lejano\nPor ti, volaré\nEspera, que llegaré\nMi fin de trayecto eres tú\nPara vivirlo los dos\nPor ti, volaré\nPor cielos y mares, hasta tu amor\nAbriendo los ojos por fin\nContigo viviré\nCuando estás lejana, sueño un horizonte falto de palabras\nY yo sé que siempre estás ahí, ahí\nUna luna hecha para mí\nSiempre iluminada para mí, por mí, por mí, por mí\nPor ti, volaré\nEspera, que llegaré\nMi fin de trayecto eres tú\nContigo, yo viviré\nPor ti, volaré\nPor cielos y mares, hasta tu amor\nAbriendo los ojos por fin\nContigo, yo viviré\nPor ti volaré\nPor cielos y mares, hasta tu amor\nAbriendo los ojos por fin\nContigo, yo viviré\nPor ti, volaré\nVolaré",
     "duration": "4:38"
   },
   {
@@ -645,79 +639,74 @@ window.SONGBOOK_DATA_13JUN26 = [
     "duration": "3:23"
   },
   {
-    "id": "que-gano-olvidandote",
-    "title": "Qué Gano Olvidándote",
-    "artist": "Reik",
+    "id": "rosas",
+    "title": "Rosas",
+    "artist": "La Oreja de Van Gogh",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "que gano olvidandote",
-      "reik",
-      "gano",
-      "olvidandote"
+      "rosas",
+      "la oreja de van gogh"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:29"
+    "lyrics": "En un día de estos en que suelo pensar\nHoy va a ser el día menos pensado\nNos hemos cruzado, has decidido mirar\nA los ojitos azules que ahora van a tu lado\nDesde el momento en el que te conocí\nResumiendo con prisas, tiempo de silencio\nTe juro que a nadie le he vuelto a decir\nQue tenemos el record del mundo en querernos\nPor eso esperaba con la carita empapada\nQue llegaras con rosas, con mil rosas para mí\nPorque ya sabes que me encantan esas cosas\nQue no importa si es muy tonto, soy así\nY aún me parece mentira que se escape mi vida\nImaginando que vuelves a pasarte por aquí\nDonde los viernes, cada tarde como siempre\nLa esperanza dice: Quieta, hoy quizá sí\nEscapando una noche de un bostezo del Sol\nMe pediste que te diera un beso\nCon lo baratos que salen mi amor\n¿Qué te cuesta callarme con uno de esos?\nPasaron seis meses y me dijiste adiós\nUn placer coincidir en esta vida\nAhí me quedé en una mano el corazón\nY en la otra excusas que ni tú entendías\nPor eso esperaba con la carita empapada\nQue llegaras con rosas, con mil rosas para mí\nPorque ya sabes que me encantan esas cosas\nQue no importa si es muy tonto, soy así\nY aún me parece mentira que se escape mi vida\nImaginando que vuelves a pasarte por aquí\nDonde los viernes, cada tarde como siempre\nLa esperanza dice: Quieta, hoy quizá sí\nY es que empiezo a pensar\nQue el amor verdadero es tan solo el primeiro\nY es que empiezo a sospechar\nQue los demás son solo para olvidar\nPor eso esperaba con la carita empapada\nQue llegaras con rosas, con mil rosas para mí\nPorque ya sabes que me encantan esas cosas\nQue no importa si es muy tonto, soy así\nY aún me parece mentira que se escape mi vida\nImaginando que vuelves a pasarte por aquí\nDonde los viernes, cada tarde como siempre\nLa esperanza dice: Quieta, hoy quizá s",
+    "duration": "3:57"
   },
   {
-    "id": "un-ano",
-    "title": "Un Año",
-    "artist": "Sebastian Yatra, Reik",
+    "id": "every-breath-you-take",
+    "title": "Every Breath You Take",
+    "artist": "The Police",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "un ano",
-      "sebastian yatra, reik"
+      "every breath you take",
+      "the police"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "2:42"
+    "lyrics": "Every breath you take\nAnd every move you make\nEvery bond you break\nEvery step you take\nI'll be watching you\nEvery single day\nEvery word you say\nEvery game you play\nEvery night you stay\nI'll be watching you\nOh, can't you see\nYou belong to me?\nHow my poor heart aches\nWith every step you take?\nEvery move you make\nAnd every vow you break\nEvery smile you fake\nEvery claim you stake\nI'll be watching you\nSince you've gone, I've been lost without a trace\nI dream at night, I can only see your face\nI look around, but it's you I can't replace\nI feel so cold and I long for your embrace\nI keep crying: Baby, baby, please\nMmm, mmm, mmm, mmm\nMmm, mmm, mmm\nOh, can't you see\nYou belong to me?\nHow my poor heart aches\nWith every step you take?\nEvery move you make\nAnd every vow you break\nEvery smile you fake\nEvery claim you stake\nI'll be watching you\nEvery move you make\nEvery step you take\nI'll be watching you\nI'll be watching you\n(Every breath you take)\n(Every move you make)\n(Every bond you break)\n(Every step you take)\nI'll be watching you\n(Every single day)\n(Every word you say)\n(Every game you play)\n(Every night you stay)\nI'll be watching you\n(Every move you make)\n(Every vow you break)\n(Every smile you fake)\n(Every claim you stake)\nI'll be watching you\n(Every single day)\n(Every word you say)\n(Every game you play)\n(Every night you stay)\nI'll be watching you\n(Every breath you take)\n(Every move you make)\n(Every bond you break)\n(Every step you take)\nI'll be watching you\n(Every single day)\n(Every word you say)\n(Every game you—)",
+    "duration": "4:14"
   },
   {
-    "id": "no-hay-nadie-mas",
-    "title": "No Hay Nadie Más",
-    "artist": "Sebastian Yatra",
+    "id": "dancing-queen",
+    "title": "Dancing Queen",
+    "artist": "ABBA",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "no hay nadie mas",
-      "sebastian yatra",
-      "nadie"
+      "dancing queen",
+      "abba"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:22"
+    "lyrics": "You can dance, you can jive\nHaving the time of your life\nOoh, see that girl, watch that scene\nDigging the dancing queen\nFriday night and the lights are low\nLooking out for a place to go\nWhere they play the right music\nGetting in the swing\nYou come to look for a king\nAnybody could be that guy\nNight is young and the music's high\nWith a bit of rock music\nEverything is fine\nYou're in the mood for a dance\nAnd when you get the chance\nYou are the dancing queen\nYoung and sweet, only seventeen\nDancing queen\nFeel the beat from the tambourine, oh, yeah\nYou can dance, you can jive\nHaving the time of your life\nOoh, see that girl, watch that scene\nDigging the dancing queen\nYou're a teaser, you turn them on\nLeave them burning and then you are gone\nLooking out for another, anyone will do\nYou're in the mood for a dance\nAnd when you get the chance\nYou are the dancing queen\nYoung and sweet, only seventeen\nDancing queen\nFeel the beat from the tambourine, oh, yeah\nYou can dance, you can jive\nHaving the time of your life\nOoh, see that girl, watch that scene\nDigging the dancing queen\nDigging the dancing queen",
+    "duration": "3:50"
   },
   {
-    "id": "traicionera",
-    "title": "Traicionera",
-    "artist": "Sebastian Yatra",
+    "id": "me-rehúso",
+    "title": "Me Rehúso",
+    "artist": "Danny Ocean",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "traicionera",
-      "sebastian yatra"
+      "me rehúso",
+      "danny ocean"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "(Ba-Ba-Babylon girl, Ba-Ba-Babylon girl)\nPara todos aquellos amores que\nQue fueron obligados a ser separados\n(Ba-Ba-Babylon girl, Ba-Ba-Babylon girl)\nEsta canción es para ti\nDime cómo le explico a mi destino que ya no estás ahí\nDime cómo haré para desprenderme de este frenesí\nEsta locura que siento por ti\nCon esta química que haces en mí\nYa no puedo, girl, ya no puedo, girl\nNena, discúlpame\nY si te ilusioné, yo no lo quise hacer\nSé que, en el amor, cuando es real\nEse vuelve, vuelve (vuelve, vuelve, vuelve)\nPero ¿cómo olvidar tu piel?\n¿Y cómo olvidarte, mujer?\nYa no puedo, girl, ya no puedo, girl\nBaby, no (baby, no)\nMe rehúso a darte un último beso\nAsí que guárdalo (guárdalo)\nPara que, en la próxima vez, te lo dé haciéndolo (haciéndolo)\nHaciéndotelo así, así, así\nAsí como te gusta, baby\nSin mirar atrás, sin buscar a nadie más\nSolo quiero estar contigo (uoh)\nSi no te tengo aquí conmigo, ya no quiero ser tu amigo\nPorque tú eres mi camino\nY yo solo quiero estar junto a ti\nNena, por favor, entiéndelo\nSolo dame tu mano y confía en mí\nSi te pierdes, solo sigue mi voz\nY dale tiempo (tiempo), mami, al tiempo\nQue tú, que yo, estamos hechos para estar los dos\nY dale tiempo (dale tiempo), baby, al tiempo\nQue tú y yo, que tú y yo estamos hechos para estar los dos\nBaby, no (baby, no)\nMe rehúso a darte un último beso\nAsí que guárdalo (guárdalo)\nPara que, en la próxima vez, te lo dé haciéndolo (haciéndolo)\nHaciéndotelo así, así, así (así, así)\nAsí como te gusta, baby (uoh, uoh)\nBaby, no\nMe rehúso a darte un último beso\nAsí que guárdalo (guárdalo)\nPara que, en la próxima vez, te lo dé haciéndolo\nHaciéndotelo así, así, así\nAsí como te gusta, baby\nAsí, así, así como te gusta, baby\nBaby, no (baby, no)\nMe rehúso a darte un último beso\nAsí que guárdalo (guárdalo)\nPara que, en la próxima vez, te lo dé haciéndolo\nHaciéndotelo así, así, así\nAsí como te gusta, baby\nBaby, no (baby, no)\nMe rehúso a darte un último beso\nAsí que guárdalo (guárdalo)\nPara que, en la próxima vez, te lo dé haciéndolo\nHaciéndotelo así, así\nAsí como te gusta, baby",
     "duration": "3:48"
   },
   {
-    "id": "robarte-un-beso",
-    "title": "Robarte un Beso",
-    "artist": "Carlos Vives, Sebastian Yatra",
+    "id": "nada-fue-un-error",
+    "title": "Nada Fue Un Error",
+    "artist": "Coti",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "robarte un beso",
-      "carlos vives, sebastian yatra",
-      "robarte",
-      "beso"
+      "nada fue un error",
+      "coti"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:14"
+    "lyrics": "Tengo una mala noticia\nNo fue de casualidad\nYo quería que nos pasara\nY tú, y tú lo dejaste pasar\nNo quiero que me perdones\nY no me pidas perdón\nNo me niegues que me buscaste\nNada, nada de esto\nNada de esto fue un error\nNada fue un error\nNada de esto fue un error\nNada fue un error\nLos errores nos eligen\nPara bien y o para mal\nYo fallé cuando viniste\nY tú, y tú no quisiste fallar\nAprendí la diferencia\nEntré el juego y el azar\nQuién te mira y quién se entrega\nNada, nada de esto\nNada de esto fue un error\nNada fue un error\nNada de esto fue un error\nNada fue un error\nY tengo una mala noticia\nNo fue de casualidad\nYo quería que nos pasará\nY tú, y tú lo dejaste pasar\nNo quiero que me perdones\nY no me pidas perdón\nNo me niegues que me buscaste\nNada, nada de esto\nNada de esto fue un error\nNada fue un error\nNada de esto fue un error\nNada fue un error\nLos errores nos eligen\nPara bien y o para mal\nNo fallé cuando viniste\nY tú, y tú no quisiste fallar\nAprendí la diferencia\nEntré el juego y el azar\nQuién te mira y quién se entrega\nNada, nada de esto\nNada de esto fue un error\nNada fue un error\nNada de esto fue un error\nNada fue un error\nNada de esto fue",
+    "duration": "3:28"
   },
   {
     "id": "la-bicicleta",
@@ -731,125 +720,108 @@ window.SONGBOOK_DATA_13JUN26 = [
       "bicicleta"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Nada voy a hacer\nRebuscando en las heridas del pasado\nNo voy a perder\nYo no quiero ser un tipo de otro lado\nA tu manera, descomplicado\nEn una bici que te lleve a todos lados\nUn vallenato desesperado\nUna cartica que yo guardo, donde te escribí\nQue te sueño y que te quiero tanto\nQue hace rato está mi corazón\nLatiendo por ti, latiendo por ti\nLa que yo guardo, donde te escribí\nQue te sueño y que te quiero tanto\nQue hace rato está mi corazón\nLatiendo por ti, latiendo por ti\nPuedo ser feliz\nCaminando relajada entre la gente\nYo te quiero así\nY me gustas porque eres diferente\nA mi manera, despelucado\nEn una bici que me lleva a todos lados\nUn vallenato desesperado\nUna cartica que yo guardo, donde te escribí\nQue te sueño y que te quiero tanto\nQue hace rato está mi corazón\nLatiendo por ti, latiendo por ti\nLa que yo guardo, donde te escribí\nQue te sueño y que te quiero tanto\nQue hace rato está mi corazón\nLatiendo por ti, latiendo por ti\nElla es la favorita, la que canta en la zona\nSe mueven sus caderas como un barco en las olas\nTiene los pies descalzos como un niño que adora\nY su cabello largo son un sol que te antoja\nLe gusta que le digan que es la niña, la lola\nLe gusta que la miren cuando ella baila sola\nLe gusta más la casa, que no pasen las horas\nLe gusta Barranquilla, le gusta Barcelona\nLleva, llévame en tu bicicleta\nÓyeme, Carlos, llévame en tu bicicleta\nQuiero que recorramos juntos esa zona\nDesde Santa Marta hasta La Arenosa\nLleva, llévame en tu bicicleta\nPa' que juguemos bola de trapo y en chancleta\nQue si a Piqué, algún día, le muestras el Tayrona\nDespués no querrá irse pa' Barcelona\nA mi manera, descomplicado\nEn una bici que me lleva a todos lados\nUn vallenato desesperado\nUna cartica que yo guardo, donde te escribí\nQue te sueño y que te quiero tanto\nQue hace rato está mi corazón\nLatiendo por ti, latiendo por ti\nLa que yo guardo, donde te escribí\nQue te sueño y que te quiero tanto\nQue hace rato está mi corazón\nLatiendo por ti, latiendo por ti\nLleva, llévame en tu bicicleta\nÓyeme, Carlos, llévame en tu bicicleta\nQue si a Piqué, algún día, le muestras el Tayrona\nDespués no querrá irse pa' Barcelona\nLleva, llévame en tu bicicleta\nÓyeme, Carlos, llévame en tu bicicleta\nQue si, a mi Piqué, tú le muestres el Tayrona\nDespués no querrá irse pa' Barcelona",
     "duration": "3:48"
   },
   {
-    "id": "chantaje",
-    "title": "Chantaje",
-    "artist": "Shakira, Maluma",
+    "id": "fast-car",
+    "title": "Fast Car",
+    "artist": "Tracy Chapman",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "chantaje",
-      "shakira, maluma"
+      "fast car",
+      "tracy chapman"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:15"
+    "lyrics": "You got a fast car\nI want a ticket to anywhere\nMaybe we make a deal\nMaybe together we can get somewhere\nAny place is better\nStarting from zero, got nothing to lose\nMaybe we'll make something\nMe, myself, I got nothing to prove\nYou got a fast car\nI got a plan to get us outta here\nI been working at the convenience store\nManaged to save just a little bit of money\nWon't have to drive too far\nJust 'cross the border and into the city\nYou and I can both get jobs\nFinally see what it means to be living\nSee, my old man's got a problem\nHe lives with a bottle, that's the way it is\nHe says his body's too old for working\nHis body's too young to look like his\nWhen momma went off and left him\nShe wanted more from life than he could give\nI said: Somebody's gotta take care of him\nSo I quit school and that's what I did\nYou got a fast car\nIs it fast enough so we can fly away?\nWe gotta make a decision\nLeave tonight, or live and die this way\nSo I remember when we were driving\nDriving in your car\nSpeed so fast it felt like I was drunk\nCity lights lay out before us\nAnd your arm felt nice wrapped 'round my shoulder\nAnd I, I had a feeling that I belonged\nI, I had a feeling I could be someone\nBe someone, be someone\nYou got a fast car\nWe go cruising, entertain ourselves\nYou still ain't got a job\nAnd I work in a market as a checkout girl\nI know things will get better\nYou'll find work and I'll get promoted\nWe'll move out of the shelter\nBuy a bigger house and live in the suburbs\nSo I remember when we were driving\nDriving in your car\nSpeed so fast, it felt like I was drunk\nCity lights lay out before us\nAnd your arm felt nice wrapped round my shoulder\nAnd I, I had a feeling that I belonged\nI, I had a feeling I could be someone\nBe someone, be someone\nYou got a fast car\nI got a job that pays all our bills\nYou stay out drinkin' late at the bar\nSee more of your friends than you do your kids\nI'd always hoped for better\nThought maybe together, you and me'd find it\nI got no plans, I ain't going nowhere\nSo take your fast car and keep on driving\nYou got a fast car\nIs it fast enough so you can fly away?\nYou gotta make a decision\nLeave tonight, or live and die this way",
+    "duration": "4:57"
   },
   {
-    "id": "hips-don-t-lie-feat-wyclef-jean",
-    "title": "Hips Don't Lie (feat. Wyclef Jean)",
-    "artist": "Shakira, Wyclef Jean",
+    "id": "message-in-a-bottle",
+    "title": "Message in a Bottle",
+    "artist": "The Police",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "hips don't lie (feat. wyclef jean)",
-      "shakira, wyclef jean",
-      "hips",
-      "feat",
-      "wyclef",
-      "jean"
+      "message in a bottle",
+      "the police"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:38"
+    "lyrics": "Just a castaway, an island lost at sea, oh\nAnother lonely day, with no one here but me, oh\nMore loneliness than any man could bear\nRescue me before I fall into despair, oh\nI'll send an SOS to the world\nI'll send an SOS to the world\nI hope that someone gets my\nI hope that someone gets my\nI hope that someone gets my\nMessage in a bottle, yeah\nMessage in a bottle, yeah\nA year has passed since I wrote my note\nI should have known this right from the start\nOnly hope can keep me together\nLove can mend your life\nBut love can break your heart\nI'll send an SOS to the world\nI'll send an SOS to the world\nI hope that someone gets my\nI hope that someone gets my\nI hope that someone gets my\nMessage in a bottle, yeah\nMessage in a bottle, yeah\nMessage in a bottle, yeah\nMessage in a bottle, yeah\nWalked out this morning, don't believe what I saw\nHundred billion bottles washed up on the shore\nSeems I'm not alone at being alone\nHundred billion castaways, looking for a home\nI'll send an SOS to the world\nI'll send an SOS to the world\nI hope that someone gets my\nI hope that someone gets my\nI hope that someone gets my\nMessage in a bottle, yeah\nMessage in a bottle, yeah\nMessage in a bottle, oh\nMessage in a bottle, yeah\nSending out an SOS\nSending out an SOS\nI'm sending out an SOS\nI'm sending out an SOS\nSending out an SOS\nSending out an SOS",
+    "duration": "4:50"
   },
   {
-    "id": "waka-waka-this-time-for-africa",
-    "title": "Waka Waka (This Time for Africa)",
-    "artist": "Shakira",
+    "id": "a-thousand-years",
+    "title": "A Thousand Years",
+    "artist": "Christina Perri",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "waka waka (this time for africa)",
-      "shakira",
-      "waka",
-      "this",
-      "time",
-      "africa"
+      "a thousand years",
+      "christina perri"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:22"
+    "lyrics": "Heart beats fast\nColors and promises\nHow to be brave?\nHow can I love when I'm afraid to fall?\nBut watching you stand alone\nAll of my doubt suddenly goes away somehow\nOne step closer\nI have died every day waiting for you\nDarling, don't be afraid, I have loved you\nFor a thousand years\nI'll love you for a thousand more\nTime stands still\nBeauty in all she is\nI will be brave\nI will not let anything take away\nWhat's standing in front of me\nEvery breath\nEvery hour has come to this\nOne step closer\nI have died every day waiting for you\nDarling, don't be afraid, I have loved you\nFor a thousand years\nI'll love you for a thousand more\nAnd all along I believed I would find you\nTime has brought your heart to me\nI have loved you for a thousand years\nI'll love you for a thousand more\nOne step closer\nOne step closer\nI have died every day waiting for you\nDarling, don't be afraid, I have loved you\nFor a thousand years\nI'll love you for a thousand more\nAnd all along I believed I would find you\nTime has brought your heart to me\nI have loved you for a thousand years\nI'll love you for a thousand more",
+    "duration": "4:45"
   },
   {
-    "id": "loca-feat-el-cata",
-    "title": "Loca (feat. El Cata)",
-    "artist": "Shakira, El Cata",
+    "id": "me-enamoré-de-ti",
+    "title": "Me Enamoré de Ti",
+    "artist": "Chayanne",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "loca (feat. el cata)",
-      "shakira, el cata",
-      "loca",
-      "feat",
-      "cata"
+      "me enamoré de ti",
+      "chayanne"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:05"
+    "lyrics": "Cuando estoy contigo, crece mi esperanza\nHas alimentado el amor de mi alma\nY, sin pensarlo, el tiempo me robó el aliento\n¿Qué será de mí si no te tengo?\nSi no estás conmigo, se me escapa el aire, corazón vacío\nEstando en tus brazos, solo a tu lado, siento que respiro\nNo hay nada que cambiar, no hay nada que decir\nSi no estás conmigo, quedo entre la nada, me muero de frío\nAy, cuánto te amo, si no es a tu lado, pierdo los sentidos\nHay tanto que inventar, no hay nada que fingir\nMe enamoré de ti\nMe enamoré de ti\nEres lo que yo más quiero, lo que yo soñaba\nEres mi rayo de luz a cada mañana\nY, sin pensarlo, el tiempo me robó el aliento\n¿Qué será de mí si no te tengo?\nSi no estás conmigo, se me escapa el aire, corazón vacío\nEstando en tus brazos, solo a tu lado, siento que respiro\nNo hay nada que cambiar, no hay nada que decir\nSi no estás conmigo, quedo entre la nada, me muero de frío\nAy, cuánto te amo, si no es a tu lado, pierdo los sentidos\nHay tanto que inventar, no hay nada que fingir\nMe enamoré de ti\nSi no estás conmigo, se me escapa el aire, corazón vacío\nEstando en tus brazos, solo a tu lado, siento que respiro\nNo hay nada que cambiar, no hay nada que decir\nSi no estás conmigo, quedo entre la nada, me muero de frío\nAy, cuánto te amo, corazón salvaje, pierdo los sentidos\nHay tanto que inventar, no hay nada que fingir\nSi no estás conmigo, me quedo vacío\nNo hay nada que cambiar, no hay nada que fingir\nMe enamoré de ti\nMe enamoré de ti\nMe enamoré de ti",
+    "duration": "4:24"
   },
   {
-    "id": "rabiosa-feat-pitbull",
-    "title": "Rabiosa (feat. Pitbull)",
-    "artist": "Shakira, Pitbull",
+    "id": "where-is-the-love",
+    "title": "Where Is the Love?",
+    "artist": "The Black Eyed Peas",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "rabiosa (feat. pitbull)",
-      "shakira, pitbull",
-      "rabiosa",
-      "feat",
-      "pitbull"
+      "where is the love?",
+      "the black eyed peas"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "What's wrong with the world, mama?\nPeople livin' like they ain't got no mamas\nI think the whole world's addicted to the drama\nOnly attracted to things that'll bring you trauma\nOverseas, yeah, we tryna stop terrorism\nBut we still got terrorists here livin'\nIn the USA, the big CIA\nThe Bloods, and the Crips, and the KKK\nBut if you only have love for your own race\nThen you only leave space to discriminate\nAnd to discriminate only generates hate\nAnd when you hate, then you're bound to get irate, yeah\nMadness is what you demonstrate\nAnd that's exactly how anger works and operates\nMan, you gotta have love just to set it straight\nTake control of your mind and meditate\nLet your soul gravitate to the love, y'all, y'all\nPeople killin', people dyin'\nChildren hurt, and you hear them cryin'\nCan you practice what you preach?\nAnd would you turn the other cheek?\nFather, Father, Father, help us\nSend some guidance from above\n'Cause people got me, got me questionin'\nWhere is the love? (Love)\nWhere is the love? (The love)\nWhere is the love? (The love)\nWhere is the love, the love, the love?\nIt just ain't the same, old ways have changed\nNew days are strange, is the world insane?\nIf love and peace is so strong\nWhy are there pieces of love that don't belong?\nNations droppin' bombs\nChemical gases fillin' lungs of little ones\nWith ongoin' sufferin' as the youth die young\nSo ask yourself, is the lovin' really gone?\nSo I can ask myself, really, what is goin' wrong\nWith this world that we livin' in? People keep on givin' in\nMakin' wrong decisions, only visions of them dividends\nNot respectin' each other, deny thy brother\nA war is goin' on, but the reason's undercover\nThe truth is kept secret and swept under the rug\nIf you never know truth, then you never know love\nWhere's the love, y'all? Come on (I don't know)\nAnd where's the truth, y'all? Come on (I don't know)\nAnd where's the love, y'all?\nPeople killin', people dyin'\nChildren hurt, and you hear them cryin'\nCan you practice what you preach?\nAnd would you turn the other cheek?\nFather, Father, Father, help us\nSend some guidance from above\n'Cause people got me, got me questionin'\nWhere is the love? (Love)\nWhere is the love? (The love)\nWhere is the love? (The love)\nWhere is the love, the love, the love?\nI feel the weight of the world on my shoulder\nAs I'm gettin' older, y'all people gets colder\nMost of us only care about money-makin'\nSelfishness got us followin' the wrong direction\nWrong information always shown by the media\nNegative images is the main criteria\nInfectin' the young minds faster than bacteria\nKids wanna act like what they see in the cinema\nYo, whatever happened to the values of humanity? (Yeah)\nWhatever happened to the fairness and equality? (Yeah)\nInstead of spreadin' love, we spreadin' animosity (yeah)\nLack of understandin' leadin' us away from unity\nThat's the reason why sometimes I'm feelin' under\nThat's the reason why sometimes I'm feelin' down\nIt's no wonder why sometimes I'm feelin' under\nGotta keep my faith alive till love is found\nNow ask yourself\nWhere is the love?\nWhere is the love?\nWhere is the love?\nWhere is the love?\nFather, Father, Father, help us\nSend some guidance from above\n'Cause people got me, got me questionin'\nWhere is the love?\nNow sing with me, y'all (one world, one world)\nWe only got (one world, one world)\nThat's all we got (one world, one world)\nAnd something's wrong with it (yeah)\nSomething's wrong with it (yeah)\nSomething's wrong with the wo-world-world, yeah\nWe only got (one world, one world)\nThat's all we got (one world, one world)",
     "duration": "2:50"
   },
   {
-    "id": "whenever-wherever",
-    "title": "Whenever, Wherever",
-    "artist": "Shakira",
+    "id": "you're-beautiful",
+    "title": "You're Beautiful",
+    "artist": "James Blunt",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "whenever, wherever",
-      "shakira",
-      "whenever",
-      "wherever"
+      "you're beautiful",
+      "james blunt"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:16"
+    "lyrics": "My life is brilliant\nMy life is brilliant\nMy love is pure\nI saw an angel\nOf that I'm sure\nShe smiled at me on the subway\nShe was with another man\nBut I won't lose no sleep on that\n'Cause I've got a plan\nYou're beautiful, you're beautiful\nYou're beautiful, it's true\nI saw your face in a crowded place\nAnd I don't know what to do\n'Cause I'll never be with you\nYes, she caught my eye\nAs we walked on by\nShe could see from my face that I was\nFlying high\nAnd I don't think that I'll see her again\nBut we shared a moment that will last 'til the end\nYou're beautiful, you're beautiful\nYou're beautiful, it's true\nI saw your face in a crowded place\nAnd I don't know what to do\n'Cause I'll never be with you\nLa, la, la\nLa, la, la\nLa, la, la, la\nYou're beautiful, you're beautiful\nYou're beautiful, it's true\nThere must be an angel with a smile on her face\nWhen she thought up that I should be with you\nBut it's time to face the truth\nI will never be with you",
+    "duration": "3:29"
   },
   {
-    "id": "underneath-your-clothes",
-    "title": "Underneath Your Clothes",
-    "artist": "Shakira",
+    "id": "a-dios-le-pido",
+    "title": "A Dios Le Pido",
+    "artist": "Juanes",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "underneath your clothes",
-      "shakira",
-      "underneath",
-      "your",
-      "clothes"
+      "a Dios le pido",
+      "juanes",
+      "pido",
+      "dios"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:44"
+    "lyrics": "Que mis ojos se despierten\nCon la luz de tu mirada, yo\nA Dios le pido\nQue mi madre no se muera\nY que mi padre me recuerde\nA Dios le pido\nQue te quedes a mi lado\nY que más nunca te me vayas, mi vida\nA Dios le pido\nQue mi alma no descanse\nCuando de amarte se trate, mi cielo\nA Dios le pido\nPor los días que me quedan\nY las noches que aún no llegan, yo\nA Dios le pido\nPor los hijos de mis hijos\nY los hijos de tus hijos\nA Dios le pido\nQue mi pueblo no derrame tanta sangre\nY se levante mi gente\nA Dios le pido\nQue mi alma no descanse\nCuando de amarte se trate, mi cielo\nA Dios le pido\nUn segundo más de vida para darte\nY mi corazón entero entregarte\nUn segundo más de vida para darte\nY a tu lado, para siempre, yo quedarme\nUn segundo más de vida, yo\nA Dios le pido\nQue si me muero, sea de amor\nY si me enamoro, sea de vos\nY que, de tu voz, sea este corazón\nTodos los días, a Dios le pido\nQue si me muero, sea de amor\nY si me enamoro, sea de vos\nY que, de tu voz, sea este corazón\nTodos los días, a Dios le pido\nA Dios le pido\nQue mis ojos se despierten\nCon la luz de tu mirada, yo\nA Dios le pido\nQue mi madre no se muera\nY que mi padre me recuerde\nA Dios le pido\nQue te quedes a mi lado\nY que más nunca te me vayas, mi vida\nA Dios le pido\nQue mi alma no descanse\nCuando de amarte se trate, mi cielo\nA Dios le pido\nUn segundo más de vida para darte\nY mi corazón entero entregarte\nUn segundo más de vida para darte\nY a tu lado, para siempre, yo quedarme\nUn segundo más de vida, yo\nA Dios le pido\nQue si me muero, sea de amor\nY si me enamoro, sea de vos\nY que, de tu voz, sea este corazón\nTodos los días, a Dios le pido\nQue si me muero, sea de amor\nY si me enamoro, sea de vos\nY que, de tu voz, sea este corazón\nTodos los días, a Dios le pido\nQue si me muero, sea de amor\nY si me enamoro, sea de vos\nY que, de tu voz, sea este corazón\nTodos los días, a Dios le pido\nQue si me muero, sea de amor\nY si me enamoro, sea de vos\nY que, de tu voz, sea este corazón\nTodos los días, yo\nA Dios le pido",
+    "duration": "3:25"
   },
   {
     "id": "suerte-whenever-wherever",
@@ -1007,12 +979,13 @@ window.SONGBOOK_DATA_13JUN26 = [
   {
     "id": "let-it-be",
     "title": "Let It Be",
-    "artist": "Remastered 2009 - The Beatles",
+    "artist": "The Beatles",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
       "let it be",
-      "remastered 2009 - the beatles"
+      "remastered 2009 - the beatles",
+      "remastered 2015 - the beatles"
     ],
     "snippet": "",
     "lyrics": "",
@@ -1021,17 +994,18 @@ window.SONGBOOK_DATA_13JUN26 = [
   {
     "id": "hey-jude",
     "title": "Hey Jude",
-    "artist": "Remastered 2009 - The Beatles",
+    "artist": "The Beatles",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
       "hey jude",
       "remastered 2009 - the beatles",
-      "jude"
+      "jude",
+      "remastered 2015 - the beatles"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "7:05"
+    "lyrics": "Oye, Jude, no te pongas mal\nHey, Jude, don't make it bad\n\nToma una canción triste y hazla mejor\nTake a sad song and make it better\n\nRecuerda dejarla entrar en tu corazón\nRemember to let her into your heart\n\nEntonces podrás empezar a mejorarla\nThen you can start to make it better\n\nOye, Jude, no tengas miedo\nHey, Jude, don't be afraid\n\nNaciste para ir a conquistarla\nYou were made to go out and get her\n\nEn el momento que te permitas sentirla\nThe minute you let her under your skin\n\nEntonces comenzarás a mejorarla\nThen you begin to make it better\n\nY siempre que sientas el dolor\nAnd anytime you feel the pain\n\nOye, Jude, tómalo con calma\nHey, Jude, refrain\n\nNo lleves el mundo sobre tus hombros\nDon't carry the world upon your shoulders\n\nSabes muy bien que eso es una tontería\nFor well you know that it's a fool\n\nEl que actúa como si nada\nWho plays it cool\n\nPor hacer su mundo un poco más frío\nBy making his world a little colder\n\nNa-na-na-na-na-na-na-na\nNa-na-na-na-na-na-na-na\n\nOye, Jude, no me defraudes\nHey, Jude, don't let me down\n\nLa encontraste, ahora ve y conquístala\nYou have found her, now go and get her\n\nRecuerda dejarla entrar en tu corazón\nRemember to let her into your heart\n\nEntonces podrás empezar a mejorarla\nThen you can start to make it better\n\nAsí que déjalo salir y déjalo entrar\nSo let it out and let it in\n\nOye, Jude, empieza\nHey, Jude, begin\n\nEstás esperando alguien para lograr cosas\nYou're waiting for someone to perform with\n\n¿Y no sabes que ese alguien es nadie más que tú?\nAnd don't you know that is just you?\n\nOye, Jude, vas a lograrlo\nHey, Jude, you'll do\n\nEl movimiento que necesitas está sobre tus hombros\nThe movement you need is on your shoulder\n\nNa-na-na-na-na-na-na-na\nNa-na-na-na-na-na-na-na\n\nOye, Jude, no te pongas mal\nHey, Jude, don't make it bad\n\nToma una canción triste y hazla mejor\nTake a sad song and make it better\n\nRecuerda dejarla entrar en tu corazón\nRemember to let her under your skin\n\nEntonces podrás empezar a mejorarla\nThen you'll begin to make it better\n\n(Mejorar, mejorar, mejorar, mejorar, mejorar, oh, sí)\n(Better, better, better, better, better, oh, yeah)\n\nNa, na-na-na-na-na-na-na-na, oye, Jude\nNa, na-na-na-na-na-na-na-na, hey, Jude\n\nNa, na-na-na-na-na-na-na-na, oye, Jude\nNa, na-na-na-na-na-na-na-na, hey, Jude\n\nNa, na-na-na-na-na-na-na-na, oye, Jude\nNa, na-na-na-na-na-na-na-na, hey, Jude\n\nNa, na-na-na-na-na-na-na-na, oye, Jude\nNa, na-na-na-na-na-na-na-na, hey, Jude",
+    "duration": "7:06"
   },
   {
     "id": "all-you-need-is-love",
@@ -1052,12 +1026,13 @@ window.SONGBOOK_DATA_13JUN26 = [
   {
     "id": "yesterday",
     "title": "Yesterday",
-    "artist": "Remastered 2009 - The Beatles",
+    "artist": "The Beatles",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
       "yesterday",
-      "remastered 2009 - the beatles"
+      "remastered 2009 - the beatles",
+      "2023 mix - the beatles"
     ],
     "snippet": "",
     "lyrics": "Yesterday,\nAll my troubles seemed so far away,\nNow it looks as though they're here to stay\nOh I believe in yesterday\n\n\nSuddenly,\nI'm not half the man I used to be\nThere's a shadow hanging over me\nOh yesterday came suddenly\n\n\nWhy she had to go\nI don't know, she wouldn't say\nI said something wrong\nnow I long for yesterday\n\n\nYesterday,\nLove was such an easy game to play\nNow I need a place to hide away\nOh I believe in yesterday\n\n\nWhy she had to go\nI don't know, she wouldn't say\nI said something wrong\nnow I long for yesterday\n\n\nYesterday,\nLove was such an easy game to play\nNow I need a place to hide away\nOh I believe in yesterday",
@@ -1100,13 +1075,14 @@ window.SONGBOOK_DATA_13JUN26 = [
   {
     "id": "in-my-life",
     "title": "In My Life",
-    "artist": "Remastered 2009 - The Beatles",
+    "artist": "The Beatles",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
       "in my life",
       "remastered 2009 - the beatles",
-      "life"
+      "life",
+      "2023 mix - the beatles"
     ],
     "snippet": "",
     "lyrics": "",
@@ -1246,13 +1222,14 @@ window.SONGBOOK_DATA_13JUN26 = [
   {
     "id": "she-loves-you",
     "title": "She Loves You",
-    "artist": "Mono / Remastered 2009 - The Beatles",
+    "artist": "The Beatles",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
       "she loves you",
       "mono / remastered 2009 - the beatles",
-      "loves"
+      "loves",
+      "mono / remastered 2015 - the beatles"
     ],
     "snippet": "",
     "lyrics": "",
@@ -1370,17 +1347,18 @@ window.SONGBOOK_DATA_13JUN26 = [
   {
     "id": "twist-and-shout",
     "title": "Twist And Shout",
-    "artist": "Remastered 2009 - The Beatles",
+    "artist": "The Beatles",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
       "twist and shout",
       "remastered 2009 - the beatles",
       "twist",
-      "shout"
+      "shout",
+      "2023 mix - the beatles"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Well, shake it up, baby, now (shake it up, baby)\nTwist and shout (twist and shout)\nCome on, come on, come on, come on, baby, now (come on, baby)\nCome on and work it on out (work it on out)\nWell, work it on out (work it on out)\nYou know you look so good (look so good)\nYou know you got me going now (got me going)\nJust like I knew you would (like I knew you would)\nWell, shake it up, baby, now (shake it up, baby)\nTwist and shout (twist and shout)\nCome on, come on, come on, come on, baby, now (come on, baby)\nCome on and work it on out (work it on out)\nYou know you twist, little girl (twist, little girl)\nYou know you twist so fine (twist so fine)\nCome on and twist a little closer now (twist a little closer)\nAnd let me know that you're mine (let me know you're mine)\nAh, ah, ah, ah, ah, ah!\nBaby, now (shake it up, baby)\nTwist and shout (twist and shout)\nCome on, come on, come on, come on, baby, now (come on, baby)\nCome on and work it on out (work it on out)\nYou know you twist, little girl (twist, little girl)\nYou know you twist so fine (twist so fine)\nCome on and twist a little closer now (twist a little closer)\nAnd let me know that you're mine (let me know you're mine)\nWell, shake it, shake it, shake it, baby, now (shake it up, baby)\nWell, shake it, shake it, shake it, baby, now (shake it up, baby)\nWell, shake it, shake it, shake it, baby, now (shake it up, baby)\nAh, ah, ah, yeah!",
     "duration": "2:35"
   },
   {
@@ -1432,12 +1410,13 @@ window.SONGBOOK_DATA_13JUN26 = [
   {
     "id": "ob-la-di-ob-la-da",
     "title": "Ob-La-Di, Ob-La-Da",
-    "artist": "Remastered 2009 - The Beatles",
+    "artist": "The Beatles",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
       "ob-la-di, ob-la-da",
-      "remastered 2009 - the beatles"
+      "remastered 2009 - the beatles",
+      "remastered 2015 - the beatles"
     ],
     "snippet": "",
     "lyrics": "",
@@ -1564,15 +1543,16 @@ window.SONGBOOK_DATA_13JUN26 = [
   {
     "id": "michelle",
     "title": "Michelle",
-    "artist": "Remastered 2009 - The Beatles",
+    "artist": "The Beatles",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
       "michelle",
-      "remastered 2009 - the beatles"
+      "remastered 2009 - the beatles",
+      "2023 mix - the beatles"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Michelle, ma belle\nThese are words that go together well\nMy Michelle\nMichelle, ma belle\nSont les mots qui vont tres bien ensemble\nTres bien ensemble\nI love you, I love you, I love you\nThat's all I want to say\nUntil I find a way\nI will say the only words I know that you'll understand\n\nMichelle, ma belle\nSont les mots qui vont tres bien ensemble\nTres bien ensemble\nI need to, I need to, I need to\nI need to make you see\nOh, what you mean to me\nUntil I do, I'm hoping you will know what I mean\nI love you...\n\nI want you, I want you, I want you\nI think you know by now\nI'll get to you somehow\nUntil I do, I'm telling you so you'll understand\nMichelle, ma belle\nSont les mots qui vont tres bien ensemble\nTres bien ensemble\nAnd I will say the only words I know that you'll understand\nMy Michelle\n\n\nKnowing Me Knowing You - ABBA\nNo more carefree laughter\nSilence ever after\nWalking through an empty house\nTears in my eyes\nHere is were the story ends\nThis is goodbye\n\nKnowing me, knowing you\nThere is nothing we can do\nKnowing me, knowing you\nWe just have to face it\nThis is the time we're through\nBreakin' up is never easy,\nI know But I have to go\n\nKnowing Me, Knowing You\nIt's the best I can do\n\nMem'ries, good days, bad days\nThey'll be with me always\nIn these old familiar rooms\nChildren would play\nNow there's only emptiness\nNothing to say\n\nKnowing me, knowing you..",
     "duration": "2:42"
   },
   {
@@ -1701,7 +1681,7 @@ window.SONGBOOK_DATA_13JUN26 = [
     "duration": "2:16"
   },
   {
-    "id": "i-want-to-hold-your-hand",
+    "id": "i-want-to-hold-your-hand-tv-carpio",
     "title": "I Want to Hold Your Hand",
     "artist": "From \"Across The Universe\" Soundtrack - T.V. Carpio",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
@@ -1763,21 +1743,6 @@ window.SONGBOOK_DATA_13JUN26 = [
     "duration": "3:20"
   },
   {
-    "id": "in-my-life",
-    "title": "In My Life",
-    "artist": "2023 Mix - The Beatles",
-    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-    "tags": [],
-    "search": [
-      "in my life",
-      "2023 mix - the beatles",
-      "life"
-    ],
-    "snippet": "",
-    "lyrics": "",
-    "duration": "2:27"
-  },
-  {
     "id": "just-the-way-you-are",
     "title": "Just the Way You Are",
     "artist": "Billy Joel",
@@ -1791,20 +1756,6 @@ window.SONGBOOK_DATA_13JUN26 = [
     "snippet": "",
     "lyrics": "",
     "duration": "4:51"
-  },
-  {
-    "id": "let-it-be",
-    "title": "Let It Be",
-    "artist": "Remastered 2015 - The Beatles",
-    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-    "tags": [],
-    "search": [
-      "let it be",
-      "remastered 2015 - the beatles"
-    ],
-    "snippet": "",
-    "lyrics": "",
-    "duration": "3:50"
   },
   {
     "id": "let-her-go",
@@ -2355,12 +2306,12 @@ window.SONGBOOK_DATA_13JUN26 = [
   {
     "id": "torero",
     "title": "Torero",
-    "artist": "Chayannee",
+    "artist": "Chayanne",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
       "torero",
-      "chayannee"
+      "chayanne"
     ],
     "snippet": "",
     "lyrics": "",
@@ -2530,22 +2481,6 @@ window.SONGBOOK_DATA_13JUN26 = [
     "duration": "3:52"
   },
   {
-    "id": "twist-and-shout",
-    "title": "Twist And Shout",
-    "artist": "2023 Mix - The Beatles",
-    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-    "tags": [],
-    "search": [
-      "twist and shout",
-      "2023 mix - the beatles",
-      "twist",
-      "shout"
-    ],
-    "snippet": "",
-    "lyrics": "Well, shake it up, baby, now (shake it up, baby)\nTwist and shout (twist and shout)\nCome on, come on, come on, come on, baby, now (come on, baby)\nCome on and work it on out (work it on out)\nWell, work it on out (work it on out)\nYou know you look so good (look so good)\nYou know you got me going now (got me going)\nJust like I knew you would (like I knew you would)\nWell, shake it up, baby, now (shake it up, baby)\nTwist and shout (twist and shout)\nCome on, come on, come on, come on, baby, now (come on, baby)\nCome on and work it on out (work it on out)\nYou know you twist, little girl (twist, little girl)\nYou know you twist so fine (twist so fine)\nCome on and twist a little closer now (twist a little closer)\nAnd let me know that you're mine (let me know you're mine)\nAh, ah, ah, ah, ah, ah!\nBaby, now (shake it up, baby)\nTwist and shout (twist and shout)\nCome on, come on, come on, come on, baby, now (come on, baby)\nCome on and work it on out (work it on out)\nYou know you twist, little girl (twist, little girl)\nYou know you twist so fine (twist so fine)\nCome on and twist a little closer now (twist a little closer)\nAnd let me know that you're mine (let me know you're mine)\nWell, shake it, shake it, shake it, baby, now (shake it up, baby)\nWell, shake it, shake it, shake it, baby, now (shake it up, baby)\nWell, shake it, shake it, shake it, baby, now (shake it up, baby)\nAh, ah, ah, yeah!",
-    "duration": "2:35"
-  },
-  {
     "id": "sapore-di-sale",
     "title": "Sapore di sale",
     "artist": "Gino Paoli",
@@ -2560,21 +2495,6 @@ window.SONGBOOK_DATA_13JUN26 = [
     "snippet": "",
     "lyrics": "Sapore di sale, sapore di mare\nChe hai sulla pelle, che hai sulle labbra\nQuando esci dall'acqua e ti vieni a sdraiare\nVicino a me, vicino a me\nSapore di sale, sapore di mare\nUn gusto un po'amaro di cose perdute\nDi cose lasciate lontano da noi\nDove il mondo è diverso, diverso da qui\nQui il tempo è dei giorni che passano pigri\nE lasciano in bocca il gusto del sale\nTi butti nell'acqua e mi lasci a guardarti\nE rimango da solo nella sabbia e nel sole\nPoi torni vicino e ti lasci cadere\nCosì nella sabbia e nelle mie braccia\nE mentre ti bacio sapore di sale\nSapore di mare, sapore di te\nQui il tempo è dei giorni che passano pigri\nE lasciano in bocca il gusto del sale\nTi butti nell'acqua e mi lasci a guardarti\nE rimango da solo nella sabbia e nel sole\nPoi torni vicino e ti lasci cadere\nCosì nella sabbia e nelle mie braccia\nE mentre ti bacio sapore di sale\nSapore di mare, sapore di te",
     "duration": "3:34"
-  },
-  {
-    "id": "she-loves-you",
-    "title": "She Loves You",
-    "artist": "Mono / Remastered 2015 - The Beatles",
-    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-    "tags": [],
-    "search": [
-      "she loves you",
-      "mono / remastered 2015 - the beatles",
-      "loves"
-    ],
-    "snippet": "",
-    "lyrics": "",
-    "duration": "2:21"
   },
   {
     "id": "rocket-man-i-think-it-s-going-to-be-it",
@@ -2608,20 +2528,6 @@ window.SONGBOOK_DATA_13JUN26 = [
     "snippet": "",
     "lyrics": "",
     "duration": "3:41"
-  },
-  {
-    "id": "ob-la-di-ob-la-da",
-    "title": "Ob-La-Di, Ob-La-Da",
-    "artist": "Remastered 2015 - The Beatles",
-    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-    "tags": [],
-    "search": [
-      "ob-la-di, ob-la-da",
-      "remastered 2015 - the beatles"
-    ],
-    "snippet": "",
-    "lyrics": "",
-    "duration": "3:09"
   },
   {
     "id": "new-kid-in-town",
@@ -2848,23 +2754,8 @@ window.SONGBOOK_DATA_13JUN26 = [
       "love"
     ],
     "snippet": "",
-    "lyrics": "How deep is your love?\nHow deep is your love?\nI really mean to learn\n'Cause we're living in a world of fools\nBreaking us down when they all should let us be\nWe belong to you and me\n\nI believe in you\nYou know the door to my very soul\nYou're the light in my deepest, darkest hour\nYou're my savior when I fall\nAnd you may not think I care for you\nWhen you know down inside that I really do\n\nWe belong to you and me\n\nI believe in you\nYou know the door to my very soul\nYou're the light in my deepest, darkest hour\nYou're my savior when I fall\nAnd you may not think I care for you\nWhen you know down inside that I really do\n\nHow deep is your love?\nHow deep is your love?\nI really mean to learn",
+    "lyrics": "I know your eyes in the morning Sun\nI feel you touch me in the pouring rain\nAnd the moment that you wander far from me\nI wanna feel you in my arms again\nAnd you come to me on a summer breeze\nKeep me warm in your love, then you softly leave\nAnd it's me you need to show\nHow deep is your love\nHow deep is your love, how deep is your love?\nI really mean to learn\n'Cause we're living in a world of fools\nBreaking us down\nWhen they all should let us be\nWe belong to you and me\nI believe in you\nYou know the door to my very soul\nYou're the light in my deepest, darkest hour\nYou're my saviour when I fall\nAnd you may not think that I care for you\nWhen you know down inside that I really do\nAnd it's me you need to show\nHow deep is your love\nHow deep is your love, how deep is your love?\nI really mean to learn\n'Cause we're living in a world of fools\nBreaking us down\nWhen they all should let us be\nWe belong to you and me\nDa da da da da\nDa da da da, da da da da da\nDa da da da da da da da da\nDa da da da da\nAnd you come to me on a summer breeze\nKeep me warm in your love and then you softly leave\nAnd it's me you need to show\nHow deep is your love\nHow deep is your love, how deep is your love?\nI really mean to learn\n'Cause we're living in a world of fools\nBreaking us down\nWhen they all should let us be\nWe belong to you and me\nDa da da da da\nHow deep is your love, how deep is your love?\nI really mean to learn\n'Cause we're living in a world of fools\nBreaking us down\nWhen they all should let us be\nWe belong to you and me\nDa da da da da",
     "duration": "4:05"
-  },
-  {
-    "id": "hey-jude",
-    "title": "Hey Jude",
-    "artist": "Remastered 2015 - The Beatles",
-    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-    "tags": [],
-    "search": [
-      "hey jude",
-      "remastered 2015 - the beatles",
-      "jude"
-    ],
-    "snippet": "",
-    "lyrics": "Oye, Jude, no te pongas mal\nHey, Jude, don't make it bad\n\nToma una canción triste y hazla mejor\nTake a sad song and make it better\n\nRecuerda dejarla entrar en tu corazón\nRemember to let her into your heart\n\nEntonces podrás empezar a mejorarla\nThen you can start to make it better\n\nOye, Jude, no tengas miedo\nHey, Jude, don't be afraid\n\nNaciste para ir a conquistarla\nYou were made to go out and get her\n\nEn el momento que te permitas sentirla\nThe minute you let her under your skin\n\nEntonces comenzarás a mejorarla\nThen you begin to make it better\n\nY siempre que sientas el dolor\nAnd anytime you feel the pain\n\nOye, Jude, tómalo con calma\nHey, Jude, refrain\n\nNo lleves el mundo sobre tus hombros\nDon't carry the world upon your shoulders\n\nSabes muy bien que eso es una tontería\nFor well you know that it's a fool\n\nEl que actúa como si nada\nWho plays it cool\n\nPor hacer su mundo un poco más frío\nBy making his world a little colder\n\nNa-na-na-na-na-na-na-na\nNa-na-na-na-na-na-na-na\n\nOye, Jude, no me defraudes\nHey, Jude, don't let me down\n\nLa encontraste, ahora ve y conquístala\nYou have found her, now go and get her\n\nRecuerda dejarla entrar en tu corazón\nRemember to let her into your heart\n\nEntonces podrás empezar a mejorarla\nThen you can start to make it better\n\nAsí que déjalo salir y déjalo entrar\nSo let it out and let it in\n\nOye, Jude, empieza\nHey, Jude, begin\n\nEstás esperando alguien para lograr cosas\nYou're waiting for someone to perform with\n\n¿Y no sabes que ese alguien es nadie más que tú?\nAnd don't you know that is just you?\n\nOye, Jude, vas a lograrlo\nHey, Jude, you'll do\n\nEl movimiento que necesitas está sobre tus hombros\nThe movement you need is on your shoulder\n\nNa-na-na-na-na-na-na-na\nNa-na-na-na-na-na-na-na\n\nOye, Jude, no te pongas mal\nHey, Jude, don't make it bad\n\nToma una canción triste y hazla mejor\nTake a sad song and make it better\n\nRecuerda dejarla entrar en tu corazón\nRemember to let her under your skin\n\nEntonces podrás empezar a mejorarla\nThen you'll begin to make it better\n\n(Mejorar, mejorar, mejorar, mejorar, mejorar, oh, sí)\n(Better, better, better, better, better, oh, yeah)\n\nNa, na-na-na-na-na-na-na-na, oye, Jude\nNa, na-na-na-na-na-na-na-na, hey, Jude\n\nNa, na-na-na-na-na-na-na-na, oye, Jude\nNa, na-na-na-na-na-na-na-na, hey, Jude\n\nNa, na-na-na-na-na-na-na-na, oye, Jude\nNa, na-na-na-na-na-na-na-na, hey, Jude\n\nNa, na-na-na-na-na-na-na-na, oye, Jude\nNa, na-na-na-na-na-na-na-na, hey, Jude",
-    "duration": "7:06"
   },
   {
     "id": "hold-the-line",
@@ -2946,20 +2837,6 @@ window.SONGBOOK_DATA_13JUN26 = [
       "es": "No más risas despreocupadas\nSilencio para siempre\nCaminando por una casa vacía\nLágrimas en mis ojos\nAquí es donde termina la historia\nEsto es un adiós\nConociéndome, conociéndote\nNo hay nada que podamos hacer\nConociéndome, conociéndote\nSolo tenemos que afrontarlo\nEsta vez hemos terminado\nEsta vez hemos pasado por esto\nEstamos separados\nEsta vez no nos estamos engañando\n\nRompiendo, nunca es fácil, lo sé\nPero tengo que irme\nConociéndome, conociéndote\nEs lo mejor que puedo hacer",
       "it": "Basta risate spensierate\nSilenzio per sempre\nCamminando in una casa vuota\nLacrime nei miei occhi\nQui è dove finisce la storia\nQuesto è un addio\nConoscendo me, conoscendo te\nNon c'è niente che possiamo fare\nConoscendo me, conoscendo te\nDobbiamo soltanto affrontarlo\nQuesta volta abbiamo finito\nQuesta volta l'abbiamo attraversata\nSiamo separati\nQuesta volta non ci stiamo illudendo\n\nLasciarsi non è mai facile, lo so\nMa devo andare\nConoscendo me, conoscendo te\nÈ il meglio che posso fare"
     }
-  },
-  {
-    "id": "michelle",
-    "title": "Michelle",
-    "artist": "2023 Mix - The Beatles",
-    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-    "tags": [],
-    "search": [
-      "michelle",
-      "2023 mix - the beatles"
-    ],
-    "snippet": "",
-    "lyrics": "Michelle, ma belle\nThese are words that go together well\nMy Michelle\nMichelle, ma belle\nSont les mots qui vont tres bien ensemble\nTres bien ensemble\nI love you, I love you, I love you\nThat's all I want to say\nUntil I find a way\nI will say the only words I know that you'll understand\n\nMichelle, ma belle\nSont les mots qui vont tres bien ensemble\nTres bien ensemble\nI need to, I need to, I need to\nI need to make you see\nOh, what you mean to me\nUntil I do, I'm hoping you will know what I mean\nI love you...\n\nI want you, I want you, I want you\nI think you know by now\nI'll get to you somehow\nUntil I do, I'm telling you so you'll understand\nMichelle, ma belle\nSont les mots qui vont tres bien ensemble\nTres bien ensemble\nAnd I will say the only words I know that you'll understand\nMy Michelle\n\n\nKnowing Me Knowing You - ABBA\nNo more carefree laughter\nSilence ever after\nWalking through an empty house\nTears in my eyes\nHere is were the story ends\nThis is goodbye\n\nKnowing me, knowing you\nThere is nothing we can do\nKnowing me, knowing you\nWe just have to face it\nThis is the time we're through\nBreakin' up is never easy,\nI know But I have to go\n\nKnowing Me, Knowing You\nIt's the best I can do\n\nMem'ries, good days, bad days\nThey'll be with me always\nIn these old familiar rooms\nChildren would play\nNow there's only emptiness\nNothing to say\n\nKnowing me, knowing you..",
-    "duration": "2:42"
   },
   {
     "id": "somewhere-only-we-know",
@@ -3213,24 +3090,6 @@ window.SONGBOOK_DATA_13JUN26 = [
     "snippet": "Young Man\nThere's no need to feel down,\nI said, Young Man\nGet yourself off the ground,\nI said, Young Man\n'Cause you're in a new town\nThere's no need to be un-happy..\n\n\nYoung Man\nThere's a place you can go,\nI said, Young Man\nWhen you're short on your dough,\nYou can stay there\nAnd I'm sure you will find,\nMany ways to have a good time..\n\nIt's fun to stay at the YMCA,\nIt's fun to stay at the YMCA.\nThey have everything for young men to enjoy,\nYou can hang out with all the boys..\n\nIt's fun to stay at the YMCA,\nIt's fun to stay at the YMCA.\nYou can get yourself clean,\nYou can have a good meal,\nYou can do whatever you feel..\n\nYoung Man - Are you listening to me?\nI said, Young Man,\nWhat do you wanna' be?\nI said, Young Man\nYou can make real your dreams,\nBut you've got to know this one thing:\n\nNo man,\nDoes it all by himself,\nI said, Young Man\nPut your pride on the shelf,\nAnd just go there -\nTo the YMCA,\nI'm sure they can help you today..\n\nIt's fun to stay at the YMCA,\nIt's fun to stay at the YMCA.\nThey have everything for young men to enjoy,\nYou can hang out with all the boys..\n\nIt's fun to stay at the YMCA,\nIt's fun to stay at the YMCA\nYou can get yourself clean,\nYou can have a good meal,\nYou can do whatever you feel..\n\nYoung Man,\nI was once in your shoes,\nI said, I was -\nDown and out with the blues,\nI felt no man cared that I were alive,\nI felt the whole world was so tired.\n\nThat's when,\nSomeone came up to me,\nAnd said, Young Man\nTake a walk up the street,\nIt's a place there -\nCalled the YMCA,\nThey can start you back on your way..\nIt's fun to stay at the YMCA,\nIt's fun to stay at the YMCA.\nThey have everything for young men to enjoy,\nYou can hang out with all the boys..\n\n\nYMCA,\nIt's fun to stay at the\nYMCA..\n\nYoung Man, Young Man\nThere's no need to feel down,\nYoung Man, Young Man\nPick yourself off the ground..\n\nYMCA\nAnd just go to the -\nYMCA\n\nYoung Man, Young Man\nI was once in your shoes\nYoung Man, Young Man\nI was down with the blues..",
     "lyrics": "",
     "duration": "3:23"
-  },
-  {
-    "id": "yesterday",
-    "title": "Yesterday",
-    "artist": "2023 Mix - The Beatles",
-    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
-    "tags": [],
-    "search": [
-      "yesterday",
-      "2023 mix - the beatles"
-    ],
-    "snippet": "",
-    "lyrics": "Yesterday\nAll my troubles seemed so far away\nNow it looks as though they're here to stay\nOh, I believe in yesterday\nSuddenly\nI'm not half the man I used to be\nThere's a shadow hanging over me\nOh, yesterday came suddenly\nWhy she had to go? I don't know\nShe wouldn't say\nI said something wrong, now I long\nFor yesterday\nYesterday\nLove was such an easy game to play\nNow I need a place to hide away\nOh, I believe in yesterday\nWhy she had to go? I don't know\nShe wouldn't say\nI said something wrong, now I long\nFor yesterday\nYesterday\nLove was such an easy game to play\nNow I need a place to hide away\nOh, I believe in yesterday",
-    "duration": "2:04",
-    "translations": {
-      "es": "Ayer\nTodos mis problemas parecían tan lejanos\nAhora parece que han venido para quedarse\nOh, creo en el ayer\n\nDe repente\nYa no soy ni la mitad del hombre que solía ser\nHay una sombra que se cierne sobre mí\nOh, el ayer llegó de repente\n\nPor qué tuvo que irse\nNo lo sé, ella no quiso decirlo\nDije algo equivocado\nY ahora añoro el ayer\n\nAyer\nEl amor era un juego tan fácil de jugar\nAhora necesito un lugar donde esconderme\nOh, creo en el ayer",
-      "it": "Ieri\nTutti i miei problemi sembravano così lontani\nOra sembra che siano venuti per restare\nOh, credo nell'ieri\n\nAll'improvviso\nNon sono più nemmeno la metà dell'uomo che ero\nC'è un'ombra che incombe su di me\nOh, ieri è arrivato all'improvviso\n\nPerché ha dovuto andarsene\nNon lo so, non ha voluto dirlo\nHo detto qualcosa di sbagliato\nE ora rimpiango l'ieri\n\nIeri\nL'amore era un gioco così facile da giocare\nOra ho bisogno di un posto dove nascondermi\nOh, credo nell'ieri"
-    }
   },
   {
     "id": "you-never-can-tell",
