@@ -824,140 +824,137 @@ window.SONGBOOK_DATA_13JUN26 = [
     "duration": "3:25"
   },
   {
-    "id": "suerte-whenever-wherever",
-    "title": "Suerte (Whenever, Wherever)",
-    "artist": "Shakira",
+    "id": "you're-the-one-that-i-want",
+    "title": "You're the One That I Want",
+    "artist": "From \"Grease\" - John Travolta, Olivia Newton-John",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "suerte (whenever, wherever)",
-      "shakira",
-      "suerte",
-      "whenever",
-      "wherever"
+      "you're the one that i want",
+      "grease",
+      "john travolta",
+      "olivia newton-john",
+      "want",
+      "one",
+      "grease"
     ],
     "snippet": "",
     "lyrics": "",
-    "duration": "3:16"
+    "duration": "2:50"
   },
   {
-    "id": "que-me-quedes-tu",
-    "title": "Que Me Quedes Tú",
-    "artist": "Shakira",
+    "id": "roxanne",
+    "title": "Roxanne",
+    "artist": "The Police",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "que me quedes tu",
-      "shakira",
-      "quedes"
+      "roxanne",
+      "the police"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "4:47"
+    "lyrics": "Roxanne\nYou don't have to put on the red light\nThose days are over\nYou don't have to sell your body to the night\nRoxanne\nYou don't have to wear that dress tonight\nWalk the streets for money\nYou don't care if it's wrong or if it's right\nRoxanne\nYou don't have to put on the red light\nRoxanne\nYou don't have to put on the red light\n(Roxanne) put on the red light\n(Roxanne) put on the red light\n(Roxanne) put on the red light\n(Roxanne) put on the red light\n(Roxanne) put on the red light, oh\nI loved you since I knew you\nI wouldn't talk down to ya\nI have to tell you just how I feel\nI won't share you with another boy\nI know my mind is made up\nSo put away your makeup\nTold you once, I won't tell you again\nIt's a bad way\nRoxanne\nYou don't have to put on the red light\nRoxanne\nYou don't have to put on the red light\n(Roxanne) you don't have to put on the red light\n(Roxanne) put on the red light\n(Roxanne) put on the red light\n(Roxanne) put on the red light\n(Roxanne) put on the red light\n(Roxanne) put on the red light\n(Roxanne) put on the red light\n(Roxanne) put on the red light\n(Roxanne) put on the red light\n(Roxanne) put on the red light\n(Roxanne) you don't have to put on the red light\n(Roxanne) put on the red light\n(Roxanne) you don't have to put on the red light\n(Roxanne) put on the red light\n(Roxanne) put on the red light\n(Roxanne) put on the red light\n(Roxanne) put on the red light",
+    "duration": "3:12"
   },
   {
-    "id": "ciega-sordomuda",
-    "title": "Ciega, Sordomuda",
-    "artist": "Shakira",
+    "id": "my-sharona",
+    "title": "My Sharona",
+    "artist": "The Knack",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "ciega, sordomuda",
-      "shakira",
-      "ciega",
-      "sordomuda"
+      "my sharona",
+      "the knack"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "4:28"
+    "lyrics": "Ooh my little pretty one, my pretty one\nWhen you gonna give me some time, Sharona?\nOoh you make my motor run, my motor run\nGun it comin' off the line Sharona\nNever gonna stop, give it up\nSuch a dirty mind\nAlways get it up for the touch\nOf the younger kind\nMy, my, my aye-aye, whoa!\nM- m- m- my Sharona\nCome a little closer huh, ah will ya huh\nClose enough to look in my eyes, Sharona\nKeeping it a mystery gets to me\nRunning down the length of my thighs, Sharona\nNever gonna stop, give it up\nSuch a dirty mind\nAlways get it up for the touch\nOf the younger kind\nMy my my aye-aye, whoa!\nM- m- m- my Sharona\nWhen you gonna give it to me, give it to me\nIt is just a matter of time Sharona\nIs it just d-d-d-destiny, d-destiny?\nOr is it just a game in my mind, Sharona?\nNever gonna stop, give it up\nSuch a dirty mind\nAlways get it up for the touch\nOf the younger kind\nMy my my aye-aye, whoa!\nM- m- m- my Sharona\nOooh my Sharona\nOooh my Sharona\nOooh my Sharona",
+    "duration": "4:55"
   },
   {
-    "id": "inevitable",
-    "title": "Inevitable",
-    "artist": "Shakira",
+    "id": "la-chica-de-ipanema",
+    "title": "La Chica de Ipanema",
+    "artist": "Jarabe de Palo",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "inevitable",
-      "shakira"
+      "la chica de ipanema",
+      "jarabe de palo"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:13"
+    "lyrics": "Mira qué cosa más linda, más llena de gracia\nEs esa muchacha, que viene y que pasa\nCon su balanceo, camino del mar\nNiña de cuerpo dorado, del Sol de Ipanema\nCon su balanceo, es todo un poema\nLa chica más linda que he visto pasar\nAy, ¿por qué estoy tan solo?\nAy, ¿por qué me siento triste?\nAy, la belleza que existe\nBelleza que no es solo mía\nQue ahora pasea solita\nOh, vida mía, si supieras que cuando tú pasas\nEl mundo entero se llena de gracia\nCon tu balanceo, camino del mar\nMira qué cosa más linda, más llena de gracia\nEs esa muchacha, que viene y que pasa\nCon su balanceo, camino del mar\nNiña de cuerpo dorado, del Sol de Ipanema\nCon su balanceo, es todo un poema\nLa chica más linda que he visto pasar\nAy, ¿por qué estoy tan solo?\nAy, ¿por qué me siento triste?\nAy, la belleza que existe\nBelleza que no es solo mía\nQue ahora pasea solita\nOh, vida mía, si supieras que cuando tú pasas\nEl mundo entero se llena de gracia\nCon tu balanceo, camino del mar\nAy, ¿por qué estoy tan solo?\nAy, ¿por qué me siento triste?\nAy, la belleza que existe\nBelleza que no es solo mía\nQue ahora pasea solita\nMira\nQué cosa más linda\nMás llena de gracia\nCon su balanceo, camino del mar\nCamino del mar\nCamino del mar",
+    "duration": "4:11"
   },
   {
-    "id": "tu",
-    "title": "Tú",
-    "artist": "Shakira",
+    "id": "money-money-money",
+    "title": "Money, Money, Money",
+    "artist": "ABBA",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "tu",
-      "shakira"
+      "money money money",
+      "abba"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:35"
+    "lyrics": "I work all night, I work all day\nTo pay the bills I have to pay\nAin't it sad?\nAnd still, there never seems to be\nA single penny left for me\nThat's too bad\nIn my dreams, I have a plan\nIf I got me a wealthy man\nI wouldn't have to work at all\nI'd fool around and have a ball\nMoney, money, money\nMust be funny\nIn the rich man's world\nMoney, money, money\nAlways sunny\nIn the rich man's world\nA-ha, ah, ah\nAll the things I could do\nIf I had a little money\nIt's a rich man's world\nA man like that is hard to find\nBut I can't get him off my mind\nAin't it sad?\nAnd if he happens to be free\nI bet he wouldn't fancy me\nThat's too bad\nSo I must leave, I'll have to go\nTo Las Vegas or Monaco\nAnd win a fortune in a game\nMy life will never be the same\nMoney, money, money\nMust be funny\nIn the rich man's world\nMoney, money, money\nAlways sunny\nIn the rich man's world\nA-ha, ah, ah\nAll the things I could do\nIf I had a little money\nIt's a rich man's world\nMoney, money, money\nMust be funny\nIn the rich man's world\nMoney, money, money\nAlways sunny\nIn the rich man's world\nA-ha, ah, ah\nAll the things I could do\nIf I had a little money\nIt's a rich man's world\nIt's a rich man's world",
+    "duration": "3:06"
   },
   {
-    "id": "ojos-asi",
-    "title": "Ojos Así",
-    "artist": "Shakira",
+    "id": "baila-morena",
+    "title": "Baila Morena",
+    "artist": "Zucchero",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "ojos asi",
-      "shakira",
-      "ojos"
+      "baila morena",
+      "zucchero"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:57"
+    "lyrics": "Creo en los milagros desde que te vi\nEn esta noche de tequila boom boom\nEres tan sexy eres sexy thing\nMis ojos te persiguen solo a ti\nY debe haber un caos dentro de ti\nPara que brote asi una estrella que baila\nInfierno y paraiso dentro de ti\nLa luna es un sol, mira como brilla\nBaby the night is on fire\nSeamos fuego en el cielo\nLlamas en lo oscuro\nWhat you say\nBaila baila morena\nBajo esta luna llena\nUnder the moonlight\nUnder the moonlight\nVen chica ven loca dame tu boca\nQue en esta noche cualquier cosa te toca\nMi corazon se revienta y no aguanto\nMorena rebuena te quiero yo tanto\nBaby the night is on fire\nSeamos fuego en el cielo\nEscandalo en lo oscuro\nWhat you say\nBaila baila morena\nBajo esta luna llena\nUnder the moonlight\nBaila\nUnder the moonlight\nBajo esta luna llena\nBaila morena\nBaila baila morena\nBajo esta luna llena\nUnder the moonlight\nDaila\nUnder the moonlight\nBajo esta luna llena\nBaila morena\nBajo esta luna llena\nBajo esta luna llena\nBajo esta luna llena\nUnder the moonlight",
+    "duration": "4:06"
   },
   {
-    "id": "estoy-aqui",
-    "title": "Estoy Aquí",
-    "artist": "Shakira",
+    "id": "antes-que-ver-el-sol",
+    "title": "Antes de Ver el Sol",
+    "artist": "Coti",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "estoy aqui",
-      "shakira",
-      "estoy",
-      "aqui"
+      "antes de ver el sol",
+      "coti",
+      "sol",
+      "antes"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:52"
+    "lyrics": "Uoh oh oh oh oh\nUoh oh oh oh oh\nUoh oh oh oh oh\nUoh oh oh oh oh\nSi te vas, se me va a hacer muy tarde\nY además, solo intento cuidarte\nAy cuando, mi vida cuando\nVa a ser el día que tu pared desaparezca\nFabriqué un millón de ilusiones\nPrisioneras que se hicieron canciones\nAy cuando mi vida cuando\nVas a cerrar tus ojos por mi ooh\nOh oh oh oh oh oh oh oh oh\nAntes que ver el sol\nPrefiero escuchar tu voz\nOh oh oh oh oh oh oh oh oh\nAntes que ver el sol\nPrefiero escuchar tu voz\nSi te vas, para que regresaste\nY además, solo quise besarte\nAy cuando, mi vida cuando\nVa a ser el día que tu pared desaparezca\nFabriqué un millón de ilusiones\nPrisioneras que se hicieron canciones (uuh)\nAy cuando, mi vida cuando\nVas a cerrar tus ojos por mi ooh\nOh oh oh oh oh oh oh oh oh\nAntes que ver el sol\nPrefiero escuchar tu voz\nOh oh oh oh oh oh oh oh oh\nAntes que ver el sol\nPrefiero escuchar tu voz\n(Uuh ooh uuh ooh)\nPrefiero tu voz, prefiero tu voz\nPrefiero escuchar tu voz\nAntes que ver el sol (antes que ver el sol)\nPrefiero escuchar tu voz\nPrefiero tu voz, prefiero tu voz\nPrefiero escuchar tu voz\nAntes que ver el sol (antes que ver el sol)\nPrefiero escuchar tu voz",
+    "duration": "3:42"
   },
   {
-    "id": "antologia",
-    "title": "Antología",
-    "artist": "Shakira",
+    "id": "the-logical-song",
+    "title": "The Logical Song",
+    "artist": "Supertramp",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "antologia",
-      "shakira"
+      "the logical song",
+      "supertramp"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "4:14"
+    "lyrics": "When I was young\nIt seemed that life was so wonderful\nA miracle\nOh, it was beautiful, magical\nAnd all the birds in the trees\nWell they'd be singing so happily\nOh, joyfully\nOh, playfully, watching me\nBut then they sent me away\nTo teach me how to be sensible\nLogical\nOh responsible, practical\nAnd they showed me a world\nWhere I could be so dependable\nOh, clinical\nOh, intellectual, cynical\nThere are times when all the world's asleep\nThe questions run too deep\nFor such a simple man\nWon't you, please, please, tell me what we've learned?\nI know it sounds absurd\nPlease tell me who I am\nNow watch what you say\nOr they'll be calling you a radical\nA liberal\nOh fanatical, criminal\nOh, won't you sign up your name?\nWe'd like to feel you're acceptable\nRespectable\nOh presentable, a vegetable\nOh take it, take it, take it\nYeah!\nBut at night, when all the world's asleep\nThe questions run so deep\nFor such a simple man\nWon't you please (won't you tell me?)\nPlease tell me what we've learned? (can you hear me?)\nI know it sounds absurd\nPlease tell me who I am\nWho I am\nWho I am\nWho I am\nWho I am\n'Cause I'm feeling so illogical\nD-d-digital\nOne, two, three, four, five\nOh oh oh oh\nUnbelievable\nB-b-bloody marvelous",
+    "duration": "4:11"
   },
   {
-    "id": "don-t-bother",
-    "title": "Don't Bother",
-    "artist": "Shakira",
+    "id": "live-is-life",
+    "title": "Live Is Life",
+    "artist": "Opus",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "don't bother",
-      "shakira",
-      "bother"
+      "live is life",
+      "opus"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "4:17"
+    "lyrics": "Na, na, na, na, na\nNa, na, na, na, na\n(All together now)\nNa, na, na, na, na\nNa, na, na, na, na\nLive (na, na, na, na, na)\nLive is life (na, na, na, na, na)\nLa-ba-ba-la-ba-ba life (na, na, na, na, na)\nLive is life (na, na, na, na, na)\nWhen we all give the power\nWe all give the best\nEvery minute of an hour\nDon't think about the rest\nAnd you all get the power\nYou all get the best\nWhen everyone gets everything\nAnd every song everybody sings\nThen it's life (na, na, na, na, na)\nLive is life (na, na, na, na, na)\nLive is life (na, na, na, na, na)\nLive (na, na, na, na, na)\nLive is life\nWhen we all feel the power\nLive is life\nCome on, stand up and dance\nLive is life\nWhen the feelings of the people\nLive is life\nIs the feeling of the band\nWhen we all give the power\nWe all give the best\nEvery minute of an hour\nDon't think about the rest\nAnd you all get the power\nYou all get the best\nWhen everyone gets everything\nAnd every song everybody sings\nThen it's life (na, na, na, na, na)\nLive is life (na, na, na, na, na)\nLa-ba-ba-la-ba-ba life (na, na, na, na, na)\nLive is life (na, na, na, na, na)\nNa, na, na, na, na\nNa, na, na, na, na\nNa, na, na, na, na\nNa, na, na, na, na\nLive (na, na, na, na, na)\nLive is life (na, na, na, na, na)\nLa-ba-ba-la-ba-ba life (na, na, na, na, na)\nLive is life (na, na, na, na, na)\nAnd you call when it's over\nYou call it should last\nEvery minute of the future\nIs a memory of the past\n'Cause we all gave the power\nWe all gave the best\nAnd everyone gave everything\nAnd every song everybody sang\nLive is life",
+    "duration": "4:59"
   },
   {
     "id": "the-long-and-winding-road",
@@ -973,8 +970,8 @@ window.SONGBOOK_DATA_13JUN26 = [
       "road"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:37"
+    "lyrics": "The long and winding road\nThat leads to your door\nWill never disappear\nI've seen that road before\nIt always leads me here\nLead me to your door\nThe wild and windy night\nThat the rain washed away\nHas left a pool of tears\nCrying for the day\nWhy leave me standing here?\nLet me know the way\nMany times, I've been alone\nAnd many times, I've cried\nAnyway, you've never known\nThe many ways I've tried\nBut still, they lead me back\nTo the long, winding road\nYou left me standing here\nA long, long time ago\nDon't leave me waiting here\nLead me to your door\nBut still, they lead me back\nTo the long, winding road\nYou left me standing here\nA long, long time ago\nDon't leave me waiting here\nLead me to your door",
+    "duration": "3:38"
   },
   {
     "id": "let-it-be",
@@ -988,7 +985,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "remastered 2015 - the beatles"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "When I find myself in times of trouble\nMother Mary comes to me\nSpeaking words of wisdom\nLet it be\nAnd in my hour of darkness\nShe is standing right in front of me\nSpeaking words of wisdom\nLet it be\nLet it be, let it be\nLet it be, let it be\nWhisper words of wisdom\nLet it be\nAnd when the brokenhearted people\nLiving in the world agree\nThere will be an answer\nLet it be\nFor though they may be parted\nThere is still a chance that they will see\nThere will be an answer\nLet it be\nLet it be, let it be\nLet it be, let it be\nYeah, there will be an answer\nLet it be\nLet it be, let it be\nLet it be, let it be\nWhisper words of wisdom\nLet it be\nLet it be, let it be\nLet it be, yeah, let it be\nWhisper words of wisdom\nLet it be\nAnd when the night is cloudy\nThere is still a light that shines on me\nShine on till tomorrow\nLet it be\nI wake up to the sound of music\nMother Mary comes to me\nSpeaking words of wisdom\nLet it be\nLet it be, let it be\nLet it be, yeah, let it be\nOh, there will be an answer\nLet it be\nLet it be, let it be\nLet it be, yeah, let it be\nOh, there will be an answer\nLet it be\nLet it be, let it be\nLet it be, yeah, let it be\nWhisper words of wisdom\nLet it be",
     "duration": "4:03"
   },
   {
@@ -1020,7 +1017,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "love"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Love, love, love\nLove, love, love\nLove, love, love\n(Love) there's nothing you can do that can't be done\n(Love) nothing you can sing that can't be sung\n(Love) nothing you can say, but you can learn\nHow to play the game\nIt's easy\n(Love) there's nothing you can make that can't be made\n(Love) no one you can save that can't be saved\n(Love) nothing you can do, but you can learn\nHow to be you in time\nIt's easy\nAll you need is love\nAll you need is love\nAll you need is love, love\nLove is all you need\nLove, love, love\nLove, love, love\nLove, love, love\nAll you need is love\nAll you need is love\nAll you need is love, love\nLove is all you need\n(Love) there's nothing you can know that isn't known\n(Love) nothing you can see that isn't shown\n(Love) nowhere you can be\nThat isn't where you're meant to be\nIt's easy\nAll you need is love\nAll you need is love\nAll you need is love, love\nLove is all you need\nAll you need is love\n(All together, now!)\nAll you need is love\n(Everybody)\nAll you need is love, love\nLove is all you need\n(Love is all you need)\nLove is all you need\n(Love is all you need)\nLove is all you need\n(Love is all you need)\nLove is all you need\n(Love is all you need)\nLove is all you need\n(Love is all you need)\n(She loves you, yeah, yeah, yeah!)\n(Love is all you need)",
     "duration": "3:50"
   },
   {
@@ -1053,7 +1050,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "remastered 2009 - the beatles"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Something in the way she moves\nAttracts me like no other lover\nSomething in the way she woos me\nI don't want to leave her now\nYou know I believe and how\nSomewhere in her smile, she knows\nThat I don't need no other lover\nSomething in her style that shows me\nI don't want to leave her now\nYou know I believe and how\nYou're asking me will my love grow\nI don't know, I don't know\nYou stick around now it may show\nI don't know, I don't know\nSomething in the way she knows\nAnd all I have to do is think of her\nSomething in the things she shows me\nI don't want to leave her now\nYou know I believe and how",
     "duration": "3:02"
   },
   {
@@ -1069,7 +1066,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "comes"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Here comes the sun, doo-doo-doo-doo\nHere comes the sun, and I say\nIt's all right\nLittle darling, it's been a long cold lonely winter\nLittle darling, it feels like years since it's been here\nHere comes the sun, doo-doo-doo-doo\nHere comes the sun, and I say\nIt's all right\nLittle darling, the smile's returning to their faces\nLittle darling, it seems like years since it's been here\nHere comes the sun, doo-doo-doo-doo\nHere comes the sun, and I say\nIt's all right",
     "duration": "3:05"
   },
   {
@@ -1085,72 +1082,73 @@ window.SONGBOOK_DATA_13JUN26 = [
       "2023 mix - the beatles"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "There are places I'll remember\nAll my life, though some have changed\nSome forever, not for better\nSome have gone and some remain\nAll these places had their moments\nWith lovers and friends, I still can recall\nSome are dead, and some are living\nIn my life, I've loved them all\nBut of all these friends and lovers\nThere is no one compares with you\nAnd these memories lose their meaning\nWhen I think of love as something new\nThough I know I'll never lose affection\nFor people and things that went before\nI know I'll often stop and think about them\nIn my life, I love you more\nThough I know I'll never lose affection\nFor people and things that went before\nI know I'll often stop and think about them\nIn my life, I love you more\nIn my life, I love you more",
     "duration": "2:26"
   },
   {
-    "id": "a-day-in-the-life",
-    "title": "A Day In The Life",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "all-by-myself",
+    "title": "All By Myself",
+    "artist": "Eric Carmen",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "a day in the life",
-      "remastered 2009 - the beatles",
-      "life"
+      "all by myself",
+      "eric carmen"
     ],
     "snippet": "",
     "lyrics": "",
     "duration": "5:37"
   },
   {
-    "id": "strawberry-fields-forever",
-    "title": "Strawberry Fields Forever",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "alone-again-naturally",
+    "title": "Alone Again Naturally",
+    "artist": "Gilbert O'Sullivan",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "strawberry fields forever",
-      "remastered 2009 - the beatles",
-      "strawberry",
-      "fields",
-      "forever"
+      "alone again naturally",
+      "gilbert o'sullivan",
+      "alone",
+      "again",
+      "naturally"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "4:07"
+    "lyrics": "In a little while from now\nIf I'm not feeling any less sour\nI promised myself to treat myself\nAnd visit a nearby tower\nAnd climbing to the top\nWill throw myself off\nIn an effort to make it clear to whoever\nWhat it's like when you're shattered\nLeft standing in the lurch, at a church\nWhere people saying\nMy God, that's tough, she stood him up\nNo point in us remaining\nWe may as well go home?\nAs I did on my own\nAlone again, naturally\nTo think that only yesterday\nI was cheerful, bright and gay\nLooking forward to, but who wouldn't do?\nThe role I was about to play\nBut as if to knock me down\nReality came around\nAnd without so much, as a mere touch\nCut me into little pieces\nLeaving me to doubt\nTalk about God and his mercy\nFor if He really does exist\nWhy did he desert me?\nIn my hour of need?\nI truly am indeed\nAlone again, naturally\nIt seems to me that there are more hearts broken in the world\nThat can't be mended\nLeft unattended\nWhat do we do? What do we do?\nAlone again, naturally\nNow looking back over the years\nAnd what ever else that appears\nI remember I cried when my father died\nNever wishing to hide the tears\nAnd at sixty-five years old\nMy mother, God rest her soul\nCouldn't understand why the only man\nShe had ever loved had been taken\nLeaving her to start with a heart\nSo badly broken\nDespite encouragement from me\nNo words were ever spoken\nAnd when she passed away\nI cried and cried all day\nAlone again, naturally\nAlone again, naturally",
+    "duration": "3:31"
   },
   {
-    "id": "penny-lane",
-    "title": "Penny Lane",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "american-pie",
+    "title": "American Pie",
+    "artist": "Don McLean",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "penny lane",
-      "remastered 2009 - the beatles",
-      "penny",
-      "lane"
+      "american pie",
+      "don mclean",
+      "american",
+      "pie"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:00"
+    "lyrics": "A long, long time ago\nI can still remember how that music\nUsed to make me smile\nAnd I knew if I had my chance\nThat I could make those people dance\nAnd maybe they'd be happy for a while\nBut February made me shiver\nWith every paper I'd deliver\nBad news on the doorstep\nI couldn't take one more step\nI can't remember if I cried\nWhen I read about his widowed bride\nBut something touched me deep inside\nThe day the music died\nSo, bye-bye, Miss American Pie\nDrove my Chevy to the levee, but the levee was dry\nAnd them good ole boys were drinkin' whiskey and rye\nSingin': This'll be the day that I die\nThis'll be the day that I die\nDid you write the book of love?\nAnd do you have faith in God above\nIf the Bible tells you so?\nNow, do you believe in rock 'n' roll?\nCan music save your mortal soul?\nAnd can you teach me how to dance real slow?\nWell, I know that you're in love with him\n'Cause I saw you dancin' in the gym\nYou both kicked off your shoes\nMan, I dig those rhythm and blues\nI was a lonely teenage broncin' buck\nWith a pink carnation and a pickup truck\nBut I knew I was out of luck\nThe day the music died\nI started singin': Bye-bye, Miss American Pie\nDrove my Chevy to the levee, but the levee was dry\nThem good ole boys were drinkin' whiskey and rye\nAnd singin': This'll be the day that I die\nThis'll be the day that I die\nNow, for ten years, we've been on our own\nAnd moss grows fat on a rollin' stone\nBut that's not how it used to be\nWhen the jester sang for the king and queen\nIn a coat he borrowed from James Dean\nAnd a voice that came from you and me\nOh, and while the king was lookin' down\nThe jester stole his thorny crown\nThe courtroom was adjourned\nNo verdict was returned\nAnd while Lenin read a book on Marx\nThe quartet practiced in the park\nAnd we sang dirges in the dark\nThe day the music died\nWe were singin': Bye-bye, Miss American Pie\nDrove my Chevy to the levee, but the levee was dry\nThem good ole boys were drinkin' whiskey and rye\nAnd singin': This'll be the day that I die\nThis'll be the day that I die\nHelter-skelter in the summer swelter\nThe birds flew off with a fallout shelter\nEight miles high and fallin' fast\nIt landed foul on the grass\nThe players tried for a forward pass\nWith the jester on the sidelines in a cast\nNow, the halftime air was sweet perfume\nWhile sergeants played a marching tune\nWe all got up to dance\nOh, but we never got the chance\n'Cause the players tried to take the field\nThe marching band refused to yield\nDo you recall what was revealed\nThe day the music died?\nWe started singin': Bye-bye, Miss American Pie\nDrove my Chevy to the levee, but the levee was dry\nThem good ole boys were drinkin' whiskey and rye\nSingin': This'll be the day that I die\nThis'll be the day that I die\nOh, and there we were, all in one place\nA generation lost in space\nWith no time left to start again\nSo, come on, Jack, be nimble, Jack, be quick\nJack Flash sat on a candlestick\n'Cause fire is the Devil's only friend\nOh, and as I watched him on the stage\nMy hands were clenched in fists of rage\nNo angel born in Hell\nCould break that Satan's spell\nAnd as the flames climbed high into the night\nTo light the sacrificial rite\nI saw Satan laughing with delight\nThe day the music died\nHe was singin': Bye-bye, Miss American Pie\nDrove my Chevy to the levee, but the levee was dry\nThem good ole boys were drinkin' whiskey and rye\nSingin': This'll be the day that I die\nThis'll be the day that I die\nI met a girl who sang the blues\nAnd I asked her for some happy news\nBut she just smiled and turned away\nI went down to the sacred store\nWhere I'd heard the music years before\nBut the man there said the music wouldn't play\nAnd in the streets, the children screamed\nThe lovers cried, and the poets dreamed\nBut not a word was spoken\nThe church bells all were broken\nAnd the three men I admire most\nThe Father, Son, and the Holy Ghost\nThey caught the last train for the coast\nThe day the music died\nAnd they were singin': Bye-bye, Miss American Pie\nDrove my Chevy to the levee, but the levee was dry\nThem good ole boys were drinkin' whiskey and rye\nSingin': This'll be the day that I die\nThis'll be the day that I die\nThey were singin': Bye-bye, Miss American Pie\nDrove my Chevy to the levee, but the levee was dry\nThem good ole boys were drinkin' whiskey and rye\nSingin': This'll be the day that I die",
+    "duration": "8:37"
   },
   {
-    "id": "eleanor-rigby",
-    "title": "Eleanor Rigby",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "another-one-bites-the-dust",
+    "title": "Another One Bites The Dust",
+    "artist": "Remastered 2009 - Queen",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "eleanor rigby",
-      "remastered 2009 - the beatles",
-      "eleanor",
-      "rigby"
+      "another one bites the dust",
+      "remastered 2009 - queen",
+      "another",
+      "one",
+      "bites",
+      "dust"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "2:06"
+    "lyrics": "Uh, let's go\nSteve walks warily down the street\nWith his brim pulled way down low\nAin't no sound but the sound of his feet\nMachine guns ready to go\nAre you ready, hey, are you ready for this?\nAre you hanging on the edge of your seat?\nOut of the doorway the bullets rip\nTo the sound of the beat, yeah\nAnother one bites the dust\nAnother one bites the dust\nAnd another one gone, and another one gone\nAnother one bites the dust\nHey, I'm gonna get you too\nAnother one bites the dust\nHow do you think I'm going to get along\nWithout you when you're gone\nYou took me for everything that I had\nAnd kicked me out on my own\nAre you happy, are you satisfied?\nHow long can you stand the heat?\nOut of the doorway the bullets rip\nTo the sound of the beat, look out\nAnother one bites the dust\nAnother one bites the dust\nAnd another one gone, and another one gone\nAnother one bites the dust\nHey, I'm gonna get you too\nAnother one bites the dust\nHey\nOh, take it, bite the dust, bite the dust\nHey, another one bites the dust\nAnother one bites the dust, ow\nAnother one bites the dust, hey, hey\nAnother one bites the dust, hah\nOh, shoot out\nThere are plenty of ways that you can hurt a man\nAnd bring him to the ground\nYou can beat him, you can cheat him\nYou can treat him bad and leave him\nWhen he's down\nBut I'm ready, yes I'm ready for you\nI'm standing on my own two feet\nOut of the doorway the bullets rip\nRepeating to the sound of the beat\nAnother one bites the dust\nAnother one bites the dust\nAnd another one gone, and another one gone\nAnother one bites the dust, yeah\nHey, I'm gonna get you too\nAnother one bites the dust\nShoot out\nYeah, alright",
+    "duration": "3:35"
   },
   {
     "id": "yellow-submarine",
@@ -1165,7 +1163,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "submarine"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "In the town where I was born\nLived a man who sailed the sea\nAnd he told us of his life\nIn the land of submarines\nSo we sailed up to the Sun\nTill we found the sea of green\nAnd we lived beneath the waves\nIn our yellow submarine\nWe all live in a yellow submarine\nYellow submarine, yellow submarine\nWe all live in a yellow submarine\nYellow submarine, yellow submarine\nAnd our friends are all aboard\nMany more of them live next door\nAnd the band begins to play\nWe all live in a yellow submarine\nYellow submarine, yellow submarine\nWe all live in a yellow submarine\nYellow submarine, yellow submarine\n(Full speed ahead, Mister Bosun, full speed ahead!)\n(Full speed immediately, Sargeant!)\n(Cut the cable! Drop the cable!)\n(Aye-aye, sir, aye-aye)\n(Captain! Captain!)\nAs we live a life of ease\nEvery one of us (every one of us)\nHas all we need (has all we need)\nSky of blue (sky of blue)\nAnd sea of green (sea of green)\nIn our yellow (in our yellow) submarine (submarine, haha)\nWe all live in a yellow submarine\nYellow submarine, yellow submarine\nWe all live in a yellow submarine\nYellow submarine, yellow submarine\nWe all live in a yellow submarine\nYellow submarine, yellow submarine\nWe all live in a yellow submarine\nYellow submarine, yellow submarine",
     "duration": "2:38"
   },
   {
@@ -1198,7 +1196,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "remastered 2009 - the beatles"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Blackbird singing in the dead of night\nTake these broken wings and learn to fly\nAll your life\nYou were only waiting for this moment to arise\nBlackbird singing in the dead of night\nTake these sunken eyes and learn to see\nAll your life\nYou were only waiting for this moment to be free\nBlackbird, fly\nBlackbird, fly\nInto the light of the dark black night\nBlackbird, fly\nBlackbird, fly\nInto the light of the dark black night\nBlackbird singing in the dead of night\nTake these broken wings and learn to fly\nAll your life\nYou were only waiting for this moment to arise\nYou were only waiting for this moment to arise\nYou were only waiting for this moment to arise",
     "duration": "2:18"
   },
   {
@@ -1216,7 +1214,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "hand"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Oh, yeah, I'll tell you something\nI think you'll understand\nWhen I say that something\nI want to hold your hand\nI want to hold your hand\nI want to hold your hand\nOh, please, say to me\nYou'll let me be your man\nAnd, please, say to me\nYou'll let me hold your hand\nNow let me hold your hand\nI want to hold your hand\nAnd when I touch you, I feel happy inside\nIt's such a feeling that, my love\nI can't hide, I can't hide, I can't hide\nYeah, you've got that something\nI think you'll understand\nWhen I say that something\nI want to hold your hand\nI want to hold your hand\nI want to hold your hand\nAnd when I touch you, I feel happy inside\nIt's such a feeling that, my love\nI can't hide, I can't hide, I can't hide\nYeah, you've got that something\nI think you'll understand\nWhen I feel that something\nI want to hold your hand\nI want to hold your hand\nI want to hold your hand",
     "duration": "2:26"
   },
   {
@@ -1232,7 +1230,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "mono / remastered 2015 - the beatles"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "She loves you\nYeah, yeah, yeah\nShe loves you\nYeah, yeah, yeah\nShe loves you\nYeah, yeah, yeah, yeah\nYou think you've lost your love\nWell, I saw her yesterday\nIt's you she's thinking of\nAnd she told me what to say\nShe says she loves you\nAnd you know that can't be bad\nYes, she loves you\nAnd you know you should be glad\nShe said you hurt her so\nShe almost lost her mind\nBut now she says she knows\nYou're not the hurting kind\nShe says she loves you\nAnd you know that can't be bad\nYes, she loves you\nAnd you know you should be glad\nShe loves you\nYeah, yeah, yeah\nShe loves you\nYeah, yeah, yeah\nWith a love like that\nYou know you should be glad\nYou know it's up to you\nI think it's only fair\nPride can hurt you too\nApologize to her\nBecause she loves you\nAnd you know that can't be bad\nShe loves you\nAnd you know you should be glad\nShe loves you\nYeah, yeah, yeah\nShe loves you\nYeah, yeah, yeah\nWith a love like that you know you should be glad\nWith a love like that you know you should be glad\nWith a love like that you know you should be glad\nYeah, yeah, yeah\nYeah, yeah, yeah, yeah",
     "duration": "2:21"
   },
   {
@@ -1247,7 +1245,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "love"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Love, love me do\nYou know I love you\nI'll always be true\nSo please, love me do\nWhoa-oh, love me do\nLove, love me do\nYou know I love you\nI'll always be true\nSo please, love me do\nWhoa-oh, love me do\nSomeone to love\nSomebody new\nSomeone to love\nSomeone like you\nLove, love me do\nYou know I love you\nI'll always be true\nSo please, love me do\nWhoa-oh, love me do\nLove, love me do\nYou know I love you\nI'll always be true\nSo please, love me do\nWhoa-oh, love me do\nYeah, love me do\nWhoa-oh, love me do",
     "duration": "2:21"
   },
   {
@@ -1262,56 +1260,54 @@ window.SONGBOOK_DATA_13JUN26 = [
       "please"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Last night, I said these words to my girl\nI know you never even try, girl\nCome on (come on)\nCome on (come on)\nCome on (come on)\nCome on (come on)\nPlease, please me, whoa, yeah\nLike I please you\nYou don't need me to show the way, love\nWhy do I always have to say, love?\nCome on (come on)\nCome on (come on)\nCome on (come on)\nCome on (come on)\nPlease, please me, woah, yeah\nLike I please you\nI don't want to sound complaining (ah-ooh)\nBut you know there's always rain in my heart (in my heart)\nI do all the pleasing, with you it's so hard to reason (ah-ooh)\nWith you, woah, yeah, why do you make me blue?\nLast night, I said these words to my girl\nWhy do I never even try, girl? (I know you never even try, girl)\nCome on (come on)\nCome on (come on)\nCome on (come on)\nCome on (come on)\nPlease, please me, woah, yeah\nLike I please you\nMe, woah, yeah\nLike I please you\nMe, woah, yeah\nLike I please you",
     "duration": "2:00"
   },
   {
-    "id": "a-hard-day-s-night",
-    "title": "A Hard Day's Night",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "at-last",
+    "title": "At Last",
+    "artist": "Etta James",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "a hard day's night",
-      "remastered 2009 - the beatles",
-      "hard",
-      "night"
+      "at last",
+      "etta james",
+      "at",
+      "last"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "2:34"
+    "lyrics": "At last\nMy love has come along\nMy lonely days are over\nAnd life is like a song\nOhh yeah yeah\nAt last\nThe skies above are blue\nMy heart was wrapped up in clovers\nThe night I looked at you\nI found a dream, that I could speak to\nA dream that I can call my own\nI found a thrill to press my cheek to\nA thrill that I have never known\nOhh yeah yeah\nYou smile, you smile\nOh and then the spell was cast\nAnd here we are in heaven\nFor you are mine at last",
+    "duration": "3:00"
   },
   {
-    "id": "can-t-buy-me-love",
-    "title": "Can't Buy Me Love",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "back-to-black",
+    "title": "Back to Black",
+    "artist": "Amy Winehouse",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "can't buy me love",
-      "remastered 2009 - the beatles",
-      "love"
+      "back to black",
+      "amy winehouse",
+      "back",
+      "black"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "2:11"
+    "lyrics": "He left no time to regret\nKept his dick wet\nWith his same old safe bet\nMe and my head high\nAnd my tears dry\nGet on without my guy\nYou went back to what you know\nSo far removed\nFrom all that we went through\nAnd I tread a troubled track\nMy odds are stacked\nI'll go back to black\nWe only said goodbye with words\nI died a hundred times\nYou go back to her and I go back to\nI go back to us\nI love you much\nIt's not enough\nYou love blow and I love puff\nAnd life is like a pipe\nAnd I'm a tiny penny rolling up the walls inside\nWe only said goodbye with words\nI died a hundred times\nYou go back to her and I go back to\nWe only said goodbye with words\nI died a hundred times\nYou go back to her and I go back to\nBlack\nBlack\nBlack\nBlack\nBlack\nBlack\nBlack\nI go back to\nI go back to\nWe only said goodbye with words\nI died a hundred times\nYou go back to her and I go back to\nWe only said goodbye with words\nI died a hundred times\nYou go back to her and I go back to black",
+    "duration": "4:01"
   },
   {
-    "id": "eight-days-a-week",
-    "title": "Eight Days A Week",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "beautiful",
+    "title": "Beautiful",
+    "artist": "Christina Aguilera",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "eight days a week",
-      "remastered 2009 - the beatles",
-      "eight",
-      "days",
-      "week"
+      "beautiful",
+      "christina aguilera"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "2:43"
+    "lyrics": "Every day is so wonderful\nAnd suddenly, it's hard to breathe\nNow and then, i get insecure\nFrom all the pain, i'm so ashamed\nI am beautiful no matter what they say\nWords can't bring me down\nI am beautiful in every single way\nYes, words can't bring me down\nSo don't you bring me down today\nTo all your friends, you're delirious\nSo consumed in all your doom\nTrying hard to fill the emptiness\nThe pieces gone, left the puzzle undone\nIs that the way it is?\nYou are beautiful no matter what they say\nWords can't bring you down\nYou are beautiful in every single way\nYes, words can't bring you down\nSo don't you bring me down today...\nNo matter what we do\n(no matter what we do)\nNo matter what we say\n(no matter what we say)\nWe're the song inside the tune\nFull of beautiful mistakes\nAnd everywhere we go\n(and everywhere we go)\nThe sun will always shine\n(sun will always shine)\nBut tomorrow we might awake\nOn the other side\n'cause we are beautiful no matter what they say\nYes, words won't bring us down\nWe are beautiful in every single way\nYes, words can't bring us down\nSo, don't you bring me down today\nDon't you bring me down today\nDon't you bring me down today",
+    "duration": "3:59"
   },
   {
     "id": "ticket-to-ride",
@@ -1326,7 +1322,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "ride"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "I think I'm gonna be sad\nI think it's today, yeah\nThe girl that's drivin' me mad\nIs goin' away\nShe's got a ticket to ride\nShe's got a ticket to ride\nShe's got a ticket to ride\nBut she don't care\nShe said that livin' with me\nWas bringin' her down, yeah\nShe would never be free\nWhen I was around\nShe's got a ticket to ride\nShe's got a ticket to ride\nShe's got a ticket to ride\nBut she don't care\nI don't know why she's ridin' so high\nShe ought to think twice\nShe ought to do right by me\nBefore she gets to sayin' goodbye\nShe ought to think twice\nShe ought to do right by me\nI think I'm gonna be sad\nI think it's today, yeah\nThe girl that's drivin' me mad\nIs goin' away, yeah\nAh, she's got a ticket to ride\nShe's got a ticket to ride\nShe's got a ticket to ride\nBut she don't care\nI don't know why she's ridin' so high\nShe ought to think twice\nShe ought to do right by me\nBefore she gets to sayin' goodbye\nShe ought to think twice\nShe ought to do right by me\nShe said that livin' with me\nWas bringin' her down, yeah\nShe would never be free\nWhen I was around\nAh, she's got a ticket to ride\nShe's got a ticket to ride\nShe's got a ticket to ride\nBut she don't care\nMy baby don't care\nMy baby don't care\nMy baby don't care\nMy baby don't care",
     "duration": "3:10"
   },
   {
@@ -1341,7 +1337,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "loving"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "All my loving, I want to give you all my loving\nI know you're gonna be my wife, yeah\nAll my loving, I want to give you all my loving\nI know you're gonna be my wife, yeah\nAll my loving, I want to give you all my loving\nI know you're gonna be my wife, yeah\nAll my loving, I want to give you all my loving\nI know you're gonna be my wife, yeah",
     "duration": "2:08"
   },
   {
@@ -1374,7 +1370,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "together"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Shoot me, shoot me\nShoot me, shoot me\nHere come old flat-top\nHe come grooving up slowly\nHe got joo-joo eyeballs\nHe one holy roller\nHe got hair down to his knee\nGot to be a joker, he just do what he please\nShoot me, shoot me\nShoot me, shoot me\nHe wear no shoeshine\nHe got toe-jam football\nHe got monkey finger\nHe shoot Coca-Cola\nHe say: I know you, you know me\nOne thing I can tell you is you got to be free\nCome together, right now\nOver me\nShoot me, shoot me\nShoot me\nHe bag production\nHe got walrus gumboot\nHe got Ono sideboard\nHe one spinal cracker\nHe got feet down below his knee\nHold you in his armchair, you can feel his disease\nCome together, right now\nOver me\nShoot me, right!\nCome, come\nCome, come\nCome\nHe roller coaster\nHe got early warning\nHe got muddy water\nHe one mojo filter\nHe say: One and one and one is three\nGot to be good looking, 'cause he's so hard to see\nCome together, right now\nOver me\nShoot me, shoot me\nShoot me, oh\nCome together, yeah\nCome together, yeah\nCome together, yeah\nCome together, yeah\nCome together, yeah\nCome together, yeah\nCome together, yeah\nCome together, yeah\nCome together, yeah",
     "duration": "4:20"
   },
   {
@@ -1389,23 +1385,22 @@ window.SONGBOOK_DATA_13JUN26 = [
       "back"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Jo Jo was a man who thought he was a loner\nBut he knew it couldn't last\nJo Jo left his home in Tucson Arizona\nFor some California grass\nGet back, get back\nGet back to where you once belonged\nGet back, get back\nGet back to where you once belonged\nGet back, Jo Jo!\nGo home\nGet back, get back\nGet back to where you once belonged\nGet back, get back\nGet back to where you once belonged\nGet back, Jo\nSweet Loretta Martin thought she was a woman\nBut she was another man\nAll the girls around her say she's got it coming\nBut she gets it while she can\nGet back, get back\nGet back to where you once belonged\nGet back, get back\nGet back to where you once belonged\nGet back, Loretta!\nGo home\nGet back, get back\nGet back to where you once belonged\nGet back, get back\nGet back to where you once belonged\nGet back, Loretta\nYour mommy is waiting for you\nWearing her high heel shoes and her low neck sweater\nGet Back home Loretta\nGet back, get back\nGet back to where you once belonged\nGet back, get back\nGet back to where you once belonged",
     "duration": "3:11"
   },
   {
-    "id": "back-in-the-u-s-s-r",
-    "title": "Back In the U.S.S.R.",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "beat-it",
+    "title": "Beat It",
+    "artist": "2012 Remaster - Michael Jackson",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "back in the u.s.s.r.",
-      "remastered 2009 - the beatles",
-      "back"
+      "beat it",
+      "2012 remaster - michael jackson"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "2:43"
+    "lyrics": "They told him: Don't you ever come around here\nDon't wanna see your face, you better disappear\nThe fire's in their eyes\nAnd their words are really clear\nSo beat it, just beat it\nYou better run, you better do what you can\nDon't wanna see no blood, don't be a macho man (oh)\nYou wanna be tough, better do what you can\nSo beat it, but you wanna be bad\nJust beat it (beat it), beat it (beat it)\nNo one wants to be defeated\nShowin' how funky and strong is your fight\nIt doesn't matter who's wrong or right\nJust beat it (beat it)\nJust beat it (beat it)\nJust beat it (beat it)\nJust beat it (beat it) (uh)\nThey're out to get you\nBetter leave while you can\nDon't wanna be a boy, you wanna be a man\nYou wanna stay alive? Better do what you can\nSo beat it, just beat it (oh)\nYou have to show them that you're really not scared\nYou're playin' with your life\nThis ain't no truth or dare (oh)\nThey'll kick you, then they'll beat you\nThen they'll tell you: It's fair\nSo beat it, but you wanna be bad\nJust beat it (beat it), beat it (beat it)\nNo one wants to be defeated\nShowin' how funky and strong is your fight\nIt doesn't matter who's wrong or right\nJust beat it (beat it), beat it (beat it)\nNo one wants to be defeated\nShowin' how funky and strong is your fight\nIt doesn't matter who's wrong or right\nJust beat it (beat it, beat it, beat it)\nBeat it, beat it, beat it\nBeat it, beat it, beat it\nBeat it, beat it, beat it\nBeat it, beat it, beat it\nBeat it (beat it), beat it (beat it)\nNo one wants to be defeated\nShowin' how funky and strong is your fight\nIt doesn't matter who's wrong or right (who's right)\nJust beat it (beat it), beat it (beat it)\nNo one wants to be defeated (oh, Lord)\nShowin' how funky and strong is your fight\nIt doesn't matter who's wrong or right\nJust beat it (beat it), beat it (beat it)\nNo one wants to be defeated (oh, no)\nShowin' how funky and strong is your fight\nIt doesn't matter who's wrong or right\nJust beat it (beat it), beat it (beat it)\nNo one wants to be defeated (oh, Lord)\nShowin' how funky and strong is your fight\nIt doesn't matter who's wrong or right\nJust beat it (beat it), beat it (beat it)\nNo one wants to be defeated (oh, no)\nShowin' how funky and strong is your fight\nIt doesn't matter who's wrong or right",
+    "duration": "4:54"
   },
   {
     "id": "ob-la-di-ob-la-da",
@@ -1419,25 +1414,21 @@ window.SONGBOOK_DATA_13JUN26 = [
       "remastered 2015 - the beatles"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Desmond has a barrow in the market place,\nMolly is the singer in a band.\nDesmond says to molly, \"girl, I like your face,\"\nAnd molly says this as she takes him by the hand:\nObladi, oblada, life goes on, bra,\nLala how their life goes on.\nObladi, oblada, life goes on, bra,\nLala how their life goes on.\nDesmond takes a trolley to the jeweler's store,\nBuys a twenty carat golden ring.\nTakes it back to molly waiting at the door,\nAnd as he gives it to her she begins to sing:\nObladi, oblada, life goes on, bra,\nLala how their life goes on.\nObladi, oblada, life goes on, bra,\nLala how their life goes on.\nIn a couple of years,\nThey have built a home sweet home.\nWith a couple of kids running in the yard\nOf desmond and molly jones.\nHappy ever after in the market place,\nDesmond lets the children lend a hand.\nMolly stays at home and does her pretty face,\nAnd in the evening she still sings it with the band.\nObladi, oblada, life goes on, bra,\nLala how their life goes on.\nObladi, oblada, life goes on, bra,\nLala how their life goes on.\nIn a couple of years,\nThey have built a home sweet home.\nWith a couple of kids running in the yard\nOf desmond and molly jones.\nHappy ever after in the market place,\nMolly lets the children lend a hand.\nDesmond stays at home and does his pretty face,\nAnd in the evening she's a singer with the band.\nObladi, oblada, life goes on, bra,\nLala how their life goes on.\nObladi, oblada, life goes on, bra,\nLala how their life goes\nAnd if you want some fun, take obladiblada",
     "duration": "3:08"
   },
   {
-    "id": "while-my-guitar-gently-weeps",
-    "title": "While My Guitar Gently Weeps",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "billie-jean",
+    "title": "Billie Jean",
+    "artist": "2012 Remaster - Michael Jackson",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "while my guitar gently weeps",
-      "remastered 2009 - the beatles",
-      "while",
-      "guitar",
-      "gently",
-      "weeps"
+      "billie jean",
+      "2012 remaster - michael jackson"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "She was more like a beauty queen from a movie scene\nI said: Don't mind, but what do you mean: I am the one\nWho will dance on the floor in the round?\nShe said I am the one who will dance on the floor in the round\nShe told me her name was Billie Jean, as she caused a scene\nThen every head turned with eyes that dreamed of being the one\nWho will dance on the floor in the round\nPeople always told me: Be careful of what you do\nAnd don't go around breaking young girl's hearts\nMy mother always told me: Be careful of who you love\nAnd be careful of what you do, 'cause the lie becomes the truth\nThe Billie Jean is not my lover\nShe's just a girl who claims that I am the one\nBut the kid is not my son\nShe says I am the one, but the kid is not my son\nFor forty days and for forty nights\nThe law was on her side\nBut who can stand when she's in demand\nHer schemes and plans\n'Cause we danced on the floor in the round\nSo take my strong advice\nJust remember to always think twice\n(Do think twice, do think twice)\nShe told: My baby, we danced till three\nThen she looked at me\nThen showed a photo: My baby cried\nHis eyes were like mine\n'Cause we danced on the floor in the round, baby\nPeople always told me: Be careful of what you do\nAnd don't go around breaking young girls' hearts\nBut she came and stood right by me\nJust to smell her sweet perfume\nThis happened much too soon\nShe called me to her room\nThe Billie Jean is not my lover\nShe's just a girl who claims that I am the one\nBut the kid is not my son\nThe Billie Jean is not my lover\nShe's just a girl who claims that I am the one\nBut the kid is not my son\nShe says I am the one, but the kid is not my son\nShe says I am the one, but the kid is not my son\nThe Billie Jean is not my lover\nShe's just a girl who claims that I am the one\n(No, she is not just my baby)\nBut the kid is not my son\nShe says I am the one, but the kid is not my son\nShe says I am the one\n(You know what you did)\nShe says he is my son\n(Breaking my heart, babe)\nShe says I am the one\nThe Billie Jean is not my lover\nThe Billie Jean is not my lover\nThe Billie Jean is not my lover\nThe Billie Jean is not my lover\n(Call me, Billie Jean)\nThe Billie Jean is not my lover\n(She is not at the scene)\nThe Billie Jean is not my lover",
     "duration": "4:45"
   },
   {
@@ -1451,7 +1442,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "remastered 2009 - the beatles"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "You say you want a revolution\nWell, you know\nWe all want to change the world\nYou tell me that it's evolution\nWell, you know\nWe all want to change the world\nBut when you talk about destruction\nDon't you know that you can count me out\nDon't you know it's gonna be\nAll right\nAll right\nAll right\nYou say you got a real solution\nWell, you know\nWe'd all love to see the plan\nYou ask me for a contribution\nWell you know\nWe're all doing what we can\nBut if you want money for people with minds that hate\nAll I can tell you is brother you have to wait\nDon't you know it's gonna be\nAll right\nAll right\nAll right\nYou say you'll change the constitution\nWell, you know\nWe'd all love to change your head\nYou tell me it's the institution\nWell, you know\nYou'd better free your mind instead\nBut if you go carrying pictures of Chairman Mao\nYou ain't going to make it with anyone anyhow\nDon't you know it's gonna be\nAll right\nAll right\nAll right\nAll right",
     "duration": "3:24"
   },
   {
@@ -1466,7 +1457,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "down"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Don't let me down\nDon't let me down\nDon't let me down\nDon't let me down\nNobody ever loved me like she does\nOh, she does, yeah, she does\nAnd if somebody loved me like she does\nOh, she does, yes, she does\nDon't let me down\nDon't let me down\nDon't let me down\nDon't let me down\nI'm in love for the first time\nDon't you know it's gonna last\nIt's a love that lasts forever\nIt's a love that has no past\nDon't let me down\nDon't let me down\nDon't let me down\nDon't let me down\nAnd from the first time\nThat she really done me\nOh, she done me, she done me good\nI guess nobody ever really done me\nOh, she done me, she done me good\nDon't let me down\nDon't let me down\nDon't let me down\nDon't let me down",
     "duration": "3:35"
   },
   {
@@ -1482,62 +1473,53 @@ window.SONGBOOK_DATA_13JUN26 = [
       "universe"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Words are flowing out like endless rain into a paper cup\nThey slither wildly as they slip away across the universe\nPools of sorrow, waves of joy are drifting through my opened mind\nPossessing and caressing me\nJai Guru Deva, Om\nNothing's gonna change my world\nNothing's gonna change my world\nNothing's gonna change my world\nNothing's gonna change my world\nImages of broken light which dance before me like a million eyes\nThey call me on and on across the universe\nThoughts meander like a restless wind inside a letter box\nThey tumble blindly as they make their way across the universe\nJai Guru Deva, Om\nNothing's gonna change my world\nNothing's gonna change my world\nNothing's gonna change my world\nNothing's gonna change my world\nSounds of laughter, shades of life are ringing through my opened ears\nInciting and inviting me\nLimitless undying love which shines around me like a million suns\nAnd calls me on and on across the universe\nJai Guru Deva, Om\nNothing's gonna change my world\nNothing's gonna change my world\nNothing's gonna change my world\nNothing's gonna change my world\nJai Guru Deva\nJai Guru Deva\nJai Guru Deva\nJai Guru Deva\nJai Guru Deva\nJai Guru Deva",
     "duration": "3:48"
   },
   {
-    "id": "lucy-in-the-sky-with-diamonds",
-    "title": "Lucy In The Sky With Diamonds",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "bitch",
+    "title": "Bitch",
+    "artist": "Meredith Brooks",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "lucy in the sky with diamonds",
-      "remastered 2009 - the beatles",
-      "lucy",
-      "with",
-      "diamonds"
+      "bitch",
+      "meredith brooks"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "3:28"
+    "lyrics": "I hate the world today\nYou're so good to me\nI know but I can't change\nTried to tell you but you look at me like maybe I'm an angel underneath\nInnocent and sweet\nYesterday I cried\nYou must have been relieved to see the softer side\nI can understand how you'd be so confused\nI don't envy you\nI'm a little bit of everything\nAll rolled into one\nI'm a bitch, I'm a lover\nI'm a child, I'm a mother\nI'm a sinner, I'm a saint\nI do not feel ashamed\nI'm your hell, I'm your dream\nI'm nothing in between\nYou know you wouldn't want it any other way\nSo take me as I am\nThis may mean you'll have to be a stronger man\nRest assured that when I start to make you nervous\nAnd I'm going to extremes\nTomorrow I will change\nAnd today won't mean a thing\nI'm a bitch, I'm a lover\nI'm a child, I'm a mother\nI'm a sinner, I'm a saint\nI do not feel ashamed\nI'm your hell, I'm your dream\nI'm nothing in between\nYou know you wouldn't want it any other way\nJust when you think you've got me figured out\nThe season's already changing\nI think it's cool you do what you do\nAnd don't try to save me\nI'm a bitch, I'm a lover\nI'm a child, I'm a mother\nI'm a sinner, I'm a saint\nI do not feel ashamed\nI'm your hell, I'm your dream\nI'm nothing in between\nYou know you wouldn't want it any other way\nI'm a bitch, I'm a tease\nI'm a goddess on my knees\nWhen you hurt, when you suffer\nI'm your angel undercover\nI've been numbed, I'm revived\nCan't say I'm not alive\nYou know I wouldn't want it any other way",
+    "duration": "4:13"
   },
   {
-    "id": "with-a-little-help-from-my-friends",
-    "title": "With A Little Help From My Friends",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "bohemian-rhapsody",
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "with a little help from my friends",
-      "remastered 2009 - the beatles",
-      "with",
-      "little",
-      "help",
-      "from",
-      "friends"
+      "bohemian rhapsody",
+      "queen",
+      "bohemian",
+      "rhapsody"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "2:44"
+    "lyrics": "Is this the real life?\nIs this just fantasy?\nCaught in a landslide\nNo escape from reality\nOpen your eyes\nLook up to the skies and see\nI'm just a poor boy\nI need no sympathy\nBecause I'm easy come, easy go\nLittle high, little low\nAnyway the wind blows\nDoesn't really matter to me\nTo me\nMama, just killed a man\nPut a gun against his head\nPulled my trigger, now he's dead\nMama, life had just begun\nBut now I've gone and thrown it all away\nMama! Ooh!\nDidn't mean to make you cry\nIf I'm not back again this time tomorrow\nCarry on, carry on\nAs if nothing really matters\nToo late, my time has come\nSends shivers down my spine\nBody's aching all the time\nGoodbye, everybody\nI've got to go\nGotta leave you all behind\nAnd face the truth\nMama! Ooh!\n(Anyway the wind blows)\nI don't wanna die\nI sometimes wish I'd never been born at all\nI see a little silhouetto of a man\nScaramouche! Scaramouche!\nWill you do the fandango?\nThunderbolt and lightning\nVery, very frightening me!\nGalileo! Galileo!\nGalileo! Galileo!\nGalileo, Figaro!\nMagnifico!\nI'm just a poor boy and nobody loves me\n(He's just a poor boy from a poor family)\n(Spare him his life, from this monstrosity)\nEasy come, easy go\nWill you let me go?\nBismillah!\nNo, we will not let you go!\n(Let him go!)\nBismillah!\nWe will not let you go!\n(Let him go!)\nBismillah!\nWe will not let you go!\n(Let me go!)\nWill not let you go!\n(Let me go!)\nNever, never let you go!\nNever, never, never let me go!\nNo, no, no, no, no, no, no!\nOh, mamma mia, mamma mia!\nMamma mia, let me go!\nBeelzebub has a devil put aside for me!\nFor me!\nFor me!\nSo you think you can stone me and spit in my eye?\nSo you think you can love me and leave me to die?\nOh, baby!\nCan't do this to me, baby!\nJust gotta get out\nJust gotta get right outta here!\nOh, yeah!\nOh, yeah!\nNothing really matters\nAnyone can see\nNothing really matters\nNothing really matters to me\nAnyway the wind blows",
+    "duration": "5:55"
   },
   {
-    "id": "sgt-pepper-s-lonely-hearts-club-band",
-    "title": "Sgt. Pepper's Lonely Hearts Club Band",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "breakfast-in-america",
+    "title": "Breakfast in America",
+    "artist": "Supertramp",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "sgt. pepper's lonely hearts club band",
-      "remastered 2009 - the beatles",
-      "pepper",
-      "lonely",
-      "hearts",
-      "club",
-      "band"
+      "breakfast in america",
+      "supertramp",
+      "breakfast",
+      "america"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Take a look at my girlfriend\nShe's the only one I got\nNot much of a girlfriend\nI've never seem to get a lot\nTake a jumbo cross the water\nLike to see America\nSee the girls in California\nI'm hoping it's going to come true\nBut there's not a lot I can do\nCould we have kippers for breakfast?\nMummy dear, mummy dear\nThey got to have 'em in Texas\n'Cause everyone's a millionaire\nI'm a winner, I'm a sinner\nDo you want my autograph?\nI'm a loser, what a joker\nI'm playing my jokes upon you\nWhile there's nothing better to do, hey\nPapararam, pa-no, daram no no-no-no-no\nPapararam, pa-no, daram no no-no-no-no\nNanana, na-nana na-na, ah\nDon't you look at my girlfriend (girlfriend)\nShe's the only one I got\nNot much of a girlfriend (girlfriend)\nI've never seemed to get a lot (what she got? Not a lot)\nTake a jumbo cross the water\nLike to see America\nSee the girls in California\nI'm hoping it's going to come true\nBut there's not a lot I can do\nPapararam, pa-no, daram no no-no-no-no\nPapararam, pa-no, daram no no-no-no-no\nHey aham, hey aham\nHey aham, hey aham\nHey aham, hey aham\nHey aham, hey aham\nNanana, na-nana na-na, ah",
     "duration": "2:02"
   },
   {
@@ -1556,18 +1538,19 @@ window.SONGBOOK_DATA_13JUN26 = [
     "duration": "2:42"
   },
   {
-    "id": "girl",
-    "title": "Girl",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "Can't-take-my-eyes-off-you",
+    "title": "Can't Take My Eyes Off You",
+    "artist": "Frankie Valli",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "girl",
-      "remastered 2009 - the beatles"
+      "can't take my eyes off you",
+      "frankie valli",
+      "eyes"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "2:30"
+    "lyrics": "You're just too good to be true\nCan't take my eyes off you\nYou'd be like heaven to touch\nI want to hold you so much\nAt long last love has arrived\nAnd I thank God I'm alive\nYou're just too good to be true\nCan't take my eyes off you\n\nPardon the way that I stare\nThere's nothing else to compare\nThe sight of you leaves me weak\nThere are no words left to speak\nBut if you feel like I feel\nPlease let me know that it's real\nYou're just too good to be true\nCan't take my eyes off you\n\nI love you, baby\nAnd if it's quite all right\nI need you, baby\nTo warm the lonely night\nI love you, baby\nTrust in me when I say\nOh, pretty baby\nDon't bring me down, I pray\nOh, pretty baby\nNow that I found you, stay\nAnd let me love you, baby\nLet me love you\n\nYou're just too good to be true\nCan't take my eyes off you\nYou'd be like heaven to touch\nI want to hold you so much\nAt long last love has arrived\nAnd I thank God I'm alive\nYou're just too good to be true\nCan't take my eyes off you\n\nI love you, baby\nAnd if it's quite all right\nI need you, baby\nTo warm the lonely night\nI love you, baby\nTrust in me when I say\nOh, pretty baby\nDon't bring me down, I pray\nOh, pretty baby\nNow that I found you, stay\nOh, pretty baby\nTrust in me when I say\n\nI love you, baby\nAnd if it's quite all right\nI need you, baby\nTo warm the lonely night\nI love you, baby\nTrust in me when I say",
+    "duration": "3:24"
   },
   {
     "id": "nowhere-man",
@@ -1581,27 +1564,25 @@ window.SONGBOOK_DATA_13JUN26 = [
       "nowhere"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "He's a real nowhere man\nSitting in his nowhere land\nMaking all his nowhere plans for nobody\nDoesn't have a point of view\nKnows not where he's going to\nIsn't he a bit like you and me",
     "duration": "2:44"
   },
   {
-    "id": "norwegian-wood-this-bird-has-flown",
-    "title": "Norwegian Wood (This Bird Has Flown)",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "bridge-over-troubled-water",
+    "title": "Bridge Over Troubled Water",
+    "artist": "Simon & Garfunkel",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "norwegian wood (this bird has flown)",
-      "remastered 2009 - the beatles",
-      "norwegian",
-      "wood",
-      "this",
-      "bird",
-      "flown"
+      "bridge over troubled water",
+      "simon & garfunkel",
+      "bridge",
+      "troubled",
+      "water"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "2:05"
+    "lyrics": "When you're weary\nFeeling small\nWhen tears are in your eyes\nI will dry them all\nI'm on your side\nWhen times get rough\nAnd friends just can't be found\nLike a bridge over troubled water\nI will lay me down\nLike a bridge over troubled water\nI will lay me down\nWhen you're down and out\nWhen you're on the street\nWhen evening falls so hard\nI will comfort you\nI'll take your part\nWhen darkness comes\nAnd pain is all around\nLike a bridge over troubled water\nI will lay me down\nLike a bridge over troubled water\nI will lay me down\nSail on, silver girl\nSail on by\nYour time has come to shine\nAll your dreams are on their way\nSee how they shine\nIf you need a friend\nI'm sailing right behind\nLike a bridge over troubled water\nI will ease your mind\nLike a bridge over troubled water\nI will ease your mind",
+    "duration": "4:56"
   },
   {
     "id": "drive-my-car",
@@ -1615,23 +1596,25 @@ window.SONGBOOK_DATA_13JUN26 = [
       "drive"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Asked a girl what she wanted to be\nShe said: Baby, can't you see?\nI wanna be famous, a star on the screen\nBut you can do something in between\nBaby, you can drive my car\nYes, I'm gonna be a star\nBaby, you can drive my car\nAnd maybe I love you\nI told that girl that my prospects were good\nAnd she said: Baby, it's understood\nWorking for peanuts is all very fine\nBut I can show you a better time\nBaby, you can drive my car\nYes, I'm gonna be a star\nBaby, you can drive my car\nAnd maybe I love you\nBeep beep'm, beep beep, yeah\nBaby, you can drive my car\nYes, I'm gonna be a star\nBaby, you can drive my car\nAnd maybe I love you\nI told that girl I can start right away\nAnd she said: Listen baby, I got something to say\nI got no car and it's breaking my heart\nBut I've found a driver and that's a start\nBaby, you can drive my car\nYes, I'm gonna be a star\nBaby, you can drive my car\nAnd maybe I love you\nBeep beep'm, beep beep, yeah\nBeep beep'm, beep beep, yeah\nBeep beep'm, beep beep, yeah",
     "duration": "2:28"
   },
   {
-    "id": "day-tripper",
-    "title": "Day Tripper",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "can't-help-falling-in-love",
+    "title": "Can't Help Falling in Love",
+    "artist": "Elvis Presley",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "day tripper",
-      "remastered 2009 - the beatles",
-      "tripper"
+      "can't help falling in love",
+      "elvis presley",
+      "help",
+      "falling",
+      "love"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "2:49"
+    "lyrics": "Wise men say\nOnly fools rush in\nBut I can't help\nFalling in love with you\nShall I stay?\nWould it be a sin\nIf I can't help\nFalling in love with you?\nLike a river flows\nSurely to the sea\nDarling, so it goes\nSome things are meant to be\nTake my hand\nTake my whole life too\nFor I can't help\nFalling in love with you\nLike a river flows\nSurely to the sea\nDarling, so it goes\nSome things are meant to be\nTake my hand\nTake my whole life too\nFor I can't help\nFalling in love with you\nFor I can't help\nFalling in love with you",
+    "duration": "3:06"
   },
   {
     "id": "we-can-work-it-out",
@@ -1649,50 +1632,63 @@ window.SONGBOOK_DATA_13JUN26 = [
     "duration": "2:15"
   },
   {
-    "id": "paperback-writer",
-    "title": "Paperback Writer",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "hotel-california",
+    "title": "Hotel California",
+    "artist": "Remastered 2009 - The Eagles",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "paperback writer",
-      "remastered 2009 - the beatles",
-      "paperback",
-      "writer"
+      "hotel california",
+      "remastered 2009 - the eagles",
+      "hotel",
+      "california"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "On a dark desert highway\nCool wind in my hair\nWarm smell of colitas\nRising up through the air\nUp ahead, in the distance\nI saw a shimmering light\nMy head grew heavy and my sight grew dim\nI had to stop for the night\nThere she stood, in the doorway\nI heard the Mission bell\nAnd I was thinking to myself\nThis could be heaven or this could be hell\nThen she lit up a candle and she showed me the way\nThere were voices down the corridor\nI thought I heard them say\nWelcome to the Hotel California\nSuch a lovely place\n(Such a lovely place)\nSuch a lovely face\nPlenty of room at the Hotel California\nAny time of year\n(Any time of year)\nYou can find it here\nHer mind is Tiffany-twisted\nShe got the Mercedes-Benz\nShe got a lot of pretty, pretty boys\nThat she calls friends\nHow they dance in the courtyard\nSweet summer sweat\nSome dance to remember\nSome dance to forget\nSo I called up the captain\nPlease, bring me my wine\nHe said: We haven't had that spirit here since\nNineteen sixty-nine\nAnd, still, those voices are calling from far away\nWake you up in the middle of the night\nJust to hear them say\nWelcome to the Hotel California\nSuch a lovely place\n(Such a lovely place)\nSuch a lovely face\nThey're livin' it up at the Hotel California\nWhat a nice surprise\n(What a nice surprise)\nBring your alibis\nMirrors on the ceiling\nThe pink champagne on ice\nAnd she said: We are all just prisoners here\nOf our own device\nAnd in the master's chambers\nThey gathered for the feast\nThey stab it with their steely knives\nBut they just can't kill the beast\nLast thing I remember\nI was running for the door\nI had to find the passage back\nTo the place I was before\nRelax, said the night man\nWe are programmed to receive\nYou can check out any time you like\nBut you can never leave",
     "duration": "2:18"
   },
   {
-    "id": "lady-madonna",
-    "title": "Lady Madonna",
-    "artist": "Remastered 2009 - The Beatles",
+    "id": "careless-whisper",
+    "title": "Careless Whisper",
+    "artist": "Remastered 2009 - George Michael",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "lady madonna",
-      "remastered 2009 - the beatles",
-      "lady",
-      "madonna"
+      "careless whisper",
+      "remastered 2009 - george michael",
+      "careless",
+      "whisper"
     ],
     "snippet": "",
-    "lyrics": "",
-    "duration": "2:16"
+    "lyrics": "Oh, oh, oh\nOh\nI feel so unsure\nAs I take your hand and lead you to the dance floor\nAs the music dies, something in your eyes\nCalls to mind a silver screen\nAnd all its sad goodbyes\nI'm never gonna dance again\nGuilty feet have got no rhythm\nThough it's easy to pretend\nI know you're not a fool\nShould've known better than to cheat a friend\nAnd waste the chance that I've been given\nSo I'm never gonna dance again\nThe way I danced with you, oh, oh\nTime can never mend\nThe careless whispers of a good friend\nTo the heart and mind\nIgnorance is kind\nThere's no comfort in the truth\nPain is all you'll find\nI'm never gonna dance again\nGuilty feet have got no rhythm\nThough it's easy to pretend\nI know you're not a fool\nShould've known better than to cheat a friend\nAnd waste this chance that I've been given\nSo I'm never gonna dance again\nThe way I danced with you, oh\nNever without your love\nTonight the music seems so loud\nI wish that we could lose this crowd\nMaybe it's better this way\nWe'd hurt each other with the things we'd want to say\nWe could have been so good together\nWe could have lived this dance forever\nBut now who's gonna dance with me?\nPlease, stay!\nAnd I'm never gonna dance again\nGuilty feet have got no rhythm\nThough it's easy to pretend\nI know you're not a fool\nShould've known better than to cheat a friend\nAnd waste the chance that I've been given\nSo I'm never gonna dance again\nThe way I danced with you\nOh, oh\n(Now that you're gone) now that you're gone\n(Now that you're gone) what I did's so wrong, so wrong\nThat you had to leave me alone\nOh, oh\nOh, oh\nOh, oh\nOh, oh\nOh, oh\nOh",
+    "duration": "5:00"
   },
   {
-    "id": "i-want-to-hold-your-hand-tv-carpio",
-    "title": "I Want to Hold Your Hand",
+    "id": "el-condor-pasa-if-i-could",
+    "title": "El Condor Pasa",
     "artist": "From \"Across The Universe\" Soundtrack - T.V. Carpio",
     "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
     "tags": [],
     "search": [
-      "i want to hold your hand",
+      "el condor pasa",
       "from \"across the universe\" soundtrack - t.v. carpio",
-      "want",
-      "hold",
-      "your",
-      "hand"
+      "condor",
+      "pasa"
+    ],
+    "snippet": "",
+    "lyrics": "",
+    "duration": "2:46"
+  },
+  {
+    "id": "it-s-my-life",
+    "title": "It's My Life",
+    "artist": "Bon Jovi",
+    "spotify": "https://open.spotify.com/playlist/6HjUkZ0VXhmLsaJi1BLi1M",
+    "tags": [],
+    "search": [
+      "it's my life",
+      "bon jovi",
+      "life"
     ],
     "snippet": "",
     "lyrics": "",
@@ -1847,7 +1843,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "mirror"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "I'm a mirror, I reflect the world\nI see the truth, I see the lies\nI see the pain, I see the joy\nI see the love, I see the hate\nI'm a mirror, I reflect the world\nI see the truth, I see the lies\nI see the pain, I see the joy\nI see the love, I see the hate",
     "duration": "5:19"
   },
   {
@@ -1862,7 +1858,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "piano"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "It's nine o'clock on a Saturday\nThe regular crowd shuffles in\nThere's an old man sitting next to me\nMaking love to his tonic and gin\nHe says: Son, can you play me a memory?\nI'm not really sure how it goes\nBut it's sad, and it's sweet, and I knew it complete\nWhen I wore a younger man's clothes\nLa-la-la-di-dee-da\nLa-la-di-dee-da-da-dum\nSing us a song, you're the piano man\nSing us a song tonight\nWell, we're all in the mood for a melody\nAnd you've got us feeling alright\nNow John at the bar is a friend of mine\nHe gets me my drinks for free\nAnd he's quick with a joke or to light up your smoke\nBut there's someplace that he'd rather be\nHe says: Bill, I believe this is killing me\nAs the smile ran away from his face\nWell, I'm sure that I could be a movie star\nIf I could get out of this place\nOh, la-la-la-di-dee-da\nLa-la-di-dee-da-da-dum\nNow Paul is a real estate novelist\nWho never had time for a wife\nAnd he's talking with Davy, who's still in the Navy\nAnd probably will be for life\nAnd the waitress is practicing politics\nAs the businessmen slowly get stoned\nYes, they're sharing a drink they call loneliness\nBut it's better than drinking alone\nSing us a song, you're the piano man\nSing us a song tonight\nWell, we're all in the mood for a melody\nAnd you've got us feeling alright\nIt's a pretty good crowd for a Saturday\nAnd the manager gives me a smile\n'Cause he knows that it's me they've been coming to see\nTo forget about life for a while\nAnd the piano, it sounds like a carnival\nAnd the microphone smells like a beer\nAnd they sit at the bar and put bread in my jar\nAnd say: Man, what are you doing here?\nOh, la, la-la-di-dee-da\nLa-la-di-dee-da-da-dum\nSing us a song, you're the piano man\nSing us a song tonight\nWell, we're all in the mood for a melody\nAnd you've got us feeling alright",
     "duration": "5:39"
   },
   {
@@ -1877,7 +1873,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "stuff"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Sittin' here eatin' my heart out waitin'\nWaitin' for some lover to call\nDialed about a thousand numbers lately\nAlmost rang the phone off the wall\nLookin' for some hot stuff, baby, this evenin'\nI need some hot stuff, baby, tonight\nI want some hot stuff, baby, this evenin'\nGotta have some hot stuff, gotta have some love tonight (hot stuff)\nI need hot stuff\nI want some hot stuff\nI need hot stuff\nLookin' for a lover who needs another\nDon't want another night on my own\nWanna share my love with a warm blooded lover\nWanna bring a wild man back home\nGotta have some hot love, baby, this evenin'\nI need some hot stuff, baby, tonight\nI want some hot stuff, baby, this evenin'\nGotta have some lovin', gotta have love tonight (hot stuff)\nI need hot stuff\nHot love, lookin' for hot love\nHot, hot, hot, hot stuff\nHot, hot, hot\nHot, hot, hot, hot stuff\nHot, hot, hot\nHow's about some hot stuff, baby, this evenin'?\nI need some hot stuff baby, tonight\nGimme a little hot stuff, baby, this evenin'\nHot stuff, baby, gonna need your love tonight (hot stuff)\nI need hot love\nLookin' for hot stuff, wanna have hot love\nSittin' here eatin' my heart out, no reason\nWon't spend another night on my own\nI dialed about a hundred numbers lately\nI'm bound to find somebody home\nGonna have some hot stuff, baby, this evenin'\nI need some hot stuff, baby, tonight\nLookin' for my hot stuff, baby, this evenin'\nNeed some lovin', baby, gonna need your love tonight\nHot stuff, baby, this evenin'\nI need some hot stuff, baby, tonight, yeah, yeah\nI want some hot stuff, baby, this evenin'\nI want some hot stuff, baby, tonight, yeah, yeah, yeah, yeah, now\nHot stuff, baby\nI need your hot stuff, baby, tonight\nI want your hot stuff, baby, this evenin'\nHot stuff, baby, gonna need your love tonight",
     "duration": "5:15"
   },
   {
@@ -1892,7 +1888,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "there"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "You and I must make a pact\nWe must bring salvation back\nWhere there is love\nI'll be there (I'll be there)\nI'll reach out my hand to you (oh)\nI'll have faith in all you do\nJust call my name\nAnd I'll be there (I'll be there)\nAnd, oh, I'll be there to comfort you\nBuild my world of dreams around you\nI'm so glad that I found you\nI'll be there with a love that's strong\nI'll be your strength\nI'll keep holding on\n(Holding on, holding on) yes, I will, yes, I will\nLet me fill your heart with joy and laughter\nTogetherness, well, that's all I'm after\nWhenever you need me\nI'll be there (I'll be there)\nI'll be there to protect you (yeah, baby)\nWith an unselfish love I respect you (oh)\nJust call my name\nAnd I'll be there (I'll be there)\nAnd, oh, I'll be there to comfort you\nBuild my world of dreams around you\nI'm so glad that I found you\nI'll be there with a love that's strong\nI'll be your strength\nI'll keep holding on\n(Holding on, holding on) yes, I will, yes, I will\nIf you should ever find someone new\nI know he'd better be good to you\n'Cause if he doesn't\nI'll be there (I'll be there)\nDon't you know, baby? Yeah, yeah\nI'll be there\nI'll be there\nJust call my name, I'll be there (I'll be there)\n(Just look over your shoulders, honey, oh)\nI'll be there\nI'll be there\nWhenever you need me, I'll be there (I'll be there)\nDon't you know, baby? Yeah, yeah\nI'll be there\nI'll be there\nJust call my name, (I'll be there) I'll be there\nOh, oh, oh, oh\nI'll be there",
     "duration": "3:58"
   },
   {
@@ -1989,7 +1985,7 @@ window.SONGBOOK_DATA_13JUN26 = [
       "mucho"
     ],
     "snippet": "",
-    "lyrics": "",
+    "lyrics": "Besame, besame mucho,\ncomo si fuera esta noche la ultima vez...\nBesame, besame mucho,\nque tengo miedo perderte, perderte despues...\nQuiero tenerte muy cerca,\nmirarme en tus ojos y estar junto a ti,\npiensa que tal vez mañana,\nestare muy lejos, muy lejos de aqui...\nBesame, besame mucho,\ncomo si fuera esta noche la ultima vez...\nBesame, besame mucho,\nque tengo miedo perderte, perderte despues...\nQuiero tenerte muy cerca,\nmirarme en tus ojos y estar junto a ti,\npiensa que tal vez mañana,\nestare muy lejos, muy lejos de aqui...\nBesame, besame mucho,\ncomo si fuera esta noche la ultima vez...\nBesame, besame mucho,\nque tengo miedo perderte,\nperderte despues..",
     "duration": "3:01"
   },
   {
