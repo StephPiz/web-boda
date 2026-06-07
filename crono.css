@@ -275,6 +275,10 @@
   text-align: left;
 }
 
+.ceremony-layout-card-altar {
+  grid-column: 1 / -1;
+}
+
 .ceremony-layout-card h3 {
   margin: 0 0 10px;
   font-size: 18px;
@@ -434,6 +438,10 @@
   .ceremony-layout-card {
     padding: 16px 16px;
     border-radius: 18px;
+  }
+
+  .ceremony-layout-card-altar {
+    grid-column: 1 / -1;
   }
 
   .ceremony-layout-card h3 {
