@@ -288,8 +288,7 @@
   gap: 10px 24px;
 }
 
-.ceremony-altar-names .ceremony-name-desktop,
-.ceremony-altar-names .ceremony-name-mobile {
+.ceremony-altar-name {
   display: inline;
 }
 
