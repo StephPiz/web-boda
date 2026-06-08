@@ -277,6 +277,20 @@
 
 .ceremony-layout-card-altar {
   grid-column: 1 / -1;
+  text-align: center;
+}
+
+.ceremony-altar-names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+}
+
+.ceremony-altar-names .ceremony-name-desktop,
+.ceremony-altar-names .ceremony-name-mobile {
+  display: inline;
 }
 
 .ceremony-layout-card h3 {
@@ -442,6 +456,10 @@
 
   .ceremony-layout-card-altar {
     grid-column: 1 / -1;
+  }
+
+  .ceremony-altar-names {
+    gap: 8px 18px;
   }
 
   .ceremony-layout-card h3 {
