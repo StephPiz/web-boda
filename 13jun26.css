@@ -485,7 +485,7 @@
   display: grid;
   grid-template-columns: minmax(280px, 0.8fr) minmax(0, 1.2fr);
   gap: 24px;
-  align-items: start;
+  align-items: stretch;
 }
 
 .songbook-results-13jun26,
@@ -499,25 +499,38 @@
 
 .songbook-results-13jun26 {
   position: relative;
+  max-height: 840px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   scrollbar-width: thin;
   scrollbar-color: rgba(0, 0, 0, 0.26) rgba(0, 0, 0, 0.06);
 }
 
+.songbook-detail-13jun26 {
+  max-height: 840px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.songbook-detail-13jun26::-webkit-scrollbar,
 .songbook-results-13jun26::-webkit-scrollbar {
   width: 10px;
 }
 
+.songbook-detail-13jun26::-webkit-scrollbar-track,
 .songbook-results-13jun26::-webkit-scrollbar-track {
   background: rgba(0, 0, 0, 0.05);
   border-radius: 999px;
 }
 
+.songbook-detail-13jun26::-webkit-scrollbar-thumb,
 .songbook-results-13jun26::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.22);
   border-radius: 999px;
   border: 2px solid rgba(255, 255, 255, 0.95);
 }
 
+.songbook-detail-13jun26::-webkit-scrollbar-thumb:hover,
 .songbook-results-13jun26::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, 0.32);
 }
