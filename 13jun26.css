@@ -756,13 +756,13 @@
 .seat-highlight-Juani, .seat-highlight-juani { top: 84%; left: 86%; width: 5%; height: 2.3%; }
 .seat-highlight-Benito1, .seat-highlight-benito1 { top: 87%; left: 86%; width: 5%; height: 2.3%; }
 
-.seat-highlight-Vale, .seat-highlight-vale { top: 0%; left: 44%; width: 5%; height: 2.3%; }
-.seat-highlight-Nose, .seat-highlight-nose { top: 0%; left: 49%; width: 5%; height: 2.3%; }
-.seat-highlight-Fabri, .seat-highlight-fabri { top: 0%; left: 55.8%; width: 5%; height: 2.3%; }
-.seat-highlight-Sam, .seat-highlight-sam { top: 0%; left: 61%; width: 5%; height: 2.3%; }
-.seat-highlight-Clau, .seat-highlight-clau { top: 0%; left: 67%; width: 5%; height: 2.3%; }
-.seat-highlight-Bea, .seat-highlight-bea { top: 0%; left: 73%; width: 5%; height: 2.3%; }
-.seat-highlight-ManuTop, .seat-highlight-manutop { top: 0%; left: 78%; width: 5%; height: 2.3%; }
+.seat-highlight-Vale, .seat-highlight-vale { top: 0%; left: 44%; width: 5%; height: 3%; }
+.seat-highlight-Nose, .seat-highlight-nose { top: 0%; left: 49%; width: 5%; height: 3%; }
+.seat-highlight-Fabri, .seat-highlight-fabri { top: 0%; left: 55.8%; width: 5%; height: 3%; }
+.seat-highlight-Sam, .seat-highlight-sam { top: 0%; left: 61%; width: 5%; height: 3%; }
+.seat-highlight-Clau, .seat-highlight-clau { top: 0%; left: 67%; width: 5%; height: 3%; }
+.seat-highlight-Bea, .seat-highlight-bea { top: 2%; left: 72.8%; width: 4%; height: 3%; }
+.seat-highlight-ManuTop, .seat-highlight-manutop { top: 2%; left: 78%; width: 4%; height: 3%; }
 
 .giulio { top: 0%; left: 36%; }
 .vale-top { top: 0%; left: 44%; }
