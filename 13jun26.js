@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         [
           "Mousse de choco negro con espejo de caramelo<br>y helado de mandarina",
           "Esfera de queso castellanos con arandanos y<br>helado de frutos rojos",
+          'BODEGA Blanco Quintaluna de Ossian<br>Tinto "Pago de Carravovejas" Autor D.O. Ribera de Duero',
         ],
       ],
       songbookTitle: "Cancionero",
@@ -114,6 +115,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         [
           "Mousse di cioccolato fondente con specchio al caramello<br>e gelato al mandarino",
           "Sfera di formaggio castigliano con mirtilli rossi e<br>gelato ai frutti rossi",
+          'BODEGA Blanco Quintaluna de Ossian<br>Tinto "Pago de Carravovejas" Autor D.O. Ribera de Duero',
         ],
       ],
       songbookTitle: "Canzoniere",
