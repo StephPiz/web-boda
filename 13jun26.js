@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         [
           "Mousse de choco negro con espejo de caramelo<br>y helado de mandarina",
           "Esfera de queso castellanos con arandanos y<br>helado de frutos rojos",
-          '<span class="menu-course-subtitle-13jun26">BODEGA</span>Blanco Quintaluna de Ossian<br>Tinto "Pago de Carravovejas" Autor D.O. Ribera de Duero',
+          '<span class="menu-course-subtitle-13jun26">BODEGA</span>Bianco Quintaluna de Ossian<br>Rosso "Pago de Carravovejas" Autor D.O. Ribera de Duero',
         ],
       ],
       songbookTitle: "Cancionero",
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       menuCourses: ["ANTIPASTO", "SORBETTO", "PORTATA PRINCIPALE", "DESSERT"],
       menuTexts: [
         ["Carpaccio di presa con gelato al formaggio"],
-        ['Sorbetto al mandarino e Pago de Carraovejas<br>"Autore" Jose Maria'],
+        ['Sorbetto al mandarino e Pago de Carraovejas<br>"Autor" Jose Maria'],
         ['Maialino da latte arrosto della nostra carta e cotto al forno D.O.<br>Marchio di Garanzia "Cochinillo asado de Segovia"'],
         [
           "Mousse di cioccolato fondente con specchio al caramello<br>e gelato al mandarino",
