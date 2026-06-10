@@ -1,6 +1,12 @@
 document.addEventListener("DOMContentLoaded", async () => {
   const params = new URLSearchParams(window.location.search);
   const pageLang = (params.get("lang") || "es").toLowerCase();
+  const invitationParams = new URLSearchParams();
+  ["lang", "code", "name"].forEach((key) => {
+    const value = params.get(key);
+    if (value) invitationParams.set(key, value);
+  });
+  const invitationHref = `invitation.html${invitationParams.toString() ? `?${invitationParams.toString()}` : ""}`;
   const mobileMenuBtn = document.getElementById("mobileMenuBtn");
   const mobileMenu = document.getElementById("mobileMenu");
   const nav = document.querySelector(".page-13jun26 .invite-nav");
@@ -170,6 +176,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     ];
     navLinks.forEach((link, index) => {
       if (copy.nav[index % copy.nav.length]) link.textContent = copy.nav[index % copy.nav.length];
+    });
+    navLinks.forEach((link, index) => {
+      if (index === 0) link.href = invitationHref;
     });
 
     const introText = document.querySelector(".intro-text-13jun26");
