@@ -105,6 +105,20 @@
                     <td><em>Mi Persona Favorita</em></td>
                     <td>Stephany y Alessandro</td>
                   </tr>
+                  <tr>
+                    <td>14:40 aprox</td>
+                    <td>2 min</td>
+                    <td>Baile Stephany + padre</td>
+                    <td><em>Te pongo a pintarte</em> (fragmento guitarra)</td>
+                    <td>Stephany + padre</td>
+                  </tr>
+                  <tr>
+                    <td>14:43 aprox</td>
+                    <td>2 min</td>
+                    <td>Baile Alessandro + madre</td>
+                    <td><em>Un pugno di sabbia</em> (fragmento guitarra)</td>
+                    <td>Alessandro + madre</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -497,8 +511,16 @@
       blocks[1].querySelector('.crono-heading').textContent = 'COCKTAIL';
       blocks[1].querySelector('.crono-heading-compact').textContent = 'TYNA (CANTANTE)';
       [...tables[1].tBodies[0].rows].forEach((row) => {
-        if (row.cells[2].textContent.includes('Entrada de novios')) row.cells[2].textContent = 'Ingresso degli sposi';
-        row.cells[4].textContent = 'Stephany e Alessandro';
+        if (row.cells[2].textContent.includes('Entrada de novios')) {
+          row.cells[2].textContent = 'Ingresso degli sposi';
+          row.cells[4].textContent = 'Stephany e Alessandro';
+        } else if (row.cells[2].textContent.includes('Baile Stephany + padre')) {
+          row.cells[2].textContent = 'Ballo Stephany + padre';
+          row.cells[4].textContent = 'Stephany + padre';
+        } else if (row.cells[2].textContent.includes('Baile Alessandro + madre')) {
+          row.cells[2].textContent = 'Ballo Alessandro + madre';
+          row.cells[4].textContent = 'Alessandro + madre';
+        }
       });
       const cocktailList = blocks[1].querySelector('.crono-info-list');
       cocktailList.querySelectorAll('.crono-info-title')[0].textContent = 'DURATA';
