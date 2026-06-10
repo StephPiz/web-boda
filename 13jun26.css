@@ -1163,49 +1163,6 @@ html {
   .andrea { top: 71%; left: 5%; }
   .sara { top: 74%; left: 5%; }
 
-  /* Mobile manual seat positions: edit only these top/left values if you want to move each visible name */
-  .seat-giulio { top: 0%; left: 41%; }
-  .seat-vale { top: 0%; left: 49%; }
-  .seat-nose { top: 0%; left: 55%; }
-  .seat-sam { top: 0%; left: 61%; }
-  .seat-clau { top: 0%; left: 66.9%; }
-  .seat-bea { top: 0%; left: 73%; }
-  .seat-manu-top { top: 0%; left: 78%; }
-
-  .seat-aldo { top: 4.4%; left: 94%; }
-  .seat-azzurra { top: 7.3%; left: 94%; }
-  .seat-vane { top: 11.7%; left: 94%; }
-  .seat-simone { top: 14.7%; left: 94%; }
-  .seat-sofi { top: 19%; left: 94%; }
-  .seat-manu-right { top: 21.7%; left: 94%; }
-  .seat-chari { top: 25%; left: 94%; }
-  .seat-nito { top: 28.7%; left: 94%; }
-  .seat-sebas { top: 31.3%; left: 94%; }
-  .seat-miguel { top: 35%; left: 94%; }
-  .seat-martin { top: 39%; left: 94%; }
-  .seat-fio { top: 43.2%; left: 94%; }
-  .seat-sergio { top: 45.5%; left: 94%; }
-  .seat-roberto { top: 49%; left: 94%; }
-  .seat-brenda { top: 53%; left: 94%; }
-  .seat-ale { top: 57%; left: 94%; }
-  .seat-susi { top: 59.1%; left: 94%; }
-  .seat-diego { top: 62.3%; left: 94%; }
-  .seat-vicky { top: 65.9%; left: 94%; }
-  .seat-ruben { top: 69%; left: 94%; }
-  .seat-benito-2 { top: 73%; left: 94%; }
-  .seat-maria-luisa { top: 76.3%; left: 94%; }
-  .seat-juani { top: 80%; left: 94%; }
-  .seat-benito-1 { top: 83.2%; left: 94%; }
-
-  .seat-enzo { top: 38%; left: 5%; }
-  .seat-katy { top: 41%; left: 5%; }
-  .seat-josefina { top: 46%; left: 5%; }
-  .seat-mauro { top: 49%; left: 5%; }
-  .seat-manuela { top: 63%; left: 5%; }
-  .seat-oliviero { top: 67%; left: 5%; }
-  .seat-andrea { top: 71%; left: 5%; }
-  .seat-sara { top: 74%; left: 5%; }
-
   .seat-guests-pill-13jun26 {
     margin-top: 16px;
     min-width: 150px;
