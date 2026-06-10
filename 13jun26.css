@@ -721,6 +721,7 @@
   z-index: 2;
 }
 
+/* Seat highlights desktop */
 .seat-highlight-Katy, .seat-highlight-katy { top: 40.6%; left: 9%; width: 5%; height: 2.3%; }
 .seat-highlight-Enzo, .seat-highlight-enzo { top: 35.7%; left: 9%; width: 5%; height: 2.3%; }
 .seat-highlight-Josefina, .seat-highlight-josefina { top: 44.2%; left: 9%; width: 5%; height: 2.3%; }
