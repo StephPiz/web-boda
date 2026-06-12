@@ -1158,13 +1158,34 @@ html {
   .vane-right { top: 81.9%; left: 67%; }
   .simone-right { top: 86.9%; left: 67%; }
   .vale-top { top: 91.9%; left: 67%; }
+  .enzo,
+  .katy,
+  .josefina,
+  .mauro,
+  .manuela,
+  .olivero,
+  .andrea,
+  .sara,
+  .sofi,
+  .martin,
+  .sergio,
+  .fio,
+  .aldo-right,
+  .azzurra-right,
+  .vane-right,
+  .simone-right,
+  .vale-top,
+  .ale {
+    transform: rotate(90deg);
+    transform-origin: left top;
+  }
 
   .nito { top: 5.2%; left: 40%; }
   .manu-right { top: 10.2%; left: 40%; }
   .sebas { top: 15.2%; left: 40%; }
   .miguel { top: 20.2%; left: 40%; }
   .diego { top: 25.2%; left: 40%; }
-  .ale { top: 30.2%; left: 40%; }
+  .ale { top: 30.2%; left: 67%; }
   .susi { top: 35.2%; left: 40%; }
   .ruben { top: 40.2%; left: 40%; }
   .vicky { top: 45.2%; left: 40%; }
