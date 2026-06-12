@@ -557,6 +557,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const SEAT_NAME_MAP = [
       { match: ["katherine"], seats: ["katy"] },
+      { match: ["katy"], seats: ["katy"] },
       { match: ["oliviero", "manuela"], seats: ["olivero", "manuela"] },
       { match: ["andrea", "sara"], seats: ["andrea", "sara"] },
       { match: ["vanessa", "simone"], seats: ["vane-right", "simone-right"] },
