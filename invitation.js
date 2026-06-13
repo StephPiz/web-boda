@@ -380,7 +380,7 @@ window.addEventListener("load", () => {
   if (ui.page_title) document.title = ui.page_title;
   applyI18n(ui);
   updateFaqLinks();
-  updateParamLinks('a[href^="13jun.html"]');
+  updateParamLinks('a[href^="13jun26.html"]');
   const historyBtn = document.getElementById("historyBtn");
   if (historyBtn) {
     historyBtn.addEventListener("click", goToHistoria);
