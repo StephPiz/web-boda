@@ -6,8 +6,6 @@ const CODES = [
   { code: "0909", name: "Oliviero e Manuela" },
   { code: "2306", name: "Andrea e Sara" },
   { code: "2005", name: "Vanessa e Simone" },
-  { code: "2001", name: "Marco e Elena" },
-  { code: "2030", name: "Daniel e Elisa" },
   { code: "2010", name: "Mauro y Josefina" },
   { code: "2705", name: "Katherine" },
   { code: "2712", name: "Enzo Lizama"},
